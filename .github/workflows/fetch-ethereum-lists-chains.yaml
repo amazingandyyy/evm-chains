@@ -23,3 +23,16 @@ jobs:
 
       - name: copy file into src
         run: cp -rf resource/chains/_data self/src
+
+      - name: check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
+      - name: commit to main branch
+        if: steps.git-check.outputs.modified == 'true'
+        run:  |
+          git config --global user.name 'fetcher'
+          git config --global user.email 'helper@amazingandyyy.com'
+          git add -A
+          git commit -m 'feat(_data): fetch list from ethereum-lists/chains'
+          git push
