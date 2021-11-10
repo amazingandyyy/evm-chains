@@ -1,0 +1,25 @@
+name: fetch list from ethereum-lists/chains
+
+on:
+  schedule:
+    - cron: "30 10 * * 1" # “At 10:30 on Monday”
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    name: fetch ethereum-lists/chains
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch myself
+        uses: actions/checkout@v2
+        with:
+          path: self
+
+      - name: fetch template
+        uses: actions/checkout@v2
+        with:
+          repository: ethereum-lists/chains
+          path: resource
+
+      - name: copy file into src
+        run: cp -rf resource/chains/_data self/src
