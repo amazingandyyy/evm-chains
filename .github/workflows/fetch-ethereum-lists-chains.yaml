@@ -2,7 +2,7 @@ name: fetch list from ethereum-lists/chains
 
 on:
   schedule:
-    - cron: "30 10 * * 1" # “At 10:30 on Monday”
+    - cron: "0 6 * * *" # “At 6:00 everyday”
   workflow_dispatch:
 
 jobs:
@@ -19,20 +19,25 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ethereum-lists/chains
-          path: resource
+          path: ethereum-lists
 
       - name: copy file into src
-        run: cp -rf resource/chains/_data self/src
+        run: |
+          rm -rf ./self/src/data
+          mkdir -p ./self/src/data
+          cp -rf ./ethereum-lists/_data/* ./self/src/data
 
       - name: check for modified files
         id: git-check
+        working-directory: ./self
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
 
       - name: commit to main branch
         if: steps.git-check.outputs.modified == 'true'
+        working-directory: ./self
         run:  |
-          git config --global user.name 'fetcher'
-          git config --global user.email 'helper@amazingandyyy.com'
+          git config --global user.name 'bot'
+          git config --global user.email 'bot@mail.com'
           git add -A
-          git commit -m 'feat(_data): fetch list from ethereum-lists/chains'
+          git commit -m 'feat(data): fetch list from ethereum-lists/chains'
           git push
