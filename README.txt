@@ -1,0 +1,642 @@
+./rawdata
+├── ethereum-lists
+│   ├── LICENSE
+│   ├── README.md
+│   └── chains
+│       ├── deprecated
+│       ├── eip155-1.json
+│       ├── eip155-10.json
+│       ├── eip155-100.json
+│       ├── eip155-10000.json
+│       ├── eip155-100000.json
+│       ├── eip155-100001.json
+│       ├── eip155-100002.json
+│       ├── eip155-100003.json
+│       ├── eip155-100004.json
+│       ├── eip155-100005.json
+│       ├── eip155-100006.json
+│       ├── eip155-100007.json
+│       ├── eip155-100008.json
+│       ├── eip155-10001.json
+│       ├── eip155-1001.json
+│       ├── eip155-1007.json
+│       ├── eip155-101.json
+│       ├── eip155-1010.json
+│       ├── eip155-10101.json
+│       ├── eip155-1012.json
+│       ├── eip155-102.json
+│       ├── eip155-1022.json
+│       ├── eip155-1023.json
+│       ├── eip155-1024.json
+│       ├── eip155-1028.json
+│       ├── eip155-106.json
+│       ├── eip155-108.json
+│       ├── eip155-11.json
+│       ├── eip155-110.json
+│       ├── eip155-110000.json
+│       ├── eip155-110001.json
+│       ├── eip155-110002.json
+│       ├── eip155-110003.json
+│       ├── eip155-110004.json
+│       ├── eip155-110005.json
+│       ├── eip155-110006.json
+│       ├── eip155-110007.json
+│       ├── eip155-110008.json
+│       ├── eip155-111.json
+│       ├── eip155-1122334455.json
+│       ├── eip155-11297108099.json
+│       ├── eip155-11297108109.json
+│       ├── eip155-1139.json
+│       ├── eip155-1140.json
+│       ├── eip155-12.json
+│       ├── eip155-12051.json
+│       ├── eip155-1213.json
+│       ├── eip155-122.json
+│       ├── eip155-124.json
+│       ├── eip155-127.json
+│       ├── eip155-128.json
+│       ├── eip155-1280.json
+│       ├── eip155-1284.json
+│       ├── eip155-1285.json
+│       ├── eip155-1286.json
+│       ├── eip155-1287.json
+│       ├── eip155-1288.json
+│       ├── eip155-13.json
+│       ├── eip155-1313114.json
+│       ├── eip155-1313161554.json
+│       ├── eip155-1313161555.json
+│       ├── eip155-1313161556.json
+│       ├── eip155-1313500.json
+│       ├── eip155-13371337.json
+│       ├── eip155-137.json
+│       ├── eip155-14.json
+│       ├── eip155-142.json
+│       ├── eip155-15.json
+│       ├── eip155-16.json
+│       ├── eip155-16000.json
+│       ├── eip155-16001.json
+│       ├── eip155-1618.json
+│       ├── eip155-162.json
+│       ├── eip155-1620.json
+│       ├── eip155-163.json
+│       ├── eip155-1657.json
+│       ├── eip155-1666600000.json
+│       ├── eip155-1666600001.json
+│       ├── eip155-1666600002.json
+│       ├── eip155-1666600003.json
+│       ├── eip155-1666700000.json
+│       ├── eip155-1666700001.json
+│       ├── eip155-1666700002.json
+│       ├── eip155-1666700003.json
+│       ├── eip155-17.json
+│       ├── eip155-170.json
+│       ├── eip155-172.json
+│       ├── eip155-18.json
+│       ├── eip155-18289463.json
+│       ├── eip155-1856.json
+│       ├── eip155-186.json
+│       ├── eip155-19.json
+│       ├── eip155-1987.json
+│       ├── eip155-199.json
+│       ├── eip155-2.json
+│       ├── eip155-20.json
+│       ├── eip155-200.json
+│       ├── eip155-200625.json
+│       ├── eip155-201030.json
+│       ├── eip155-20181205.json
+│       ├── eip155-2020.json
+│       ├── eip155-2021.json
+│       ├── eip155-2022.json
+│       ├── eip155-21.json
+│       ├── eip155-2100.json
+│       ├── eip155-2101.json
+│       ├── eip155-210309.json
+│       ├── eip155-211.json
+│       ├── eip155-22.json
+│       ├── eip155-222.json
+│       ├── eip155-23.json
+│       ├── eip155-24484.json
+│       ├── eip155-245022926.json
+│       ├── eip155-245022934.json
+│       ├── eip155-245022940.json
+│       ├── eip155-246.json
+│       ├── eip155-246529.json
+│       ├── eip155-246785.json
+│       ├── eip155-24734.json
+│       ├── eip155-25.json
+│       ├── eip155-250.json
+│       ├── eip155-2559.json
+│       ├── eip155-256.json
+│       ├── eip155-262.json
+│       ├── eip155-269.json
+│       ├── eip155-27.json
+│       ├── eip155-28.json
+│       ├── eip155-288.json
+│       ├── eip155-28945486.json
+│       ├── eip155-3.json
+│       ├── eip155-30.json
+│       ├── eip155-31.json
+│       ├── eip155-31102.json
+│       ├── eip155-311752642.json
+│       ├── eip155-3125659152.json
+│       ├── eip155-31337.json
+│       ├── eip155-32.json
+│       ├── eip155-321.json
+│       ├── eip155-322.json
+│       ├── eip155-32659.json
+│       ├── eip155-33.json
+│       ├── eip155-333888.json
+│       ├── eip155-333999.json
+│       ├── eip155-336.json
+│       ├── eip155-338.json
+│       ├── eip155-35.json
+│       ├── eip155-35855456.json
+│       ├── eip155-361.json
+│       ├── eip155-363.json
+│       ├── eip155-364.json
+│       ├── eip155-365.json
+│       ├── eip155-369.json
+│       ├── eip155-38.json
+│       ├── eip155-385.json
+│       ├── eip155-39797.json
+│       ├── eip155-4.json
+│       ├── eip155-40.json
+│       ├── eip155-4002.json
+│       ├── eip155-41.json
+│       ├── eip155-42.json
+│       ├── eip155-420.json
+│       ├── eip155-42069.json
+│       ├── eip155-42161.json
+│       ├── eip155-421611.json
+│       ├── eip155-4216137055.json
+│       ├── eip155-42220.json
+│       ├── eip155-43.json
+│       ├── eip155-43110.json
+│       ├── eip155-43113.json
+│       ├── eip155-43114.json
+│       ├── eip155-44.json
+│       ├── eip155-44787.json
+│       ├── eip155-4689.json
+│       ├── eip155-4690.json
+│       ├── eip155-49797.json
+│       ├── eip155-499.json
+│       ├── eip155-5.json
+│       ├── eip155-50.json
+│       ├── eip155-51.json
+│       ├── eip155-5197.json
+│       ├── eip155-52.json
+│       ├── eip155-53.json
+│       ├── eip155-55.json
+│       ├── eip155-558.json
+│       ├── eip155-56.json
+│       ├── eip155-5700.json
+│       ├── eip155-58.json
+│       ├── eip155-5851.json
+│       ├── eip155-5869.json
+│       ├── eip155-59.json
+│       ├── eip155-595.json
+│       ├── eip155-6.json
+│       ├── eip155-60.json
+│       ├── eip155-60000.json
+│       ├── eip155-60001.json
+│       ├── eip155-60002.json
+│       ├── eip155-60103.json
+│       ├── eip155-61.json
+│       ├── eip155-61717561.json
+│       ├── eip155-62.json
+│       ├── eip155-62320.json
+│       ├── eip155-63.json
+│       ├── eip155-64.json
+│       ├── eip155-65.json
+│       ├── eip155-66.json
+│       ├── eip155-67.json
+│       ├── eip155-68.json
+│       ├── eip155-686.json
+│       ├── eip155-69.json
+│       ├── eip155-7.json
+│       ├── eip155-70000.json
+│       ├── eip155-70001.json
+│       ├── eip155-70002.json
+│       ├── eip155-70103.json
+│       ├── eip155-71393.json
+│       ├── eip155-721.json
+│       ├── eip155-73799.json
+│       ├── eip155-76.json
+│       ├── eip155-77.json
+│       ├── eip155-7762959.json
+│       ├── eip155-777.json
+│       ├── eip155-78.json
+│       ├── eip155-78110.json
+│       ├── eip155-787.json
+│       ├── eip155-7878.json
+│       ├── eip155-8.json
+│       ├── eip155-80.json
+│       ├── eip155-80001.json
+│       ├── eip155-8029.json
+│       ├── eip155-803.json
+│       ├── eip155-8080.json
+│       ├── eip155-82.json
+│       ├── eip155-820.json
+│       ├── eip155-821.json
+│       ├── eip155-8217.json
+│       ├── eip155-8285.json
+│       ├── eip155-83.json
+│       ├── eip155-85.json
+│       ├── eip155-86.json
+│       ├── eip155-8723.json
+│       ├── eip155-8724.json
+│       ├── eip155-88.json
+│       ├── eip155-880.json
+│       ├── eip155-888.json
+│       ├── eip155-8888.json
+│       ├── eip155-8995.json
+│       ├── eip155-9.json
+│       ├── eip155-9000.json
+│       ├── eip155-940.json
+│       ├── eip155-95.json
+│       ├── eip155-955305.json
+│       ├── eip155-97.json
+│       ├── eip155-977.json
+│       ├── eip155-99.json
+│       ├── eip155-99415706.json
+│       ├── eip155-998.json
+│       └── eip155-999.json
+└── trustwallet
+    ├── LICENSE
+    ├── README.md
+    ├── chains
+    │   ├── aeternity
+    │   ├── aion
+    │   ├── algorand
+    │   ├── arbitrum
+    │   ├── ark
+    │   ├── aryacoin
+    │   ├── avalanchec
+    │   ├── avalanchex
+    │   ├── band
+    │   ├── binance
+    │   ├── bitcoin
+    │   ├── bitcoincash
+    │   ├── bitcoingold
+    │   ├── bluzelle
+    │   ├── callisto
+    │   ├── cardano
+    │   ├── celo
+    │   ├── classic
+    │   ├── cosmos
+    │   ├── cryptoorg
+    │   ├── dash
+    │   ├── decred
+    │   ├── digibyte
+    │   ├── doge
+    │   ├── ellaism
+    │   ├── elrond
+    │   ├── eos
+    │   ├── ether-1
+    │   ├── ethereum
+    │   ├── fantom
+    │   ├── filecoin
+    │   ├── fio
+    │   ├── firo
+    │   ├── gochain
+    │   ├── groestlcoin
+    │   ├── harmony
+    │   ├── heco
+    │   ├── icon
+    │   ├── iost
+    │   ├── iotex
+    │   ├── kava
+    │   ├── kin
+    │   ├── kusama
+    │   ├── litecoin
+    │   ├── loom
+    │   ├── nano
+    │   ├── near
+    │   ├── nebulas
+    │   ├── neo
+    │   ├── nervos
+    │   ├── nimiq
+    │   ├── nuls
+    │   ├── oasis
+    │   ├── ontology
+    │   ├── optimism
+    │   ├── poa
+    │   ├── polkadot
+    │   ├── polygon
+    │   ├── qtum
+    │   ├── ravencoin
+    │   ├── ripple
+    │   ├── ronin
+    │   ├── smartbch
+    │   ├── smartchain
+    │   ├── solana
+    │   ├── steem
+    │   ├── stellar
+    │   ├── terra
+    │   ├── tezos
+    │   ├── theta
+    │   ├── thorchain
+    │   ├── thundertoken
+    │   ├── tomochain
+    │   ├── ton
+    │   ├── tron
+    │   ├── vechain
+    │   ├── viacoin
+    │   ├── wanchain
+    │   ├── waves
+    │   ├── xdai
+    │   ├── xdc
+    │   ├── zcash
+    │   ├── zelcash
+    │   └── zilliqa
+    └── dapps
+        ├── 0x.org.png
+        ├── 1inch.exchange.png
+        ├── aave.com.png
+        ├── aavegotchi.com.png
+        ├── account.orchid.com.png
+        ├── acryptos.com.png
+        ├── adsbywifi.com.png
+        ├── angelbattles.com.png
+        ├── apeswap.finance.png
+        ├── app.aave.com.png
+        ├── app.airnfts.com.png
+        ├── app.apeswap.finance.png
+        ├── app.beefy.finance.png
+        ├── app.compound.finance.png
+        ├── app.cream.finance.png
+        ├── app.cryptoder.by.png
+        ├── app.cryptoxmas.xyz.png
+        ├── app.defimoneymarket.com.png
+        ├── app.defipie.com.png
+        ├── app.dify.finance.png
+        ├── app.dodoex.io.png
+        ├── app.ens.domains.png
+        ├── app.ercdex.com.png
+        ├── app.mcdex.io.png
+        ├── app.nuo.network.png
+        ├── app.paraswap.io.png
+        ├── app.pooltogether.com.png
+        ├── app.pooltogether.us.png
+        ├── app.raise.it.png
+        ├── app.refinable.com.png
+        ├── app.sablier.finance.png
+        ├── app.shibance.com.png
+        ├── app.sil.finance.png
+        ├── app.sushi.com.png
+        ├── app.swaptuna.com.png
+        ├── app.swipe.org.png
+        ├── app.timvi.com.png
+        ├── app.totle.com.png
+        ├── app.uniswap.org.png
+        ├── app.veil.co.png
+        ├── app.venus.io.png
+        ├── app.warriders.com.png
+        ├── app.zerion.io.png
+        ├── autofarm.network.png
+        ├── avnrichdefi.com.png
+        ├── avnswap.com.png
+        ├── axieinfinity.com.png
+        ├── babaoshu.cn.png
+        ├── babyswap.finance.png
+        ├── bakeryswap.org.png
+        ├── balancer.exchange.png
+        ├── balancer.finance.png
+        ├── bancor.network.png
+        ├── bank.spankchain.com.png
+        ├── barn.beefy.finance.png
+        ├── beta.adex.network.png
+        ├── beta.bounty0x.io.png
+        ├── beta.cent.co.png
+        ├── beta.dharma.io.png
+        ├── betoken.fund.png
+        ├── bitpaid.org.png
+        ├── blizzard.money.png
+        ├── blockchaincuties.co.png
+        ├── bns.finance.png
+        ├── bounty0x.io.png
+        ├── brain-warp.win4.fun.png
+        ├── bravefrontierheroes.com.png
+        ├── bridge.poa.net.png
+        ├── bsc.dego.finance.png
+        ├── bsc.farm.png
+        ├── bscproject.org.png
+        ├── bscscan.com.png
+        ├── bscswap.com.png
+        ├── btu-car-rental.com.png
+        ├── cafeswap.finance.png
+        ├── canwork.io.png
+        ├── cdp.makerdao.png
+        ├── cdpsaver.com.png
+        ├── chainmonsters.io.png
+        ├── cheeseswap.app.png
+        ├── chesstoshi.com.png
+        ├── chibifighters.io.png
+        ├── cold-staking.callisto.network.png
+        ├── color-craze.win4.fun.png
+        ├── commerce.bidali.com.png
+        ├── compound.finance.png
+        ├── comproi.com.png
+        ├── cryptantcrab.io.png
+        ├── cryptobots.me.png
+        ├── cryptochrome.org.png
+        ├── cryptocities.net.png
+        ├── cryptocrystal.io.png
+        ├── cryptoder.by.png
+        ├── cryptodozer.io.png
+        ├── cryptofighters.io.png
+        ├── cryptogoods.co.png
+        ├── cryptogs.io.png
+        ├── cryptomines.pro.png
+        ├── cryptopurr.co.png
+        ├── cryptoracingleague.io.png
+        ├── cryptosketches.com.png
+        ├── cryptostrikers.com.png
+        ├── cryptotitties.fun.png
+        ├── csc-game.com.png
+        ├── curve.fi.png
+        ├── dapp.dragonereum.io.png
+        ├── dapp.originprotocol.com.png
+        ├── dapp.spartanprotocol.org.png
+        ├── dapps.trustwallet.com.png
+        ├── ddex.io.png
+        ├── debank.com.png
+        ├── defi.timvi.com.png
+        ├── defisaver.com.png
+        ├── deversifi.com.png
+        ├── dex.ag.png
+        ├── dex.blue.png
+        ├── dex.leonicornswap.com.png
+        ├── dex.verisafe.io.png
+        ├── dice2.win.png
+        ├── doperaider.com.png
+        ├── dozerbird.io.png
+        ├── dydx.exchange.png
+        ├── easytrade.io.png
+        ├── egyptoken.com.png
+        ├── emoon.io.png
+        ├── ens.domains.png
+        ├── erc20faucet.com.png
+        ├── esports.win4.fun.png
+        ├── eth2.io.png
+        ├── eth2dai.com.png
+        ├── ether-quest.com.png
+        ├── ether.online.png
+        ├── etherbots.io.png
+        ├── ethercraft.io.png
+        ├── etheremon.com.png
+        ├── ethernauts.co.png
+        ├── etherscan.io.png
+        ├── ethlend.io.png
+        ├── everdragons.com.png
+        ├── exchange.cafeswap.finance.png
+        ├── exchange.pancakeswap.finance.png
+        ├── exchange.shibance.com.png
+        ├── exnce.com.png
+        ├── expotrading.com.png
+        ├── fanbits.com.png
+        ├── farm.hyperjump.fi.png
+        ├── featured.market.png
+        ├── filmvault.io.png
+        ├── findtherabbit.me.png
+        ├── fishbank.io.png
+        ├── foam.tools.png
+        ├── for.tube.png
+        ├── fractional.art.png
+        ├── freighttrust.com.png
+        ├── frens.community.png
+        ├── frens.link.png
+        ├── fry.world.png
+        ├── fundrequest.io.png
+        ├── game.lordless.io.png
+        ├── governance.trustwallet.com.png
+        ├── hex.win.png
+        ├── hotcross.com.png
+        ├── idex.market.png
+        ├── idle.finance.png
+        ├── incscan.io.png
+        ├── inddex.io.png
+        ├── indorse.io.png
+        ├── info.apeswap.finance.png
+        ├── info.hyperjump.fi.png
+        ├── info.narwhalswap.org.png
+        ├── info.uniswap.org.png
+        ├── instadapp.io.png
+        ├── instant.airswap.io.png
+        ├── insurace.png
+        ├── johnorionyoung.com.png
+        ├── julswap.com.png
+        ├── kebabfinance.com.png
+        ├── knownorigin.io.png
+        ├── kyber.network.png
+        ├── kyber.org.png
+        ├── kyberswap.com.png
+        ├── lido.fi.png
+        ├── localethereum.com.png
+        ├── lol.hunt.town.png
+        ├── m.dex.top.png
+        ├── market.decentraland.org.png
+        ├── marketplace.axieinfinity.com.png
+        ├── marketplace.e11.io.png
+        ├── master.tomochain.com.png
+        ├── math-race.win4.fun.png
+        ├── maxbet.pigfarm.io.png
+        ├── megacryptopolis.com.png
+        ├── member.iotex.io.png
+        ├── membrana.io.png
+        ├── mobox.io.png
+        ├── mooniswap.exchange.png
+        ├── multisender.app.png
+        ├── multitoken.io.png
+        ├── mycryptoheroes.net.png
+        ├── mythereum.io.png
+        ├── namebazaar.io.png
+        ├── nami.trade.png
+        ├── narwhalswap.org.png
+        ├── nestdapp.io.png
+        ├── newlittlerabbit.net.png
+        ├── nftb.io.png
+        ├── nftoaster.com.png
+        ├── nifty.gallery.png
+        ├── nuo.network.png
+        ├── oasis.app.png
+        ├── onhexel.com.png
+        ├── openocean.finance.png
+        ├── opensea.io.png
+        ├── orchid.com.png
+        ├── p3c.io.png
+        ├── pacoca.io.png
+        ├── pancakeswap.finance.png
+        ├── pantheon.exchange.png
+        ├── pay.sablier.finance.png
+        ├── peepeth.com.png
+        ├── phoswap.io.png
+        ├── pizzafinance.app.png
+        ├── platform.trustwallet.com.png
+        ├── play.moonpot.com.png
+        ├── plex.dharma.io.png
+        ├── polygon.info.apeswap.finance.png
+        ├── poocoin.app.png
+        ├── pools.fyi.png
+        ├── pooltogether.com.png
+        ├── pooltogether.us.png
+        ├── poolx.launchzone.org.png
+        ├── portfolio.defiprime.com.png
+        ├── powerpool.finance.png
+        ├── rarebits.io.png
+        ├── rarible.com.png
+        ├── relay.radar.tech.png
+        ├── review.hunt.town.png
+        ├── saturn.network.png
+        ├── shiftly.finance.png
+        ├── slots.spin4.fun.png
+        ├── smartdrops.io.png
+        ├── smartz.io.png
+        ├── snark.art.png
+        ├── sorare.com.png
+        ├── space-race.win4.fun.png
+        ├── space-tetris.win4.fun.png
+        ├── spartanswap.org.png
+        ├── spiderdex.com.png
+        ├── staking.thundercore.com.png
+        ├── steemhunt.com.png
+        ├── steemit.com.png
+        ├── store.touristoken.com.png
+        ├── streetswap.vip.png
+        ├── sushiswapclassic.org.png
+        ├── swap.hyperjump.fi.png
+        ├── swapliquidity.org.png
+        ├── swaptoken.app.png
+        ├── swaptuna.com.png
+        ├── swapx.launchzone.org.png
+        ├── switcheo.exchange.png
+        ├── token.hunt.town.png
+        ├── token.store.png
+        ├── tokenfactory.surge.sh.png
+        ├── tokenlon.im.png
+        ├── tokensets.com.png
+        ├── tomoswap.com.png
+        ├── tornado.cash.png
+        ├── tranchess.com.png
+        ├── traphouse.vip.png
+        ├── ttroll.ttmobileapps.com.png
+        ├── uniswap.exchange.png
+        ├── uniswap.io.png
+        ├── v1exchange.pancakeswap.finance.png
+        ├── voting.cafeswap.finance.png
+        ├── wallet.mocotoken.io.png
+        ├── wardenswap.finance.png
+        ├── word-race.win4.fun.png
+        ├── www.bakeryswap.org.png
+        ├── www.comproi.com.png
+        ├── www.crypt-oink.io.png
+        ├── www.google.com.png
+        ├── www.helmet.insure.png
+        ├── xank.io.png
+        ├── yearn.finance.png
+        ├── yieldwatch.net.png
+        ├── yticons.co.png
+        ├── zed.run.png
+        └── zerion.io.png
+
+90 directories, 549 files
