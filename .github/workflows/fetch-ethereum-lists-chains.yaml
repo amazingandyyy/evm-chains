@@ -60,6 +60,9 @@ jobs:
       - name: convert data
         working-directory: ./current
         run: node -r esm ./scripts/convert.js
+      - name: list files
+        working-directory: ./current
+        run: tree -L 3 ./rawdata > README.txt
 
       - name: check for modified files
         id: git-check
@@ -74,6 +77,3 @@ jobs:
           git add -A
           git commit -m 'feat(data): fetch list from ethereum-lists/chains'
           git push
-      - name: list files
-        working-directory: ./current
-        run: tree -L 2 ./current
