@@ -38,14 +38,14 @@ jobs:
 
       - name: copy data into rawdata/ethereum-lists
         run: |
-          mkdir -p rawdata/ethereum-lists/chains
+          mkdir -p ./current/rawdata/ethereum-lists/chains
           cp -rf ./ethereum-lists-chains/README.md ./current/rawdata/ethereum-lists
           cp -rf ./ethereum-lists-chains/_data/* ./current/rawdata/ethereum-lists/chains
       - name: copy data into rawdata/trustwallet
         run: |
-          mkdir -p rawdata/trustwallet/blockchains rawdata/trustwallet/dapps
+          mkdir -p ./current/rawdata/trustwallet/{blockchains,dapps}
           cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet
-          cp -rf ./trustwallet-assets/blockchain/* ./current/rawdata/trustwallet/blockchains
+          cp -rf ./trustwallet-assets/blockchain/* ./current/rawdata/trustwallet/chains
           cp -rf ./trustwallet-assets/dapps/* ./current/rawdata/trustwallet/dapps
 
       - name: merge data
@@ -72,3 +72,6 @@ jobs:
           git add -A
           git commit -m 'feat(data): fetch list from ethereum-lists/chains'
           git push
+      - name: list files
+        working-directory: ./current
+        run: tree -L 2 ./current
