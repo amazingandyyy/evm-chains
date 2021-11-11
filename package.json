@@ -1,5 +1,5 @@
 {
-  "name": "evm-chain-switcher",
+  "name": "evm-chain",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/amazingandyyy/evm-chain-switcher.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blockchain", "EVM", "ethereum", "dapp", "web3"],
+  "author": "amazingandyyy",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/amazingandyyy/evm-chain-switcher/issues"
   },
