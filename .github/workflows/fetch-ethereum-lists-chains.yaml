@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: fetch myself
+      - name: fetch mycurrent
         uses: actions/checkout@v2
         with:
-          path: self
+          path: current
       - name: fetch ethereum-lists/chains
         uses: actions/checkout@v2
         with:
@@ -35,36 +35,40 @@ jobs:
 
       - name: list files
         run: tree -L 2 .
+      - name: clean up rawdata
+        working-directory: ./current
+        run: rm -rf rawdata/*
 
-      - name: copy ethereum-lists-chains/data
+      - name: copy data into rawdata/ethereum-lists
         run: |
-          rm -rf ./self/script/ethereum-lists-chains-data
-          mkdir -p ./self/script/ethereum-lists-chains-data
-          cp -rf ./ethereum-lists-chains/_data/* ./self/script/ethereum-lists-chains-data
-      - name: copy file into src
+          mkdir -p rawdata/ethereum-lists/chains
+          cp -rf ./ethereum-lists-chains/README.md ./current/rawdata/ethereum-lists/README.md
+          cp -rf ./ethereum-lists-chains/_data/* ./current/rawdata/ethereum-lists/chains
+      - name: copy data into rawdata/trustwallet
         run: |
-          rm -rf ./self/script/trustwallet-assets
-          mkdir -p ./self/script/trustwallet-assets
-          cp -rf ./trustwallet-assets/blockchains/* ./self/script/trustwallet-assets
+          mkdir -p rawdata/trustwallet/blockchains rawdata/trustwallet/dapps
+          cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet/README.md
+          cp -rf ./trustwallet-assets/blockchain/* ./current/rawdata/trustwallet/blockchains
+          cp -rf ./trustwallet-assets/dapps/* ./current/rawdata/trustwallet/dapps
 
       - name: merge data
-        working-directory: ./self
+        working-directory: ./current
         run: ./script/merge.sh
       - name: install dependencies
-        working-directory: ./self
+        working-directory: ./current
         run: npm install
-      - name: convert data
-        working-directory: ./self
+      - name: convert da
+        working-directory: ./current
         run: |
           node -r esm ./script/convert.js
 
       - name: check for modified files
         id: git-check
-        working-directory: ./self
+        working-directory: ./current
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
       - name: commit to main branch
         if: steps.git-check.outputs.modified == 'true'
-        working-directory: ./self
+        working-directory: ./current
         run:  |
           git config --global user.name 'bot'
           git config --global user.email 'bot@mail.com'
