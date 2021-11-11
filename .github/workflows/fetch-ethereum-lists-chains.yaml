@@ -47,7 +47,7 @@ jobs:
           mkdir -p ./current/rawdata/trustwallet/{blockchains,dapps}
           cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet
           cp -rf ./trustwallet-assets/LICENSE ./current/rawdata/trustwallet
-          cp -rf ./trustwallet-assets/blockchain/* ./current/rawdata/trustwallet/chains
+          cp -rf ./trustwallet-assets/blockchains/* ./current/rawdata/trustwallet/chains
           cp -rf ./trustwallet-assets/dapps/* ./current/rawdata/trustwallet/dapps
 
       - name: merge data
