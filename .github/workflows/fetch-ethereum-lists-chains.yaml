@@ -10,7 +10,7 @@ jobs:
     name: fetch ethereum-lists/chains
     runs-on: ubuntu-latest
     steps:
-      - name: use Node 17
+      - name: use node 17
         uses: actions/setup-node@v1
         with:
           node-version: 17.x
@@ -53,14 +53,13 @@ jobs:
 
       - name: merge data
         working-directory: ./current
-        run: ./script/merge.sh
-      - name: install dependencies
+        run: ./scripts/merge.sh
+      - name: install node dependencies
         working-directory: ./current
         run: npm install
-      - name: convert da
+      - name: convert data
         working-directory: ./current
-        run: |
-          node -r esm ./script/convert.js
+        run: node -r esm ./scripts/convert.js
 
       - name: check for modified files
         id: git-check
