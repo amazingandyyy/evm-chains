@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/amazingandyyy/evm-chain-switcher.git"
   },
-  "keywords": ["blockchain", "EVM", "ethereum", "dapp", "web3"],
+  "keywords": [
+    "blockchain",
+    "EVM",
+    "ethereum",
+    "dapp",
+    "web3"
+  ],
   "author": "amazingandyyy",
   "license": "MIT",
   "bugs": {
