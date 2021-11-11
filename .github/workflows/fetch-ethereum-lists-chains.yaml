@@ -70,7 +70,7 @@ jobs:
         working-directory: ./current
         run:  |
           git config --global user.name 'bot'
-          git config --global user.email 'bot@mail.com'
+          git config --global user.email 'bot@evm-chains.org'
           git add -A
           git commit -m 'feat(data): fetch list from ethereum-lists/chains'
           git push
