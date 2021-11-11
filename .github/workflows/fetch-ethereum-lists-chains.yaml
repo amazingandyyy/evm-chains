@@ -34,7 +34,7 @@ jobs:
           path: trustwallet-assets
 
       - name: list files
-        run: tree .
+        run: tree -L 2 .
 
       - name: copy ethereum-lists-chains/data
         run: |
