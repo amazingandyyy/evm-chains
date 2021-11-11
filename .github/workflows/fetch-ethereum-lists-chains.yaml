@@ -1,6 +1,8 @@
 name: fetch list from ethereum-lists/chains
 
 on:
+  push:
+    branches: [ main ]
   schedule:
     - cron: "0 6 * * *" # “At 6:00 everyday”
   workflow_dispatch:
