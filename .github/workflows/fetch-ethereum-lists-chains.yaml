@@ -9,14 +9,11 @@ jobs:
   fetch:
     name: fetch ethereum-lists/chains
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 14.x ]
     steps:
-      - name: use Node.js ${{ matrix.node-version }}
+      - name: use Node 17
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 17.x
 
       - name: fetch mycurrent
         uses: actions/checkout@v2
