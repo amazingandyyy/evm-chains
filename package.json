@@ -1,0 +1,23 @@
+{
+  "name": "evm-chain-switcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazingandyyy/evm-chain-switcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazingandyyy/evm-chain-switcher/issues"
+  },
+  "homepage": "https://github.com/amazingandyyy/evm-chain-switcher#readme",
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}

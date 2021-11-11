@@ -9,12 +9,19 @@ jobs:
   fetch:
     name: fetch ethereum-lists/chains
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 14.x ]
     steps:
+      - name: use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
       - name: fetch myself
         uses: actions/checkout@v2
         with:
           path: self
-
       - name: fetch template
         uses: actions/checkout@v2
         with:
@@ -23,15 +30,24 @@ jobs:
 
       - name: copy file into src
         run: |
-          rm -rf ./self/src/data
-          mkdir -p ./self/src/data
-          cp -rf ./ethereum-lists/_data/* ./self/src/data
+          rm -rf ./self/script/data
+          mkdir -p ./self/script/data
+          cp -rf ./ethereum-lists/_data/* ./self/script/data
+      - name: merge data
+        working-directory: ./self
+        run: ./script/merge.sh
+      - name: install dependencies
+        working-directory: ./self
+        run: npm install
+      - name: convert data
+        working-directory: ./self
+        run: |
+          node -r esm ./script/convert.js
 
       - name: check for modified files
         id: git-check
         working-directory: ./self
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-
       - name: commit to main branch
         if: steps.git-check.outputs.modified == 'true'
         working-directory: ./self
