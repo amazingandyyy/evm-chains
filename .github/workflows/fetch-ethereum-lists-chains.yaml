@@ -40,11 +40,13 @@ jobs:
         run: |
           mkdir -p ./current/rawdata/ethereum-lists/chains
           cp -rf ./ethereum-lists-chains/README.md ./current/rawdata/ethereum-lists
+          cp -rf ./ethereum-lists-chains/LICENSE ./current/rawdata/ethereum-lists
           cp -rf ./ethereum-lists-chains/_data/* ./current/rawdata/ethereum-lists/chains
       - name: copy data into rawdata/trustwallet
         run: |
           mkdir -p ./current/rawdata/trustwallet/{blockchains,dapps}
           cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet
+          cp -rf ./trustwallet-assets/LICENSE ./current/rawdata/trustwallet
           cp -rf ./trustwallet-assets/blockchain/* ./current/rawdata/trustwallet/chains
           cp -rf ./trustwallet-assets/dapps/* ./current/rawdata/trustwallet/dapps
 
