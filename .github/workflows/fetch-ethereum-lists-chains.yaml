@@ -45,10 +45,10 @@ jobs:
 
       - name: copy data into rawdata/trustwallet
         run: |
-          mkdir -p ./current/rawdata/trustwallet/{chains,dapps}
+          mkdir -p ./current/rawdata/trustwallet/{blockchains,dapps}
           cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet
           cp -rf ./trustwallet-assets/LICENSE ./current/rawdata/trustwallet
-          cp -rf ./trustwallet-assets/blockchains/* ./current/rawdata/trustwallet/chains
+          cp -rf ./trustwallet-assets/blockchains/* ./current/rawdata/trustwallet/blockchains
           cp -rf ./trustwallet-assets/dapps/* ./current/rawdata/trustwallet/dapps
 
       - name: merge data
