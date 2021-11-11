@@ -45,7 +45,7 @@ jobs:
 
       - name: copy data into rawdata/trustwallet
         run: |
-          mkdir -p ./current/rawdata/trustwallet/{chains,dapps}
+          mkdir -p ./current/rawdata/trustwallet/chains -p ./current/rawdata/trustwallet/dapps
           cp -rf ./trustwallet-assets/README.md ./current/rawdata/trustwallet
           cp -rf ./trustwallet-assets/LICENSE ./current/rawdata/trustwallet
           cp -rf ./trustwallet-assets/blockchains/* ./current/rawdata/trustwallet/chains
