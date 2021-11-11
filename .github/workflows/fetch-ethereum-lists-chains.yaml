@@ -22,17 +22,31 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: self
-      - name: fetch template
+      - name: fetch ethereum-lists/chains
         uses: actions/checkout@v2
         with:
           repository: ethereum-lists/chains
-          path: ethereum-lists
+          path: ethereum-lists-chains
+      - name: fetch trustwallet/assets
+        uses: actions/checkout@v2
+        with:
+          repository: trustwallet/assets
+          path: trustwallet-assets
 
+      - name: list files
+        run: tree .
+
+      - name: copy ethereum-lists-chains/data
+        run: |
+          rm -rf ./self/script/ethereum-lists-chains-data
+          mkdir -p ./self/script/ethereum-lists-chains-data
+          cp -rf ./ethereum-lists-chains/_data/* ./self/script/ethereum-lists-chains-data
       - name: copy file into src
         run: |
-          rm -rf ./self/script/data
-          mkdir -p ./self/script/data
-          cp -rf ./ethereum-lists/_data/* ./self/script/data
+          rm -rf ./self/script/trustwallet-assets
+          mkdir -p ./self/script/trustwallet-assets
+          cp -rf ./trustwallet-assets/blockchains/* ./self/script/trustwallet-assets
+
       - name: merge data
         working-directory: ./self
         run: ./script/merge.sh
