@@ -264,7 +264,7 @@
 └── trustwallet
     ├── LICENSE
     ├── README.md
-    ├── chains
+    ├── blockchains
     │   ├── aeternity
     │   ├── aion
     │   ├── algorand
