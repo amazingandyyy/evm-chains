@@ -255,6 +255,7 @@
 │       ├── eip155-940.json
 │       ├── eip155-95.json
 │       ├── eip155-955305.json
+│       ├── eip155-96.json
 │       ├── eip155-97.json
 │       ├── eip155-977.json
 │       ├── eip155-99.json
@@ -639,4 +640,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-90 directories, 549 files
+90 directories, 550 files

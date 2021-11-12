@@ -3456,7 +3456,14 @@
     "infoURL": "https://telos.net",
     "shortName": "Telos EVM",
     "chainId": 40,
-    "networkId": 40
+    "networkId": 40,
+    "explorers": [
+      {
+        "name": "teloscan",
+        "url": "https://teloscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Fantom Testnet",
@@ -5623,6 +5630,33 @@
         "name": "blockscout",
         "url": "https://explorer.eluv.io",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "NEXT Smart Chain",
+    "chain": "NSC",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.nextsmartchain.com"
+    ],
+    "faucets": [
+      "https://faucet.nextsmartchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "NEXT",
+      "symbol": "NEXT",
+      "decimals": 18
+    },
+    "infoURL": "https://www.nextsmartchain.com/",
+    "shortName": "nsc",
+    "chainId": 96,
+    "networkId": 96,
+    "explorers": [
+      {
+        "name": "Next Smart Chain Explorer",
+        "url": "https://explorer.nextsmartchain.com",
+        "standard": "none"
       }
     ]
   },
