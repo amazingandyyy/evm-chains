@@ -321,6 +321,7 @@
     │   ├── oasis
     │   ├── ontology
     │   ├── optimism
+    │   ├── osmosis
     │   ├── poa
     │   ├── polkadot
     │   ├── polygon
@@ -640,4 +641,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-90 directories, 550 files
+91 directories, 550 files
