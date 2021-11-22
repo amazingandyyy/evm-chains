@@ -2680,6 +2680,31 @@
     "networkId": 256
   },
   {
+    "name": "GenesisL1 testnet",
+    "chain": "genesis",
+    "network": "testnet",
+    "rpc": [
+      "https://testrpc.genesisl1.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "L1 testcoin",
+      "symbol": "L1test",
+      "decimals": 18
+    },
+    "infoURL": "https://www.genesisl1.com",
+    "shortName": "L1test",
+    "chainId": 26,
+    "networkId": 26,
+    "explorers": [
+      {
+        "name": "Genesis L1 testnet explorer",
+        "url": "https://testnet.genesisl1.org/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "SUR Blockchain Network",
     "chain": "SUR",
     "network": "mainnet",
@@ -2846,6 +2871,31 @@
     "chainId": 28945486,
     "networkId": 28945486,
     "slip44": 344
+  },
+  {
+    "name": "GenesisL1",
+    "chain": "genesis",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.genesisl1.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "L1 coin",
+      "symbol": "L1",
+      "decimals": 18
+    },
+    "infoURL": "https://www.genesisl1.com",
+    "shortName": "L1",
+    "chainId": 29,
+    "networkId": 29,
+    "explorers": [
+      {
+        "name": "Genesis L1 blockchain explorer",
+        "url": "https://explorer.genesisl1.org/",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Ethereum Testnet Ropsten",
