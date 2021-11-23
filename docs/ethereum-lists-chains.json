@@ -2680,7 +2680,7 @@
     "networkId": 256
   },
   {
-    "name": "GenesisL1 testnet",
+    "name": "Genesis L1 testnet",
     "chain": "genesis",
     "network": "testnet",
     "rpc": [
@@ -2820,6 +2820,25 @@
     }
   },
   {
+    "name": "Social Smart Chain Mainnet",
+    "chain": "SoChain",
+    "network": "mainnet",
+    "rpc": [
+      "https://socialsmartchain.digitalnext.business"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SoChain",
+      "symbol": "$OC",
+      "decimals": 18
+    },
+    "infoURL": "https://digitalnext.business/SocialSmartChain",
+    "shortName": "SoChain",
+    "chainId": 281121,
+    "networkId": 281121,
+    "explorers": []
+  },
+  {
     "name": "Boba Network",
     "chain": "ETH",
     "network": "mainnet",
@@ -2873,7 +2892,7 @@
     "slip44": 344
   },
   {
-    "name": "GenesisL1",
+    "name": "Genesis L1",
     "chain": "genesis",
     "network": "mainnet",
     "rpc": [
