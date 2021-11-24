@@ -640,6 +640,40 @@
     "slip44": 1001
   },
   {
+    "name": "Metis",
+    "chain": "ETH",
+    "network": "mainnet",
+    "rpc": [
+      "https://andromeda.metis.io/?owner=1088"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Metis",
+      "symbol": "METIS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.metis.io",
+    "shortName": "metis",
+    "chainId": 1088,
+    "networkId": 1088,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://andromeda-explorer.metis.io/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.metis.io"
+        }
+      ]
+    }
+  },
+  {
     "name": "Metadium Mainnet",
     "chain": "META",
     "network": "mainnet",
@@ -4353,6 +4387,40 @@
     "shortName": "rbd",
     "chainId": 5869,
     "networkId": 5869
+  },
+  {
+    "name": "Metis Testnet Rinkeby",
+    "chain": "ETH",
+    "network": "rinkeby",
+    "rpc": [
+      "https://stardust.metis.io/?owner=588"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tMetis",
+      "symbol": "METIS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.metis.io",
+    "shortName": "metis-rinkeby",
+    "chainId": 588,
+    "networkId": 588,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://stardust-explorer.metis.io/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-4",
+      "bridges": [
+        {
+          "url": "https://bridge.metis.io"
+        }
+      ]
+    }
   },
   {
     "name": "EOS Mainnet",
