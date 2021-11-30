@@ -2089,6 +2089,31 @@
     ]
   },
   {
+    "name": "Gather Mainnet Network",
+    "chain": "GTH",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.gather.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gather",
+      "symbol": "GTH",
+      "decimals": 18
+    },
+    "infoURL": "https://gather.network",
+    "shortName": "GTH",
+    "chainId": 192837465,
+    "networkId": 192837465,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer.gather.network/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "EtherGem",
     "chain": "EGEM",
     "network": "mainnet",
@@ -3387,6 +3412,31 @@
     "networkId": 35
   },
   {
+    "name": "Gather Tesnet Network",
+    "chain": "GTH",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.gather.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gather",
+      "symbol": "GTH",
+      "decimals": 18
+    },
+    "infoURL": "https://gather.network",
+    "shortName": "tGTH",
+    "chainId": 356256156,
+    "networkId": 356256156,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://testnet-explorer.gather.network/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Joys Digital Mainnet",
     "chain": "JOYS",
     "network": "mainnet",
@@ -4060,6 +4110,31 @@
     ]
   },
   {
+    "name": "Gather Devnet Network",
+    "chain": "GTH",
+    "network": "devnet",
+    "rpc": [
+      "https://devnet.gather.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gather",
+      "symbol": "GTH",
+      "decimals": 18
+    },
+    "infoURL": "https://gather.network",
+    "shortName": "dGTH",
+    "chainId": 486217935,
+    "networkId": 486217935,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://devnet-explorer.gather.network/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Energi Testnet",
     "chain": "NRG",
     "network": "testnet",
@@ -4219,6 +4294,24 @@
     "shortName": "tcet",
     "chainId": 53,
     "networkId": 53
+  },
+  {
+    "name": "Uzmi Network Mainnet",
+    "chain": "UZMI",
+    "network": "mainnet",
+    "rpc": [
+      "https://network.uzmigames.com.br/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "UZMI",
+      "symbol": "UZMI",
+      "decimals": 18
+    },
+    "infoURL": "https://uzmigames.com.br/",
+    "shortName": "UZMI",
+    "chainId": 5315,
+    "networkId": 5315
   },
   {
     "name": "Zyx Mainnet",
@@ -4838,6 +4931,53 @@
     ]
   },
   {
+    "name": "Pixie Chain Mainnet",
+    "chain": "PixieChain",
+    "network": "mainnet",
+    "rpc": [
+      "https://http-mainnet.chain.pixie.xyz",
+      "wss://ws-mainnet.chain.pixie.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pixie Chain Native Token",
+      "symbol": "PIX",
+      "decimals": 18
+    },
+    "infoURL": "https://chain.pixie.xyz",
+    "shortName": "pixie-chain",
+    "chainId": 6626,
+    "networkId": 6626,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.chain.pixie.xyz",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Pixie Chain Testnet",
+    "chain": "PixieChain",
+    "network": "testnet",
+    "rpc": [
+      "https://http-testnet.chain.pixie.xyz",
+      "wss://ws-testnet.chain.pixie.xyz"
+    ],
+    "faucets": [
+      "https://chain.pixie.xyz/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Pixie Chain Testnet Native Token",
+      "symbol": "PCTT",
+      "decimals": 18
+    },
+    "infoURL": "https://scan-testnet.chain.pixie.xyz",
+    "shortName": "pixie-chain-testnet",
+    "chainId": 666,
+    "networkId": 666
+  },
+  {
     "name": "DBChain Testnet",
     "chain": "DBM",
     "network": "testnet",
@@ -5226,17 +5366,17 @@
   },
   {
     "name": "Hazlor Testnet",
-    "chain": "Hazlor",
+    "chain": "SCAS",
     "network": "testnet",
     "rpc": [
-      "http://hatlas.rpc.hazlor.com:8545/"
+      "https://hatlas.rpc.hazlor.com:8545/"
     ],
     "faucets": [
       "https://faucet.hazlor.com"
     ],
     "nativeCurrency": {
-      "name": "Planet",
-      "symbol": "PLANET",
+      "name": "Hazlor Test Coin",
+      "symbol": "TSCAS",
       "decimals": 18
     },
     "infoURL": "https://hazlor.com",
