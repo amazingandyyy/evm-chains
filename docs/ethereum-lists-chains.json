@@ -2114,6 +2114,60 @@
     ]
   },
   {
+    "name": "Ntity Mainnet",
+    "chain": "Ntity",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.ntity.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ntity",
+      "symbol": "NTT",
+      "decimals": 18
+    },
+    "infoURL": "https://ntity.io",
+    "shortName": "ntt",
+    "chainId": 197710212030,
+    "networkId": 197710212030,
+    "icon": "ntity",
+    "explorers": [
+      {
+        "name": "Ntity Blockscout",
+        "url": "https://blockscout.ntity.io",
+        "icon": "ntity",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Haradev Testnet",
+    "chain": "Ntity",
+    "network": "testnet",
+    "rpc": [
+      "https://blockchain.haradev.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ntity Haradev",
+      "symbol": "NTTH",
+      "decimals": 18
+    },
+    "infoURL": "https://ntity.io",
+    "shortName": "ntt-haradev",
+    "chainId": 197710212031,
+    "networkId": 197710212031,
+    "icon": "ntity",
+    "explorers": [
+      {
+        "name": "Ntity Haradev Blockscout",
+        "url": "https://blockscout.haradev.com",
+        "icon": "ntity",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "EtherGem",
     "chain": "EGEM",
     "network": "mainnet",
@@ -6176,5 +6230,23 @@
     "shortName": "twan",
     "chainId": 999,
     "networkId": 999
+  },
+  {
+    "name": "myOwn Testnet",
+    "chain": "myOwn",
+    "network": "testnet",
+    "rpc": [
+      "https://fe693b0f-b1c4-45ec-aac1-5c4b913fc51e.cdegswtfk0ji0uq1ym3r3guz6.ep.stage.bccloud.net:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MYN",
+      "symbol": "MYN",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.bccloud.net/",
+    "shortName": "myn",
+    "chainId": 9999,
+    "networkId": 9999
   }
 ]
