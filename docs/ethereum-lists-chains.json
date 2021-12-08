@@ -2323,6 +2323,33 @@
     "slip44": 200625
   },
   {
+    "name": "Alaya Mainnet",
+    "chain": "Alaya",
+    "network": "mainnet",
+    "rpc": [
+      "https://openapi.alaya.network/rpc",
+      "wss://openapi.alaya.network/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ATP",
+      "symbol": "atp",
+      "decimals": 18
+    },
+    "infoURL": "https://www.alaya.network/",
+    "shortName": "alaya",
+    "chainId": 201018,
+    "networkId": 1,
+    "icon": "alaya",
+    "explorers": [
+      {
+        "name": "alaya explorer",
+        "url": "https://scan.alaya.network/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Alaya Dev Testnet",
     "chain": "Alaya",
     "network": "testnet",
@@ -2339,7 +2366,7 @@
       "decimals": 18
     },
     "infoURL": "https://www.alaya.network/",
-    "shortName": "alaya",
+    "shortName": "alayadev",
     "chainId": 201030,
     "networkId": 1,
     "icon": "alaya",
@@ -6262,7 +6289,7 @@
     "chain": "myOwn",
     "network": "testnet",
     "rpc": [
-      "https://fe693b0f-b1c4-45ec-aac1-5c4b913fc51e.cdegswtfk0ji0uq1ym3r3guz6.ep.stage.bccloud.net:8545"
+      "https://geth.dev.bccloud.net"
     ],
     "faucets": [],
     "nativeCurrency": {
