@@ -1326,7 +1326,10 @@
     "name": "Moonbeam",
     "chain": "MOON",
     "network": "moonbeam",
-    "rpc": [],
+    "rpc": [
+      "https://rpc.api.moonbeam.network",
+      "wss://wss.api.moonbeam.network"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Glimmer",
@@ -1346,9 +1349,7 @@
       "https://rpc.moonriver.moonbeam.network",
       "wss://wss.moonriver.moonbeam.network"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Moonriver",
       "symbol": "MOVR",
@@ -1360,8 +1361,8 @@
     "networkId": 1285,
     "explorers": [
       {
-        "name": "blockscout",
-        "url": "https://blockscout.moonriver.moonbeam.network",
+        "name": "moonscan",
+        "url": "https://moonriver.moonscan.io/",
         "standard": "none"
       }
     ]
@@ -1399,7 +1400,14 @@
     "infoURL": "https://docs.moonbeam.network/networks/testnet/",
     "shortName": "mbase",
     "chainId": 1287,
-    "networkId": 1287
+    "networkId": 1287,
+    "explorers": [
+      {
+        "name": "moonscan",
+        "url": "https://moonbase.moonscan.io/",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Moonshadow",
@@ -2194,6 +2202,31 @@
     ]
   },
   {
+    "name": "BTCIX Network",
+    "chain": "BTCIX",
+    "network": "mainnet",
+    "rpc": [
+      "https://seed.btcix.org/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTCIX Network",
+      "symbol": "BTCIX",
+      "decimals": 18
+    },
+    "infoURL": "https://bitcolojix.org",
+    "shortName": "btcix",
+    "chainId": 19845,
+    "networkId": 19845,
+    "explorers": [
+      {
+        "name": "BTCIXScan",
+        "url": "https://btcixscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "EtherGem",
     "chain": "EGEM",
     "network": "mainnet",
@@ -2948,8 +2981,8 @@
     "slip44": 269,
     "explorers": [
       {
-        "name": "hpbscan",
-        "url": "https://hpbscan.org/",
+        "name": "hscan",
+        "url": "https://hscan.org/",
         "standard": "EIP3091"
       }
     ]
@@ -4039,17 +4072,28 @@
     "name": "Darwinia Pangolin Testnet",
     "chain": "pangolin",
     "network": "free testnet",
-    "rpc": [],
-    "faucets": [],
+    "rpc": [
+      "http://pangolin-rpc.darwinia.network"
+    ],
+    "faucets": [
+      "https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"
+    ],
     "nativeCurrency": {
-      "name": "Pangolin RING",
+      "name": "Pangolin Network Native Token”",
       "symbol": "PRING",
       "decimals": 9
     },
     "infoURL": "https://darwinia.network/",
     "shortName": "darwinia",
     "chainId": 43,
-    "networkId": 43
+    "networkId": 43,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://pangolin.subscan.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Athereum",
@@ -4130,17 +4174,26 @@
     "name": "Darwinia Crab Network",
     "chain": "crab",
     "network": "Crab network",
-    "rpc": [],
+    "rpc": [
+      "http://crab-rpc.darwinia.network"
+    ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Crab Token",
-      "symbol": "CRING",
+      "name": "Crab Network Native Token",
+      "symbol": "CRAB",
       "decimals": 9
     },
     "infoURL": "https://crab.network/",
     "shortName": "crab",
     "chainId": 44,
-    "networkId": 44
+    "networkId": 44,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://crab.subscan.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Celo Alfajores Testnet",
@@ -4379,7 +4432,7 @@
       "symbol": "cet",
       "decimals": 18
     },
-    "infoURL": "http://www.coinex.org/",
+    "infoURL": "https://www.coinex.org/",
     "shortName": "cet",
     "chainId": 52,
     "networkId": 52
@@ -4397,7 +4450,7 @@
       "symbol": "cett",
       "decimals": 18
     },
-    "infoURL": "http://www.coinex.org/",
+    "infoURL": "https://www.coinex.org/",
     "shortName": "tcet",
     "chainId": 53,
     "networkId": 53
@@ -4507,6 +4560,34 @@
       {
         "name": "bscscan",
         "url": "https://bscscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Syscoin Mainnet",
+    "chain": "SYS",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.syscoin.org",
+      "wss://rpc.syscoin.org/wss"
+    ],
+    "faucets": [
+      "https://faucet.syscoin.org"
+    ],
+    "nativeCurrency": {
+      "name": "Syscoin",
+      "symbol": "SYS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.syscoin.org",
+    "shortName": "sys",
+    "chainId": 57,
+    "networkId": 57,
+    "explorers": [
+      {
+        "name": "Syscoin Block Explorer",
+        "url": "https://explorer.syscoin.org",
         "standard": "EIP3091"
       }
     ]
