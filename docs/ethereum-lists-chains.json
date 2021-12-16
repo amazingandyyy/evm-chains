@@ -4463,7 +4463,14 @@
     "infoURL": "https://www.coinex.org/",
     "shortName": "cet",
     "chainId": 52,
-    "networkId": 52
+    "networkId": 52,
+    "explorers": [
+      {
+        "name": "coinexscan",
+        "url": "https://www.coinex.net/",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "CoinEx Smart Chain Testnet",
@@ -4481,7 +4488,14 @@
     "infoURL": "https://www.coinex.org/",
     "shortName": "tcet",
     "chainId": 53,
-    "networkId": 53
+    "networkId": 53,
+    "explorers": [
+      {
+        "name": "coinexscan",
+        "url": "https://testnet.coinex.net/",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Uzmi Network Mainnet",
@@ -5585,7 +5599,8 @@
     "chain": "SCAS",
     "network": "testnet",
     "rpc": [
-      "https://hatlas.rpc.hazlor.com:8545/"
+      "https://hatlas.rpc.hazlor.com:8545",
+      "wss://hatlas.rpc.hazlor.com:8546"
     ],
     "faucets": [
       "https://faucet.hazlor.com"
@@ -5596,12 +5611,12 @@
       "decimals": 18
     },
     "infoURL": "https://hazlor.com",
-    "shortName": "hazlor-hatlas",
+    "shortName": "tscas",
     "chainId": 7878,
     "networkId": 7878,
     "explorers": [
       {
-        "name": "Hazlor Explorer ",
+        "name": "Hazlor Testnet Explorer",
         "url": "https://explorer.hazlor.com",
         "standard": "none"
       }
