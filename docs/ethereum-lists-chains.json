@@ -2096,6 +2096,31 @@
     ]
   },
   {
+    "name": "BMC Mainnet",
+    "chain": "BMC",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.bmcchain.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTM",
+      "symbol": "BTM",
+      "decimals": 18
+    },
+    "infoURL": "https://bmc.bytom.io/",
+    "shortName": "BMC",
+    "chainId": 188,
+    "networkId": 188,
+    "explorers": [
+      {
+        "name": "Blockmeta",
+        "url": "https://bmc.blockmeta.com/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Songbird Canary-Network",
     "chain": "SGB",
     "network": "songbird",
@@ -2463,6 +2488,24 @@
     "shortName": "edg",
     "chainId": 2021,
     "networkId": 2021
+  },
+  {
+    "name": "DataHopper",
+    "chain": "HOP",
+    "network": "hopnet",
+    "rpc": [
+      "https://23.92.21.121:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DataHoppers",
+      "symbol": "HOP",
+      "decimals": 18
+    },
+    "infoURL": "https://www.DataHopper.com",
+    "shortName": "hop",
+    "chainId": 2021121117,
+    "networkId": 2021121117
   },
   {
     "name": "Beresheet Testnet",
