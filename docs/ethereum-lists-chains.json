@@ -2121,6 +2121,31 @@
     ]
   },
   {
+    "name": "BMC Testnet",
+    "chain": "BMC",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.bmcchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTM",
+      "symbol": "BTM",
+      "decimals": 18
+    },
+    "infoURL": "https://bmc.bytom.io/",
+    "shortName": "BMCT",
+    "chainId": 189,
+    "networkId": 189,
+    "explorers": [
+      {
+        "name": "Blockmeta",
+        "url": "https://bmc.blockmeta.com/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Songbird Canary-Network",
     "chain": "SGB",
     "network": "songbird",
@@ -2524,6 +2549,32 @@
     "shortName": "edgt",
     "chainId": 2022,
     "networkId": 2022
+  },
+  {
+    "name": "Rangers Protocol Mainnet",
+    "chain": "Rangers",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.rangersprotocol.com/api/jsonrpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Rangers Protocol Gas",
+      "symbol": "RPG",
+      "decimals": 18
+    },
+    "infoURL": "https://rangersprotocol.com",
+    "shortName": "rpg",
+    "chainId": 2025,
+    "networkId": 2025,
+    "slip44": 1008,
+    "explorers": [
+      {
+        "name": "rangersscan",
+        "url": "https://scan.rangersprotocol.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "ELA-ETH-Sidechain Testnet",
@@ -5876,7 +5927,7 @@
     "chain": "KLAY",
     "network": "cypress",
     "rpc": [
-      "https://node-api.klaytnapi.com/v1/klaytn"
+      "https://api.cypress.ozys.net:8651"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5888,7 +5939,14 @@
     "shortName": "Cypress",
     "chainId": 8217,
     "networkId": 8217,
-    "slip44": 8217
+    "slip44": 8217,
+    "explorers": [
+      {
+        "name": "Klaytnscope",
+        "url": "https://scope.klaytn.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "KorthoTest",
@@ -6233,6 +6291,34 @@
         "name": "eosq",
         "url": "https://kylin.eosargentina.io",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Rangers Protocol Testnet Robin",
+    "chain": "Rangers",
+    "network": "robin",
+    "icon": "rangers",
+    "rpc": [
+      "https://robin.rangersprotocol.com/api/jsonrpc"
+    ],
+    "faucets": [
+      "https://robin-faucet.rangersprotocol.com"
+    ],
+    "nativeCurrency": {
+      "name": "Rangers Protocol Gas",
+      "symbol": "tRPG",
+      "decimals": 18
+    },
+    "infoURL": "https://rangersprotocol.com",
+    "shortName": "trpg",
+    "chainId": 9527,
+    "networkId": 9527,
+    "explorers": [
+      {
+        "name": "rangersscan-robin",
+        "url": "https://robin-rangersscan.rangersprotocol.com",
+        "standard": "none"
       }
     ]
   },
