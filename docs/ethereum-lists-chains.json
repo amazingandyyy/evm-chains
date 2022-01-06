@@ -2,7 +2,6 @@
   {
     "name": "Ethereum Mainnet",
     "chain": "ETH",
-    "network": "mainnet",
     "icon": "ethereum",
     "rpc": [
       "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
@@ -35,7 +34,6 @@
   {
     "name": "Optimistic Ethereum",
     "chain": "ETH",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.optimism.io/"
     ],
@@ -60,7 +58,6 @@
   {
     "name": "Gnosis Chain (formerly xDai)",
     "chain": "Gnosis",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.xdaichain.com",
       "https://xdai.poanetwork.dev",
@@ -96,7 +93,6 @@
   {
     "name": "Smart Bitcoin Cash",
     "chain": "smartBCH",
-    "network": "mainnet",
     "rpc": [
       "https://smartbch.greyh.at",
       "https://rpc-mainnet.smartbch.org",
@@ -117,7 +113,6 @@
   {
     "name": "QuarkChain Mainnet Root",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://jrpc.mainnet.quarkchain.io:38391/"
     ],
@@ -135,7 +130,6 @@
   {
     "name": "QuarkChain Mainnet Shard 0",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39000/"
     ],
@@ -164,7 +158,6 @@
   {
     "name": "QuarkChain Mainnet Shard 1",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39001/"
     ],
@@ -193,7 +186,6 @@
   {
     "name": "QuarkChain Mainnet Shard 2",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39002/"
     ],
@@ -222,7 +214,6 @@
   {
     "name": "QuarkChain Mainnet Shard 3",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39003/"
     ],
@@ -251,7 +242,6 @@
   {
     "name": "QuarkChain Mainnet Shard 4",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39004/"
     ],
@@ -280,7 +270,6 @@
   {
     "name": "QuarkChain Mainnet Shard 5",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39005/"
     ],
@@ -309,7 +298,6 @@
   {
     "name": "QuarkChain Mainnet Shard 6",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39006/"
     ],
@@ -338,7 +326,6 @@
   {
     "name": "QuarkChain Mainnet Shard 7",
     "chain": "QuarkChain",
-    "network": "mainnet",
     "rpc": [
       "http://eth-jrpc.mainnet.quarkchain.io:39007/"
     ],
@@ -367,7 +354,6 @@
   {
     "name": "Smart Bitcoin Cash Testnet",
     "chain": "smartBCHTest",
-    "network": "testnet",
     "rpc": [
       "https://rpc-testnet.smartbch.org",
       "https://smartbch.devops.cash/testnet"
@@ -386,7 +372,6 @@
   {
     "name": "Klaytn Testnet Baobab",
     "chain": "KLAY",
-    "network": "baobab",
     "rpc": [
       "https://api.baobab.klaytn.net:8651"
     ],
@@ -406,7 +391,6 @@
   {
     "name": "Newton Testnet",
     "chain": "NEW",
-    "network": "testnet",
     "rpc": [
       "https://rpc1.newchain.newtonproject.org"
     ],
@@ -424,7 +408,6 @@
   {
     "name": "EtherInc",
     "chain": "ETI",
-    "network": "mainnet",
     "rpc": [
       "https://api.einc.io/jsonrpc/mainnet"
     ],
@@ -443,7 +426,6 @@
   {
     "name": "Evrice Network",
     "chain": "EVC",
-    "network": "Evrice",
     "rpc": [
       "https://meta.evrice.com"
     ],
@@ -462,7 +444,6 @@
   {
     "name": "Blockchain Genesis Mainnet",
     "chain": "GEN",
-    "network": "mainnet",
     "rpc": [
       "https://eu.mainnet.xixoio.com",
       "https://us.mainnet.xixoio.com",
@@ -482,7 +463,6 @@
   {
     "name": "Newton",
     "chain": "NEW",
-    "network": "mainnet",
     "rpc": [
       "https://global.rpc.mainnet.newtonproject.org"
     ],
@@ -500,7 +480,6 @@
   {
     "name": "Web3Games Testnet",
     "chain": "Web3Games",
-    "network": "testnet",
     "rpc": [
       "https://testnet.web3games.org/evm"
     ],
@@ -518,7 +497,6 @@
   {
     "name": "Sakura",
     "chain": "Sakura",
-    "network": "sakura",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -534,7 +512,6 @@
   {
     "name": "Clover Testnet",
     "chain": "Clover",
-    "network": "clover testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -550,7 +527,6 @@
   {
     "name": "Clover Mainnet",
     "chain": "Clover",
-    "network": "clover mainnet",
     "rpc": [
       "https://rpc-ivy.clover.finance",
       "https://rpc-ivy-2.clover.finance",
@@ -570,7 +546,6 @@
   {
     "name": "BitTorrent Chain Testnet",
     "chain": "BTTC",
-    "network": "testnet",
     "rpc": [
       "https://testrpc.bittorrentchain.io/"
     ],
@@ -595,7 +570,6 @@
   {
     "name": "Conflux",
     "chain": "Conflux",
-    "network": "mainnet",
     "rpc": [
       "https://ethcore.confluxrpc.com"
     ],
@@ -620,7 +594,6 @@
   {
     "name": "Velas EVM Mainnet",
     "chain": "Velas",
-    "network": "mainnet",
     "icon": "velas",
     "rpc": [
       "https://evmexplorer.velas.com/rpc",
@@ -647,7 +620,6 @@
   {
     "name": "ThunderCore Mainnet",
     "chain": "TT",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet-rpc.thundercore.com"
     ],
@@ -668,7 +640,6 @@
   {
     "name": "Metis Andromeda Mainnet",
     "chain": "ETH",
-    "network": "mainnet",
     "rpc": [
       "https://andromeda.metis.io/?owner=1088"
     ],
@@ -702,7 +673,6 @@
   {
     "name": "Metadium Mainnet",
     "chain": "META",
-    "network": "mainnet",
     "rpc": [
       "https://api.metadium.com/prod"
     ],
@@ -721,7 +691,6 @@
   {
     "name": "Proton Testnet",
     "chain": "XPR",
-    "network": "testnet",
     "rpc": [
       "https://protontestnet.greymass.com/"
     ],
@@ -739,7 +708,6 @@
   {
     "name": "QuarkChain Devnet Root",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://jrpc.devnet.quarkchain.io:38391/"
     ],
@@ -757,7 +725,6 @@
   {
     "name": "QuarkChain Devnet Shard 0",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39900/"
     ],
@@ -786,7 +753,6 @@
   {
     "name": "QuarkChain Devnet Shard 1",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39901/"
     ],
@@ -815,7 +781,6 @@
   {
     "name": "QuarkChain Devnet Shard 2",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39902/"
     ],
@@ -844,7 +809,6 @@
   {
     "name": "QuarkChain Devnet Shard 3",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39903/"
     ],
@@ -873,7 +837,6 @@
   {
     "name": "QuarkChain Devnet Shard 4",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39904/"
     ],
@@ -902,7 +865,6 @@
   {
     "name": "QuarkChain Devnet Shard 5",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39905/"
     ],
@@ -931,7 +893,6 @@
   {
     "name": "QuarkChain Devnet Shard 6",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39906/"
     ],
@@ -960,7 +921,6 @@
   {
     "name": "QuarkChain Devnet Shard 7",
     "chain": "QuarkChain",
-    "network": "devnet",
     "rpc": [
       "http://eth-jrpc.devnet.quarkchain.io:39907/"
     ],
@@ -989,7 +949,6 @@
   {
     "name": "EtherLite Chain",
     "chain": "ETL",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.etherlite.org"
     ],
@@ -1010,7 +969,6 @@
   {
     "name": "IPOS Network",
     "chain": "IPOS",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.iposlab.com",
       "https://rpc2.iposlab.com"
@@ -1029,7 +987,6 @@
   {
     "name": "Palm Testnet",
     "chain": "Palm",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1045,7 +1002,6 @@
   {
     "name": "Palm Mainnet",
     "chain": "Palm",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1061,7 +1017,6 @@
   {
     "name": "MathChain",
     "chain": "MATH",
-    "network": "mainnet",
     "rpc": [
       "https://mathchain-asia.maiziqianbao.net/rpc",
       "https://mathchain-us.maiziqianbao.net/rpc"
@@ -1080,7 +1035,6 @@
   {
     "name": "MathChain Testnet",
     "chain": "MATH",
-    "network": "testnet",
     "rpc": [
       "https://galois-hk.maiziqianbao.net/rpc"
     ],
@@ -1100,7 +1054,6 @@
   {
     "name": "Metadium Testnet",
     "chain": "META",
-    "network": "testnet",
     "rpc": [
       "https://api.metadium.com/dev"
     ],
@@ -1118,7 +1071,6 @@
   {
     "name": "World Trade Technical Chain Mainnet",
     "chain": "WTT",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.cadaut.com",
       "wss://rpc.cadaut.com/ws"
@@ -1144,7 +1096,6 @@
   {
     "name": "Singularity ZERO Testnet",
     "chain": "ZERO",
-    "network": "testnet",
     "rpc": [
       "https://betaenv.singularity.gold:18545"
     ],
@@ -1171,7 +1122,6 @@
   {
     "name": "Singularity ZERO Mainnet",
     "chain": "ZERO",
-    "network": "mainnet",
     "rpc": [
       "https://zerorpc.singularity.gold"
     ],
@@ -1199,7 +1149,6 @@
   {
     "name": "Popcateum Mainnet",
     "chain": "POPCATEUM",
-    "network": "mainnet",
     "rpc": [
       "https://dataseed.popcateum.org"
     ],
@@ -1224,7 +1173,6 @@
   {
     "name": "Fuse Mainnet",
     "chain": "FUSE",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.fuse.io"
     ],
@@ -1242,7 +1190,6 @@
   {
     "name": "Fuse Sparknet",
     "chain": "fuse",
-    "network": "testnet",
     "rpc": [
       "https://rpc.fusespark.io"
     ],
@@ -1263,7 +1210,6 @@
     "name": "Decentralized Web Mainnet",
     "shortName": "dwu",
     "chain": "DWU",
-    "network": "mainnet",
     "chainId": 124,
     "networkId": 124,
     "rpc": [
@@ -1280,7 +1226,6 @@
   {
     "name": "Factory 127 Mainnet",
     "chain": "FETH",
-    "network": "factory127 mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1297,7 +1242,6 @@
   {
     "name": "Huobi ECO Chain Mainnet",
     "chain": "Heco",
-    "network": "mainnet",
     "rpc": [
       "https://http-mainnet.hecochain.com",
       "wss://ws-mainnet.hecochain.com"
@@ -1326,7 +1270,6 @@
   {
     "name": "HALO Mainnet",
     "chain": "HALO",
-    "network": "mainnet",
     "rpc": [
       "https://nodes.halo.land"
     ],
@@ -1351,7 +1294,6 @@
   {
     "name": "Moonbeam",
     "chain": "MOON",
-    "network": "moonbeam",
     "rpc": [
       "https://rpc.api.moonbeam.network",
       "wss://wss.api.moonbeam.network"
@@ -1370,7 +1312,6 @@
   {
     "name": "Moonriver",
     "chain": "MOON",
-    "network": "moonriver",
     "rpc": [
       "https://rpc.moonriver.moonbeam.network",
       "wss://wss.moonriver.moonbeam.network"
@@ -1396,7 +1337,6 @@
   {
     "name": "Moonrock",
     "chain": "MOON",
-    "network": "moonrock",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1412,7 +1352,6 @@
   {
     "name": "Moonbase Alpha",
     "chain": "MOON",
-    "network": "moonbase",
     "rpc": [
       "https://rpc.api.moonbase.moonbeam.network",
       "wss://wss.api.moonbase.moonbeam.network"
@@ -1438,7 +1377,6 @@
   {
     "name": "Moonshadow",
     "chain": "MOON",
-    "network": "moonshadow",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1454,7 +1392,6 @@
   {
     "name": "Diode Testnet Staging",
     "chain": "DIODE",
-    "network": "testnet",
     "rpc": [
       "https://staging.diode.io:8443/",
       "wss://staging.diode.io:8443/ws"
@@ -1473,7 +1410,6 @@
   {
     "name": "Etho Protocol",
     "chain": "ETHO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.ether1.org"
     ],
@@ -1499,7 +1435,6 @@
   {
     "name": "Aurora MainNet",
     "chain": "NEAR",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.aurora.dev"
     ],
@@ -1517,7 +1452,6 @@
   {
     "name": "Aurora TestNet",
     "chain": "NEAR",
-    "network": "testnet",
     "rpc": [
       "https://testnet.aurora.dev/"
     ],
@@ -1535,7 +1469,6 @@
   {
     "name": "Aurora BetaNet",
     "chain": "NEAR",
-    "network": "betanet",
     "rpc": [
       "https://betanet.aurora.dev/"
     ],
@@ -1553,7 +1486,6 @@
   {
     "name": "Xerom",
     "chain": "XERO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.xerom.org"
     ],
@@ -1571,7 +1503,6 @@
   {
     "name": "PepChain Churchill",
     "chain": "PEP",
-    "network": "testnet",
     "rpc": [
       "https://churchill-rpc.pepchain.io"
     ],
@@ -1590,7 +1521,6 @@
     "name": "Kintsugi",
     "title": "Kintsugi merge testnet",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://rpc.kintsugi.themerge.dev"
     ],
@@ -1617,7 +1547,6 @@
   {
     "name": "Polygon Mainnet",
     "chain": "Polygon",
-    "network": "mainnet",
     "rpc": [
       "https://polygon-rpc.com/",
       "https://rpc-mainnet.matic.network",
@@ -1648,7 +1577,6 @@
   {
     "name": "Flare Mainnet",
     "chain": "FLR",
-    "network": "flare",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -1664,7 +1592,6 @@
   {
     "name": "DAX CHAIN",
     "chain": "DAX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.prodax.io"
     ],
@@ -1682,7 +1609,6 @@
   {
     "name": "Diode Prenet",
     "chain": "DIODE",
-    "network": "mainnet",
     "rpc": [
       "https://prenet.diode.io:8443/",
       "wss://prenet.diode.io:8443/ws"
@@ -1701,7 +1627,6 @@
   {
     "name": "Flare Testnet Coston",
     "chain": "FLR",
-    "network": "coston",
     "rpc": [],
     "faucets": [
       "https://faucet.towolabs.com"
@@ -1719,7 +1644,6 @@
   {
     "name": "MetaDot Mainnet",
     "chain": "MTT",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.metadot.network"
     ],
@@ -1737,7 +1661,6 @@
   {
     "name": "MetaDot Testnet",
     "chain": "MTTTest",
-    "network": "devnet",
     "rpc": [
       "https://testnet.metadot.network"
     ],
@@ -1757,7 +1680,6 @@
   {
     "name": "Catecoin Chain Mainnet",
     "chain": "Catechain",
-    "network": "mainnet",
     "rpc": [
       "https://send.catechain.com"
     ],
@@ -1775,7 +1697,6 @@
   {
     "name": "Lightstreams Testnet",
     "chain": "PHT",
-    "network": "sirius",
     "rpc": [
       "https://node.sirius.lightstreams.io"
     ],
@@ -1795,7 +1716,6 @@
   {
     "name": "Atheios",
     "chain": "ATH",
-    "network": "mainnet",
     "rpc": [
       "https://wallet.atheios.com:8797"
     ],
@@ -1814,7 +1734,6 @@
   {
     "name": "Lightstreams Mainnet",
     "chain": "PHT",
-    "network": "mainnet",
     "rpc": [
       "https://node.mainnet.lightstreams.io"
     ],
@@ -1832,7 +1751,6 @@
   {
     "name": "Btachain",
     "chain": "btachain",
-    "network": "mainnet",
     "rpc": [
       "https://dataseed1.btachain.com/"
     ],
@@ -1850,7 +1768,6 @@
   {
     "name": "Harmony Mainnet Shard 0",
     "chain": "Harmony",
-    "network": "mainnet",
     "rpc": [
       "https://api.harmony.one"
     ],
@@ -1877,7 +1794,6 @@
   {
     "name": "Harmony Mainnet Shard 1",
     "chain": "Harmony",
-    "network": "mainnet",
     "rpc": [
       "https://s1.api.harmony.one"
     ],
@@ -1895,7 +1811,6 @@
   {
     "name": "Harmony Mainnet Shard 2",
     "chain": "Harmony",
-    "network": "mainnet",
     "rpc": [
       "https://s2.api.harmony.one"
     ],
@@ -1913,7 +1828,6 @@
   {
     "name": "Harmony Mainnet Shard 3",
     "chain": "Harmony",
-    "network": "mainnet",
     "rpc": [
       "https://s3.api.harmony.one"
     ],
@@ -1931,7 +1845,6 @@
   {
     "name": "Harmony Testnet Shard 0",
     "chain": "Harmony",
-    "network": "testnet",
     "rpc": [
       "https://api.s0.b.hmny.io"
     ],
@@ -1958,7 +1871,6 @@
   {
     "name": "Harmony Testnet Shard 1",
     "chain": "Harmony",
-    "network": "testnet",
     "rpc": [
       "https://api.s1.b.hmny.io"
     ],
@@ -1976,7 +1888,6 @@
   {
     "name": "Harmony Testnet Shard 2",
     "chain": "Harmony",
-    "network": "testnet",
     "rpc": [
       "https://api.s2.b.hmny.io"
     ],
@@ -1994,7 +1905,6 @@
   {
     "name": "Harmony Testnet Shard 3",
     "chain": "Harmony",
-    "network": "testnet",
     "rpc": [
       "https://api.s3.b.hmny.io"
     ],
@@ -2012,7 +1922,6 @@
   {
     "name": "ThaiChain 2.0 ThaiFi",
     "chain": "TCH",
-    "network": "thaifi",
     "rpc": [
       "https://rpc.thaifi.com"
     ],
@@ -2030,7 +1939,6 @@
   {
     "name": "HOO Smart Chain Testnet",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://http-testnet.hoosmartchain.com"
     ],
@@ -2050,7 +1958,6 @@
   {
     "name": "Latam-Blockchain Resil Testnet",
     "chain": "Resil",
-    "network": "testnet",
     "rpc": [
       "https://rpc.latam-blockchain.com",
       "wss://ws.latam-blockchain.com"
@@ -2071,7 +1978,6 @@
   {
     "name": "ThunderCore Testnet",
     "chain": "TST",
-    "network": "testnet",
     "rpc": [
       "https://testnet-rpc.thundercore.com"
     ],
@@ -2091,7 +1997,6 @@
   {
     "name": "IOLite",
     "chain": "ILT",
-    "network": "mainnet",
     "rpc": [
       "https://net.iolite.io"
     ],
@@ -2109,7 +2014,6 @@
   {
     "name": "Teslafunds",
     "chain": "TSF",
-    "network": "mainnet",
     "rpc": [
       "https://tsfapi.europool.me"
     ],
@@ -2127,7 +2031,6 @@
   {
     "name": "Seele Mainnet",
     "chain": "Seele",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.seelen.pro/"
     ],
@@ -2152,7 +2055,6 @@
   {
     "name": "BMC Mainnet",
     "chain": "BMC",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.bmcchain.com/"
     ],
@@ -2177,7 +2079,6 @@
   {
     "name": "BMC Testnet",
     "chain": "BMC",
-    "network": "testnet",
     "rpc": [
       "https://testnet.bmcchain.com"
     ],
@@ -2202,7 +2103,6 @@
   {
     "name": "Songbird Canary-Network",
     "chain": "SGB",
-    "network": "songbird",
     "rpc": [
       "https://songbird.towolabs.com/rpc",
       "https://sgb.ftso.com.au/ext/bc/C/rpc",
@@ -2230,7 +2130,6 @@
   {
     "name": "Gather Mainnet Network",
     "chain": "GTH",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.gather.network"
     ],
@@ -2255,7 +2154,6 @@
   {
     "name": "Ntity Mainnet",
     "chain": "Ntity",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.ntity.io"
     ],
@@ -2282,7 +2180,6 @@
   {
     "name": "Haradev Testnet",
     "chain": "Ntity",
-    "network": "testnet",
     "rpc": [
       "https://blockchain.haradev.com"
     ],
@@ -2309,7 +2206,6 @@
   {
     "name": "BTCIX Network",
     "chain": "BTCIX",
-    "network": "mainnet",
     "rpc": [
       "https://seed.btcix.org/rpc"
     ],
@@ -2334,7 +2230,6 @@
   {
     "name": "EtherGem",
     "chain": "EGEM",
-    "network": "mainnet",
     "rpc": [
       "https://jsonrpc.egem.io/custom"
     ],
@@ -2353,7 +2248,6 @@
   {
     "name": "BitTorrent Chain Mainnet",
     "chain": "BTTC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.bittorrentchain.io/"
     ],
@@ -2378,7 +2272,6 @@
   {
     "name": "Expanse Network",
     "chain": "EXP",
-    "network": "mainnet",
     "rpc": [
       "https://node.expanse.tech"
     ],
@@ -2397,7 +2290,6 @@
   {
     "name": "ELA-ETH-Sidechain Mainnet",
     "chain": "ETH",
-    "network": "mainnet",
     "rpc": [
       "https://mainrpc.elaeth.io"
     ],
@@ -2415,7 +2307,6 @@
   {
     "name": "Arbitrum on xDai",
     "chain": "AOX",
-    "network": "xdai",
     "rpc": [
       "https://arbitrum.xdaichain.com/"
     ],
@@ -2444,7 +2335,6 @@
   {
     "name": "Akroma",
     "chain": "AKA",
-    "network": "mainnet",
     "rpc": [
       "https://remote.akroma.io"
     ],
@@ -2463,7 +2353,6 @@
   {
     "name": "Alaya Mainnet",
     "chain": "Alaya",
-    "network": "mainnet",
     "rpc": [
       "https://openapi.alaya.network/rpc",
       "wss://openapi.alaya.network/ws"
@@ -2490,7 +2379,6 @@
   {
     "name": "Alaya Dev Testnet",
     "chain": "Alaya",
-    "network": "testnet",
     "rpc": [
       "https://devnetopenapi.alaya.network/rpc",
       "wss://devnetopenapi.alaya.network/ws"
@@ -2519,7 +2407,6 @@
   {
     "name": "quarkblockchain",
     "chain": "QKI",
-    "network": "mainnet",
     "rpc": [
       "https://hz.rpc.qkiscan.cn",
       "https://jp.rpc.qkiscan.io"
@@ -2538,7 +2425,6 @@
   {
     "name": "420coin",
     "chain": "420",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -2554,7 +2440,6 @@
   {
     "name": "Edgeware Mainnet",
     "chain": "EDG",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet1.edgewa.re"
     ],
@@ -2572,7 +2457,6 @@
   {
     "name": "DataHopper",
     "chain": "HOP",
-    "network": "hopnet",
     "rpc": [
       "https://23.92.21.121:8545"
     ],
@@ -2590,7 +2474,6 @@
   {
     "name": "Beresheet Testnet",
     "chain": "EDG",
-    "network": "beresheet",
     "rpc": [
       "https://beresheet1.edgewa.re"
     ],
@@ -2608,7 +2491,6 @@
   {
     "name": "Rangers Protocol Mainnet",
     "chain": "Rangers",
-    "network": "mainnet",
     "icon": "rangers",
     "rpc": [
       "https://mainnet.rangersprotocol.com/api/jsonrpc"
@@ -2635,7 +2517,6 @@
   {
     "name": "ELA-ETH-Sidechain Testnet",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://rpc.elaeth.io"
     ],
@@ -2655,7 +2536,6 @@
   {
     "name": "Ecoball Mainnet",
     "chain": "ECO",
-    "network": "mainnet",
     "rpc": [
       "https://api.ecoball.org/ecoball/"
     ],
@@ -2680,7 +2560,6 @@
   {
     "name": "Ecoball Testnet Espuma",
     "chain": "ECO",
-    "network": "espuma",
     "rpc": [
       "https://api.ecoball.org/espuma/"
     ],
@@ -2705,7 +2584,6 @@
   {
     "name": "PlatON Dev Testnet",
     "chain": "PlatON",
-    "network": "testnet",
     "rpc": [
       "https://devnetopenapi.platon.network/rpc",
       "wss://devnetopenapi.platon.network/ws"
@@ -2734,7 +2612,6 @@
   {
     "name": "Freight Trust Network",
     "chain": "EDI",
-    "network": "freight & trade network",
     "rpc": [
       "http://13.57.207.168:3435",
       "https://app.freighttrust.net/ftn/${API_KEY}"
@@ -2755,7 +2632,6 @@
   {
     "name": "ELA-DID-Sidechain Mainnet",
     "chain": "ETH",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -2771,7 +2647,6 @@
   {
     "name": "Permission",
     "chain": "ASK",
-    "network": "ASK",
     "rpc": [
       "https://blockchain-api-mainnet.permission.io/rpc"
     ],
@@ -2790,7 +2665,6 @@
   {
     "name": "ELA-DID-Sidechain Testnet",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -2806,7 +2680,6 @@
   {
     "name": "Dithereum Mainnet",
     "chain": "DTH",
-    "network": "mainnet",
     "icon": "dithereum",
     "rpc": [
       "https://node-mainnet.dithereum.io"
@@ -2827,7 +2700,6 @@
   {
     "name": "Webchain",
     "chain": "WEB",
-    "network": "mainnet",
     "rpc": [
       "https://node1.webchain.network"
     ],
@@ -2846,7 +2718,6 @@
   {
     "name": "Neon EVM DevNet",
     "chain": "Solana",
-    "network": "devnet",
     "rpc": [
       "https://proxy.devnet.neonlabs.org/solana"
     ],
@@ -2866,7 +2737,6 @@
   {
     "name": "Neon EVM MainNet",
     "chain": "Solana",
-    "network": "mainnet",
     "rpc": [
       "https://proxy.mainnet.neonlabs.org/solana"
     ],
@@ -2884,7 +2754,6 @@
   {
     "name": "Neon EVM TestNet",
     "chain": "Solana",
-    "network": "testnet",
     "rpc": [
       "https://proxy.testnet.neonlabs.org/solana"
     ],
@@ -2902,7 +2771,6 @@
   {
     "name": "Energy Web Chain",
     "chain": "Energy Web Chain",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.energyweb.org",
       "wss://rpc.energyweb.org/ws"
@@ -2932,7 +2800,6 @@
   {
     "name": "ARTIS sigma1",
     "chain": "ARTIS",
-    "network": "sigma1",
     "rpc": [
       "https://rpc.sigma1.artis.network"
     ],
@@ -2951,7 +2818,6 @@
   {
     "name": "ARTIS Testnet tau1",
     "chain": "ARTIS",
-    "network": "tau1",
     "rpc": [
       "https://rpc.tau1.artis.network"
     ],
@@ -2969,7 +2835,6 @@
   {
     "name": "MintMe.com Coin",
     "chain": "MINTME",
-    "network": "mainnet",
     "rpc": [
       "https://node1.mintme.com"
     ],
@@ -2987,7 +2852,6 @@
   {
     "name": "Cronos Mainnet Beta",
     "chain": "CRO",
-    "network": "mainnet",
     "rpc": [
       "https://evm-cronos.crypto.org"
     ],
@@ -3012,7 +2876,6 @@
   {
     "name": "Fantom Opera",
     "chain": "FTM",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.ftm.tools"
     ],
@@ -3041,7 +2904,6 @@
   {
     "name": "Kortho Mainnet",
     "chain": "Kortho Chain",
-    "network": "mainnet",
     "rpc": [
       "https://www.kortho-chain.com"
     ],
@@ -3059,7 +2921,6 @@
   {
     "name": "Huobi ECO Chain Testnet",
     "chain": "Heco",
-    "network": "testnet",
     "rpc": [
       "https://http-testnet.hecochain.com",
       "wss://ws-testnet.hecochain.com"
@@ -3080,7 +2941,6 @@
   {
     "name": "Genesis L1 testnet",
     "chain": "genesis",
-    "network": "testnet",
     "rpc": [
       "https://testrpc.genesisl1.org"
     ],
@@ -3105,7 +2965,6 @@
   {
     "name": "SUR Blockchain Network",
     "chain": "SUR",
-    "network": "mainnet",
     "rpc": [
       "https://sur.nilin.org"
     ],
@@ -3132,7 +2991,6 @@
   {
     "name": "High Performance Blockchain",
     "chain": "HPB",
-    "network": "mainnet",
     "rpc": [
       "https://hpbnode.com",
       "wss://ws.hpbnode.com"
@@ -3161,7 +3019,6 @@
   {
     "name": "ShibaChain",
     "chain": "SHIB",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.shibachain.net"
     ],
@@ -3186,7 +3043,6 @@
   {
     "name": "Boba Network Rinkeby Testnet",
     "chain": "ETH",
-    "network": "rinkeby",
     "rpc": [
       "https://rinkeby.boba.network/"
     ],
@@ -3220,7 +3076,6 @@
   {
     "name": "Social Smart Chain Mainnet",
     "chain": "SoChain",
-    "network": "mainnet",
     "rpc": [
       "https://socialsmartchain.digitalnext.business"
     ],
@@ -3239,7 +3094,6 @@
   {
     "name": "Boba Network",
     "chain": "ETH",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.boba.network/"
     ],
@@ -3273,7 +3127,6 @@
   {
     "name": "Auxilium Network Mainnet",
     "chain": "AUX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.auxilium.global"
     ],
@@ -3292,7 +3145,6 @@
   {
     "name": "Genesis L1",
     "chain": "genesis",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.genesisl1.org"
     ],
@@ -3317,7 +3169,6 @@
   {
     "name": "Ethereum Testnet Ropsten",
     "chain": "ETH",
-    "network": "ropsten",
     "rpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
       "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -3341,7 +3192,6 @@
   {
     "name": "RSK Mainnet",
     "chain": "RSK",
-    "network": "mainnet",
     "rpc": [
       "https://public-node.rsk.co",
       "https://mycrypto.rsk.co"
@@ -3370,7 +3220,6 @@
   {
     "name": "RSK Testnet",
     "chain": "RSK",
-    "network": "testnet",
     "rpc": [
       "https://public-node.testnet.rsk.co",
       "https://mycrypto.testnet.rsk.co"
@@ -3391,7 +3240,6 @@
   {
     "name": "Ethersocial Network",
     "chain": "ESN",
-    "network": "mainnet",
     "rpc": [
       "https://api.esn.gonspool.com"
     ],
@@ -3410,7 +3258,6 @@
   {
     "name": "OneLedger Mainnet",
     "chain": "OLT",
-    "network": "mainnet",
     "icon": "oneledger",
     "rpc": [
       "https://mainnet-rpc.oneledger.network"
@@ -3436,7 +3283,6 @@
   {
     "name": "Pirl",
     "chain": "PIRL",
-    "network": "mainnet",
     "rpc": [
       "https://wallrpc.pirl.io"
     ],
@@ -3455,7 +3301,6 @@
   {
     "name": "GoChain Testnet",
     "chain": "GO",
-    "network": "testnet",
     "rpc": [
       "https://testnet-rpc.gochain.io"
     ],
@@ -3481,7 +3326,6 @@
   {
     "name": "GoodData Testnet",
     "chain": "GooD",
-    "network": "testnet",
     "rpc": [
       "https://test2.goodata.io"
     ],
@@ -3499,7 +3343,6 @@
   {
     "name": "KCC Mainnet",
     "chain": "KCC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-mainnet.kcc.network",
       "wss://rpc-ws-mainnet.kcc.network"
@@ -3525,7 +3368,6 @@
   {
     "name": "KCC Testnet",
     "chain": "KCC",
-    "network": "testnet",
     "rpc": [
       "https://rpc-testnet.kcc.network",
       "wss://rpc-ws-testnet.kcc.network"
@@ -3553,7 +3395,6 @@
   {
     "name": "Fusion Mainnet",
     "chain": "FSN",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.anyswap.exchange",
       "https://fsn.dev/api"
@@ -3572,7 +3413,6 @@
   {
     "name": "GoodData Mainnet",
     "chain": "GooD",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.goodata.io"
     ],
@@ -3590,7 +3430,6 @@
   {
     "name": "ZCore Testnet",
     "chain": "Beach",
-    "network": "testnet",
     "icon": "zcore",
     "rpc": [
       "https://rpc-testnet.zcore.cash"
@@ -3611,7 +3450,6 @@
   {
     "name": "Polis Testnet",
     "chain": "Sparta",
-    "network": "testnet",
     "icon": "polis",
     "rpc": [
       "https://sparta-rpc.polis.tech"
@@ -3632,7 +3470,6 @@
   {
     "name": "Polis Mainnet",
     "chain": "Olympus",
-    "network": "mainnet",
     "icon": "polis",
     "rpc": [
       "https://rpc.polis.tech"
@@ -3653,7 +3490,6 @@
   {
     "name": "Shiden",
     "chain": "SDN",
-    "network": "shiden",
     "rpc": [
       "https://rpc.shiden.astar.network:8545",
       "wss://shiden.api.onfinality.io/public-ws"
@@ -3679,7 +3515,6 @@
   {
     "name": "Cronos Testnet",
     "chain": "CRO",
-    "network": "testnet",
     "rpc": [
       "https://cronos-testnet-3.crypto.org:8545",
       "wss://cronos-testnet-3.crypto.org:8546"
@@ -3707,7 +3542,6 @@
   {
     "name": "Dithereum Testnet",
     "chain": "DTH",
-    "network": "testnet",
     "icon": "dithereum",
     "rpc": [
       "https://node-testnet.dithereum.io"
@@ -3728,7 +3562,6 @@
   {
     "name": "TBWG Chain",
     "chain": "TBWG",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.tbwg.io"
     ],
@@ -3746,7 +3579,6 @@
   {
     "name": "Gather Tesnet Network",
     "chain": "GTH",
-    "network": "testnet",
     "rpc": [
       "https://testnet.gather.network"
     ],
@@ -3771,7 +3603,6 @@
   {
     "name": "Joys Digital Mainnet",
     "chain": "JOYS",
-    "network": "mainnet",
     "rpc": [
       "https://node.joys.digital"
     ],
@@ -3789,7 +3620,6 @@
   {
     "name": "Theta Mainnet",
     "chain": "Theta",
-    "network": "mainnet",
     "rpc": [
       "https://eth-rpc-api.thetatoken.org/rpc"
     ],
@@ -3814,7 +3644,6 @@
   {
     "name": "Theta Sapphire Testnet",
     "chain": "Theta",
-    "network": "testnet_sapphire",
     "rpc": [
       "https://eth-rpc-api-sapphire.thetatoken.org/rpc"
     ],
@@ -3839,7 +3668,6 @@
   {
     "name": "Theta Amber Testnet",
     "chain": "Theta",
-    "network": "testnet_amber",
     "rpc": [
       "https://eth-rpc-api-amber.thetatoken.org/rpc"
     ],
@@ -3864,7 +3692,6 @@
   {
     "name": "Theta Testnet",
     "chain": "Theta",
-    "network": "testnet",
     "rpc": [
       "https://eth-rpc-api-testnet.thetatoken.org/rpc"
     ],
@@ -3890,7 +3717,6 @@
     "name": "PulseChain Mainnet",
     "shortName": "pls",
     "chain": "PLS",
-    "network": "mainnet",
     "chainId": 369,
     "networkId": 369,
     "infoURL": "https://pulsechain.com/",
@@ -3908,7 +3734,6 @@
   {
     "name": "Bittex Mainnet",
     "chain": "BTX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc1.bittexscan.info",
       "https://rpc2.bittexscan.info"
@@ -3936,7 +3761,6 @@
   {
     "name": "Valorbit",
     "chain": "VAL",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.valorbit.com/v2"
     ],
@@ -3955,7 +3779,6 @@
   {
     "name": "Lisinski",
     "chain": "CRO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-bitfalls1.lisinski.online"
     ],
@@ -3975,7 +3798,6 @@
   {
     "name": "Energi Mainnet",
     "chain": "NRG",
-    "network": "mainnet",
     "rpc": [
       "https://nodeapi.energi.network"
     ],
@@ -3992,9 +3814,9 @@
     "slip44": 39797
   },
   {
-    "name": "Ethereum Testnet Rinkeby",
+    "name": "Rinkeby",
+    "title": "Ethereum Testnet Rinkeby",
     "chain": "ETH",
-    "network": "rinkeby",
     "rpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -4025,7 +3847,6 @@
   {
     "name": "Telos EVM Mainnet",
     "chain": "TLOS",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.telos.net/evm"
     ],
@@ -4050,7 +3871,6 @@
   {
     "name": "Fantom Testnet",
     "chain": "FTM",
-    "network": "testnet",
     "rpc": [
       "https://rpc.testnet.fantom.network"
     ],
@@ -4079,7 +3899,6 @@
   {
     "name": "Telos EVM Testnet",
     "chain": "TLOS",
-    "network": "testnet",
     "rpc": [
       "https://testnet.telos.net/evm"
     ],
@@ -4097,9 +3916,9 @@
     "networkId": 41
   },
   {
-    "name": "Ethereum Testnet Kovan",
+    "name": "Kovan",
+    "title": "Ethereum Testnet Kovan",
     "chain": "ETH",
-    "network": "kovan",
     "rpc": [
       "https://kovan.poa.network",
       "http://kovan.poa.network:8545",
@@ -4116,6 +3935,13 @@
       "symbol": "KOV",
       "decimals": 18
     },
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://kovan.etherscan.io",
+        "standard": "EIP3091"
+      }
+    ],
     "infoURL": "https://kovan-testnet.github.io/website",
     "shortName": "kov",
     "chainId": 42,
@@ -4124,7 +3950,6 @@
   {
     "name": "Optimistic Ethereum Testnet Goerli",
     "chain": "ETH",
-    "network": "goerli",
     "rpc": [
       "https://goerli.optimism.io/"
     ],
@@ -4142,7 +3967,6 @@
   {
     "name": "pegglecoin",
     "chain": "42069",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -4160,7 +3984,6 @@
     "chainId": 42161,
     "shortName": "arb1",
     "chain": "ETH",
-    "network": "mainnet",
     "networkId": 42161,
     "nativeCurrency": {
       "name": "Ether",
@@ -4198,11 +4021,11 @@
     }
   },
   {
-    "name": "Arbitrum Testnet Rinkeby",
+    "name": "Arbitrum Rinkeby",
+    "title": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,
     "shortName": "arb-rinkeby",
     "chain": "ETH",
-    "network": "rinkeby",
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Rinkeby Ether",
@@ -4235,7 +4058,6 @@
   {
     "name": "OneLedger Testnet Frankenstein",
     "chain": "OLT",
-    "network": "testnet",
     "icon": "oneledger",
     "rpc": [
       "https://frankenstein-rpc.oneledger.network"
@@ -4265,7 +4087,6 @@
     "chainId": 42220,
     "shortName": "CELO",
     "chain": "CELO",
-    "network": "Mainnet",
     "networkId": 42220,
     "nativeCurrency": {
       "name": "CELO",
@@ -4291,7 +4112,6 @@
   {
     "name": "Emerald Paratime Testnet",
     "chain": "Emerald",
-    "network": "testnet",
     "icon": "oasis",
     "rpc": [
       "https://testnet.emerald.oasis.dev/",
@@ -4318,7 +4138,6 @@
   {
     "name": "Emerald Paratime Mainnet",
     "chain": "Emerald",
-    "network": "Mainnet",
     "icon": "oasis",
     "rpc": [
       "https://emerald.oasis.dev",
@@ -4345,7 +4164,6 @@
   {
     "name": "Darwinia Pangolin Testnet",
     "chain": "pangolin",
-    "network": "free testnet",
     "rpc": [
       "http://pangolin-rpc.darwinia.network"
     ],
@@ -4372,7 +4190,6 @@
   {
     "name": "Athereum",
     "chain": "ATH",
-    "network": "athereum",
     "rpc": [
       "https://ava.network:21015/ext/evm/rpc"
     ],
@@ -4392,7 +4209,6 @@
   {
     "name": "Avalanche Fuji Testnet",
     "chain": "AVAX",
-    "network": "testnet",
     "rpc": [
       "https://api.avax-test.network/ext/bc/C/rpc"
     ],
@@ -4419,7 +4235,6 @@
   {
     "name": "Avalanche Mainnet",
     "chain": "AVAX",
-    "network": "mainnet",
     "rpc": [
       "https://api.avax.network/ext/bc/C/rpc"
     ],
@@ -4447,7 +4262,6 @@
   {
     "name": "Darwinia Crab Network",
     "chain": "crab",
-    "network": "Crab network",
     "rpc": [
       "http://crab-rpc.darwinia.network"
     ],
@@ -4474,7 +4288,6 @@
     "chainId": 44787,
     "shortName": "ALFA",
     "chain": "CELO",
-    "network": "Alfajores",
     "networkId": 44787,
     "nativeCurrency": {
       "name": "CELO",
@@ -4494,7 +4307,6 @@
   {
     "name": "IoTeX Network Mainnet",
     "chain": "iotex.io",
-    "network": "mainnet",
     "rpc": [
       "https://babel-api.mainnet.iotex.io"
     ],
@@ -4519,7 +4331,6 @@
   {
     "name": "IoTeX Network Testnet",
     "chain": "iotex.io",
-    "network": "testnet",
     "rpc": [
       "https://babel-api.testnet.iotex.io"
     ],
@@ -4546,7 +4357,6 @@
   {
     "name": "Gather Devnet Network",
     "chain": "GTH",
-    "network": "devnet",
     "rpc": [
       "https://devnet.gather.network"
     ],
@@ -4571,7 +4381,6 @@
   {
     "name": "Energi Testnet",
     "chain": "NRG",
-    "network": "testnet",
     "rpc": [
       "https://nodeapi.test.energi.network"
     ],
@@ -4590,7 +4399,6 @@
   {
     "name": "Rupaya",
     "chain": "RUPX",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -4609,9 +4417,9 @@
     "title": "Ethereum Testnet Görli",
     "chain": "ETH",
     "rpc": [
-      "https://rpc.goerli.mudit.blog/",
-      "https://rpc.slock.it/goerli",
-      "https://goerli.prylabs.net/"
+      "https://goerli.infura.io/v3/${INFURA_API_KEY}",
+      "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
+      "https://rpc.goerli.mudit.blog/"
     ],
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
@@ -4640,7 +4448,6 @@
   {
     "name": "XinFin Network Mainnet",
     "chain": "XDC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.xinfin.network"
     ],
@@ -4658,7 +4465,6 @@
   {
     "name": "XinFin Apothem Testnet",
     "chain": "TXDC",
-    "network": "testnet",
     "rpc": [
       "https://rpc.apothem.network"
     ],
@@ -4676,7 +4482,6 @@
   {
     "name": "EraSwap Mainnet",
     "chain": "ESN",
-    "network": "mainnet",
     "icon": "eraswap",
     "rpc": [
       "https://mainnet.eraswap.network",
@@ -4696,7 +4501,6 @@
   {
     "name": "CoinEx Smart Chain Mainnet",
     "chain": "CSC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.coinex.net"
     ],
@@ -4721,7 +4525,6 @@
   {
     "name": "CoinEx Smart Chain Testnet",
     "chain": "CSC",
-    "network": "testnet",
     "rpc": [
       "https://testnet-rpc.coinex.net/"
     ],
@@ -4746,7 +4549,6 @@
   {
     "name": "Uzmi Network Mainnet",
     "chain": "UZMI",
-    "network": "mainnet",
     "rpc": [
       "https://network.uzmigames.com.br/"
     ],
@@ -4764,7 +4566,6 @@
   {
     "name": "Zyx Mainnet",
     "chain": "ZYX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-1.zyx.network/",
       "https://rpc-2.zyx.network/",
@@ -4794,7 +4595,6 @@
   {
     "name": "Tao Network",
     "chain": "TAO",
-    "network": "core",
     "rpc": [
       "https://rpc.testnet.tao.network",
       "http://rpc.testnet.tao.network:8545",
@@ -4815,7 +4615,6 @@
   {
     "name": "Binance Smart Chain Mainnet",
     "chain": "BSC",
-    "network": "mainnet",
     "rpc": [
       "https://bsc-dataseed1.binance.org",
       "https://bsc-dataseed2.binance.org",
@@ -4855,7 +4654,6 @@
   {
     "name": "Syscoin Mainnet",
     "chain": "SYS",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.syscoin.org",
       "wss://rpc.syscoin.org/wss"
@@ -4883,7 +4681,6 @@
   {
     "name": "Syscoin Tanenbaum Testnet",
     "chain": "SYS",
-    "network": "testnet",
     "rpc": [
       "https://rpc.tanenbaum.io",
       "wss://rpc.tanenbaum.io/wss"
@@ -4911,7 +4708,6 @@
   {
     "name": "Ontology Mainnet",
     "chain": "Ontology",
-    "network": "mainnet",
     "rpc": [
       "https://dappnode1.ont.io:20339",
       "https://dappnode2.ont.io:20339",
@@ -4939,7 +4735,6 @@
   {
     "name": "Ontology Testnet",
     "chain": "Ontology",
-    "network": "testnet",
     "rpc": [
       "https://polaris1.ont.io:20339",
       "https://polaris2.ont.io:20339",
@@ -4969,7 +4764,6 @@
   {
     "name": "Wegochain Rubidium Mainnet",
     "chain": "RBD",
-    "network": "mainnet",
     "rpc": [
       "https://proxy.wegochain.io",
       "http://wallet.wegochain.io:7764"
@@ -4988,7 +4782,6 @@
   {
     "name": "Metis Stardust Testnet",
     "chain": "ETH",
-    "network": "rinkeby",
     "rpc": [
       "https://stardust.metis.io/?owner=588"
     ],
@@ -5022,7 +4815,6 @@
   {
     "name": "EOS Mainnet",
     "chain": "EOS",
-    "network": "mainnet",
     "rpc": [
       "https://api.eosargentina.io"
     ],
@@ -5047,7 +4839,6 @@
   {
     "name": "Acala Mandala Testnet",
     "chain": "mACA",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5063,7 +4854,6 @@
   {
     "name": "Ethereum Classic Testnet Kotti",
     "chain": "ETC",
-    "network": "kotti",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5079,7 +4869,6 @@
   {
     "name": "GoChain",
     "chain": "GO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.gochain.io"
     ],
@@ -5107,7 +4896,6 @@
   {
     "name": "Thinkium Testnet Chain 0",
     "chain": "Thinkium",
-    "network": "testnet",
     "rpc": [
       "https://test.thinkiumrpc.net/"
     ],
@@ -5134,7 +4922,6 @@
   {
     "name": "Thinkium Testnet Chain 1",
     "chain": "Thinkium",
-    "network": "testnet",
     "rpc": [
       "https://test1.thinkiumrpc.net/"
     ],
@@ -5161,7 +4948,6 @@
   {
     "name": "Thinkium Testnet Chain 2",
     "chain": "Thinkium",
-    "network": "testnet",
     "rpc": [
       "https://test2.thinkiumrpc.net/"
     ],
@@ -5188,7 +4974,6 @@
   {
     "name": "Thinkium Testnet Chain 103",
     "chain": "Thinkium",
-    "network": "testnet",
     "rpc": [
       "https://test103.thinkiumrpc.net/"
     ],
@@ -5215,7 +5000,6 @@
   {
     "name": "Molereum Network",
     "chain": "ETH",
-    "network": "molereum",
     "rpc": [
       "https://molereum.jdubedition.com"
     ],
@@ -5233,7 +5017,6 @@
   {
     "name": "Ethereum Classic Mainnet",
     "chain": "ETC",
-    "network": "mainnet",
     "rpc": [
       "https://ethereumclassic.network"
     ],
@@ -5261,7 +5044,6 @@
   {
     "name": "Aquachain",
     "chain": "AQUA",
-    "network": "mainnet",
     "rpc": [
       "https://c.onical.org",
       "https://tx.aquacha.in/api"
@@ -5283,7 +5065,6 @@
   {
     "name": "Ethereum Classic Testnet Morden",
     "chain": "ETC",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5301,7 +5082,6 @@
     "chainId": 62320,
     "shortName": "BKLV",
     "chain": "CELO",
-    "network": "Baklava",
     "networkId": 62320,
     "nativeCurrency": {
       "name": "CELO",
@@ -5320,7 +5100,6 @@
   {
     "name": "Ethereum Classic Testnet Mordor",
     "chain": "ETC",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5336,7 +5115,6 @@
   {
     "name": "Ellaism",
     "chain": "ELLA",
-    "network": "mainnet",
     "rpc": [
       "https://jsonrpc.ellaism.org"
     ],
@@ -5355,7 +5133,6 @@
   {
     "name": "OKExChain Testnet",
     "chain": "okexchain",
-    "network": "testnet",
     "rpc": [
       "https://exchaintestrpc.okex.org"
     ],
@@ -5382,7 +5159,6 @@
   {
     "name": "OKExChain Mainnet",
     "chain": "okexchain",
-    "network": "mainnet",
     "rpc": [
       "https://exchainrpc.okex.org"
     ],
@@ -5409,7 +5185,6 @@
   {
     "name": "Pixie Chain Mainnet",
     "chain": "PixieChain",
-    "network": "mainnet",
     "rpc": [
       "https://http-mainnet.chain.pixie.xyz",
       "wss://ws-mainnet.chain.pixie.xyz"
@@ -5435,7 +5210,6 @@
   {
     "name": "Pixie Chain Testnet",
     "chain": "PixieChain",
-    "network": "testnet",
     "rpc": [
       "https://http-testnet.chain.pixie.xyz",
       "wss://ws-testnet.chain.pixie.xyz"
@@ -5456,7 +5230,6 @@
   {
     "name": "DBChain Testnet",
     "chain": "DBM",
-    "network": "testnet",
     "rpc": [
       "http://test-rpc.dbmbp.com"
     ],
@@ -5474,7 +5247,6 @@
   {
     "name": "SoterOne Mainnet",
     "chain": "SOTER",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.soter.one"
     ],
@@ -5492,7 +5264,6 @@
   {
     "name": "Karura Network",
     "chain": "KAR",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5507,9 +5278,9 @@
     "slip44": 686
   },
   {
-    "name": "Optimistic Ethereum Testnet Kovan",
+    "name": "Optimistic Kovan",
+    "title": "Optimistic Ethereum Testnet Kovan",
     "chain": "ETH",
-    "network": "kovan",
     "rpc": [
       "https://kovan.optimism.io/"
     ],
@@ -5519,6 +5290,13 @@
       "symbol": "KOR",
       "decimals": 18
     },
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://kovan-optimistic.etherscan.io",
+        "standard": "EIP3091"
+      }
+    ],
     "infoURL": "https://optimism.io",
     "shortName": "okov",
     "chainId": 69,
@@ -5527,7 +5305,6 @@
   {
     "name": "ThaiChain",
     "chain": "TCH",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.dome.cloud"
     ],
@@ -5545,7 +5322,6 @@
   {
     "name": "Thinkium Mainnet Chain 0",
     "chain": "Thinkium",
-    "network": "mainnet",
     "rpc": [
       "https://proxy.thinkiumrpc.net/"
     ],
@@ -5570,7 +5346,6 @@
   {
     "name": "Thinkium Mainnet Chain 1",
     "chain": "Thinkium",
-    "network": "mainnet",
     "rpc": [
       "https://proxy1.thinkiumrpc.net/"
     ],
@@ -5595,7 +5370,6 @@
   {
     "name": "Thinkium Mainnet Chain 2",
     "chain": "Thinkium",
-    "network": "mainnet",
     "rpc": [
       "https://proxy2.thinkiumrpc.net/"
     ],
@@ -5620,7 +5394,6 @@
   {
     "name": "Thinkium Mainnet Chain 103",
     "chain": "Thinkium",
-    "network": "mainnet",
     "rpc": [
       "https://proxy103.thinkiumrpc.net/"
     ],
@@ -5645,7 +5418,6 @@
   {
     "name": "BlockChain Station Mainnet",
     "chain": "BCS",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-mainnet.bcsdev.io",
       "wss://rpc-ws-mainnet.bcsdev.io"
@@ -5671,7 +5443,6 @@
   {
     "name": "BlockChain Station Testnet",
     "chain": "BCS",
-    "network": "testnet",
     "rpc": [
       "https://rpc-testnet.bcsdev.io",
       "wss://rpc-ws-testnet.bcsdev.io"
@@ -5699,7 +5470,6 @@
   {
     "name": "Polyjuice Testnet",
     "chain": "CKB",
-    "network": "testnet",
     "icon": "polyjuice",
     "rpc": [
       "https://godwoken-testnet-web3-rpc.ckbapp.dev",
@@ -5721,7 +5491,6 @@
   {
     "name": "Factory 127 Testnet",
     "chain": "FETH",
-    "network": "factory127 testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5738,7 +5507,6 @@
   {
     "name": "Energy Web Volta Testnet",
     "chain": "Volta",
-    "network": "testnet",
     "rpc": [
       "https://volta-rpc.energyweb.org",
       "wss://volta-rpc.energyweb.org/ws"
@@ -5759,7 +5527,6 @@
   {
     "name": "Mix",
     "chain": "MIX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc2.mix-blockchain.org:8647"
     ],
@@ -5778,7 +5545,6 @@
   {
     "name": "POA Network Sokol",
     "chain": "POA",
-    "network": "sokol",
     "rpc": [
       "https://sokol.poa.network",
       "wss://sokol.poa.network/wss",
@@ -5807,7 +5573,6 @@
   {
     "name": "Musicoin",
     "chain": "MUSIC",
-    "network": "mainnet",
     "rpc": [
       "https://mewapi.musicoin.tw"
     ],
@@ -5826,7 +5591,6 @@
   {
     "name": "cheapETH",
     "chain": "cheapETH",
-    "network": "cheapnet",
     "rpc": [
       "https://node.cheapeth.org/rpc"
     ],
@@ -5844,7 +5608,6 @@
   {
     "name": "PrimusChain mainnet",
     "chain": "PC",
-    "network": "mainnet",
     "rpc": [
       "https://ethnode.primusmoney.com/mainnet"
     ],
@@ -5862,7 +5625,6 @@
   {
     "name": "Firenze test network",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://ethnode.primusmoney.com/firenze"
     ],
@@ -5880,7 +5642,6 @@
   {
     "name": "Acala Network",
     "chain": "ACA",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -5897,7 +5658,6 @@
   {
     "name": "Hazlor Testnet",
     "chain": "SCAS",
-    "network": "testnet",
     "rpc": [
       "https://hatlas.rpc.hazlor.com:8545",
       "wss://hatlas.rpc.hazlor.com:8546"
@@ -5925,7 +5685,6 @@
   {
     "name": "Ubiq",
     "chain": "UBQ",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.octano.dev",
       "https://pyrus2.ubiqscan.io"
@@ -5952,7 +5711,6 @@
   {
     "name": "GeneChain",
     "chain": "GeneChain",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.genechain.io"
     ],
@@ -5977,7 +5735,6 @@
   {
     "name": "Polygon Testnet Mumbai",
     "chain": "Polygon",
-    "network": "testnet",
     "rpc": [
       "https://matic-mumbai.chainstacklabs.com",
       "https://rpc-mumbai.maticvigil.com",
@@ -6006,7 +5763,6 @@
   {
     "name": "MDGL Testnet",
     "chain": "MDGL",
-    "network": "testnet",
     "rpc": [
       "https://testnet.mdgl.io"
     ],
@@ -6024,7 +5780,6 @@
   {
     "name": "Haic",
     "chain": "Haic",
-    "network": "mainnet",
     "rpc": [
       "https://orig.haichain.io/"
     ],
@@ -6042,7 +5797,6 @@
   {
     "name": "GeneChain Adenine Testnet",
     "chain": "GeneChain",
-    "network": "adenine",
     "rpc": [
       "https://rpc-testnet.genechain.io"
     ],
@@ -6069,7 +5823,6 @@
   {
     "name": "Meter Mainnet",
     "chain": "METER",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.meter.io"
     ],
@@ -6096,7 +5849,6 @@
   {
     "name": "Callisto Mainnet",
     "chain": "CLO",
-    "network": "mainnet",
     "rpc": [
       "https://clo-geth.0xinfra.com"
     ],
@@ -6115,7 +5867,6 @@
   {
     "name": "Callisto Testnet",
     "chain": "CLO",
-    "network": "testnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -6131,7 +5882,6 @@
   {
     "name": "Klaytn Mainnet Cypress",
     "chain": "KLAY",
-    "network": "cypress",
     "rpc": [
       "https://public-node-api.klaytnapi.com/v1/cypress"
     ],
@@ -6157,7 +5907,6 @@
   {
     "name": "KorthoTest",
     "chain": "Kortho",
-    "network": "Test",
     "rpc": [
       "https://www.krotho-test.net"
     ],
@@ -6175,7 +5924,6 @@
   {
     "name": "Meter Testnet",
     "chain": "METER Testnet",
-    "network": "testnet",
     "rpc": [
       "https://rpctest.meter.io"
     ],
@@ -6204,7 +5952,6 @@
     "chainId": 85,
     "shortName": "gttest",
     "chain": "GTTEST",
-    "network": "testnet",
     "networkId": 85,
     "nativeCurrency": {
       "name": "GateToken",
@@ -6231,7 +5978,6 @@
     "chainId": 86,
     "shortName": "gt",
     "chain": "GT",
-    "network": "mainnet",
     "networkId": 86,
     "nativeCurrency": {
       "name": "GateToken",
@@ -6256,7 +6002,6 @@
   {
     "name": "TOOL Global Mainnet",
     "chain": "OLO",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet-web3.wolot.io"
     ],
@@ -6282,7 +6027,6 @@
   {
     "name": "TOOL Global Testnet",
     "chain": "OLO",
-    "network": "testnet",
     "rpc": [
       "https://testnet-web3.wolot.io"
     ],
@@ -6303,7 +6047,6 @@
   {
     "name": "TomoChain",
     "chain": "TOMO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.tomochain.com"
     ],
@@ -6322,7 +6065,6 @@
   {
     "name": "Ambros Chain Mainnet",
     "chain": "ambroschain",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.ambroschain.com"
     ],
@@ -6347,7 +6089,6 @@
   {
     "name": "Wanchain",
     "chain": "WAN",
-    "network": "mainnet",
     "rpc": [
       "https://gwan-ssl.wandevs.org:56891/"
     ],
@@ -6366,7 +6107,6 @@
   {
     "name": "Ambros Chain Testnet",
     "chain": "ambroschain",
-    "network": "testnet",
     "rpc": [
       "https://testnet.ambroschain.com"
     ],
@@ -6391,7 +6131,6 @@
   {
     "name": "bloxberg",
     "chain": "bloxberg",
-    "network": "mainnet",
     "rpc": [
       "https://core.bloxberg.org"
     ],
@@ -6411,7 +6150,6 @@
   {
     "name": "Ubiq Network Testnet",
     "chain": "UBQ",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -6427,7 +6165,6 @@
   {
     "name": "Evmos Testnet",
     "chain": "Evmos",
-    "network": "testnet",
     "rpc": [
       "https://ethereum.rpc.evmos.dev"
     ],
@@ -6462,7 +6199,6 @@
   {
     "name": "Evmos",
     "chain": "Evmos",
-    "network": "mainnet",
     "rpc": [
       "https://ethereum.rpc.evmos.org"
     ],
@@ -6495,7 +6231,6 @@
   {
     "name": "Genesis Coin",
     "chain": "Genesis",
-    "network": "Genesis Coin",
     "rpc": [
       "https://genesis-gn.com",
       "wss://genesis-gn.com"
@@ -6515,7 +6250,6 @@
     "name": "PulseChain Testnet",
     "shortName": "tpls",
     "chain": "tPLS",
-    "network": "testnet",
     "chainId": 940,
     "networkId": 940,
     "infoURL": "https://pulsechain.com/",
@@ -6533,7 +6267,6 @@
   {
     "name": "CryptoKylin Testnet",
     "chain": "EOS",
-    "network": "testnet",
     "rpc": [
       "https://kylin.eosargentina.io"
     ],
@@ -6558,7 +6291,6 @@
   {
     "name": "Rangers Protocol Testnet Robin",
     "chain": "Rangers",
-    "network": "robin",
     "icon": "rangers",
     "rpc": [
       "https://robin.rangersprotocol.com/api/jsonrpc"
@@ -6586,7 +6318,6 @@
   {
     "name": "Eluvio Content Fabric",
     "chain": "Eluvio",
-    "network": "mainnet",
     "rpc": [
       "https://host-76-74-28-226.contentfabric.io/eth/",
       "https://host-76-74-28-232.contentfabric.io/eth/",
@@ -6621,7 +6352,6 @@
   {
     "name": "NEXT Smart Chain",
     "chain": "NSC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.nextsmartchain.com"
     ],
@@ -6648,7 +6378,6 @@
   {
     "name": "Binance Smart Chain Testnet",
     "chain": "BSC",
-    "network": "Chapel",
     "rpc": [
       "https://data-seed-prebsc-1-s1.binance.org:8545",
       "https://data-seed-prebsc-2-s1.binance.org:8545",
@@ -6680,7 +6409,6 @@
   {
     "name": "Nepal Blockchain Network",
     "chain": "YETI",
-    "network": "mainnet",
     "rpc": [
       "https://api.nepalblockchain.dev",
       "https://api.nepalblockchain.network"
@@ -6701,7 +6429,6 @@
   {
     "name": "POA Network Core",
     "chain": "POA",
-    "network": "core",
     "rpc": [
       "https://core.poanetwork.dev",
       "http://core.poanetwork.dev:8545",
@@ -6730,7 +6457,6 @@
   {
     "name": "Joys Digital TestNet",
     "chain": "TOYS",
-    "network": "testnet",
     "rpc": [
       "https://toys.joys.cash/"
     ],
@@ -6750,7 +6476,6 @@
   {
     "name": "Lucky Network",
     "chain": "LN",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.luckynetwork.org",
       "wss://ws.lnscan.org",
@@ -6783,7 +6508,6 @@
   {
     "name": "Wanchain Testnet",
     "chain": "WAN",
-    "network": "testnet",
     "rpc": [
       "https://gwan-ssl.wandevs.org:46891/"
     ],
@@ -6801,7 +6525,6 @@
   {
     "name": "myOwn Testnet",
     "chain": "myOwn",
-    "network": "testnet",
     "rpc": [
       "https://geth.dev.bccloud.net"
     ],

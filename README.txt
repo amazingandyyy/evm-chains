@@ -512,6 +512,7 @@
         ├── dice2.win.png
         ├── doperaider.com.png
         ├── dozerbird.io.png
+        ├── dx.app.png
         ├── dydx.exchange.png
         ├── easytrade.io.png
         ├── egyptoken.com.png
@@ -684,4 +685,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-91 directories, 593 files
+91 directories, 594 files
