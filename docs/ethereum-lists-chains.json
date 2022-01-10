@@ -1525,6 +1525,7 @@
       "https://rpc.kintsugi.themerge.dev"
     ],
     "faucets": [
+      "http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}",
       "https://faucet.kintsugi.themerge.dev"
     ],
     "nativeCurrency": {
@@ -3822,6 +3823,7 @@
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
     ],
     "faucets": [
+      "http://fauceth.komputing.org?chain=4&address=${ADDRESS}",
       "https://faucet.rinkeby.io"
     ],
     "nativeCurrency": {
@@ -3927,6 +3929,7 @@
       "ws://kovan.poa.network:8546"
     ],
     "faucets": [
+      "http://fauceth.komputing.org?chain=42&address=${ADDRESS}",
       "https://faucet.kovan.network",
       "https://gitter.im/kovan-testnet/faucet"
     ],
@@ -4033,6 +4036,7 @@
       "decimals": 18
     },
     "rpc": [
+      "http://fauceth.komputing.org?chain=421611&address=${ADDRESS}",
       "https://rinkeby.arbitrum.io/rpc",
       "wss://rinkeby.arbitrum.io/ws"
     ],
@@ -4422,7 +4426,8 @@
       "https://rpc.goerli.mudit.blog/"
     ],
     "faucets": [
-      "https://goerli-faucet.slock.it/?address=${ADDRESS}",
+      "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
+      "https://goerli-faucet.slock.it?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
     ],
     "nativeCurrency": {
@@ -5284,7 +5289,9 @@
     "rpc": [
       "https://kovan.optimism.io/"
     ],
-    "faucets": [],
+    "faucets": [
+      "http://fauceth.komputing.org?chain=69&address=${ADDRESS}"
+    ],
     "nativeCurrency": {
       "name": "Kovan Ether",
       "symbol": "KOR",
