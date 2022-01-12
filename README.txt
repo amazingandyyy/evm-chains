@@ -578,6 +578,7 @@
         ├── lido.fi.png
         ├── localethereum.com.png
         ├── lol.hunt.town.png
+        ├── looksrare.org.png
         ├── m.dex.top.png
         ├── market.decentraland.org.png
         ├── marketplace.axieinfinity.com.png
@@ -687,4 +688,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-91 directories, 596 files
+91 directories, 597 files
