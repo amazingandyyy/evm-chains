@@ -570,7 +570,7 @@
     "explorers": [
       {
         "name": "testbttcscan",
-        "url": "https://testscan.bittorrentchain.io/",
+        "url": "https://testscan.bittorrentchain.io",
         "standard": "none"
       }
     ]
@@ -664,7 +664,7 @@
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://andromeda-explorer.metis.io/",
+        "url": "https://andromeda-explorer.metis.io",
         "standard": "EIP3091"
       }
     ],
@@ -1302,7 +1302,7 @@
     "explorers": [
       {
         "name": "HALOexplorer",
-        "url": "https://browser.halo.land/",
+        "url": "https://browser.halo.land",
         "standard": "none"
       }
     ]
@@ -1327,12 +1327,12 @@
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://blockscout.moonbeam.network/",
+        "url": "https://blockscout.moonbeam.network",
         "standard": "none"
       },
       {
         "name": "moonscan",
-        "url": "https://moonbeam.moonscan.io/",
+        "url": "https://moonbeam.moonscan.io",
         "standard": "none"
       }
     ]
@@ -1357,7 +1357,7 @@
     "explorers": [
       {
         "name": "moonscan",
-        "url": "https://moonriver.moonscan.io/",
+        "url": "https://moonriver.moonscan.io",
         "standard": "none"
       }
     ]
@@ -1382,7 +1382,7 @@
     "explorers": [
       {
         "name": "moonscan",
-        "url": "https://moonbase.moonscan.io/",
+        "url": "https://moonbase.moonscan.io",
         "standard": "none"
       }
     ]
@@ -1556,7 +1556,7 @@
     "explorers": [
       {
         "name": "kintsugi explorer",
-        "url": "https://explorer.kintsugi.themerge.dev/",
+        "url": "https://explorer.kintsugi.themerge.dev",
         "standard": "EIP3091"
       }
     ]
@@ -1586,7 +1586,7 @@
     "explorers": [
       {
         "name": "polygonscan",
-        "url": "https://polygonscan.com/",
+        "url": "https://polygonscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -2075,7 +2075,7 @@
     "explorers": [
       {
         "name": "seeleview",
-        "url": "https://seeleview.net/",
+        "url": "https://seeleview.net",
         "standard": "none"
       }
     ]
@@ -2099,7 +2099,7 @@
     "explorers": [
       {
         "name": "Blockmeta",
-        "url": "https://bmc.blockmeta.com/",
+        "url": "https://bmc.blockmeta.com",
         "standard": "none"
       }
     ]
@@ -2123,7 +2123,7 @@
     "explorers": [
       {
         "name": "Blockmeta",
-        "url": "https://bmc.blockmeta.com/",
+        "url": "https://bmc.blockmeta.com",
         "standard": "none"
       }
     ]
@@ -2175,7 +2175,7 @@
     "explorers": [
       {
         "name": "Blockscout",
-        "url": "https://explorer.gather.network/",
+        "url": "https://explorer.gather.network",
         "standard": "none"
       }
     ]
@@ -2293,7 +2293,7 @@
     "explorers": [
       {
         "name": "bttcscan",
-        "url": "https://scan.bittorrentchain.io/",
+        "url": "https://scan.bittorrentchain.io",
         "standard": "none"
       }
     ]
@@ -2400,7 +2400,7 @@
     "explorers": [
       {
         "name": "alaya explorer",
-        "url": "https://scan.alaya.network/",
+        "url": "https://scan.alaya.network",
         "standard": "none"
       }
     ]
@@ -2581,7 +2581,7 @@
     "explorers": [
       {
         "name": "Ecoball Explorer",
-        "url": "https://scan.ecoball.org/",
+        "url": "https://scan.ecoball.org",
         "standard": "EIP3091"
       }
     ]
@@ -2605,7 +2605,7 @@
     "explorers": [
       {
         "name": "Ecoball Testnet Explorer",
-        "url": "https://espuma-scan.ecoball.org/",
+        "url": "https://espuma-scan.ecoball.org",
         "standard": "EIP3091"
       }
     ]
@@ -2633,7 +2633,7 @@
     "explorers": [
       {
         "name": "PlatON explorer",
-        "url": "https://devnetscan.platon.network/",
+        "url": "https://devnetscan.platon.network",
         "standard": "none"
       }
     ]
@@ -2986,7 +2986,7 @@
     "explorers": [
       {
         "name": "Genesis L1 testnet explorer",
-        "url": "https://testnet.genesisl1.org/",
+        "url": "https://testnet.genesisl1.org",
         "standard": "none"
       }
     ]
@@ -3011,7 +3011,7 @@
     "explorers": [
       {
         "name": "Surnet Explorer",
-        "url": "https://explorer.surnet.org/",
+        "url": "https://explorer.surnet.org",
         "icon": "SUR",
         "standard": "EIP3091"
       }
@@ -3040,7 +3040,7 @@
     "explorers": [
       {
         "name": "hscan",
-        "url": "https://hscan.org/",
+        "url": "https://hscan.org",
         "standard": "EIP3091"
       }
     ]
@@ -3064,7 +3064,7 @@
     "explorers": [
       {
         "name": "Shiba Explorer",
-        "url": "https://exp.shibachain.net/",
+        "url": "https://exp.shibachain.net",
         "standard": "none"
       }
     ]
@@ -3088,7 +3088,7 @@
     "explorers": [
       {
         "name": "Blockscout",
-        "url": "https://blockexplorer.rinkeby.boba.network/",
+        "url": "https://blockexplorer.rinkeby.boba.network",
         "standard": "none"
       }
     ],
@@ -3139,7 +3139,7 @@
     "explorers": [
       {
         "name": "Blockscout",
-        "url": "https://blockexplorer.boba.network/",
+        "url": "https://blockexplorer.boba.network",
         "standard": "none"
       }
     ],
@@ -3190,7 +3190,7 @@
     "explorers": [
       {
         "name": "Genesis L1 blockchain explorer",
-        "url": "https://explorer.genesisl1.org/",
+        "url": "https://explorer.genesisl1.org",
         "standard": "none"
       }
     ]
@@ -3624,7 +3624,7 @@
     "explorers": [
       {
         "name": "Blockscout",
-        "url": "https://testnet-explorer.gather.network/",
+        "url": "https://testnet-explorer.gather.network",
         "standard": "none"
       }
     ]
@@ -3920,7 +3920,7 @@
     "explorers": [
       {
         "name": "ftmscan",
-        "url": "https://testnet.ftmscan.com/",
+        "url": "https://testnet.ftmscan.com",
         "icon": "ftmscan",
         "standard": "EIP3091"
       }
@@ -4162,7 +4162,7 @@
     "explorers": [
       {
         "name": "Emerald Paratime Testnet Explorer",
-        "url": "https://testnet.explorer.emerald.oasis.dev/",
+        "url": "https://testnet.explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
     ]
@@ -4188,7 +4188,7 @@
     "explorers": [
       {
         "name": "Emerald Paratime Mainnet Explorer",
-        "url": "https://explorer.emerald.oasis.dev/",
+        "url": "https://explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
     ]
@@ -4259,7 +4259,7 @@
     "explorers": [
       {
         "name": "snowtrace",
-        "url": "https://testnet.snowtrace.io/",
+        "url": "https://testnet.snowtrace.io",
         "standard": "EIP3091"
       }
     ]
@@ -4286,7 +4286,7 @@
     "explorers": [
       {
         "name": "snowtrace",
-        "url": "https://snowtrace.io/",
+        "url": "https://snowtrace.io",
         "standard": "EIP3091"
       }
     ]
@@ -4406,7 +4406,7 @@
     "explorers": [
       {
         "name": "rei-scan",
-        "url": "https://scan.rei.network/",
+        "url": "https://scan.rei.network",
         "standard": "none"
       }
     ]
@@ -4430,7 +4430,7 @@
     "explorers": [
       {
         "name": "Blockscout",
-        "url": "https://devnet-explorer.gather.network/",
+        "url": "https://devnet-explorer.gather.network",
         "standard": "none"
       }
     ]
@@ -4575,7 +4575,7 @@
     "explorers": [
       {
         "name": "coinexscan",
-        "url": "https://www.coinex.net/",
+        "url": "https://www.coinex.net",
         "standard": "none"
       }
     ]
@@ -4599,7 +4599,7 @@
     "explorers": [
       {
         "name": "coinexscan",
-        "url": "https://testnet.coinex.net/",
+        "url": "https://testnet.coinex.net",
         "standard": "none"
       }
     ]
@@ -4645,7 +4645,7 @@
     "explorers": [
       {
         "name": "zyxscan",
-        "url": "https://zyxscan.com/",
+        "url": "https://zyxscan.com",
         "standard": "none"
       }
     ]
@@ -4785,7 +4785,7 @@
     "explorers": [
       {
         "name": "explorer",
-        "url": "https://explorer.ont.io/",
+        "url": "https://explorer.ont.io",
         "standard": "EIP3091"
       }
     ]
@@ -4856,7 +4856,7 @@
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://stardust-explorer.metis.io/",
+        "url": "https://stardust-explorer.metis.io",
         "standard": "EIP3091"
       }
     ],
@@ -4972,7 +4972,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://test0.thinkiumscan.net/",
+        "url": "https://test0.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -4998,7 +4998,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://test1.thinkiumscan.net/",
+        "url": "https://test1.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5024,7 +5024,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://test2.thinkiumscan.net/",
+        "url": "https://test2.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5286,6 +5286,26 @@
     "networkId": 666
   },
   {
+    "name": "Vision - Vpioneer Test Chain",
+    "chain": "Vision-Vpioneer",
+    "rpc": [
+      "https://vpioneer.infragrid.v.network/ethereum/compatible"
+    ],
+    "faucets": [
+      "https://vpioneerfaucet.visionscan.org"
+    ],
+    "nativeCurrency": {
+      "name": "VS",
+      "symbol": "VS",
+      "decimals": 6
+    },
+    "infoURL": "https://visionscan.org",
+    "shortName": "vpioneer",
+    "chainId": 666666,
+    "networkId": 666666,
+    "slip44": 60
+  },
+  {
     "name": "DBChain Testnet",
     "chain": "DBM",
     "rpc": [
@@ -5398,7 +5418,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://chain0.thinkiumscan.net/",
+        "url": "https://chain0.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5422,7 +5442,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://chain1.thinkiumscan.net/",
+        "url": "https://chain1.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5446,7 +5466,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://chain2.thinkiumscan.net/",
+        "url": "https://chain2.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5470,7 +5490,7 @@
     "explorers": [
       {
         "name": "thinkiumscan",
-        "url": "https://chain103.thinkiumscan.net/",
+        "url": "https://chain103.thinkiumscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -5815,7 +5835,7 @@
     "explorers": [
       {
         "name": "polygonscan",
-        "url": "https://mumbai.polygonscan.com/",
+        "url": "https://mumbai.polygonscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -6187,6 +6207,24 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Vision - Mainnet",
+    "chain": "Vision",
+    "rpc": [
+      "https://infragrid.v.network/ethereum/compatible"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VS",
+      "symbol": "VS",
+      "decimals": 6
+    },
+    "infoURL": "https://visionscan.org",
+    "shortName": "vision",
+    "chainId": 888888,
+    "networkId": 888888,
+    "slip44": 60
   },
   {
     "name": "bloxberg",
