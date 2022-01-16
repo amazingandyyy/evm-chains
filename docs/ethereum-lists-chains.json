@@ -1187,6 +1187,33 @@
     ]
   },
   {
+    "name": "EnterChain Mainnet",
+    "chain": "ENTER",
+    "network": "mainnet",
+    "rpc": [
+      "https://tapi.entercoin.net/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EnterCoin",
+      "symbol": "ENTER",
+      "decimals": 18
+    },
+    "infoURL": "https://entercoin.net",
+    "shortName": "enter",
+    "chainId": 1214,
+    "networkId": 1214,
+    "icon": "enter",
+    "explorers": [
+      {
+        "name": "Enter Explorer - Expenter",
+        "url": "https://explorer.entercoin.net",
+        "icon": "enter",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Fuse Mainnet",
     "chain": "FUSE",
     "rpc": [
@@ -1463,7 +1490,14 @@
     "infoURL": "https://aurora.dev",
     "shortName": "aurora",
     "chainId": 1313161554,
-    "networkId": 1313161554
+    "networkId": 1313161554,
+    "explorers": [
+      {
+        "name": "explorer.aurora.dev",
+        "url": "https://explorer.mainnet.aurora.dev",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Aurora TestNet",
@@ -1480,7 +1514,14 @@
     "infoURL": "https://aurora.dev",
     "shortName": "aurora-testnet",
     "chainId": 1313161555,
-    "networkId": 1313161555
+    "networkId": 1313161555,
+    "explorers": [
+      {
+        "name": "explorer.aurora.dev",
+        "url": "https://explorer.testnet.aurora.dev",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Aurora BetaNet",
