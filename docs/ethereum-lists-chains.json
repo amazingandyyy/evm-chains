@@ -576,10 +576,10 @@
     ]
   },
   {
-    "name": "Conflux",
+    "name": "Conflux Mainnet",
     "chain": "Conflux",
     "rpc": [
-      "https://ethcore.confluxrpc.com"
+      "https://evm.confluxrpc.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -591,10 +591,11 @@
     "shortName": "cfx",
     "chainId": 1030,
     "networkId": 1030,
+    "icon": "conflux",
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://confluxscan.io",
+        "url": "https://evm.confluxscan.io",
         "standard": "none"
       }
     ]
@@ -5623,6 +5624,32 @@
     ]
   },
   {
+    "name": "Conflux Testnet",
+    "chain": "Conflux",
+    "network": "testnet",
+    "rpc": [
+      "https://evmtestnet.confluxrpc.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CFX",
+      "symbol": "CFX",
+      "decimals": 18
+    },
+    "infoURL": "https://confluxnetwork.org",
+    "shortName": "cfxtest",
+    "chainId": 71,
+    "networkId": 71,
+    "icon": "conflux",
+    "explorers": [
+      {
+        "name": "Conflux Scan",
+        "url": "https://evmtestnet.confluxscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Polyjuice Testnet",
     "chain": "CKB",
     "icon": "polyjuice",
@@ -6207,11 +6234,11 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "TomoChain Ether",
+      "name": "TomoChain",
       "symbol": "TOMO",
       "decimals": 18
     },
-    "infoURL": "https://tomocoin.io",
+    "infoURL": "https://tomochain.com",
     "shortName": "tomo",
     "chainId": 88,
     "networkId": 88,
@@ -6300,6 +6327,24 @@
     "chainId": 888888,
     "networkId": 888888,
     "slip44": 60
+  },
+  {
+    "name": "TomoChain Testnet",
+    "chain": "TOMO",
+    "rpc": [
+      "https://rpc.testnet.tomochain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TomoChain",
+      "symbol": "TOMO",
+      "decimals": 18
+    },
+    "infoURL": "https://tomochain.com",
+    "shortName": "tomot",
+    "chainId": 89,
+    "networkId": 89,
+    "slip44": 889
   },
   {
     "name": "bloxberg",
