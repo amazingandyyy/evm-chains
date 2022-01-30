@@ -984,6 +984,31 @@
     "icon": "etherlite"
   },
   {
+    "name": "WAGMI",
+    "chain": "WAGMI",
+    "icon": "wagmi",
+    "rpc": [
+      "https://api.trywagmi.xyz/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WAGMI",
+      "symbol": "WGM",
+      "decimals": 18
+    },
+    "infoURL": "https://trywagmi.xyz",
+    "shortName": "WAGMI",
+    "chainId": 11111,
+    "networkId": 11111,
+    "explorers": [
+      {
+        "name": "WAGMI Explorer",
+        "url": "https://trywagmi.xyz",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "IPOS Network",
     "chain": "IPOS",
     "rpc": [
@@ -5581,11 +5606,11 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "BCS Token",
-      "symbol": "PLAY",
+      "symbol": "BCS",
       "decimals": 18
     },
     "infoURL": "https://blockchainstation.io",
-    "shortName": "play",
+    "shortName": "bcs",
     "chainId": 707,
     "networkId": 707,
     "explorers": [
@@ -5608,11 +5633,11 @@
     ],
     "nativeCurrency": {
       "name": "BCS Testnet Token",
-      "symbol": "tPLAY",
+      "symbol": "tBCS",
       "decimals": 18
     },
     "infoURL": "https://blockchainstation.io",
-    "shortName": "tplay",
+    "shortName": "tbcs",
     "chainId": 708,
     "networkId": 708,
     "explorers": [
@@ -6381,6 +6406,62 @@
     "networkId": 2
   },
   {
+    "name": "Garizon Stage0",
+    "chain": "GAR",
+    "network": "mainnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s0.garizon.net/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-s0",
+    "chainId": 90,
+    "networkId": 90,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Garizon Testnet Stage0",
+    "chain": "GAR",
+    "network": "testnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s0-testnet.garizon.net/rpc"
+    ],
+    "faucets": [
+      "https://faucet-testnet.garizon.com"
+    ],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-test-s0",
+    "chainId": 900,
+    "networkId": 900,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer-testnet.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Evmos Testnet",
     "chain": "Evmos",
     "rpc": [
@@ -6447,6 +6528,136 @@
     ]
   },
   {
+    "name": "Garizon Testnet Stage1",
+    "chain": "GAR",
+    "network": "testnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s1-testnet.garizon.net/rpc"
+    ],
+    "faucets": [
+      "https://faucet-testnet.garizon.com"
+    ],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-test-s1",
+    "chainId": 901,
+    "networkId": 901,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer-testnet.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-900",
+      "type": "shard"
+    }
+  },
+  {
+    "name": "Garizon Testnet Stage2",
+    "chain": "GAR",
+    "network": "testnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s2-testnet.garizon.net/rpc"
+    ],
+    "faucets": [
+      "https://faucet-testnet.garizon.com"
+    ],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-test-s2",
+    "chainId": 902,
+    "networkId": 902,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer-testnet.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-900",
+      "type": "shard"
+    }
+  },
+  {
+    "name": "Garizon Testnet Stage3",
+    "chain": "GAR",
+    "network": "testnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s3-testnet.garizon.net/rpc"
+    ],
+    "faucets": [
+      "https://faucet-testnet.garizon.com"
+    ],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-test-s3",
+    "chainId": 903,
+    "networkId": 903,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer-testnet.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-900",
+      "type": "shard"
+    }
+  },
+  {
+    "name": "Garizon Stage1",
+    "chain": "GAR",
+    "network": "mainnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s1.garizon.net/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-s1",
+    "chainId": 91,
+    "networkId": 91,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-90",
+      "type": "shard"
+    }
+  },
+  {
     "name": "Genesis Coin",
     "chain": "Genesis",
     "rpc": [
@@ -6463,6 +6674,68 @@
     "shortName": "GENEC",
     "chainId": 9100,
     "networkId": 9100
+  },
+  {
+    "name": "Garizon Stage2",
+    "chain": "GAR",
+    "network": "mainnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s2.garizon.net/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-s2",
+    "chainId": 92,
+    "networkId": 92,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-90",
+      "type": "shard"
+    }
+  },
+  {
+    "name": "Garizon Stage3",
+    "chain": "GAR",
+    "network": "mainnet",
+    "icon": "garizon",
+    "rpc": [
+      "https://s3.garizon.net/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Garizon",
+      "symbol": "GAR",
+      "decimals": 18
+    },
+    "infoURL": "https://garizon.com",
+    "shortName": "gar-s3",
+    "chainId": 93,
+    "networkId": 93,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.garizon.com",
+        "icon": "garizon",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-90",
+      "type": "shard"
+    }
   },
   {
     "name": "PulseChain Testnet",
