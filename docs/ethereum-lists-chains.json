@@ -32,7 +32,7 @@
     ]
   },
   {
-    "name": "Optimistic Ethereum",
+    "name": "Optimism",
     "chain": "ETH",
     "rpc": [
       "https://mainnet.optimism.io/"
@@ -5494,8 +5494,8 @@
     "slip44": 686
   },
   {
-    "name": "Optimistic Kovan",
-    "title": "Optimistic Ethereum Testnet Kovan",
+    "name": "Optimism Kovan",
+    "title": "Optimism Testnet Kovan",
     "chain": "ETH",
     "rpc": [
       "https://kovan.optimism.io/"
