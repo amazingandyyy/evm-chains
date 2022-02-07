@@ -59,9 +59,9 @@
     "name": "Gnosis Chain (formerly xDai)",
     "chain": "Gnosis",
     "rpc": [
-      "https://rpc.xdaichain.com",
+      "https://rpc.gnosischain.com",
       "https://xdai.poanetwork.dev",
-      "wss://rpc.xdaichain.com/wss",
+      "wss://rpc.gnosischain.com/wss",
       "wss://xdai.poanetwork.dev/wss",
       "http://xdai.poanetwork.dev",
       "https://dai.poa.network",
@@ -69,7 +69,7 @@
     ],
     "faucets": [
       "https://faucet.gimlu.com/gnosis",
-      "https://stakely.io/faucet/xdai-chain",
+      "https://stakely.io/faucet/gnosis-chain-xdai",
       "https://faucet.prussia.dev/xdai"
     ],
     "nativeCurrency": {
@@ -1299,27 +1299,52 @@
   {
     "name": "OYchain Testnet",
     "chain": "OYchain",
-    "icon": "oychain",
     "rpc": [
-      "https://rpc.cntop3.com"
+      "https://rpc.testnet.oychain.io"
     ],
     "faucets": [
-      "https://faucet.cntop3.com"
+      "https://faucet.oychain.io"
     ],
     "nativeCurrency": {
       "name": "OYchain Token",
       "symbol": "OY",
       "decimals": 18
     },
-    "infoURL": "https://www.cntop3.com",
-    "shortName": "oychain",
+    "infoURL": "https://www.oychain.io",
+    "shortName": "oychain testnet",
+    "chainId": 125,
+    "networkId": 125,
+    "slip44": 125,
+    "explorers": [
+      {
+        "name": "OYchain Testnet Explorer",
+        "url": "https://explorer.testnet.oychain.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "OYchain Mainnet",
+    "chain": "OYchain",
+    "icon": "oychain",
+    "rpc": [
+      "https://rpc.mainnet.oychain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OYchain Token",
+      "symbol": "OY",
+      "decimals": 18
+    },
+    "infoURL": "https://www.oychain.io",
+    "shortName": "oychain mainnet",
     "chainId": 126,
     "networkId": 126,
     "slip44": 126,
     "explorers": [
       {
-        "name": "OYchain Explorer",
-        "url": "https://scan.cntop3.com",
+        "name": "OYchain Mainnet Explorer",
+        "url": "https://explorer.oychain.io",
         "standard": "none"
       }
     ]
