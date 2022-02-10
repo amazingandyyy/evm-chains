@@ -576,8 +576,9 @@
     ]
   },
   {
-    "name": "Conflux Mainnet",
+    "name": "Conflux eSpace",
     "chain": "Conflux",
+    "network": "mainnet",
     "rpc": [
       "https://evm.confluxrpc.com"
     ],
@@ -595,7 +596,7 @@
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://evm.confluxscan.io",
+        "url": "https://evm.confluxscan.net",
         "standard": "none"
       }
     ]
@@ -1096,6 +1097,31 @@
     "shortName": "tMATH",
     "chainId": 1140,
     "networkId": 1140
+  },
+  {
+    "name": "Shyft Testnet",
+    "chain": "SHYFTT",
+    "icon": "shyft",
+    "rpc": [
+      "https://rpc.testnet.shyft.network/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shyft Test Token",
+      "symbol": "SHYFTT",
+      "decimals": 18
+    },
+    "infoURL": "https://shyft.network",
+    "shortName": "shyftt",
+    "chainId": 11437,
+    "networkId": 11437,
+    "explorers": [
+      {
+        "name": "Shyft Testnet BX",
+        "url": "https://bx.testnet.shyft.network",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Metadium Testnet",
@@ -4818,6 +4844,30 @@
     ]
   },
   {
+    "name": "Vela1 Chain Mainnet",
+    "chain": "VELA1",
+    "rpc": [
+      "https://rpc.velaverse.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CLASS COIN",
+      "symbol": "CLASS",
+      "decimals": 18
+    },
+    "infoURL": "https://velaverse.io",
+    "shortName": "CLASS",
+    "chainId": 555,
+    "networkId": 555,
+    "explorers": [
+      {
+        "name": "Vela1 Chain Mainnet Explorer",
+        "url": "https://exp.velaverse.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Tao Network",
     "chain": "TAO",
     "rpc": [
@@ -5767,13 +5817,15 @@
     ]
   },
   {
-    "name": "Conflux Testnet",
+    "name": "Conflux eSpace (Testnet)",
     "chain": "Conflux",
     "network": "testnet",
     "rpc": [
       "https://evmtestnet.confluxrpc.com"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.confluxnetwork.org"
+    ],
     "nativeCurrency": {
       "name": "CFX",
       "symbol": "CFX",
@@ -5787,7 +5839,7 @@
     "explorers": [
       {
         "name": "Conflux Scan",
-        "url": "https://evmtestnet.confluxscan.io",
+        "url": "https://evmtestnet.confluxscan.net",
         "standard": "none"
       }
     ]
@@ -5828,6 +5880,32 @@
     "chainId": 721,
     "networkId": 721,
     "slip44": 721
+  },
+  {
+    "name": "Shyft Mainnet",
+    "chain": "SHYFT",
+    "icon": "shyft",
+    "rpc": [
+      "https://rpc.shyft.network/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shyft",
+      "symbol": "SHYFT",
+      "decimals": 18
+    },
+    "infoURL": "https://shyft.network",
+    "shortName": "shyft",
+    "chainId": 7341,
+    "networkId": 7341,
+    "slip44": 2147490989,
+    "explorers": [
+      {
+        "name": "Shyft BX",
+        "url": "https://bx.shyft.network",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Energy Web Volta Testnet",
