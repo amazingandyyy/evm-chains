@@ -40,7 +40,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
-      "symbol": "OETH",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://optimism.io",
@@ -1462,11 +1462,6 @@
     "networkId": 1284,
     "explorers": [
       {
-        "name": "blockscout",
-        "url": "https://blockscout.moonbeam.network",
-        "standard": "none"
-      },
-      {
         "name": "moonscan",
         "url": "https://moonbeam.moonscan.io",
         "standard": "none"
@@ -1477,8 +1472,8 @@
     "name": "Moonriver",
     "chain": "MOON",
     "rpc": [
-      "https://rpc.moonriver.moonbeam.network",
-      "wss://wss.moonriver.moonbeam.network"
+      "https://rpc.api.moonriver.moonbeam.network",
+      "wss://wss.api.moonriver.moonbeam.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4895,6 +4890,60 @@
     ]
   },
   {
+    "name": "REI Chain Mainnet",
+    "chain": "REI",
+    "icon": "reichain",
+    "rpc": [
+      "https://rei-rpc.moonrhythm.io"
+    ],
+    "faucets": [
+      "http://kururu.finance/faucet?chainId=55555"
+    ],
+    "nativeCurrency": {
+      "name": "Rei",
+      "symbol": "REI",
+      "decimals": 18
+    },
+    "infoURL": "https://reichain.io",
+    "shortName": "rei",
+    "chainId": 55555,
+    "networkId": 55555,
+    "explorers": [
+      {
+        "name": "reiscan",
+        "url": "https://reiscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "REI Chain Testnet",
+    "chain": "REI",
+    "icon": "reichain",
+    "rpc": [
+      "https://rei-testnet-rpc.moonrhythm.io"
+    ],
+    "faucets": [
+      "http://kururu.finance/faucet?chainId=55556"
+    ],
+    "nativeCurrency": {
+      "name": "tRei",
+      "symbol": "tREI",
+      "decimals": 18
+    },
+    "infoURL": "https://reichain.io",
+    "shortName": "trei",
+    "chainId": 55556,
+    "networkId": 55556,
+    "explorers": [
+      {
+        "name": "reiscan",
+        "url": "https://testnet.reiscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Tao Network",
     "chain": "TAO",
     "rpc": [
@@ -5194,6 +5243,21 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Meshnyan testnet",
+    "chain": "MeshTestChain",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Meshnyan Testnet Native Token",
+      "symbol": "MESHT",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "mesh-chain-testnet",
+    "chainId": 600,
+    "networkId": 600
   },
   {
     "name": "Thinkium Testnet Chain 0",
@@ -5593,7 +5657,7 @@
     "nativeCurrency": {
       "name": "VS",
       "symbol": "VS",
-      "decimals": 6
+      "decimals": 18
     },
     "infoURL": "https://visionscan.org",
     "shortName": "vpioneer",
@@ -6459,6 +6523,25 @@
     "infoURL": "https://www.gatechain.io"
   },
   {
+    "name": "Nova Network",
+    "chain": "NBX",
+    "icon": "novanetwork",
+    "rpc": [
+      "http://rpc.novanetwork.io:8545/",
+      "http://82.165.54.110:8545/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Nebula X",
+      "symbol": "NBX",
+      "decimals": 18
+    },
+    "infoURL": "https://novanetwork.io/",
+    "shortName": "nbx",
+    "chainId": 87,
+    "networkId": 87
+  },
+  {
     "name": "TOOL Global Mainnet",
     "chain": "OLO",
     "rpc": [
@@ -6597,7 +6680,7 @@
     "nativeCurrency": {
       "name": "VS",
       "symbol": "VS",
-      "decimals": 6
+      "decimals": 18
     },
     "infoURL": "https://visionscan.org",
     "shortName": "vision",
