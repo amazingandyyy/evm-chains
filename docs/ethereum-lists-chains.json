@@ -681,6 +681,34 @@
     }
   },
   {
+    "name": "BROChain Mainnet",
+    "chain": "BRO",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.brochain.org",
+      "http://rpc.brochain.org",
+      "https://rpc.brochain.org/mainnet",
+      "http://rpc.brochain.org/mainnet"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Brother",
+      "symbol": "BRO",
+      "decimals": 18
+    },
+    "infoURL": "https://brochain.org",
+    "shortName": "bro",
+    "chainId": 108801,
+    "networkId": 108801,
+    "explorers": [
+      {
+        "name": "BROChain Explorer",
+        "url": "https://explorer.brochain.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Metadium Mainnet",
     "chain": "META",
     "rpc": [
@@ -6524,22 +6552,29 @@
   },
   {
     "name": "Nova Network",
-    "chain": "NBX",
+    "chain": "NNW",
     "icon": "novanetwork",
     "rpc": [
-      "http://rpc.novanetwork.io:8545/",
-      "http://82.165.54.110:8545/"
+      "https://rpc.novanetwork.io:9070",
+      "http://nova.genyrpc.info:8545"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Nebula X",
-      "symbol": "NBX",
+      "name": "Supernova",
+      "symbol": "SNT",
       "decimals": 18
     },
-    "infoURL": "https://novanetwork.io/",
-    "shortName": "nbx",
+    "infoURL": "https://novanetwork.io",
+    "shortName": "nnw",
     "chainId": 87,
-    "networkId": 87
+    "networkId": 87,
+    "explorers": [
+      {
+        "name": "novanetwork",
+        "url": "https://explorer.novanetwork.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "TOOL Global Mainnet",
