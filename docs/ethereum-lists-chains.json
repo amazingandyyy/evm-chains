@@ -1819,7 +1819,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Phoenix",
-      "symbol": "Phoenix",
+      "symbol": "PHX",
       "decimals": 18
     },
     "infoURL": "https://cryptophoenix.org/phoenix",
@@ -3777,6 +3777,30 @@
     "networkId": 33
   },
   {
+    "name": "Web3Q Mainnet",
+    "chain": "Web3Q",
+    "rpc": [
+      "https://mainnet.web3q.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Web3Q",
+      "symbol": "W3Q",
+      "decimals": 18
+    },
+    "infoURL": "https://web3q.io/home.w3q/",
+    "shortName": "w3q",
+    "chainId": 333,
+    "networkId": 333,
+    "explorers": [
+      {
+        "name": "w3q-mainnet",
+        "url": "https://explorer.mainnet.web3q.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ZCore Testnet",
     "chain": "Beach",
     "icon": "zcore",
@@ -3795,6 +3819,30 @@
     "shortName": "zcrbeach",
     "chainId": 3331,
     "networkId": 3331
+  },
+  {
+    "name": "Web3Q Testnet",
+    "chain": "Web3Q",
+    "rpc": [
+      "https://testnet.web3q.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Web3Q",
+      "symbol": "W3Q",
+      "decimals": 18
+    },
+    "infoURL": "https://web3q.io/home.w3q/",
+    "shortName": "w3q-t",
+    "chainId": 3333,
+    "networkId": 3333,
+    "explorers": [
+      {
+        "name": "w3q-testnet",
+        "url": "https://explorer.testnet.web3q.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Polis Testnet",
@@ -6392,6 +6440,38 @@
     ]
   },
   {
+    "name": "Teleport",
+    "chain": "Teleport",
+    "rpc": [
+      "https://evm-rpc.teleport.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tele",
+      "symbol": "TELE",
+      "decimals": 18
+    },
+    "infoURL": "https://teleport.network",
+    "shortName": "teleport",
+    "chainId": 8000,
+    "networkId": 8000,
+    "icon": "teleport",
+    "explorers": [
+      {
+        "name": "Teleport EVM Explorer (Blockscout)",
+        "url": "https://evm-explorer.teleport.network",
+        "standard": "none",
+        "icon": "teleport"
+      },
+      {
+        "name": "Teleport Cosmos Explorer (Big Dipper)",
+        "url": "https://explorer.teleport.network",
+        "standard": "none",
+        "icon": "teleport"
+      }
+    ]
+  },
+  {
     "name": "Mumbai",
     "title": "Polygon Testnet Mumbai",
     "chain": "Polygon",
@@ -6434,7 +6514,7 @@
       "symbol": "TELE",
       "decimals": 18
     },
-    "infoURL": "https://teleport.network/",
+    "infoURL": "https://teleport.network",
     "shortName": "teleport-testnet",
     "chainId": 8001,
     "networkId": 8001,
