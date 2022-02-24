@@ -7058,10 +7058,10 @@
     "name": "Evmos Testnet",
     "chain": "Evmos",
     "rpc": [
-      "https://ethereum.rpc.evmos.dev"
+      "https://evmos-archive-testnet.api.bdnodes.net:8545"
     ],
     "faucets": [
-      "https://faucet.evmos.org"
+      "https://faucet.evmos.dev"
     ],
     "nativeCurrency": {
       "name": "Photon",
@@ -7069,20 +7069,20 @@
       "decimals": 18
     },
     "infoURL": "https://evmos.org",
-    "shortName": "evmos-mons",
+    "shortName": "evmos-testnet",
     "chainId": 9000,
     "networkId": 9000,
     "icon": "evmos",
     "explorers": [
       {
         "name": "Evmos EVM Explorer (Blockscout)",
-        "url": "https://evm.evmos.org",
+        "url": "https://evm.evmos.dev",
         "standard": "none",
         "icon": "evmos"
       },
       {
-        "name": "Evmos Cosmos Explorer (Big Dipper)",
-        "url": "https://explorer.evmos.org",
+        "name": "Evmos Cosmos Explorer",
+        "url": "https://explorer.evmos.dev",
         "standard": "none",
         "icon": "evmos"
       }
