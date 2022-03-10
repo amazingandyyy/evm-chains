@@ -3006,6 +3006,31 @@
     "networkId": 0
   },
   {
+    "name": "omChain Mainnet",
+    "chain": "OML",
+    "icon": "omlira",
+    "rpc": [
+      "https://seed.omlira.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Omlira",
+      "symbol": "OML",
+      "decimals": 18
+    },
+    "infoURL": "https://omlira.com",
+    "shortName": "oml",
+    "chainId": 21816,
+    "networkId": 21816,
+    "explorers": [
+      {
+        "name": "omChain Explorer",
+        "url": "https://explorer.omlira.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ELA-DID-Sidechain Mainnet",
     "chain": "ETH",
     "rpc": [],
@@ -3339,6 +3364,21 @@
     "shortName": "hecot",
     "chainId": 256,
     "networkId": 256
+  },
+  {
+    "name": "Setheum",
+    "chain": "Setheum",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Setheum",
+      "symbol": "SETM",
+      "decimals": 18
+    },
+    "infoURL": "https://setheum.xyz",
+    "shortName": "setm",
+    "chainId": 258,
+    "networkId": 258
   },
   {
     "name": "Genesis L1 testnet",
@@ -4991,6 +5031,32 @@
     "shortName": "TXDC",
     "chainId": 51,
     "networkId": 51
+  },
+  {
+    "name": "Double-A Chain Mainnet",
+    "chain": "AAC",
+    "rpc": [
+      "https://rpc.acuteangle.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Acuteangle Native Token",
+      "symbol": "AAC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.acuteangle.com/",
+    "shortName": "aac",
+    "chainId": 512,
+    "networkId": 512,
+    "slip44": 1512,
+    "explorers": [
+      {
+        "name": "aacscan",
+        "url": "https://scan.acuteangle.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "icon": "aac"
   },
   {
     "name": "EraSwap Mainnet",
