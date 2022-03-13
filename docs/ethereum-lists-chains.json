@@ -671,7 +671,14 @@
     "shortName": "TT",
     "chainId": 108,
     "networkId": 108,
-    "slip44": 1001
+    "slip44": 1001,
+    "explorers": [
+      {
+        "name": "ThundercoreScan",
+        "url": "https://scan.thundercore.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Metis Andromeda Mainnet",
@@ -2331,7 +2338,14 @@
     "infoURL": "https://thundercore.com",
     "shortName": "TST",
     "chainId": 18,
-    "networkId": 18
+    "networkId": 18,
+    "explorers": [
+      {
+        "name": "ThundercoreTestNetScanner",
+        "url": "https://scan-testnet.thundercore.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "IOLite",
