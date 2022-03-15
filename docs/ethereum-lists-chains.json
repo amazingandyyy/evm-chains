@@ -3119,6 +3119,24 @@
     "networkId": 23
   },
   {
+    "name": "Haymo Testnet",
+    "chain": "tHYM",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet1.haymo.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "HAYMO",
+      "symbol": "HYM",
+      "decimals": 18
+    },
+    "infoURL": "https://haymoswap.web.app/",
+    "shortName": "hym",
+    "chainId": 234666,
+    "networkId": 234666
+  },
+  {
     "name": "Dithereum Mainnet",
     "chain": "DTH",
     "icon": "dithereum",
@@ -4073,6 +4091,33 @@
     "networkId": 34
   },
   {
+    "name": "Paribu Net Mainnet",
+    "chain": "PRB",
+    "network": "Paribu Net",
+    "rpc": [
+      "https://rpc.paribu.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PRB",
+      "symbol": "PRB",
+      "decimals": 18
+    },
+    "infoURL": "https://net.paribu.com",
+    "shortName": "prb",
+    "chainId": 3400,
+    "networkId": 3400,
+    "icon": "prb",
+    "explorers": [
+      {
+        "name": "Paribu Net Explorer",
+        "url": "https://explorer.paribu.network",
+        "icon": "explorer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "TBWG Chain",
     "chain": "TBWG",
     "rpc": [
@@ -4088,6 +4133,35 @@
     "shortName": "tbwg",
     "chainId": 35,
     "networkId": 35
+  },
+  {
+    "name": "Paribu Net Testnet",
+    "chain": "PRB",
+    "network": "Paribu Net",
+    "rpc": [
+      "https://rpc.testnet.paribuscan.com"
+    ],
+    "faucets": [
+      "https://faucet.paribuscan.com"
+    ],
+    "nativeCurrency": {
+      "name": "PRB",
+      "symbol": "PRB",
+      "decimals": 18
+    },
+    "infoURL": "https://net.paribu.com",
+    "shortName": "prbtestnet",
+    "chainId": 3500,
+    "networkId": 3500,
+    "icon": "prb",
+    "explorers": [
+      {
+        "name": "Paribu Net Testnet Explorer",
+        "url": "https://testnet.paribuscan.com",
+        "icon": "explorer",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Gather Tesnet Network",
@@ -4682,7 +4756,7 @@
     "name": "Darwinia Pangolin Testnet",
     "chain": "pangolin",
     "rpc": [
-      "http://pangolin-rpc.darwinia.network"
+      "https://pangolin-rpc.darwinia.network"
     ],
     "faucets": [
       "https://docs.crab.network/dvm/wallets/dvm-metamask#apply-for-the-test-token"
@@ -4780,7 +4854,7 @@
     "name": "Darwinia Crab Network",
     "chain": "crab",
     "rpc": [
-      "http://crab-rpc.darwinia.network"
+      "https://crab-rpc.darwinia.network"
     ],
     "faucets": [],
     "nativeCurrency": {
