@@ -4308,8 +4308,8 @@
     "networkId": 369,
     "infoURL": "https://pulsechain.com/",
     "rpc": [
-      "https://rpc.mainnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
-      "wss://rpc.mainnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+      "https://rpc.mainnet.pulsechain.com/",
+      "wss://rpc.mainnet.pulsechain.com/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4381,6 +4381,58 @@
     "shortName": "lisinski",
     "chainId": 385,
     "networkId": 385
+  },
+  {
+    "name": "DYNO Mainnet",
+    "chain": "DYNO",
+    "rpc": [
+      "https://api.dynoprotocol.com"
+    ],
+    "faucets": [
+      "https://faucet.dynoscan.io"
+    ],
+    "nativeCurrency": {
+      "name": "DYNO Token",
+      "symbol": "DYNO",
+      "decimals": 18
+    },
+    "infoURL": "https://dynoprotocol.com",
+    "shortName": "dyno",
+    "chainId": 3966,
+    "networkId": 3966,
+    "explorers": [
+      {
+        "name": "DYNO Explorer",
+        "url": "https://dynoscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "DYNO Testnet",
+    "chain": "DYNO",
+    "rpc": [
+      "https://tapi.dynoprotocol.com"
+    ],
+    "faucets": [
+      "https://faucet.dynoscan.io"
+    ],
+    "nativeCurrency": {
+      "name": "DYNO Token",
+      "symbol": "tDYNO",
+      "decimals": 18
+    },
+    "infoURL": "https://dynoprotocol.com",
+    "shortName": "tdyno",
+    "chainId": 3967,
+    "networkId": 3967,
+    "explorers": [
+      {
+        "name": "DYNO Explorer",
+        "url": "https://testnet.dynoscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Energi Mainnet",
@@ -7588,10 +7640,12 @@
     "networkId": 940,
     "infoURL": "https://pulsechain.com/",
     "rpc": [
-      "https://rpc.testnet.pulsechain.com/v1/${PULSECHAIN_API_KEY}",
-      "wss://rpc.testnet.pulsechain.com/ws/v1/${PULSECHAIN_API_KEY}"
+      "https://rpc.v2.testnet.pulsechain.com/",
+      "wss://rpc.v2.testnet.pulsechain.com/"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.v2.testnet.pulsechain.com/"
+    ],
     "nativeCurrency": {
       "name": "Test Pulse",
       "symbol": "tPLS",
