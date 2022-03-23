@@ -3992,7 +3992,7 @@
       "symbol": "W3Q",
       "decimals": 18
     },
-    "infoURL": "https://web3q.io/home.w3q/",
+    "infoURL": "https://testnet.web3q.io/home.w3q/",
     "shortName": "w3q-t",
     "chainId": 3333,
     "networkId": 3333,
@@ -4000,6 +4000,30 @@
       {
         "name": "w3q-testnet",
         "url": "https://explorer.testnet.web3q.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Web3Q Galileo",
+    "chain": "Web3Q",
+    "rpc": [
+      "https://galileo.web3q.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Web3Q",
+      "symbol": "W3Q",
+      "decimals": 18
+    },
+    "infoURL": "https://galileo.web3q.io/home.w3q/",
+    "shortName": "w3q-g",
+    "chainId": 3334,
+    "networkId": 3334,
+    "explorers": [
+      {
+        "name": "w3q-galileo",
+        "url": "https://explorer.galileo.web3q.io",
         "standard": "EIP3091"
       }
     ]
@@ -5761,7 +5785,9 @@
   {
     "name": "Ethereum Classic Testnet Kotti",
     "chain": "ETC",
-    "rpc": [],
+    "rpc": [
+      "https://www.ethercluster.com/kotti"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Kotti Ether",
@@ -5940,7 +5966,7 @@
     "name": "Ethereum Classic Mainnet",
     "chain": "ETC",
     "rpc": [
-      "https://ethereumclassic.network"
+      "https://www.ethercluster.com/etc"
     ],
     "faucets": [
       "https://free-online-app.com/faucet-for-eth-evm-chains/?"
@@ -6022,7 +6048,9 @@
   {
     "name": "Ethereum Classic Testnet Mordor",
     "chain": "ETC",
-    "rpc": [],
+    "rpc": [
+      "https://www.ethercluster.com/mordor"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Mordor Classic Testnet Ether",
