@@ -488,6 +488,7 @@
   {
     "name": "Web3Games Testnet",
     "chain": "Web3Games",
+    "icon": "web3games",
     "rpc": [
       "https://testnet.web3games.org/evm"
     ],
@@ -498,7 +499,7 @@
       "decimals": 18
     },
     "infoURL": "https://web3games.org/",
-    "shortName": "w3g",
+    "shortName": "tw3g",
     "chainId": 102,
     "networkId": 102
   },
@@ -597,6 +598,31 @@
       {
         "name": "Conflux Scan",
         "url": "https://evm.confluxscan.net",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Web3Games Devnet",
+    "chain": "Web3Games",
+    "icon": "web3games",
+    "rpc": [
+      "https://devnet.web3games.org/evm"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Web3Games",
+      "symbol": "W3G",
+      "decimals": 18
+    },
+    "infoURL": "https://web3games.org/",
+    "shortName": "dw3g",
+    "chainId": 105,
+    "networkId": 105,
+    "explorers": [
+      {
+        "name": "Web3Games Explorer",
+        "url": "https://explorer-devnet.web3games.org",
         "standard": "none"
       }
     ]
@@ -6159,7 +6185,7 @@
     ]
   },
   {
-    "name": "OKExChain Mainnet",
+    "name": "OKXChain Mainnet",
     "chain": "okexchain",
     "rpc": [
       "https://exchainrpc.okex.org"
