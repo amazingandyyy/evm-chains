@@ -2506,6 +2506,31 @@
     ]
   },
   {
+    "name": "BON Network",
+    "chain": "BON",
+    "network": "testnet",
+    "rpc": [
+      "http://8.210.150.70:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BOYACoin",
+      "symbol": "BOY",
+      "decimals": 18
+    },
+    "infoURL": "https://boyanet.org",
+    "shortName": "boya",
+    "chainId": 1898,
+    "networkId": 1,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.boyanet.org:4001",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Songbird Canary-Network",
     "chain": "SGB",
     "icon": "songbird",
@@ -4095,6 +4120,33 @@
     "networkId": 333999
   },
   {
+    "name": "DFK Chain Test",
+    "chain": "DFK",
+    "icon": "dfk",
+    "network": "testnet",
+    "rpc": [
+      "https://api-dfk.avax-test.network/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Jewel",
+      "symbol": "JEWEL",
+      "decimals": 18
+    },
+    "infoURL": "https://defikingdoms.com",
+    "shortName": "DFKTEST",
+    "chainId": 335,
+    "networkId": 335,
+    "explorers": [
+      {
+        "name": "ethernal",
+        "url": "https://explorer-test.dfkchain.com",
+        "icon": "ethereum",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Shiden",
     "chain": "SDN",
     "rpc": [
@@ -5434,6 +5486,33 @@
     "shortName": "UZMI",
     "chainId": 5315,
     "networkId": 5315
+  },
+  {
+    "name": "DFK Chain",
+    "chain": "DFK",
+    "icon": "dfk",
+    "network": "mainnet",
+    "rpc": [
+      "https://api-dfk.avax.network/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Jewel",
+      "symbol": "JEWEL",
+      "decimals": 18
+    },
+    "infoURL": "https://defikingdoms.com",
+    "shortName": "DFK",
+    "chainId": 53935,
+    "networkId": 53935,
+    "explorers": [
+      {
+        "name": "ethernal",
+        "url": "https://explorer.dfkchain.com",
+        "icon": "ethereum",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Zyx Mainnet",
