@@ -1,13 +1,13 @@
 {
-    "name": "Stable FUSE",
+    "name": "Stable BTC",
     "website": "app.ichi.org",
-    "description": "oneFUSE is an ICHI-created stablecoin for Fuse.",
-    "explorer": "https://etherscan.io/token/0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "description": "oneBTC is an ICHI-created stablecoin backed by USDC and wBTC.",
+    "explorer": "https://etherscan.io/token/0xEc4325F0518584F0774b483c215F65474EAbD27F",
     "type": "ERC20",
-    "symbol": "oneFUSE",
+    "symbol": "oneBTC",
     "decimals": 18,
     "status": "active",
-    "id": "0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "id": "0xEc4325F0518584F0774b483c215F65474EAbD27F",
     "tags": [
         "defi"
     ],
@@ -31,10 +31,6 @@
         {
             "name": "discord",
             "url": "https://discord.com/invite/DvsYCfK8"
-        },
-        {
-            "name": "coingecko",
-            "url": "https://coingecko.com/en/coins/onefuse"
         }
     ]
 }

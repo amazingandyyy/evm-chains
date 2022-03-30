@@ -658,8 +658,7 @@
     "chain": "NTN",
     "icon": "nebulatestnet",
     "rpc": [
-      "https://testnet.rpc.novanetwork.io:9070",
-      "http://testnet.rpc.novanetwork.io:8545"
+      "https://testnet.rpc.novanetwork.io:9070"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1978,6 +1977,32 @@
     "networkId": 14
   },
   {
+    "name": "Openpiece Testnet",
+    "chain": "OPENPIECE",
+    "icon": "openpiece",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.openpiece.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Belly",
+      "symbol": "BELLY",
+      "decimals": 18
+    },
+    "infoURL": "https://cryptopiece.online",
+    "shortName": "OPtest",
+    "chainId": 141,
+    "networkId": 141,
+    "explorers": [
+      {
+        "name": "Belly Scan",
+        "url": "https://testnet.bellyscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "DAX CHAIN",
     "chain": "DAX",
     "rpc": [
@@ -2773,6 +2798,58 @@
     }
   },
   {
+    "name": "Milkomeda Cardano (C1)",
+    "chain": "Milkomeda",
+    "icon": "milkomeda",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc-mainnet-cardano-evm.c1.milkomeda.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "milkADA",
+      "symbol": "milkADA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.milkomeda.com/",
+    "shortName": "milkomeda-c1",
+    "chainId": 2001,
+    "networkId": 2001,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Milkomeda Cardano Testnet",
+    "chain": "Milkomeda",
+    "icon": "milkomeda",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc-devnet-cardano-evm.c1.milkomeda.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "milkTADA",
+      "symbol": "milkTADA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.milkomeda.com/",
+    "shortName": "milkomeda-c1-testnet",
+    "chainId": 200101,
+    "networkId": 200101,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer-devnet-cardano-evm.c1.milkomeda.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Akroma",
     "chain": "AKA",
     "rpc": [
@@ -3179,6 +3256,56 @@
     "chainId": 222,
     "networkId": 2221,
     "slip44": 2221
+  },
+  {
+    "name": "LACHAIN Mainnet",
+    "chain": "LA",
+    "icon": "lachain",
+    "rpc": [
+      "https://rpc-mainnet.lachain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "LA",
+      "symbol": "LA",
+      "decimals": 18
+    },
+    "infoURL": "https://lachain.io",
+    "shortName": "LA",
+    "chainId": 225,
+    "networkId": 225,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.lachain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "LACHAIN Testnet",
+    "chain": "TLA",
+    "icon": "lachain",
+    "rpc": [
+      "https://rpc-testnet.lachain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TLA",
+      "symbol": "TLA",
+      "decimals": 18
+    },
+    "infoURL": "https://lachain.io",
+    "shortName": "TLA",
+    "chainId": 226,
+    "networkId": 226,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan-test.lachain.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "ELA-DID-Sidechain Testnet",
@@ -4125,7 +4252,7 @@
     "icon": "dfk",
     "network": "testnet",
     "rpc": [
-      "https://api-dfk.avax-test.network/rpc"
+      "https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5493,7 +5620,7 @@
     "icon": "dfk",
     "network": "mainnet",
     "rpc": [
-      "https://api-dfk.avax.network/rpc"
+      "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5510,6 +5637,32 @@
         "name": "ethernal",
         "url": "https://explorer.dfkchain.com",
         "icon": "ethereum",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Openpiece Mainnet",
+    "chain": "OPENPIECE",
+    "icon": "openpiece",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.openpiece.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Belly",
+      "symbol": "BELLY",
+      "decimals": 18
+    },
+    "infoURL": "https://cryptopiece.online",
+    "shortName": "OP",
+    "chainId": 54,
+    "networkId": 54,
+    "explorers": [
+      {
+        "name": "Belly Scan",
+        "url": "https://bellyscan.com",
         "standard": "none"
       }
     ]
@@ -7308,8 +7461,9 @@
     "chain": "NNW",
     "icon": "novanetwork",
     "rpc": [
-      "https://rpc.novanetwork.io:9070",
-      "http://nova.genyrpc.info:8545"
+      "https://connect.novanetwork.io",
+      "https://0x57.redjackstudio.com",
+      "https://rpc.novanetwork.io:9070"
     ],
     "faucets": [],
     "nativeCurrency": {

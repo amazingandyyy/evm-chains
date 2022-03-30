@@ -1,13 +1,13 @@
 {
-    "name": "Stable FUSE",
+    "name": "Stable FOX",
     "website": "app.ichi.org",
-    "description": "oneFUSE is an ICHI-created stablecoin for Fuse.",
-    "explorer": "https://etherscan.io/token/0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "description": "oneFOX is an ICHI-created stablecoin for Shapeshift.",
+    "explorer": "https://etherscan.io/token/0x03352D267951E96c6F7235037C5DFD2AB1466232",
     "type": "ERC20",
-    "symbol": "oneFUSE",
+    "symbol": "oneFOX",
     "decimals": 18,
     "status": "active",
-    "id": "0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "id": "0x03352D267951E96c6F7235037C5DFD2AB1466232",
     "tags": [
         "defi"
     ],
@@ -34,7 +34,7 @@
         },
         {
             "name": "coingecko",
-            "url": "https://coingecko.com/en/coins/onefuse"
+            "url": "https://coingecko.com/coins/stable-fox"
         }
     ]
 }

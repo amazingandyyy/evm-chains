@@ -1,13 +1,13 @@
 {
-    "name": "Stable FUSE",
+    "name": "Stable WING",
     "website": "app.ichi.org",
-    "description": "oneFUSE is an ICHI-created stablecoin for Fuse.",
-    "explorer": "https://etherscan.io/token/0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "description": "oneWING is an ICHI-created stablecoin for Wing.",
+    "explorer": "https://etherscan.io/token/0x5047fc5C9D7c49Ab22e390d13646a6A3a2476eff",
     "type": "ERC20",
-    "symbol": "oneFUSE",
+    "symbol": "oneWING",
     "decimals": 18,
     "status": "active",
-    "id": "0xBbcE03B2E7f53caDCA93251CA4c928aF01Db6404",
+    "id": "0x5047fc5C9D7c49Ab22e390d13646a6A3a2476eff",
     "tags": [
         "defi"
     ],
@@ -31,10 +31,6 @@
         {
             "name": "discord",
             "url": "https://discord.com/invite/DvsYCfK8"
-        },
-        {
-            "name": "coingecko",
-            "url": "https://coingecko.com/en/coins/onefuse"
         }
     ]
 }
