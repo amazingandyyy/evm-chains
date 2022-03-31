@@ -58,6 +58,7 @@
   {
     "name": "Gnosis Chain (formerly xDai)",
     "chain": "Gnosis",
+    "icon": "gnosis",
     "rpc": [
       "https://rpc.gnosischain.com",
       "https://xdai.poanetwork.dev",
@@ -86,6 +87,7 @@
       {
         "name": "blockscout",
         "url": "https://blockscout.com/xdai/mainnet",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -1691,6 +1693,22 @@
     ]
   },
   {
+    "name": "Moonrock old",
+    "chain": "MOON",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Rocs",
+      "symbol": "ROC",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "mrock-old",
+    "chainId": 1286,
+    "networkId": 1286,
+    "deprecated": true
+  },
+  {
     "name": "Moonbase Alpha",
     "chain": "MOON",
     "rpc": [
@@ -1857,6 +1875,32 @@
     "shortName": "xero",
     "chainId": 1313500,
     "networkId": 1313500
+  },
+  {
+    "name": "CENNZnet Azalea",
+    "chain": "CENNZnet",
+    "network": "azalea",
+    "rpc": [
+      "https://cennznet.unfrastructure.io/public"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CPAY",
+      "symbol": "CPAY",
+      "decimals": 18
+    },
+    "infoURL": "https://cennz.net",
+    "shortName": "cennz-a",
+    "chainId": 1337,
+    "networkId": 1337,
+    "icon": "cennz",
+    "explorers": [
+      {
+        "name": "UNcover",
+        "url": "https://uncoverexplorer.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "PepChain Churchill",
@@ -3174,6 +3218,24 @@
     "networkId": 0
   },
   {
+    "name": "SoterOne Mainnet old",
+    "chain": "SOTER",
+    "rpc": [
+      "https://rpc.soter.one"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SoterOne Mainnet Ether",
+      "symbol": "SOTER",
+      "decimals": 18
+    },
+    "infoURL": "https://www.soterone.com",
+    "shortName": "SO1-old",
+    "chainId": 218,
+    "networkId": 218,
+    "deprecated": true
+  },
+  {
     "name": "omChain Mainnet",
     "chain": "OML",
     "icon": "omlira",
@@ -3256,6 +3318,36 @@
     "chainId": 222,
     "networkId": 2221,
     "slip44": 2221
+  },
+  {
+    "name": "Kava EVM Testnet",
+    "chain": "KAVA",
+    "network": "testnet",
+    "rpc": [
+      "https://evm.evm-alpha.kava.io",
+      "wss://evm-ws.evm-alpha.kava.io"
+    ],
+    "faucets": [
+      "https://faucet.kava.io"
+    ],
+    "nativeCurrency": {
+      "name": "Kava",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.kava.io",
+    "shortName": "kava",
+    "chainId": 2221,
+    "networkId": 2221,
+    "icon": "kava",
+    "explorers": [
+      {
+        "name": "Kava Testnet Explorer",
+        "url": "https://explorer.evm-alpha.kava.io",
+        "standard": "EIP3091",
+        "icon": "kava"
+      }
+    ]
   },
   {
     "name": "LACHAIN Mainnet",
@@ -3905,6 +3997,55 @@
     ]
   },
   {
+    "name": "CENNZnet Rata",
+    "chain": "CENNZnet",
+    "network": "rata",
+    "rpc": [
+      "https://rata.centrality.me/public"
+    ],
+    "faucets": [
+      "https://app-faucet.centrality.me"
+    ],
+    "nativeCurrency": {
+      "name": "CPAY",
+      "symbol": "CPAY",
+      "decimals": 18
+    },
+    "infoURL": "https://cennz.net",
+    "shortName": "cennz-r",
+    "chainId": 3000,
+    "networkId": 3000,
+    "icon": "cennz"
+  },
+  {
+    "name": "CENNZnet Nikau",
+    "chain": "CENNZnet",
+    "network": "nikau",
+    "rpc": [
+      "https://nikau.centrality.me/public"
+    ],
+    "faucets": [
+      "https://app-faucet.centrality.me"
+    ],
+    "nativeCurrency": {
+      "name": "CPAY",
+      "symbol": "CPAY",
+      "decimals": 18
+    },
+    "infoURL": "https://cennz.net",
+    "shortName": "cennz-n",
+    "chainId": 3001,
+    "networkId": 3001,
+    "icon": "cennz",
+    "explorers": [
+      {
+        "name": "UNcover",
+        "url": "https://www.uncoverexplorer.com/?network=Nikau",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "RSK Testnet",
     "chain": "RSK",
     "rpc": [
@@ -4419,7 +4560,7 @@
     ]
   },
   {
-    "name": "Gather Tesnet Network",
+    "name": "Gather Testnet Network",
     "chain": "GTH",
     "rpc": [
       "https://testnet.gather.network"
@@ -5249,6 +5390,33 @@
         "name": "subscan",
         "url": "https://pangoro.subscan.io",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Autobahn Network",
+    "chain": "BNB",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.autobahn.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "infoURL": "https://autobahn.network",
+    "shortName": "autobahn",
+    "chainId": 45000,
+    "networkId": 45000,
+    "icon": "autobahn",
+    "explorers": [
+      {
+        "name": "autobahn explorer",
+        "url": "https://explorer.autobahn.network",
+        "icon": "autobahn",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -7043,6 +7211,32 @@
         "name": "Hazlor Testnet Explorer",
         "url": "https://explorer.hazlor.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "AEROCHAIN TESTNET",
+    "chain": "AEROCHAIN",
+    "network": "testnet",
+    "rpc": [
+      "https://trpc.aerochaincoin.org/",
+      "https://trpc.aerochain.id/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AEROCHAIN",
+      "symbol": "ARC",
+      "decimals": 18
+    },
+    "infoURL": "https://aerochaincoin.org/",
+    "shortName": "arc",
+    "chainId": 788,
+    "networkId": 788,
+    "explorers": [
+      {
+        "name": "aeroscan",
+        "url": "https://testnet.aeroscan.id",
+        "standard": "EIP3091"
       }
     ]
   },

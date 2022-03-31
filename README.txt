@@ -3,7 +3,6 @@
 │   ├── LICENSE
 │   ├── README.md
 │   └── chains
-│       ├── deprecated
 │       ├── eip155-1.json
 │       ├── eip155-10.json
 │       ├── eip155-100.json
@@ -75,6 +74,7 @@
 │       ├── eip155-1280.json
 │       ├── eip155-1284.json
 │       ├── eip155-1285.json
+│       ├── eip155-1286.json
 │       ├── eip155-1287.json
 │       ├── eip155-1288.json
 │       ├── eip155-13.json
@@ -83,6 +83,7 @@
 │       ├── eip155-1313161555.json
 │       ├── eip155-1313161556.json
 │       ├── eip155-1313500.json
+│       ├── eip155-1337.json
 │       ├── eip155-13371337.json
 │       ├── eip155-1337702.json
 │       ├── eip155-13381.json
@@ -144,10 +145,12 @@
 │       ├── eip155-210309.json
 │       ├── eip155-210425.json
 │       ├── eip155-211.json
+│       ├── eip155-218.json
 │       ├── eip155-21816.json
 │       ├── eip155-22.json
 │       ├── eip155-2213.json
 │       ├── eip155-222.json
+│       ├── eip155-2221.json
 │       ├── eip155-225.json
 │       ├── eip155-226.json
 │       ├── eip155-23.json
@@ -177,6 +180,8 @@
 │       ├── eip155-29.json
 │       ├── eip155-3.json
 │       ├── eip155-30.json
+│       ├── eip155-3000.json
+│       ├── eip155-3001.json
 │       ├── eip155-31.json
 │       ├── eip155-31102.json
 │       ├── eip155-311752642.json
@@ -234,6 +239,7 @@
 │       ├── eip155-444900.json
 │       ├── eip155-44787.json
 │       ├── eip155-45.json
+│       ├── eip155-45000.json
 │       ├── eip155-4689.json
 │       ├── eip155-4690.json
 │       ├── eip155-47805.json
@@ -312,6 +318,7 @@
 │       ├── eip155-78110.json
 │       ├── eip155-787.json
 │       ├── eip155-7878.json
+│       ├── eip155-788.json
 │       ├── eip155-8.json
 │       ├── eip155-80.json
 │       ├── eip155-8000.json
@@ -398,6 +405,7 @@
     │   ├── ecash
     │   ├── ellaism
     │   ├── elrond
+    │   ├── energyweb
     │   ├── eos
     │   ├── ether-1
     │   ├── ethereum
@@ -413,6 +421,7 @@
     │   ├── iost
     │   ├── iotex
     │   ├── kava
+    │   ├── kcc
     │   ├── kin
     │   ├── kusama
     │   ├── litecoin
@@ -758,4 +767,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-92 directories, 666 files
+93 directories, 674 files
