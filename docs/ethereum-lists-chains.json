@@ -1103,9 +1103,11 @@
     "chain": "WAGMI",
     "icon": "wagmi",
     "rpc": [
-      "https://api.trywagmi.xyz/rpc"
+      "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.trywagmi.xyz"
+    ],
     "nativeCurrency": {
       "name": "WAGMI",
       "symbol": "WGM",
@@ -1118,8 +1120,8 @@
     "explorers": [
       {
         "name": "WAGMI Explorer",
-        "url": "https://trywagmi.xyz",
-        "standard": "none"
+        "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -2842,52 +2844,54 @@
     }
   },
   {
-    "name": "Milkomeda Cardano (C1)",
-    "chain": "Milkomeda",
+    "name": "Milkomeda C1 Mainnet",
+    "chain": "milkAda",
     "icon": "milkomeda",
-    "network": "testnet",
+    "network": "mainnet",
     "rpc": [
-      "https://rpc-mainnet-cardano-evm.c1.milkomeda.com"
+      "https://rpc-mainnet-cardano-evm.c1.milkomeda.com",
+      "wss://rpc-mainnet-cardano-evm.c1.milkomeda.com"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "milkADA",
-      "symbol": "milkADA",
+      "name": "milkAda",
+      "symbol": "milkAda",
       "decimals": 18
     },
-    "infoURL": "https://www.milkomeda.com/",
-    "shortName": "milkomeda-c1",
+    "infoURL": "https://milkomeda.com",
+    "shortName": "milkAda",
     "chainId": 2001,
     "networkId": 2001,
     "explorers": [
       {
-        "name": "blockscout",
+        "name": "Blockscout",
         "url": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com",
         "standard": "none"
       }
     ]
   },
   {
-    "name": "Milkomeda Cardano Testnet",
-    "chain": "Milkomeda",
+    "name": "Milkomeda C1 Testnet",
+    "chain": "milkTAda",
     "icon": "milkomeda",
-    "network": "mainnet",
+    "network": "testnet",
     "rpc": [
-      "https://rpc-devnet-cardano-evm.c1.milkomeda.com"
+      "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
+      "wss://rpc-devnet-cardano-evm.c1.milkomeda.com"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "milkTADA",
-      "symbol": "milkTADA",
+      "name": "milkTAda",
+      "symbol": "milkTAda",
       "decimals": 18
     },
-    "infoURL": "https://www.milkomeda.com/",
-    "shortName": "milkomeda-c1-testnet",
+    "infoURL": "https://milkomeda.com",
+    "shortName": "milkTAda",
     "chainId": 200101,
     "networkId": 200101,
     "explorers": [
       {
-        "name": "blockscout",
+        "name": "Blockscout",
         "url": "https://explorer-devnet-cardano-evm.c1.milkomeda.com",
         "standard": "none"
       }
@@ -6056,6 +6060,31 @@
     ]
   },
   {
+    "name": "Digest Swarm Chain",
+    "chain": "DSC",
+    "icon": "swarmchain",
+    "rpc": [
+      "https://rpc.digestgroup.ltd"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DigestCoin",
+      "symbol": "DGCC",
+      "decimals": 18
+    },
+    "infoURL": "https://digestgroup.ltd",
+    "shortName": "dgcc",
+    "chainId": 5777,
+    "networkId": 5777,
+    "explorers": [
+      {
+        "name": "swarmexplorer",
+        "url": "https://explorer.digestgroup.ltd",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ontology Mainnet",
     "chain": "Ontology",
     "rpc": [
@@ -7215,21 +7244,22 @@
     ]
   },
   {
-    "name": "AEROCHAIN TESTNET",
-    "chain": "AEROCHAIN",
+    "name": "Aerochain Testnet",
+    "chain": "Aerochain",
     "network": "testnet",
     "rpc": [
-      "https://trpc.aerochaincoin.org/",
-      "https://trpc.aerochain.id/"
+      "https://testnet-rpc.aerochain.id/"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.aerochain.id/"
+    ],
     "nativeCurrency": {
-      "name": "AEROCHAIN",
-      "symbol": "ARC",
+      "name": "Aerochain Testnet",
+      "symbol": "TAero",
       "decimals": 18
     },
     "infoURL": "https://aerochaincoin.org/",
-    "shortName": "arc",
+    "shortName": "taero",
     "chainId": 788,
     "networkId": 788,
     "explorers": [
