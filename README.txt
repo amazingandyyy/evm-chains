@@ -19,6 +19,7 @@
 │       ├── eip155-10001.json
 │       ├── eip155-1001.json
 │       ├── eip155-1007.json
+│       ├── eip155-1008.json
 │       ├── eip155-101.json
 │       ├── eip155-1010.json
 │       ├── eip155-10101.json
@@ -401,6 +402,7 @@
     │   ├── celo
     │   ├── classic
     │   ├── cosmos
+    │   ├── cronos
     │   ├── cryptoorg
     │   ├── dash
     │   ├── decred
@@ -771,4 +773,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-93 directories, 678 files
+94 directories, 679 files
