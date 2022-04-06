@@ -2448,7 +2448,7 @@
     "name": "LUDAN Mainnet",
     "chain": "LUDAN",
     "rpc": [
-      "http://rpc.ludan.org:55001/"
+      "https://rpc.ludan.org/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4070,6 +4070,34 @@
       {
         "name": "blockscout",
         "url": "https://explorer.rsk.co",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Optimism on Gnosis Chain",
+    "chain": "OGC",
+    "rpc": [
+      "https://optimism.gnosischain.com",
+      "wss://optimism.gnosischain.com/wss"
+    ],
+    "faucets": [
+      "https://faucet.gimlu.com/gnosis"
+    ],
+    "nativeCurrency": {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "decimals": 18
+    },
+    "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc",
+    "shortName": "ogc",
+    "chainId": 300,
+    "networkId": 300,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/xdai/optimism",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
