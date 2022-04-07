@@ -1156,6 +1156,7 @@
     "name": "Sepolia",
     "title": "Ethereum Testnet Sepolia",
     "chain": "ETH",
+    "network": "testnet",
     "rpc": [],
     "faucets": [
       "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
@@ -1908,12 +1909,9 @@
     "networkId": 1313500
   },
   {
-    "name": "CENNZnet Azalea",
+    "name": "CENNZnet old",
     "chain": "CENNZnet",
-    "network": "azalea",
-    "rpc": [
-      "https://cennznet.unfrastructure.io/public"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "CPAY",
@@ -1921,17 +1919,10 @@
       "decimals": 18
     },
     "infoURL": "https://cennz.net",
-    "shortName": "cennz-a",
+    "shortName": "cennz-old",
     "chainId": 1337,
     "networkId": 1337,
-    "icon": "cennz",
-    "explorers": [
-      {
-        "name": "UNcover",
-        "url": "https://uncoverexplorer.com",
-        "standard": "none"
-      }
-    ]
+    "deprecated": true
   },
   {
     "name": "PepChain Churchill",
@@ -2780,6 +2771,33 @@
     ]
   },
   {
+    "name": "Eurus Testnet",
+    "chain": "EUN",
+    "network": "eurus-testnet",
+    "rpc": [
+      "https://testnet.eurus.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Eurus",
+      "symbol": "EUN",
+      "decimals": 18
+    },
+    "infoURL": "https://eurus.network",
+    "shortName": "euntest",
+    "chainId": 1984,
+    "networkId": 1984,
+    "icon": "eurus",
+    "explorers": [
+      {
+        "name": "testnetexplorer",
+        "url": "https://testnetexplorer.eurus.network",
+        "icon": "eurus",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "BTCIX Network",
     "chain": "BTCIX",
     "rpc": [
@@ -3266,6 +3284,32 @@
     "shortName": "EDI",
     "chainId": 211,
     "networkId": 0
+  },
+  {
+    "name": "CENNZnet Azalea",
+    "chain": "CENNZnet",
+    "network": "azalea",
+    "rpc": [
+      "https://cennznet.unfrastructure.io/public"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CPAY",
+      "symbol": "CPAY",
+      "decimals": 18
+    },
+    "infoURL": "https://cennz.net",
+    "shortName": "cennz-a",
+    "chainId": 21337,
+    "networkId": 21337,
+    "icon": "cennz",
+    "explorers": [
+      {
+        "name": "UNcover",
+        "url": "https://uncoverexplorer.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "SoterOne Mainnet old",
@@ -4018,6 +4062,7 @@
     "name": "Ropsten",
     "title": "Ethereum Testnet Ropsten",
     "chain": "ETH",
+    "network": "testnet",
     "rpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
       "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -4958,6 +5003,7 @@
     "name": "Rinkeby",
     "title": "Ethereum Testnet Rinkeby",
     "chain": "ETH",
+    "network": "testnet",
     "rpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -5088,6 +5134,7 @@
     "name": "Kovan",
     "title": "Ethereum Testnet Kovan",
     "chain": "ETH",
+    "network": "testnet",
     "rpc": [
       "https://kovan.poa.network",
       "http://kovan.poa.network:8545",
@@ -5714,6 +5761,7 @@
     "name": "Görli",
     "title": "Ethereum Testnet Görli",
     "chain": "ETH",
+    "network": "testnet",
     "rpc": [
       "https://goerli.infura.io/v3/${INFURA_API_KEY}",
       "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
