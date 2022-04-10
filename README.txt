@@ -503,6 +503,7 @@
         ├── app.dodoex.io.png
         ├── app.ens.domains.png
         ├── app.ercdex.com.png
+        ├── app.everrise.com.png
         ├── app.marsecosystem.com.png
         ├── app.mcdex.io.png
         ├── app.nuo.network.png
@@ -761,6 +762,7 @@
         ├── uniswap.exchange.png
         ├── uniswap.io.png
         ├── v1exchange.pancakeswap.finance.png
+        ├── v3app.everrise.com.png
         ├── voting.cafeswap.finance.png
         ├── wallet.mocotoken.io.png
         ├── wardenswap.finance.png
@@ -778,4 +780,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-94 directories, 684 files
+94 directories, 686 files
