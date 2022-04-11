@@ -7458,7 +7458,7 @@
   },
   {
     "name": "Zenith Mainnet",
-    "chain": "Zenith Mainnet",
+    "chain": "Zenith",
     "rpc": [
       "https://dataserver-1.zenithchain.co/",
       "https://dataserver-us-1.zenithchain.co/"
@@ -7687,8 +7687,8 @@
     ]
   },
   {
-    "name": "Zenith Testnet",
-    "chain": "Zenith Testnet",
+    "name": "Villinius",
+    "chain": "Zenith",
     "rpc": [
       "https://vilinius.zenithchain.co/http"
     ],
@@ -7696,14 +7696,14 @@
       "https://faucet.zenithchain.co/"
     ],
     "nativeCurrency": {
-      "name": "test ZENITH",
-      "symbol": "tZENITH",
+      "name": "Villinius",
+      "symbol": "VIL",
       "decimals": 18
     },
     "infoURL": "https://www.zenithchain.co/",
     "chainId": 81,
     "networkId": 81,
-    "shortName": "tzenith",
+    "shortName": "VIL",
     "explorers": [
       {
         "name": "villinius zenith scan",
@@ -8210,7 +8210,7 @@
     "name": "Evmos Testnet",
     "chain": "Evmos",
     "rpc": [
-      "https://evmos-archive-testnet.api.bdnodes.net:8545"
+      "https://eth.bd.evmos.dev:8545"
     ],
     "faucets": [
       "https://faucet.evmos.dev"
@@ -8227,9 +8227,9 @@
     "icon": "evmos",
     "explorers": [
       {
-        "name": "Evmos EVM Explorer (Blockscout)",
+        "name": "Evmos EVM Explorer",
         "url": "https://evm.evmos.dev",
-        "standard": "none",
+        "standard": "EIP3091",
         "icon": "evmos"
       },
       {
