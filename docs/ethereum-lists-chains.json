@@ -2158,7 +2158,7 @@
     ],
     "nativeCurrency": {
       "name": "MetaDot Token TestNet",
-      "symbol": "MTT-test",
+      "symbol": "MTTest",
       "decimals": 18
     },
     "infoURL": "https://metadot.network",
@@ -2975,7 +2975,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "milkTAda",
-      "symbol": "milkTAda",
+      "symbol": "mTAda",
       "decimals": 18
     },
     "infoURL": "https://milkomeda.com",
@@ -4922,7 +4922,7 @@
     ],
     "nativeCurrency": {
       "name": "Lisinski Ether",
-      "symbol": "LISINSKI",
+      "symbol": "LISINS",
       "decimals": 18
     },
     "infoURL": "https://lisinski.online",
@@ -6983,6 +6983,30 @@
     "shortName": "tch",
     "chainId": 7,
     "networkId": 7
+  },
+  {
+    "name": "Star Social Testnet",
+    "chain": "SNS",
+    "rpc": [
+      "https://avastar.cc/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Social",
+      "symbol": "SNS",
+      "decimals": 18
+    },
+    "infoURL": "https://info.avastar.cc",
+    "shortName": "SNS",
+    "chainId": 700,
+    "networkId": 700,
+    "explorers": [
+      {
+        "name": "starscan",
+        "url": "https://avastar.info",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Thinkium Mainnet Chain 0",
