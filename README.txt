@@ -158,6 +158,7 @@
 │       ├── eip155-2213.json
 │       ├── eip155-222.json
 │       ├── eip155-2221.json
+│       ├── eip155-2223.json
 │       ├── eip155-225.json
 │       ├── eip155-226.json
 │       ├── eip155-23.json
@@ -406,6 +407,7 @@
     │   ├── bitcoincash
     │   ├── bitcoingold
     │   ├── bluzelle
+    │   ├── boba
     │   ├── callisto
     │   ├── cardano
     │   ├── celo
@@ -785,4 +787,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-94 directories, 691 files
+95 directories, 692 files
