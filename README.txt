@@ -177,6 +177,7 @@
 │       ├── eip155-250.json
 │       ├── eip155-2559.json
 │       ├── eip155-256.json
+│       ├── eip155-2569.json
 │       ├── eip155-258.json
 │       ├── eip155-26.json
 │       ├── eip155-262.json
@@ -299,6 +300,7 @@
 │       ├── eip155-61717561.json
 │       ├── eip155-62.json
 │       ├── eip155-62320.json
+│       ├── eip155-62621.json
 │       ├── eip155-63.json
 │       ├── eip155-63000.json
 │       ├── eip155-63001.json
@@ -404,6 +406,7 @@
     │   ├── arbitrum
     │   ├── ark
     │   ├── aryacoin
+    │   ├── aurora
     │   ├── avalanchec
     │   ├── avalanchex
     │   ├── band
@@ -793,4 +796,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-96 directories, 697 files
+97 directories, 699 files
