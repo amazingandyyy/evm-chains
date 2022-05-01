@@ -4497,6 +4497,30 @@
     ]
   },
   {
+    "name": "Bitgert Mainnet",
+    "chain": "Brise",
+    "rpc": [
+      "https://mainnet-rpc.brisescan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitrise Token",
+      "symbol": "Brise",
+      "decimals": 18
+    },
+    "infoURL": "https://bitgert.com/",
+    "shortName": "Brise",
+    "chainId": 32520,
+    "networkId": 32520,
+    "explorers": [
+      {
+        "name": "Brise Scan",
+        "url": "https://brisescan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Fusion Mainnet",
     "chain": "FSN",
     "rpc": [
@@ -8426,6 +8450,35 @@
     "chainId": 888888,
     "networkId": 888888,
     "slip44": 60
+  },
+  {
+    "name": "Mammoth",
+    "title": "Mammoth Chain",
+    "chain": "MMT",
+    "rpc": [
+      "https://dataseed.mmtscan.io",
+      "https://dataseed1.mmtscan.io",
+      "https://dataseed2.mmtscan.io"
+    ],
+    "faucets": [
+      "https://faucet.mmtscan.io/"
+    ],
+    "nativeCurrency": {
+      "name": "Mammoth Token",
+      "symbol": "MMT",
+      "decimals": 18
+    },
+    "infoURL": "https://mmtchain.io/",
+    "shortName": "mmt",
+    "chainId": 8898,
+    "networkId": 8898,
+    "explorers": [
+      {
+        "name": "mmtscan",
+        "url": "https://mmtscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "TomoChain Testnet",
