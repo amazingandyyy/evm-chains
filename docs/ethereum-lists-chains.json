@@ -4500,7 +4500,9 @@
     "name": "Bitgert Mainnet",
     "chain": "Brise",
     "rpc": [
-      "https://mainnet-rpc.brisescan.com"
+      "https://mainnet-rpc.brisescan.com",
+      "https://chainrpc.com",
+      "https://serverrpc.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4512,10 +4514,12 @@
     "shortName": "Brise",
     "chainId": 32520,
     "networkId": 32520,
+    "icon": "brise",
     "explorers": [
       {
         "name": "Brise Scan",
         "url": "https://brisescan.com",
+        "icon": "brise",
         "standard": "EIP3091"
       }
     ]
@@ -6139,6 +6143,32 @@
     "shortName": "UZMI",
     "chainId": 5315,
     "networkId": 5315
+  },
+  {
+    "name": "Candle Mainnet",
+    "chain": "Candle",
+    "rpc": [
+      "https://candle-rpc.com/",
+      "https://rpc.cndlchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CANDLE",
+      "symbol": "CNDL",
+      "decimals": 18
+    },
+    "infoURL": "https://candlelabs.org/",
+    "shortName": "CNDL",
+    "chainId": 534,
+    "networkId": 534,
+    "slip44": 674,
+    "explorers": [
+      {
+        "name": "candlescan",
+        "url": "https://cndlchain.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "DFK Chain",
