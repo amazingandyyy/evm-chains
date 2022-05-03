@@ -4735,11 +4735,13 @@
     "shortName": "sdn",
     "chainId": 336,
     "networkId": 336,
+    "icon": "shiden",
     "explorers": [
       {
         "name": "subscan",
         "url": "https://shiden.subscan.io",
-        "standard": "none"
+        "standard": "none",
+        "icon": "subscan"
       }
     ]
   },
@@ -6687,6 +6689,32 @@
     ]
   },
   {
+    "name": "Astar",
+    "chain": "ASTR",
+    "rpc": [
+      "https://rpc.astar.network:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Astar",
+      "symbol": "ASTR",
+      "decimals": 18
+    },
+    "infoURL": "https://astar.network/",
+    "shortName": "astr",
+    "chainId": 592,
+    "networkId": 592,
+    "icon": "astar",
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://astar.subscan.io",
+        "standard": "none",
+        "icon": "subscan"
+      }
+    ]
+  },
+  {
     "name": "Acala Mandala Testnet",
     "chain": "mACA",
     "rpc": [],
@@ -7024,10 +7052,12 @@
     "shortName": "ecs",
     "chainId": 63000,
     "networkId": 63000,
+    "icon": "ecredits",
     "explorers": [
       {
         "name": "eCredits MainNet Explorer",
         "url": "https://explorer.ecredits.com",
+        "icon": "ecredits",
         "standard": "EIP3091"
       }
     ]
@@ -7051,10 +7081,12 @@
     "shortName": "ecs-testnet",
     "chainId": 63001,
     "networkId": 63001,
+    "icon": "ecredits",
     "explorers": [
       {
         "name": "eCredits TestNet Explorer",
         "url": "https://explorer.tst.ecredits.com",
+        "icon": "ecredits",
         "standard": "EIP3091"
       }
     ]
