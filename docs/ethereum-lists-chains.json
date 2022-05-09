@@ -3170,6 +3170,37 @@
     "networkId": 2022
   },
   {
+    "name": "Taycan Testnet",
+    "chain": "Taycan",
+    "rpc": [
+      "https://test-taycan.hupayx.io"
+    ],
+    "faucets": [
+      "https://ttaycan-faucet.hupayx.io/"
+    ],
+    "nativeCurrency": {
+      "name": "test-Shuffle",
+      "symbol": "tSFL",
+      "decimals": 18
+    },
+    "infoURL": "https://hupayx.io",
+    "shortName": "taycan-testnet",
+    "chainId": 2023,
+    "networkId": 2023,
+    "explorers": [
+      {
+        "name": "Taycan Explorer(Blockscout)",
+        "url": "https://evmscan-test.hupayx.io",
+        "standard": "none"
+      },
+      {
+        "name": "Taycan Cosmos Explorer",
+        "url": "https://cosmoscan-test.hupayx.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Rangers Protocol Mainnet",
     "chain": "Rangers",
     "icon": "rangers",
@@ -3442,6 +3473,36 @@
     "shortName": "eladid",
     "chainId": 22,
     "networkId": 22
+  },
+  {
+    "name": "Taycan",
+    "chain": "Taycan",
+    "network": "mainnet",
+    "rpc": [
+      "https://taycan-rpc.hupayx.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "shuffle",
+      "symbol": "SFL",
+      "decimals": 18
+    },
+    "infoURL": "https://hupayx.io",
+    "shortName": "SFL",
+    "chainId": 22023,
+    "networkId": 22023,
+    "explorers": [
+      {
+        "name": "Taycan Explorer(Blockscout)",
+        "url": "https://taycan-evmscan.hupayx.io",
+        "standard": "none"
+      },
+      {
+        "name": "Taycan Cosmos Explorer(BigDipper)",
+        "url": "https://taycan-cosmoscan.hupayx.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "PlatON Dev Testnet",
@@ -3976,6 +4037,58 @@
         "name": "Genesis L1 testnet explorer",
         "url": "https://testnet.genesisl1.org",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "EZChain C-Chain Mainnet",
+    "chain": "EZC",
+    "rpc": [
+      "https://api.ezchain.com/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EZChain",
+      "symbol": "EZC",
+      "decimals": 18
+    },
+    "infoURL": "https://ezchain.com",
+    "shortName": "EZChain",
+    "chainId": 2612,
+    "networkId": 2612,
+    "icon": "ezchain",
+    "explorers": [
+      {
+        "name": "ezchain",
+        "url": "https://cchain-explorer.ezchain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "EZChain C-Chain Testnet",
+    "chain": "EZC",
+    "rpc": [
+      "https://testnet-api.ezchain.com/ext/bc/C/rpc"
+    ],
+    "faucets": [
+      "https://testnet-faucet.ezchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "EZChain",
+      "symbol": "EZC",
+      "decimals": 18
+    },
+    "infoURL": "https://ezchain.com",
+    "shortName": "Fuji-EZChain",
+    "chainId": 2613,
+    "networkId": 2613,
+    "icon": "ezchain",
+    "explorers": [
+      {
+        "name": "ezchain",
+        "url": "https://testnet-cchain-explorer.ezchain.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -6730,6 +6843,38 @@
     "networkId": 595
   },
   {
+    "name": "Karura Network Testnet",
+    "chain": "KAR",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Karura Token",
+      "symbol": "KAR",
+      "decimals": 18
+    },
+    "infoURL": "https://karura.network",
+    "shortName": "tkar",
+    "chainId": 596,
+    "networkId": 596,
+    "slip44": 596
+  },
+  {
+    "name": "Acala Network Testnet",
+    "chain": "ACA",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Acala Token",
+      "symbol": "ACA",
+      "decimals": 18
+    },
+    "infoURL": "https://acala.network",
+    "shortName": "taca",
+    "chainId": 597,
+    "networkId": 597,
+    "slip44": 597
+  },
+  {
     "name": "Ethereum Classic Testnet Kotti",
     "chain": "ETC",
     "rpc": [
@@ -8454,22 +8599,22 @@
     "name": "Ambros Chain Mainnet",
     "chain": "ambroschain",
     "rpc": [
-      "https://mainnet.ambroschain.com"
+      "https://api.ambros.network"
     ],
     "faucets": [],
     "nativeCurrency": {
       "name": "AMBROS",
-      "symbol": "AMBR",
+      "symbol": "AMBROS",
       "decimals": 18
     },
-    "infoURL": "https://bcmhunt.com/",
+    "infoURL": "https://ambros.network",
     "shortName": "ambros",
     "chainId": 880,
     "networkId": 880,
     "explorers": [
       {
         "name": "Ambros Chain Explorer",
-        "url": "https://explorer.ambroschain.com",
+        "url": "https://ambrosscan.com",
         "standard": "none"
       }
     ]
@@ -8496,22 +8641,22 @@
     "name": "Ambros Chain Testnet",
     "chain": "ambroschain",
     "rpc": [
-      "https://testnet.ambroschain.com"
+      "https://api.testnet.ambros.network"
     ],
     "faucets": [],
     "nativeCurrency": {
       "name": "AMBROS",
-      "symbol": "AMBR",
+      "symbol": "AMBROS",
       "decimals": 18
     },
-    "infoURL": "https://bcmhunt.com/",
+    "infoURL": "https://test.ambros.network",
     "shortName": "ambrostestnet",
     "chainId": 8888,
     "networkId": 8888,
     "explorers": [
       {
         "name": "Ambros Chain Explorer",
-        "url": "https://testexplorer.ambroschain.com",
+        "url": "https://testnet.ambrosscan.com",
         "standard": "none"
       }
     ]
