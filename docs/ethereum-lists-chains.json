@@ -709,13 +709,15 @@
     "name": "ThunderCore Mainnet",
     "chain": "TT",
     "rpc": [
-      "https://mainnet-rpc.thundercore.com"
+      "https://mainnet-rpc.thundercore.com",
+      "https://mainnet-rpc.thundertoken.net",
+      "https://mainnet-rpc.thundercore.io"
     ],
     "faucets": [
       "https://faucet.thundercore.com"
     ],
     "nativeCurrency": {
-      "name": "ThunderCore Mainnet Ether",
+      "name": "ThunderCore Token",
       "symbol": "TT",
       "decimals": 18
     },
@@ -726,9 +728,9 @@
     "slip44": 1001,
     "explorers": [
       {
-        "name": "ThundercoreScan",
-        "url": "https://scan.thundercore.com",
-        "standard": "none"
+        "name": "thundercore-viewblock",
+        "url": "https://viewblock.io/thundercore",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -2518,7 +2520,7 @@
       "https://faucet-testnet.thundercore.com"
     ],
     "nativeCurrency": {
-      "name": "ThunderCore Testnet Ether",
+      "name": "ThunderCore Testnet Token",
       "symbol": "TST",
       "decimals": 18
     },
@@ -2528,9 +2530,9 @@
     "networkId": 18,
     "explorers": [
       {
-        "name": "ThundercoreTestNetScanner",
-        "url": "https://scan-testnet.thundercore.com",
-        "standard": "none"
+        "name": "thundercore-blockscout-testnet",
+        "url": "https://explorer-testnet.thundercore.com",
+        "standard": "EIP3091"
       }
     ]
   },
