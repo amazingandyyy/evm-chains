@@ -1738,7 +1738,7 @@
     "shortName": "mrock-old",
     "chainId": 1286,
     "networkId": 1286,
-    "deprecated": true
+    "status": "deprecated"
   },
   {
     "name": "Moonbase Alpha",
@@ -1922,7 +1922,7 @@
     "shortName": "cennz-old",
     "chainId": 1337,
     "networkId": 1337,
-    "deprecated": true
+    "status": "deprecated"
   },
   {
     "name": "PepChain Churchill",
@@ -3512,7 +3512,7 @@
     "shortName": "SO1-old",
     "chainId": 218,
     "networkId": 218,
-    "deprecated": true
+    "status": "deprecated"
   },
   {
     "name": "omChain Mainnet",
@@ -4538,6 +4538,33 @@
         "name": "UNcover",
         "url": "https://www.uncoverexplorer.com/?network=Nikau",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Piece testnet",
+    "chain": "PieceNetwork",
+    "icon": "piecechain",
+    "rpc": [
+      "https://testnet-rpc0.piecenetwork.com"
+    ],
+    "faucets": [
+      "https://piecenetwork.com/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "ECE",
+      "symbol": "ECE",
+      "decimals": 18
+    },
+    "infoURL": "https://piecenetwork.com",
+    "shortName": "Piece",
+    "chainId": 30067,
+    "networkId": 30067,
+    "explorers": [
+      {
+        "name": "Piece Scan",
+        "url": "https://testnet-scan.piecenetwork.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -5950,19 +5977,19 @@
   },
   {
     "name": "Autobahn Network",
-    "chain": "BNB",
+    "chain": "TXL",
     "network": "mainnet",
     "rpc": [
       "https://rpc.autobahn.network"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "BNB",
-      "symbol": "BNB",
+      "name": "TXL",
+      "symbol": "TXL",
       "decimals": 18
     },
     "infoURL": "https://autobahn.network",
-    "shortName": "autobahn",
+    "shortName": "Autobahn Network",
     "chainId": 45000,
     "networkId": 45000,
     "icon": "autobahn",
