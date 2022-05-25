@@ -677,6 +677,7 @@
         ├── frens.link.png
         ├── fry.world.png
         ├── fundrequest.io.png
+        ├── galler.io.png
         ├── game.lordless.io.png
         ├── governance.trustwallet.com.png
         ├── hex.win.png
@@ -805,6 +806,7 @@
         ├── www.bakeryswap.org.png
         ├── www.comproi.com.png
         ├── www.crypt-oink.io.png
+        ├── www.galler.io.png
         ├── www.google.com.png
         ├── www.helmet.insure.png
         ├── xank.io.png
@@ -814,4 +816,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-98 directories, 716 files
+98 directories, 718 files
