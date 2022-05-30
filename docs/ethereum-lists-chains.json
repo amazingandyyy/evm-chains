@@ -116,7 +116,7 @@
     "name": "QuarkChain Mainnet Root",
     "chain": "QuarkChain",
     "rpc": [
-      "http://jrpc.mainnet.quarkchain.io:38391/"
+      "http://jrpc.mainnet.quarkchain.io:38391"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -124,7 +124,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-r",
     "chainId": 100000,
     "networkId": 100000
@@ -134,7 +134,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s0-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39000/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39000"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -142,7 +142,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s0",
     "chainId": 100001,
     "networkId": 100001,
@@ -163,7 +163,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s1-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39001/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39001"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -171,7 +171,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s1",
     "chainId": 100002,
     "networkId": 100002,
@@ -192,7 +192,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s2-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39002/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39002"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -200,7 +200,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s2",
     "chainId": 100003,
     "networkId": 100003,
@@ -221,7 +221,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s3-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39003/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39003"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -229,7 +229,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s3",
     "chainId": 100004,
     "networkId": 100004,
@@ -250,7 +250,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s4-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39004/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39004"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -258,7 +258,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s4",
     "chainId": 100005,
     "networkId": 100005,
@@ -279,7 +279,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s5-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39005/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39005"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -287,7 +287,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s5",
     "chainId": 100006,
     "networkId": 100006,
@@ -308,7 +308,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s6-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39006/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39006"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -316,7 +316,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s6",
     "chainId": 100007,
     "networkId": 100007,
@@ -337,7 +337,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://mainnet-s7-ethapi.quarkchain.io",
-      "http://eth-jrpc.mainnet.quarkchain.io:39007/"
+      "http://eth-jrpc.mainnet.quarkchain.io:39007"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -345,7 +345,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-s7",
     "chainId": 100008,
     "networkId": 100008,
@@ -860,7 +860,7 @@
     "name": "QuarkChain Devnet Root",
     "chain": "QuarkChain",
     "rpc": [
-      "http://jrpc.devnet.quarkchain.io:38391/"
+      "http://jrpc.devnet.quarkchain.io:38391"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -868,7 +868,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-r",
     "chainId": 110000,
     "networkId": 110000
@@ -878,7 +878,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s0-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39900/"
+      "http://eth-jrpc.devnet.quarkchain.io:39900"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -886,7 +886,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s0",
     "chainId": 110001,
     "networkId": 110001,
@@ -907,7 +907,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s1-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39901/"
+      "http://eth-jrpc.devnet.quarkchain.io:39901"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -915,7 +915,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s1",
     "chainId": 110002,
     "networkId": 110002,
@@ -936,7 +936,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s2-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39902/"
+      "http://eth-jrpc.devnet.quarkchain.io:39902"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -944,7 +944,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s2",
     "chainId": 110003,
     "networkId": 110003,
@@ -965,7 +965,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s3-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39903/"
+      "http://eth-jrpc.devnet.quarkchain.io:39903"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -973,7 +973,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s3",
     "chainId": 110004,
     "networkId": 110004,
@@ -994,7 +994,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s4-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39904/"
+      "http://eth-jrpc.devnet.quarkchain.io:39904"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1002,7 +1002,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s4",
     "chainId": 110005,
     "networkId": 110005,
@@ -1023,7 +1023,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s5-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39905/"
+      "http://eth-jrpc.devnet.quarkchain.io:39905"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1031,7 +1031,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s5",
     "chainId": 110006,
     "networkId": 110006,
@@ -1052,7 +1052,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s6-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39906/"
+      "http://eth-jrpc.devnet.quarkchain.io:39906"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1060,7 +1060,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s6",
     "chainId": 110007,
     "networkId": 110007,
@@ -1081,7 +1081,7 @@
     "chain": "QuarkChain",
     "rpc": [
       "https://devnet-s7-ethapi.quarkchain.io",
-      "http://eth-jrpc.devnet.quarkchain.io:39907/"
+      "http://eth-jrpc.devnet.quarkchain.io:39907"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1089,7 +1089,7 @@
       "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://www.quarkchain.io/",
+    "infoURL": "https://www.quarkchain.io",
     "shortName": "qkc-d-s7",
     "chainId": 110008,
     "networkId": 110008,
@@ -4493,25 +4493,27 @@
     ]
   },
   {
-    "name": "CENNZnet Rata",
-    "chain": "CENNZnet",
-    "network": "rata",
+    "name": "Echelon",
+    "chain": "Echelon",
+    "network": "Echelon",
     "rpc": [
-      "https://rata.centrality.me/public"
+      "https://rpc.ech.network",
+      "https://evm.ech.network",
+      "https://draco.ech.network"
     ],
     "faucets": [
-      "https://app-faucet.centrality.me"
+      "https://app.ech.network/faucet"
     ],
     "nativeCurrency": {
-      "name": "CPAY",
-      "symbol": "CPAY",
+      "name": "ECH",
+      "symbol": "ECH",
       "decimals": 18
     },
-    "infoURL": "https://cennz.net",
-    "shortName": "cennz-r",
+    "infoURL": "https://ech.network",
+    "shortName": "echelon",
     "chainId": 3000,
     "networkId": 3000,
-    "icon": "cennz"
+    "icon": "echelon"
   },
   {
     "name": "CENNZnet Nikau",
@@ -5529,6 +5531,34 @@
         "name": "AIOZ Network Testnet Explorer",
         "url": "https://testnet.explorer.aioz.network",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "PHI Network",
+    "chain": "PHI",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc1.phi.network",
+      "https://rpc2.phi.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PHI",
+      "symbol": "Φ",
+      "decimals": 18
+    },
+    "infoURL": "https://phi.network",
+    "shortName": "PHI",
+    "chainId": 4181,
+    "networkId": 4181,
+    "icon": "phi",
+    "explorers": [
+      {
+        "name": "PHI Explorer",
+        "url": "https://explorer.phi.network",
+        "icon": "phi",
+        "standard": "none"
       }
     ]
   },
