@@ -823,6 +823,65 @@
     ]
   },
   {
+    "name": "Quadrans Blockchain",
+    "chain": "QDC",
+    "network": "mainnet",
+    "icon": "quadrans",
+    "rpc": [
+      "https://rpc.quadrans.io",
+      "https://rpcna.quadrans.io",
+      "https://explorer.quadrans.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Quadrans Coin",
+      "symbol": "QDC",
+      "decimals": 18
+    },
+    "infoURL": "https://quadrans.io",
+    "shortName": "quadrans",
+    "chainId": 10946,
+    "networkId": 10946,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.quadrans.io",
+        "icon": "quadrans",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Quadrans Blockchain Testnet",
+    "chain": "tQDC",
+    "network": "testnet",
+    "icon": "quadrans",
+    "rpc": [
+      "https://rpctest.quadrans.io",
+      "https://explorer.testnet.quadrans.io"
+    ],
+    "faucets": [
+      "https://faucetpage.quadrans.io"
+    ],
+    "nativeCurrency": {
+      "name": "Quadrans Testnet Coin",
+      "symbol": "tQDC",
+      "decimals": 18
+    },
+    "infoURL": "https://quadrans.io",
+    "shortName": "quadranstestnet",
+    "chainId": 10947,
+    "networkId": 10947,
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://explorer.testnet.quadrans.io",
+        "icon": "quadrans",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Metadium Mainnet",
     "chain": "META",
     "rpc": [
@@ -1966,6 +2025,37 @@
       {
         "name": "kintsugi explorer",
         "url": "https://explorer.kintsugi.themerge.dev",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Kiln",
+    "chain": "ETH",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc.kiln.themerge.dev"
+    ],
+    "faucets": [
+      "https://faucet.kiln.themerge.dev",
+      "https://kiln-faucet.pk910.de",
+      "https://kilnfaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Testnet ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://kiln.themerge.dev/",
+    "shortName": "kiln",
+    "chainId": 1337802,
+    "networkId": 1337802,
+    "icon": "ethereum",
+    "explorers": [
+      {
+        "name": "Kiln Explorer",
+        "url": "https://explorer.kiln.themerge.dev",
+        "icon": "ethereum",
         "standard": "EIP3091"
       }
     ]
@@ -4314,6 +4404,34 @@
     ]
   },
   {
+    "name": "OasisChain Mainnet",
+    "chain": "OasisChain",
+    "rpc": [
+      "https://rpc1.oasischain.io",
+      "https://rpc2.oasischain.io",
+      "https://rpc3.oasischain.io"
+    ],
+    "faucets": [
+      "http://faucet.oasischain.io"
+    ],
+    "nativeCurrency": {
+      "name": "OAC",
+      "symbol": "OAC",
+      "decimals": 18
+    },
+    "infoURL": "https://scan.oasischain.io",
+    "shortName": "OAC",
+    "chainId": 26863,
+    "networkId": 26863,
+    "explorers": [
+      {
+        "name": "OasisChain Explorer",
+        "url": "https://scan.oasischain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "High Performance Blockchain",
     "chain": "HPB",
     "rpc": [
@@ -4581,27 +4699,25 @@
     ]
   },
   {
-    "name": "Echelon",
-    "chain": "Echelon",
-    "network": "Echelon",
+    "name": "CENNZnet Rata",
+    "chain": "CENNZnet",
+    "network": "rata",
     "rpc": [
-      "https://rpc.ech.network",
-      "https://evm.ech.network",
-      "https://draco.ech.network"
+      "https://rata.centrality.me/public"
     ],
     "faucets": [
-      "https://app.ech.network/faucet"
+      "https://app-faucet.centrality.me"
     ],
     "nativeCurrency": {
-      "name": "ECH",
-      "symbol": "ECH",
+      "name": "CPAY",
+      "symbol": "CPAY",
       "decimals": 18
     },
-    "infoURL": "https://ech.network",
-    "shortName": "echelon",
+    "infoURL": "https://cennz.net",
+    "shortName": "cennz-r",
     "chainId": 3000,
     "networkId": 3000,
-    "icon": "echelon"
+    "icon": "cennz"
   },
   {
     "name": "CENNZnet Nikau",
@@ -5999,6 +6115,33 @@
     ]
   },
   {
+    "name": "Dexalot Testnet",
+    "chain": "DEXALOT",
+    "network": "testnet",
+    "rpc": [
+      "https://subnets.avax.network/dexalot/testnet/rpc"
+    ],
+    "faucets": [
+      "https://sfaucet.dexalot-test.com"
+    ],
+    "nativeCurrency": {
+      "name": "Dexalot",
+      "symbol": "ALOT",
+      "decimals": 18
+    },
+    "infoURL": "https://dexalot.com",
+    "shortName": "Dexalot",
+    "chainId": 432201,
+    "networkId": 432201,
+    "explorers": [
+      {
+        "name": "Avalanche Subnet Explorer",
+        "url": "https://subnets.avax.network/dexalot/testnet/explorer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Darwinia Crab Network",
     "chain": "crab",
     "rpc": [
@@ -6167,6 +6310,30 @@
         "name": "testnet iotexscan",
         "url": "https://testnet.iotexscan.io",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "OpenChain Mainnet",
+    "chain": "OpenChain",
+    "rpc": [
+      "https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OpenCoin",
+      "symbol": "OPC",
+      "decimals": 10
+    },
+    "infoURL": "https://www.openchain.live",
+    "shortName": "oc",
+    "chainId": 474142,
+    "networkId": 474142,
+    "explorers": [
+      {
+        "name": "SIDE SCAN",
+        "url": "https://sidescan.luniverse.io/1641349324562974539",
+        "standard": "none"
       }
     ]
   },
@@ -7995,6 +8162,58 @@
     "networkId": 1
   },
   {
+    "name": "Godwoken Testnet (V1.1)",
+    "chain": "GWT",
+    "rpc": [
+      "https://godwoken-testnet-v1.ckbapp.dev"
+    ],
+    "faucets": [
+      "https://testnet.bridge.godwoken.io"
+    ],
+    "nativeCurrency": {
+      "name": "CKB",
+      "symbol": "CKB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.nervos.org",
+    "shortName": "gw-testnet-v1",
+    "chainId": 71401,
+    "networkId": 71401,
+    "explorers": [
+      {
+        "name": "GWScan Block Explorer",
+        "url": "https://v1.aggron.gwscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Godwoken Mainnet",
+    "chain": "GWT",
+    "rpc": [
+      "https://godwoken-testnet-v1.ckbapp.dev"
+    ],
+    "faucets": [
+      "https://testnet.bridge.godwoken.io"
+    ],
+    "nativeCurrency": {
+      "name": "CKB",
+      "symbol": "CKB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.nervos.org",
+    "shortName": "gw-mainnet-v1",
+    "chainId": 71402,
+    "networkId": 71402,
+    "explorers": [
+      {
+        "name": "GWScan Block Explorer",
+        "url": "https://v1.aggron.gwscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Factory 127 Testnet",
     "chain": "FETH",
     "rpc": [],
@@ -8748,9 +8967,10 @@
       "decimals": 8
     },
     "infoURL": "https://www.nervos.org",
-    "shortName": "gw-testnet-v1",
+    "shortName": "gw-testnet-v1-deprecated",
     "chainId": 868455272153094,
     "networkId": 868455272153094,
+    "status": "deprecated",
     "explorers": [
       {
         "name": "GWScan Block Explorer",
