@@ -631,6 +631,34 @@
     ]
   },
   {
+    "name": "Crystaleum",
+    "chain": "crystal",
+    "network": "mainnet",
+    "rpc": [
+      "https://evm.cryptocurrencydevs.org",
+      "https://rpc.crystaleum.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CRFI",
+      "symbol": "◈",
+      "decimals": 18
+    },
+    "infoURL": "https://crystaleum.org",
+    "shortName": "CRFI",
+    "chainId": 103090,
+    "networkId": 1,
+    "icon": "crystal",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.crystaleum.org",
+        "icon": "crystal",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Web3Games Devnet",
     "chain": "Web3Games",
     "icon": "web3games",
@@ -830,7 +858,7 @@
     "rpc": [
       "https://rpc.quadrans.io",
       "https://rpcna.quadrans.io",
-      "https://explorer.quadrans.io"
+      "https://rpceu.quadrans.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -858,7 +886,7 @@
     "icon": "quadrans",
     "rpc": [
       "https://rpctest.quadrans.io",
-      "https://explorer.testnet.quadrans.io"
+      "https://rpctest2.quadrans.io"
     ],
     "faucets": [
       "https://faucetpage.quadrans.io"
@@ -2592,6 +2620,33 @@
     "icon": "ludan",
     "chainId": 1688,
     "networkId": 1688
+  },
+  {
+    "name": "IVAR Chain Testnet",
+    "chain": "IVAR",
+    "icon": "ivar",
+    "rpc": [
+      "https://testnet-rpc.ivarex.com"
+    ],
+    "faucets": [
+      "https://tfaucet.ivarex.com/"
+    ],
+    "nativeCurrency": {
+      "name": "tIvar",
+      "symbol": "tIVAR",
+      "decimals": 18
+    },
+    "infoURL": "https://ivarex.com",
+    "shortName": "tivar",
+    "chainId": 16888,
+    "networkId": 16888,
+    "explorers": [
+      {
+        "name": "ivarscan",
+        "url": "https://testnet.ivarscan.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "ThaiChain 2.0 ThaiFi",
@@ -5893,6 +5948,11 @@
     "infoURL": "https://arbitrum.io",
     "explorers": [
       {
+        "name": "arbiscan-testnet",
+        "url": "https://testnet.arbiscan.io",
+        "standard": "EIP3091"
+      },
+      {
         "name": "arbitrum-rinkeby",
         "url": "https://rinkeby-explorer.arbitrum.io",
         "standard": "EIP3091"
@@ -6397,13 +6457,38 @@
       "decimals": 18
     },
     "infoURL": "https://venidium.io",
-    "shortName": "xvm",
+    "shortName": "txvm",
     "chainId": 4918,
     "networkId": 4918,
     "explorers": [
       {
         "name": "Venidium EVM Testnet Explorer",
         "url": "https://evm-testnet.venidiumexplorer.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Venidium Mainnet",
+    "chain": "XVM",
+    "icon": "venidium",
+    "rpc": [
+      "https://rpc.venidium.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Venidium",
+      "symbol": "XVM",
+      "decimals": 18
+    },
+    "infoURL": "https://venidium.io",
+    "shortName": "xvm",
+    "chainId": 4919,
+    "networkId": 4919,
+    "explorers": [
+      {
+        "name": "Venidium Explorer",
+        "url": "https://evm.venidiumexplorer.com",
         "standard": "EIP3091"
       }
     ]
@@ -6677,7 +6762,7 @@
     "networkId": 5315
   },
   {
-    "name": "Candle Mainnet",
+    "name": "Candle",
     "chain": "Candle",
     "rpc": [
       "https://candle-rpc.com/",
@@ -6696,9 +6781,9 @@
     "slip44": 674,
     "explorers": [
       {
-        "name": "candlescan",
-        "url": "https://cndlchain.com",
-        "standard": "none"
+        "name": "candleexplorer",
+        "url": "https://candleexplorer.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -8059,6 +8144,31 @@
     ]
   },
   {
+    "name": "Ella the heart",
+    "chain": "ella",
+    "icon": "ella",
+    "rpc": [
+      "https://rpc.ella.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ella",
+      "symbol": "ELLA",
+      "decimals": 18
+    },
+    "infoURL": "https://ella.network",
+    "shortName": "ELLA",
+    "chainId": 7027,
+    "networkId": 7027,
+    "explorers": [
+      {
+        "name": "Ella",
+        "url": "https://ella.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "BlockChain Station Mainnet",
     "chain": "BCS",
     "rpc": [
@@ -8410,6 +8520,34 @@
     "networkId": 777
   },
   {
+    "name": "Rise of the Warbots Testnet",
+    "chain": "nmactest",
+    "rpc": [
+      "https://testnet1.riseofthewarbots.com",
+      "https://testnet2.riseofthewarbots.com",
+      "https://testnet3.riseofthewarbots.com",
+      "https://testnet4.riseofthewarbots.com",
+      "https://testnet5.riseofthewarbots.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Nano Machines",
+      "symbol": "NMAC",
+      "decimals": 18
+    },
+    "infoURL": "https://riseofthewarbots.com/",
+    "shortName": "Rise of the Warbots Testnet",
+    "chainId": 7777,
+    "networkId": 7777,
+    "explorers": [
+      {
+        "name": "avascan",
+        "url": "https://testnet.avascan.info/blockchain/2mZ9doojfwHzXN3VXDQELKnKyZYxv7833U8Yq5eTfFx3hxJtiy",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "PrimusChain mainnet",
     "chain": "PC",
     "rpc": [
@@ -8520,7 +8658,10 @@
       "https://dataserver-us-1.zenithchain.co/",
       "https://dataserver-asia-3.zenithchain.co/",
       "https://dataserver-asia-4.zenithchain.co/",
-      "https://dataserver-asia-2.zenithchain.co/"
+      "https://dataserver-asia-2.zenithchain.co/",
+      "https://dataserver-asia-5.zenithchain.co/",
+      "https://dataserver-asia-6.zenithchain.co/",
+      "https://dataserver-asia-7.zenithchain.co/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -9130,6 +9271,33 @@
         "name": "Ambros Chain Explorer",
         "url": "https://testnet.ambrosscan.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "IVAR Chain Mainnet",
+    "chain": "IVAR",
+    "icon": "ivar",
+    "rpc": [
+      "https://mainnet-rpc.ivarex.com"
+    ],
+    "faucets": [
+      "https://faucet.ivarex.com/"
+    ],
+    "nativeCurrency": {
+      "name": "Ivar",
+      "symbol": "IVAR",
+      "decimals": 18
+    },
+    "infoURL": "https://ivarex.com",
+    "shortName": "ivar",
+    "chainId": 88888,
+    "networkId": 88888,
+    "explorers": [
+      {
+        "name": "ivarscan",
+        "url": "https://ivarscan.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -9796,6 +9964,56 @@
     "shortName": "yeti",
     "chainId": 977,
     "networkId": 977
+  },
+  {
+    "name": "TOP Mainnet EVM",
+    "chain": "TOP",
+    "icon": "top",
+    "rpc": [
+      "ethapi.topnetwork.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.topnetwork.org/",
+    "shortName": "top_evm",
+    "chainId": 980,
+    "networkId": 0,
+    "explorers": [
+      {
+        "name": "topscan.dev",
+        "url": "https://www.topscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "TOP Mainnet",
+    "chain": "TOP",
+    "icon": "top",
+    "rpc": [
+      "topapi.topnetwork.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TOP",
+      "symbol": "TOP",
+      "decimals": 6
+    },
+    "infoURL": "https://www.topnetwork.org/",
+    "shortName": "top",
+    "chainId": 989,
+    "networkId": 0,
+    "explorers": [
+      {
+        "name": "topscan.dev",
+        "url": "https://www.topscan.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "POA Network Core",
