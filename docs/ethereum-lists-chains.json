@@ -2731,8 +2731,64 @@
     ]
   },
   {
+    "name": "AME Chain Mainnet",
+    "chain": "AME",
+    "rpc": [
+      "https://node1.amechain.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AME",
+      "symbol": "AME",
+      "decimals": 18
+    },
+    "infoURL": "https://amechain.io/",
+    "shortName": "ame",
+    "chainId": 180,
+    "networkId": 180,
+    "explorers": [
+      {
+        "name": "AME Scan",
+        "url": "https://amescan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Cube Chain Mainnet",
+    "chain": "Cube",
+    "icon": "cube",
+    "rpc": [
+      "https://http-mainnet.cube.network",
+      "wss://ws-mainnet.cube.network",
+      "https://http-mainnet-sg.cube.network",
+      "wss://ws-mainnet-sg.cube.network",
+      "https://http-mainnet-us.cube.network",
+      "wss://ws-mainnet-us.cube.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cube Chain Native Token",
+      "symbol": "CUBE",
+      "decimals": 18
+    },
+    "infoURL": "https://www.cube.network",
+    "shortName": "cube",
+    "chainId": 1818,
+    "networkId": 1818,
+    "slip44": 1818,
+    "explorers": [
+      {
+        "name": "cube-scan",
+        "url": "https://cubescan.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Cube Chain Testnet",
     "chain": "Cube",
+    "icon": "cube",
     "rpc": [
       "https://http-testnet.cube.network",
       "wss://ws-testnet.cube.network",
@@ -3807,6 +3863,34 @@
     ]
   },
   {
+    "name": "PlatON Dev Testnet2",
+    "chain": "PlatON",
+    "rpc": [
+      "https://devnet2openapi.platon.network/rpc",
+      "wss://devnet2openapi.platon.network/ws"
+    ],
+    "faucets": [
+      "https://devnet2faucet.platon.network/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "LAT",
+      "symbol": "lat",
+      "decimals": 18
+    },
+    "infoURL": "https://www.platon.network",
+    "shortName": "platondev2",
+    "chainId": 2206132,
+    "networkId": 1,
+    "icon": "platon",
+    "explorers": [
+      {
+        "name": "PlatON explorer",
+        "url": "https://devnet2scan.platon.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Evanesco Mainnet",
     "chain": "EVA",
     "network": "mainnet",
@@ -3862,12 +3946,12 @@
       "https://faucet.kava.io"
     ],
     "nativeCurrency": {
-      "name": "Kava",
-      "symbol": "KAVA",
+      "name": "TKava",
+      "symbol": "TKAVA",
       "decimals": 18
     },
     "infoURL": "https://www.kava.io",
-    "shortName": "kava",
+    "shortName": "tkava",
     "chainId": 2221,
     "networkId": 2221,
     "icon": "kava",
@@ -3875,6 +3959,36 @@
       {
         "name": "Kava Testnet Explorer",
         "url": "https://explorer.evm-alpha.kava.io",
+        "standard": "EIP3091",
+        "icon": "kava"
+      }
+    ]
+  },
+  {
+    "name": "Kava EVM",
+    "chain": "KAVA",
+    "network": "mainnet",
+    "rpc": [
+      "https://evm.kava.io",
+      "https://evm2.kava.io",
+      "wss://wevm.kava.io",
+      "wss://wevm2.kava.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Kava",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.kava.io",
+    "shortName": "kava",
+    "chainId": 2222,
+    "networkId": 2222,
+    "icon": "kava",
+    "explorers": [
+      {
+        "name": "Kava EVM Explorer",
+        "url": "https://explorer.kava.io",
         "standard": "EIP3091",
         "icon": "kava"
       }
@@ -5556,6 +5670,34 @@
     ]
   },
   {
+    "name": "Crossbell",
+    "chain": "Crossbell",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.crossbell.io"
+    ],
+    "faucets": [
+      "https://faucet.crossbell.io"
+    ],
+    "nativeCurrency": {
+      "name": "Crossbell Token",
+      "symbol": "CSB",
+      "decimals": 18
+    },
+    "infoURL": "https://crossbell.io",
+    "shortName": "csb",
+    "chainId": 3737,
+    "networkId": 3737,
+    "icon": "crossbell",
+    "explorers": [
+      {
+        "name": "Crossbell Explorer",
+        "url": "https://scan.crossbell.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Valorbit",
     "chain": "VAL",
     "rpc": [
@@ -5661,6 +5803,32 @@
     "chainId": 39797,
     "networkId": 39797,
     "slip44": 39797
+  },
+  {
+    "name": "YuanChain Mainnet",
+    "chain": "YCC",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.yuan.org/eth"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "YCC",
+      "symbol": "YCC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.yuan.org",
+    "shortName": "ycc",
+    "chainId": 3999,
+    "networkId": 3999,
+    "icon": "ycc",
+    "explorers": [
+      {
+        "name": "YuanChain Explorer",
+        "url": "https://mainnet.yuan.org",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Rinkeby",
@@ -5789,6 +5957,32 @@
       {
         "name": "AIOZ Network Testnet Explorer",
         "url": "https://testnet.explorer.aioz.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "SX Network Mainnet",
+    "chain": "SX",
+    "icon": "SX",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc.sx.technology"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SX Network",
+      "symbol": "SX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.sx.technology",
+    "shortName": "SX",
+    "chainId": 416,
+    "networkId": 416,
+    "explorers": [
+      {
+        "name": "SX Network Explorer",
+        "url": "https://explorer.sx.technology",
         "standard": "EIP3091"
       }
     ]
@@ -6674,6 +6868,31 @@
         "name": "aacscan-testnet",
         "url": "https://scan-testnet.acuteangle.com",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "TLChain Network Mainnet",
+    "chain": "TLC",
+    "icon": "tlc",
+    "rpc": [
+      "https://mainnet-rpc.tlxscan.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TLChain Network",
+      "symbol": "TLC",
+      "decimals": 18
+    },
+    "infoURL": "https://tlchain.network/",
+    "shortName": "tlc",
+    "chainId": 5177,
+    "networkId": 5177,
+    "explorers": [
+      {
+        "name": "TLChain Explorer",
+        "url": "https://explorer.tlchain.network",
+        "standard": "none"
       }
     ]
   },
@@ -7755,6 +7974,34 @@
     "chainId": 64,
     "networkId": 64,
     "slip44": 163
+  },
+  {
+    "name": "SX Network Testnet",
+    "chain": "SX",
+    "icon": "SX",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc.toronto.sx.technology"
+    ],
+    "faucets": [
+      "https://faucet.toronto.sx.technology"
+    ],
+    "nativeCurrency": {
+      "name": "SX Network",
+      "symbol": "SX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.sx.technology",
+    "shortName": "SX-Testnet",
+    "chainId": 647,
+    "networkId": 647,
+    "explorers": [
+      {
+        "name": "SX Network Toronto Explorer",
+        "url": "https://explorer.toronto.sx.technology",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "OKExChain Testnet",
