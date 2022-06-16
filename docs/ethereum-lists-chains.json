@@ -3005,6 +3005,30 @@
     ]
   },
   {
+    "name": "Crypto Emergency",
+    "chain": "CEM",
+    "rpc": [
+      "https://cemchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Crypto Emergency",
+      "symbol": "CEM",
+      "decimals": 18
+    },
+    "infoURL": "https://cemblockchain.com/",
+    "shortName": "cem",
+    "chainId": 193,
+    "networkId": 193,
+    "explorers": [
+      {
+        "name": "cemscan",
+        "url": "https://cemscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ntity Mainnet",
     "chain": "Ntity",
     "rpc": [
@@ -6936,6 +6960,35 @@
         "name": "coinexscan",
         "url": "https://www.coinex.net",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "XT Smart Chain Mainnet",
+    "chain": "XSC",
+    "icon": "xsc",
+    "rpc": [
+      "https://datarpc1.xsc.pub",
+      "https://datarpc2.xsc.pub",
+      "https://datarpc3.xsc.pub"
+    ],
+    "faucets": [
+      "https://xsc.pub/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "XT Smart Chain Native Token",
+      "symbol": "XT",
+      "decimals": 18
+    },
+    "infoURL": "https://xsc.pub/",
+    "shortName": "xt",
+    "chainId": 520,
+    "networkId": 1024,
+    "explorers": [
+      {
+        "name": "xscscan",
+        "url": "https://xscscan.pub",
+        "standard": "EIP3091"
       }
     ]
   },
