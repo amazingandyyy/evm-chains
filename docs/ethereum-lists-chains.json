@@ -1639,6 +1639,31 @@
     }
   },
   {
+    "name": "OM Chain Mainnet",
+    "chain": "omchain",
+    "network": "mainnet",
+    "rpc": [
+      "https://rpc-cnx.omplatform.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OMCOIN",
+      "symbol": "OM",
+      "decimals": 18
+    },
+    "infoURL": "https://omplatform.com/",
+    "shortName": "om",
+    "chainId": 1246,
+    "networkId": 1246,
+    "explorers": [
+      {
+        "name": "OMSCAN - Expenter",
+        "url": "https://omscan.omplatform.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "OYchain Testnet",
     "chain": "OYchain",
     "rpc": [
@@ -3960,8 +3985,8 @@
     "chain": "KAVA",
     "network": "testnet",
     "rpc": [
-      "https://evm.evm-alpha.kava.io",
-      "wss://evm-ws.evm-alpha.kava.io"
+      "https://evm.testnet.kava.io",
+      "wss://wevm.testnet.kava.io"
     ],
     "faucets": [
       "https://faucet.kava.io"
@@ -3979,7 +4004,7 @@
     "explorers": [
       {
         "name": "Kava Testnet Explorer",
-        "url": "https://explorer.evm-alpha.kava.io",
+        "url": "https://explorer.testnet.kava.io",
         "standard": "EIP3091",
         "icon": "kava"
       }
