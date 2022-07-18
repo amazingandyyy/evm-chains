@@ -51,7 +51,7 @@
       {
         "name": "etherscan",
         "url": "https://optimistic.etherscan.io",
-        "standard": "none"
+        "standard": "EIP3091"
       }
     ]
   },
@@ -8924,7 +8924,7 @@
     "nativeCurrency": {
       "name": "Mixin",
       "symbol": "XIN",
-      "decimals": 8
+      "decimals": 18
     },
     "infoURL": "https://mvm.dev",
     "shortName": "mvm",
