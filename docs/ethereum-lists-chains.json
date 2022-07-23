@@ -5776,6 +5776,23 @@
     "networkId": 35855456
   },
   {
+    "name": "Dxchain Mainnet",
+    "chain": "Dxchain",
+    "rpc": [
+      "https://www.mainnet.dxchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dxchain",
+      "symbol": "DX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.dxchain.com/",
+    "shortName": "dx",
+    "chainId": 36,
+    "networkId": 36
+  },
+  {
     "name": "Theta Mainnet",
     "chain": "Theta",
     "rpc": [
@@ -7308,6 +7325,7 @@
     "shortName": "f(x)Core",
     "chainId": 530,
     "networkId": 530,
+    "icon": "fxcore",
     "explorers": [
       {
         "name": "FunctionX Explorer",
@@ -8953,6 +8971,25 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "DxChain Testnet",
+    "chain": "DxChain",
+    "rpc": [
+      "https://testnet-http.dxchain.com"
+    ],
+    "faucets": [
+      "https://faucet.dxscan.io"
+    ],
+    "nativeCurrency": {
+      "name": "DxChain Testnet",
+      "symbol": "DX",
+      "decimals": 18
+    },
+    "infoURL": "https://testnet.dxscan.io/",
+    "shortName": "dxc",
+    "chainId": 72,
+    "networkId": 72
   },
   {
     "name": "Factory 127 Testnet",
