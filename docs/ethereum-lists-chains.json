@@ -8930,8 +8930,8 @@
       "https://testnet.bridge.godwoken.io"
     ],
     "nativeCurrency": {
-      "name": "CKB",
-      "symbol": "CKB",
+      "name": "pCKB",
+      "symbol": "pCKB",
       "decimals": 18
     },
     "infoURL": "https://www.nervos.org",
@@ -8940,8 +8940,13 @@
     "networkId": 71401,
     "explorers": [
       {
+        "name": "GWScout Explorer",
+        "url": "https://gw-testnet-explorer.nervosdao.community",
+        "standard": "none"
+      },
+      {
         "name": "GWScan Block Explorer",
-        "url": "https://v1.aggron.gwscan.com",
+        "url": "https://v1.testnet.gwscan.com",
         "standard": "none"
       }
     ]
@@ -8950,14 +8955,12 @@
     "name": "Godwoken Mainnet",
     "chain": "GWT",
     "rpc": [
-      "https://godwoken-testnet-v1.ckbapp.dev"
+      "https://v1.mainnet.godwoken.io/rpc"
     ],
-    "faucets": [
-      "https://testnet.bridge.godwoken.io"
-    ],
+    "faucets": [],
     "nativeCurrency": {
-      "name": "CKB",
-      "symbol": "CKB",
+      "name": "pCKB",
+      "symbol": "pCKB",
       "decimals": 18
     },
     "infoURL": "https://www.nervos.org",
@@ -8966,8 +8969,13 @@
     "networkId": 71402,
     "explorers": [
       {
+        "name": "GWScout Explorer",
+        "url": "https://gw-mainnet-explorer.nervosdao.community",
+        "standard": "none"
+      },
+      {
         "name": "GWScan Block Explorer",
-        "url": "https://v1.aggron.gwscan.com",
+        "url": "https://v1.gwscan.com",
         "standard": "none"
       }
     ]
@@ -9556,6 +9564,26 @@
     "shortName": "haic",
     "chainId": 803,
     "networkId": 803
+  },
+  {
+    "name": "Portal Fantasy Chain Test",
+    "chain": "PF",
+    "icon": "pf",
+    "network": "testnet",
+    "rpc": [
+      "http://3.212.233.100:9650/ext/bc/2FJX3r1hWwyMWSo12j429g8HTVH1nrC8twatkLgtaCXtRD4GLq/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Portal Fantasy Token",
+      "symbol": "PFT",
+      "decimals": 18
+    },
+    "infoURL": "https://portalfantasy.io",
+    "shortName": "PFTEST",
+    "chainId": 808,
+    "networkId": 808,
+    "explorers": []
   },
   {
     "name": "GeneChain Adenine Testnet",
@@ -10353,6 +10381,25 @@
       "chain": "eip155-900",
       "type": "shard"
     }
+  },
+  {
+    "name": "Portal Fantasy Chain",
+    "chain": "PF",
+    "icon": "pf",
+    "network": "mainnet",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Portal Fantasy Token",
+      "symbol": "PFT",
+      "decimals": 18
+    },
+    "infoURL": "https://portalfantasy.io",
+    "shortName": "PF",
+    "chainId": 909,
+    "networkId": 909,
+    "explorers": [],
+    "status": "incubating"
   },
   {
     "name": "Garizon Stage1",
