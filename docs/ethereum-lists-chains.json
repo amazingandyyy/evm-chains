@@ -1702,8 +1702,8 @@
     }
   },
   {
-    "name": "OM Chain Mainnet",
-    "chain": "omchain",
+    "name": "OM Platform Mainnet",
+    "chain": "omplatform",
     "network": "mainnet",
     "rpc": [
       "https://rpc-cnx.omplatform.com/"
@@ -5017,7 +5017,7 @@
     ],
     "nativeCurrency": {
       "name": "Ropsten Ether",
-      "symbol": "ROP",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://github.com/ethereum/ropsten",
@@ -5835,7 +5835,7 @@
     "name": "Dxchain Mainnet",
     "chain": "Dxchain",
     "rpc": [
-      "https://www.mainnet.dxchain.com"
+      "https://mainnet.dxchain.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -6165,7 +6165,7 @@
     ],
     "nativeCurrency": {
       "name": "Rinkeby Ether",
-      "symbol": "RIN",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://www.rinkeby.io",
@@ -6381,7 +6381,7 @@
     ],
     "nativeCurrency": {
       "name": "Kovan Ether",
-      "symbol": "KOV",
+      "symbol": "ETH",
       "decimals": 18
     },
     "explorers": [
@@ -6477,7 +6477,7 @@
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Rinkeby Ether",
-      "symbol": "ARETH",
+      "symbol": "ETH",
       "decimals": 18
     },
     "rpc": [
@@ -7178,7 +7178,7 @@
     ],
     "nativeCurrency": {
       "name": "Görli Ether",
-      "symbol": "GOR",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://goerli.net/#about",
@@ -7723,7 +7723,7 @@
       "decimals": 18
     },
     "infoURL": "https://reichain.io",
-    "shortName": "rei",
+    "shortName": "reichain",
     "chainId": 55555,
     "networkId": 55555,
     "explorers": [
@@ -8493,7 +8493,7 @@
       "decimals": 18
     },
     "infoURL": "https://ellaism.org",
-    "shortName": "ella",
+    "shortName": "ellaism",
     "chainId": 64,
     "networkId": 64,
     "slip44": 163
@@ -8706,7 +8706,7 @@
     ],
     "nativeCurrency": {
       "name": "Kovan Ether",
-      "symbol": "KOR",
+      "symbol": "ETH",
       "decimals": 18
     },
     "explorers": [
