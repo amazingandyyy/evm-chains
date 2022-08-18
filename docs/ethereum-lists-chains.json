@@ -425,6 +425,35 @@
     "networkId": 1001
   },
   {
+    "name": "Plian Testnet Subchain 1",
+    "chain": "Plian",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.plian.io/child_test"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plian Token",
+      "symbol": "TPI",
+      "decimals": 18
+    },
+    "infoURL": "https://plian.org/",
+    "shortName": "plian-testnet-l2",
+    "chainId": 10067275,
+    "networkId": 10067275,
+    "explorers": [
+      {
+        "name": "piscan",
+        "url": "https://testnet.plian.org/child_test",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-16658437",
+      "type": "L2"
+    }
+  },
+  {
     "name": "Newton Testnet",
     "chain": "NEW",
     "rpc": [
@@ -545,7 +574,9 @@
     "chain": "Web3Games",
     "icon": "web3games",
     "rpc": [
-      "https://testnet.web3games.org/evm"
+      "https://testnet-rpc-0.web3games.org/evm",
+      "https://testnet-rpc-1.web3games.org/evm",
+      "https://testnet-rpc-2.web3games.org/evm"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -2344,7 +2375,7 @@
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
-      "name": "FLR",
+      "name": "Flare",
       "symbol": "FLR",
       "decimals": 18
     },
@@ -2621,6 +2652,31 @@
     "networkId": 1657
   },
   {
+    "name": "Plian Testnet Main",
+    "chain": "Plian",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.plian.io/testnet"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plian Testnet Token",
+      "symbol": "TPI",
+      "decimals": 18
+    },
+    "infoURL": "https://plian.org",
+    "shortName": "plian-testnet",
+    "chainId": 16658437,
+    "networkId": 16658437,
+    "explorers": [
+      {
+        "name": "piscan",
+        "url": "https://testnet.plian.org/testnet",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Harmony Mainnet Shard 0",
     "chain": "Harmony",
     "rpc": [
@@ -2774,6 +2830,33 @@
     "shortName": "hmy-b-s3",
     "chainId": 1666700003,
     "networkId": 1666700003
+  },
+  {
+    "name": "Harmony Devnet Shard 0",
+    "chain": "Harmony",
+    "rpc": [
+      "https://api.s1.ps.hmny.io",
+      "https://api.s1.ps.hmny.io"
+    ],
+    "faucets": [
+      "http://dev.faucet.easynode.one/"
+    ],
+    "nativeCurrency": {
+      "name": "ONE",
+      "symbol": "ONE",
+      "decimals": 18
+    },
+    "infoURL": "https://www.harmony.one/",
+    "shortName": "hmy-ps-s0",
+    "chainId": 1666900000,
+    "networkId": 1666900000,
+    "explorers": [
+      {
+        "name": "Harmony Block Explorer",
+        "url": "https://explorer.ps.hmny.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "AIOZ Network",
@@ -3776,6 +3859,31 @@
         "name": "rangersscan",
         "url": "https://scan.rangersprotocol.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Plian Mainnet Main",
+    "chain": "Plian",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.plian.io/pchain"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plian Token",
+      "symbol": "PI",
+      "decimals": 18
+    },
+    "infoURL": "https://plian.org/",
+    "shortName": "plian-mainnet",
+    "chainId": 2099156,
+    "networkId": 2099156,
+    "explorers": [
+      {
+        "name": "piscan",
+        "url": "https://piscan.plian.org/pchain",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -7197,10 +7305,13 @@
     ]
   },
   {
-    "name": "XinFin Network Mainnet",
+    "name": "XinFin XDC Network",
     "chain": "XDC",
+    "network": "mainnet",
     "rpc": [
-      "https://rpc.xinfin.network"
+      "https://erpc.xinfin.network",
+      "https://rpc.xinfin.network",
+      "https://rpc1.xinfin.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -7211,7 +7322,22 @@
     "infoURL": "https://xinfin.org",
     "shortName": "xdc",
     "chainId": 50,
-    "networkId": 50
+    "networkId": 50,
+    "icon": "xdc",
+    "explorers": [
+      {
+        "name": "xdcscan",
+        "url": "https://xdcscan.io",
+        "icon": "blocksscan",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "blocksscan",
+        "url": "https://xdc.blocksscan.io",
+        "icon": "blocksscan",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "GTON Testnet",
@@ -7242,21 +7368,40 @@
     }
   },
   {
-    "name": "XinFin Apothem Testnet",
-    "chain": "TXDC",
+    "name": "XDC Apothem Network",
+    "chain": "XDC",
+    "network": "testnet",
     "rpc": [
-      "https://rpc.apothem.network"
+      "https://rpc.apothem.network",
+      "https://erpc.apothem.network"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.apothem.network"
+    ],
     "nativeCurrency": {
-      "name": "XinFinTest",
+      "name": "XinFin",
       "symbol": "TXDC",
       "decimals": 18
     },
     "infoURL": "https://xinfin.org",
-    "shortName": "TXDC",
+    "shortName": "txdc",
     "chainId": 51,
-    "networkId": 51
+    "networkId": 51,
+    "icon": "xdc",
+    "explorers": [
+      {
+        "name": "xdcscan",
+        "url": "https://apothem.xinfinscan.com",
+        "icon": "blocksscan",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "blocksscan",
+        "url": "https://apothem.blocksscan.io",
+        "icon": "blocksscan",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Double-A Chain Mainnet",
@@ -9706,6 +9851,35 @@
         "icon": "teleport"
       }
     ]
+  },
+  {
+    "name": "Plian Mainnet Subchain 1",
+    "chain": "Plian",
+    "network": "mainnet",
+    "rpc": [
+      "https://mainnet.plian.io/child_0"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plian Token",
+      "symbol": "PI",
+      "decimals": 18
+    },
+    "infoURL": "https://plian.org",
+    "shortName": "plian-mainnet-l2",
+    "chainId": 8007736,
+    "networkId": 8007736,
+    "explorers": [
+      {
+        "name": "piscan",
+        "url": "https://piscan.plian.org/child_0",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-2099156",
+      "type": "L2"
+    }
   },
   {
     "name": "MDGL Testnet",
