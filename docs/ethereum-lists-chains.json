@@ -56,7 +56,7 @@
     ]
   },
   {
-    "name": "Gnosis Chain",
+    "name": "Gnosis",
     "chain": "GNO",
     "icon": "gnosis",
     "rpc": [
@@ -67,6 +67,7 @@
       "wss://rpc.gnosischain.com/wss"
     ],
     "faucets": [
+      "https://gnosisfaucet.com",
       "https://faucet.gimlu.com/gnosis",
       "https://stakely.io/faucet/gnosis-chain-xdai",
       "https://faucet.prussia.dev/xdai"
@@ -76,12 +77,18 @@
       "symbol": "xDAI",
       "decimals": 18
     },
-    "infoURL": "https://developers.gnosischain.com",
+    "infoURL": "https://docs.gnosischain.com",
     "shortName": "gno",
     "chainId": 100,
     "networkId": 100,
     "slip44": 700,
     "explorers": [
+      {
+        "name": "gnosisscan",
+        "url": "https://gnosisscan.io",
+        "icon": "gnosisscan",
+        "standard": "EIP3091"
+      },
       {
         "name": "blockscout",
         "url": "https://blockscout.com/xdai/mainnet",
@@ -423,6 +430,35 @@
     "shortName": "Baobab",
     "chainId": 1001,
     "networkId": 1001
+  },
+  {
+    "name": "Chiado Testnet",
+    "chain": "CHI",
+    "network": "testnet",
+    "icon": "gnosis",
+    "rpc": [
+      "https://rpc-chiado.gnosistestnet.com"
+    ],
+    "faucets": [
+      "https://gnosisfaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Chiado xDAI",
+      "symbol": "xDAI",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.gnosischain.com",
+    "shortName": "chi",
+    "chainId": 100100,
+    "networkId": 100100,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout-chiado.gnosistestnet.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Plian Testnet Subchain 1",
@@ -2435,6 +2471,34 @@
     "networkId": 142
   },
   {
+    "name": "PHI Network v2",
+    "chain": "PHI",
+    "network": "mainnet",
+    "rpc": [
+      "https://connect.phi.network",
+      ""
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PHI",
+      "symbol": "Φ",
+      "decimals": 18
+    },
+    "infoURL": "https://phi.network",
+    "shortName": "PHI",
+    "chainId": 144,
+    "networkId": 144,
+    "icon": "phi",
+    "explorers": [
+      {
+        "name": "Phiscan",
+        "url": "https://phiscan.com",
+        "icon": "phi",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Diode Prenet",
     "chain": "DIODE",
     "rpc": [
@@ -3582,6 +3646,32 @@
     ]
   },
   {
+    "name": "Milkomeda A1 Testnet",
+    "chain": "milkTAlgo",
+    "icon": "milkomeda",
+    "network": "testnet",
+    "rpc": [
+      "https://rpc-devnet-algorand-rollup.a1.milkomeda.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "milkTAlgo",
+      "symbol": "mTAlgo",
+      "decimals": 18
+    },
+    "infoURL": "https://milkomeda.com",
+    "shortName": "milkTAlgo",
+    "chainId": 200202,
+    "networkId": 200202,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer-devnet-algorand-rollup.a1.milkomeda.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Akroma",
     "chain": "AKA",
     "rpc": [
@@ -4263,7 +4353,8 @@
     "shortName": "ASK",
     "chainId": 222,
     "networkId": 2221,
-    "slip44": 2221
+    "slip44": 2221,
+    "status": "deprecated"
   },
   {
     "name": "Kava EVM Testnet",
@@ -5172,7 +5263,7 @@
     ]
   },
   {
-    "name": "Optimism on Gnosis Chain",
+    "name": "Optimism on Gnosis",
     "chain": "OGC",
     "rpc": [
       "https://optimism.gnosischain.com",
@@ -6443,8 +6534,8 @@
     ]
   },
   {
-    "name": "PHI Network",
-    "chain": "PHI",
+    "name": "PHI Network V1",
+    "chain": "PHI V1",
     "network": "mainnet",
     "rpc": [
       "https://rpc1.phi.network",
@@ -6457,7 +6548,7 @@
       "decimals": 18
     },
     "infoURL": "https://phi.network",
-    "shortName": "PHI",
+    "shortName": "PHIv1",
     "chainId": 4181,
     "networkId": 4181,
     "icon": "phi",
@@ -10592,6 +10683,36 @@
     ]
   },
   {
+    "name": "Posichain Mainnet Shard 0",
+    "chain": "PSC",
+    "network": "mainnet",
+    "rpc": [
+      "https://api.posichain.org",
+      "https://api.s0.posichain.org"
+    ],
+    "faucets": [
+      "https://faucet.posichain.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Posichain Native Token",
+      "symbol": "POSI",
+      "decimals": 18
+    },
+    "infoURL": "https://posichain.org",
+    "shortName": "psc-s0",
+    "chainId": 900000,
+    "networkId": 900000,
+    "icon": "posichain",
+    "explorers": [
+      {
+        "name": "Posichain Explorer",
+        "url": "https://explorer.posichain.org",
+        "icon": "posichain",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Evmos",
     "chain": "Evmos",
     "rpc": [
@@ -10818,6 +10939,35 @@
     "networkId": 9100
   },
   {
+    "name": "Posichain Testnet Shard 0",
+    "chain": "PSC",
+    "network": "testnet",
+    "rpc": [
+      "https://api.s0.t.posichain.org"
+    ],
+    "faucets": [
+      "https://faucet.posichain.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Posichain Native Token",
+      "symbol": "POSI",
+      "decimals": 18
+    },
+    "infoURL": "https://posichain.org",
+    "shortName": "psc-t-s0",
+    "chainId": 910000,
+    "networkId": 910000,
+    "icon": "posichain",
+    "explorers": [
+      {
+        "name": "Posichain Explorer Testnet",
+        "url": "https://explorer-testnet.posichain.org",
+        "icon": "posichain",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Garizon Stage2",
     "chain": "GAR",
     "network": "mainnet",
@@ -10847,6 +10997,64 @@
       "chain": "eip155-90",
       "type": "shard"
     }
+  },
+  {
+    "name": "Posichain Devnet Shard 0",
+    "chain": "PSC",
+    "network": "devnet",
+    "rpc": [
+      "https://api.s0.d.posichain.org"
+    ],
+    "faucets": [
+      "https://faucet.posichain.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Posichain Native Token",
+      "symbol": "POSI",
+      "decimals": 18
+    },
+    "infoURL": "https://posichain.org",
+    "shortName": "psc-d-s0",
+    "chainId": 920000,
+    "networkId": 920000,
+    "icon": "posichain",
+    "explorers": [
+      {
+        "name": "Posichain Explorer Devnet",
+        "url": "https://explorer-devnet.posichain.org",
+        "icon": "posichain",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Posichain Devnet Shard 1",
+    "chain": "PSC",
+    "network": "devnet",
+    "rpc": [
+      "https://api.s1.d.posichain.org"
+    ],
+    "faucets": [
+      "https://faucet.posichain.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Posichain Native Token",
+      "symbol": "POSI",
+      "decimals": 18
+    },
+    "infoURL": "https://posichain.org",
+    "shortName": "psc-d-s1",
+    "chainId": 920001,
+    "networkId": 920001,
+    "icon": "posichain",
+    "explorers": [
+      {
+        "name": "Posichain Explorer Devnet",
+        "url": "https://explorer-devnet.posichain.org",
+        "icon": "posichain",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Garizon Stage3",
@@ -11082,6 +11290,44 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "CCN",
+    "title": "ComputeCoin Main Network",
+    "chain": "CCN",
+    "rpc": [
+      "https://rpc.mainnet.computecoin.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ComputeCoin",
+      "symbol": "CCN",
+      "decimals": 18
+    },
+    "infoURL": "https://computecoin.com/",
+    "shortName": "ccn",
+    "chainId": 970,
+    "networkId": 970,
+    "icon": "ccn"
+  },
+  {
+    "name": "CCN Beta",
+    "title": "ComputeCoin Beta Network",
+    "chain": "CCN Beta",
+    "rpc": [
+      "https://beta-rpc.mainnet.computecoin.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ComputeCoin",
+      "symbol": "CCN",
+      "decimals": 18
+    },
+    "infoURL": "https://computecoin.com/",
+    "shortName": "ccnbeta",
+    "chainId": 971,
+    "networkId": 971,
+    "icon": "ccn"
   },
   {
     "name": "Nepal Blockchain Network",
