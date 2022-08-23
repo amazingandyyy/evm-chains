@@ -7791,6 +7791,24 @@
     ]
   },
   {
+    "name": "ethereum Fair",
+    "chainId": 513100,
+    "networkId": 1,
+    "shortName": "etf",
+    "chain": "ETF",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.etherfair.org"
+    ],
+    "faucets": [],
+    "explorers": [],
+    "infoURL": "https://etherfair.org"
+  },
+  {
     "name": "TLChain Network Mainnet",
     "chain": "TLC",
     "icon": "tlc",
