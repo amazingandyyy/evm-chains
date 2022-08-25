@@ -461,6 +461,24 @@
     ]
   },
   {
+    "name": "Gon Chain",
+    "chain": "GonChain",
+    "icon": "gonchain",
+    "rpc": [
+      "https://node1.testnet.gaiaopen.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gon Token",
+      "symbol": "GT",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "gon",
+    "chainId": 10024,
+    "networkId": 10024
+  },
+  {
     "name": "Plian Testnet Subchain 1",
     "chain": "Plian",
     "network": "testnet",
@@ -2453,7 +2471,7 @@
       "decimals": 18
     },
     "infoURL": "https://polygon.technology/",
-    "shortName": "MATIC",
+    "shortName": "matic",
     "chainId": 137,
     "networkId": 137,
     "slip44": 966,
@@ -2469,7 +2487,9 @@
     "name": "Flare Mainnet",
     "chain": "FLR",
     "icon": "flare",
-    "rpc": [],
+    "rpc": [
+      "https://flare-api.flare.network/ext/C/rpc"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Flare",
@@ -3418,6 +3438,7 @@
     "icon": "songbird",
     "rpc": [
       "https://songbird.towolabs.com/rpc",
+      "https://songbird-api.flare.network/ext/C/rpc",
       "https://sgb.ftso.com.au/ext/bc/C/rpc",
       "https://sgb.lightft.so/rpc",
       "https://sgb-rpc.ftso.eu"
@@ -4093,6 +4114,35 @@
         "name": "rangersscan",
         "url": "https://scan.rangersprotocol.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Jellie",
+    "title": "Twala Testnet Jellie",
+    "shortName": "twl-jellie",
+    "chain": "ETH",
+    "network": "testnet",
+    "chainId": 202624,
+    "networkId": 202624,
+    "icon": "twala",
+    "nativeCurrency": {
+      "name": "Twala Coin",
+      "symbol": "TWL",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://jellie-rpc.twala.io/",
+      "wss://jellie-rpc-wss.twala.io/"
+    ],
+    "faucets": [],
+    "infoURL": "https://twala.io/",
+    "explorers": [
+      {
+        "name": "Jellie Blockchain Explorer",
+        "url": "https://jellie.twala.io",
+        "standard": "EIP3091",
+        "icon": "twala"
       }
     ]
   },
@@ -6266,7 +6316,14 @@
     "infoURL": "https://www.dxchain.com/",
     "shortName": "dx",
     "chainId": 36,
-    "networkId": 36
+    "networkId": 36,
+    "explorers": [
+      {
+        "name": "dxscan",
+        "url": "https://dxscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Theta Mainnet",

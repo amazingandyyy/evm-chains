@@ -20,6 +20,7 @@
 │       ├── eip155-10001.json
 │       ├── eip155-1001.json
 │       ├── eip155-100100.json
+│       ├── eip155-10024.json
 │       ├── eip155-10067275.json
 │       ├── eip155-1007.json
 │       ├── eip155-1008.json
@@ -176,6 +177,7 @@
 │       ├── eip155-2022.json
 │       ├── eip155-2023.json
 │       ├── eip155-2025.json
+│       ├── eip155-202624.json
 │       ├── eip155-20729.json
 │       ├── eip155-2099156.json
 │       ├── eip155-21.json
@@ -910,4 +912,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-108 directories, 802 files
+108 directories, 804 files
