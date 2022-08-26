@@ -476,7 +476,14 @@
     "infoURL": "",
     "shortName": "gon",
     "chainId": 10024,
-    "networkId": 10024
+    "networkId": 10024,
+    "explorers": [
+      {
+        "name": "Gon Explorer",
+        "url": "https://gonscan.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Plian Testnet Subchain 1",
@@ -2103,8 +2110,35 @@
     "networkId": 1288
   },
   {
-    "name": "Boba Network Bobabase",
-    "chain": "Bobabase",
+    "name": "Boba Network Bobabeam",
+    "chain": "Bobabeam",
+    "rpc": [
+      "https://bobabeam.boba.network",
+      "wss://wss.bobabeam.boba.network",
+      "https://replica.bobabeam.boba.network",
+      "wss://replica-wss.bobabeam.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "Bobabeam",
+    "chainId": 1294,
+    "networkId": 1294,
+    "explorers": [
+      {
+        "name": "Bobabeam block explorer",
+        "url": "https://blockexplorer.bobabeam.boba.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Boba Network Bobabase Testnet",
+    "chain": "Bobabase Testnet",
     "rpc": [
       "https://bobabase.boba.network",
       "wss://wss.bobabase.boba.network",
@@ -2123,7 +2157,7 @@
     "networkId": 1297,
     "explorers": [
       {
-        "name": "Blockscout",
+        "name": "Bobabase block explorer",
         "url": "https://blockexplorer.bobabase.boba.network",
         "standard": "none"
       }
@@ -4469,6 +4503,34 @@
     ]
   },
   {
+    "name": "Bitcoin EVM",
+    "chain": "Bitcoin EVM",
+    "network": "mainnet",
+    "rpc": [
+      "https://connect.bitcoinevm.com",
+      ""
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitcoin",
+      "symbol": "eBTC",
+      "decimals": 18
+    },
+    "infoURL": "https://bitcoinevm.com",
+    "shortName": "eBTC",
+    "chainId": 2203,
+    "networkId": 2203,
+    "icon": "ebtc",
+    "explorers": [
+      {
+        "name": "Explorer",
+        "url": "https://explorer.bitcoinevm.com",
+        "icon": "ebtc",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "PlatON Dev Testnet",
     "chain": "PlatON",
     "rpc": [
@@ -6304,6 +6366,7 @@
   {
     "name": "Dxchain Mainnet",
     "chain": "Dxchain",
+    "icon": "dx",
     "rpc": [
       "https://mainnet.dxchain.com"
     ],
@@ -6752,7 +6815,7 @@
     "networkId": 4051,
     "explorers": [
       {
-        "name": "Blockscout",
+        "name": "Bobaopera Testnet block explorer",
         "url": "https://blockexplorer.testnet.bobaopera.boba.network",
         "standard": "none"
       }
@@ -6908,6 +6971,33 @@
     "shortName": "ogor",
     "chainId": 420,
     "networkId": 420
+  },
+  {
+    "name": "Kekchain",
+    "chain": "kek",
+    "network": "testnet",
+    "rpc": [
+      "https://testnet.kekchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KEK",
+      "symbol": "KEK",
+      "decimals": 18
+    },
+    "infoURL": "https://kekchain.com",
+    "shortName": "KEK",
+    "chainId": 420666,
+    "networkId": 1,
+    "icon": "kek",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet-explorer.kekchain.com",
+        "icon": "kek",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "pegglecoin",
@@ -7301,6 +7391,33 @@
         "name": "Avalanche Subnet Explorer",
         "url": "https://subnets.avax.network/dexalot/testnet/explorer",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Boba Network Bobafuji Testnet",
+    "chain": "Bobafuji Testnet",
+    "rpc": [
+      "https://testnet.avax.boba.network",
+      "wss://wss.testnet.avax.boba.network",
+      "https://replica.testnet.avax.boba.network",
+      "wss://replica-wss.testnet.avax.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "Bobafuji Testnet",
+    "chainId": 4328,
+    "networkId": 4328,
+    "explorers": [
+      {
+        "name": "Bobafuji Testnet block explorer",
+        "url": "https://blockexplorer.testnet.avax.boba.network",
+        "standard": "none"
       }
     ]
   },
@@ -11699,6 +11816,33 @@
     "chainId": 971,
     "networkId": 971,
     "icon": "ccn"
+  },
+  {
+    "name": "Boba Network BNB Testnet",
+    "chain": "Boba BNB Testnet",
+    "rpc": [
+      "https://testnet.bnb.boba.network",
+      "wss://wss.testnet.bnb.boba.network",
+      "https://replica.testnet.bnb.boba.network",
+      "wss://replica-wss.testnet.bnb.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "Boba BNB Testnet",
+    "chainId": 9728,
+    "networkId": 9728,
+    "explorers": [
+      {
+        "name": "Boba BNB Testnet block explorer",
+        "url": "https://blockexplorer.testnet.bnb.boba.network",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Nepal Blockchain Network",
