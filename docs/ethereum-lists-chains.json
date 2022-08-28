@@ -724,7 +724,6 @@
   {
     "name": "Conflux eSpace",
     "chain": "Conflux",
-    "network": "mainnet",
     "rpc": [
       "https://evm.confluxrpc.com"
     ],
@@ -750,7 +749,6 @@
   {
     "name": "Crystaleum",
     "chain": "crystal",
-    "network": "mainnet",
     "rpc": [
       "https://evm.cryptocurrencydevs.org",
       "https://rpc.crystaleum.org"
@@ -971,7 +969,6 @@
   {
     "name": "BROChain Mainnet",
     "chain": "BRO",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.brochain.org",
       "http://rpc.brochain.org",
@@ -999,7 +996,6 @@
   {
     "name": "Quadrans Blockchain",
     "chain": "QDC",
-    "network": "mainnet",
     "icon": "quadrans",
     "rpc": [
       "https://rpc.quadrans.io",
@@ -1777,7 +1773,6 @@
   {
     "name": "EnterChain Mainnet",
     "chain": "ENTER",
-    "network": "mainnet",
     "rpc": [
       "https://tapi.entercoin.net/"
     ],
@@ -1909,7 +1904,6 @@
   {
     "name": "OM Platform Mainnet",
     "chain": "omplatform",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-cnx.omplatform.com/"
     ],
@@ -2343,7 +2337,6 @@
   {
     "name": "ETND Chain Mainnets",
     "chain": "ETND",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.node1.etnd.pro/"
     ],
@@ -2515,7 +2508,6 @@
   {
     "name": "Phoenix Mainnet",
     "chain": "Phoenix",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.phoenixplorer.com/"
     ],
@@ -2640,7 +2632,6 @@
   {
     "name": "PHI Network v2",
     "chain": "PHI",
-    "network": "mainnet",
     "rpc": [
       "https://connect.phi.network",
       ""
@@ -3145,7 +3136,6 @@
   {
     "name": "AIOZ Network",
     "chain": "AIOZ",
-    "network": "mainnet",
     "icon": "aioz",
     "rpc": [
       "https://eth-dataseed.aioz.network"
@@ -3846,7 +3836,6 @@
     "name": "Milkomeda C1 Mainnet",
     "chain": "milkAda",
     "icon": "milkomeda",
-    "network": "mainnet",
     "rpc": [
       "https://rpc-mainnet-cardano-evm.c1.milkomeda.com",
       "wss://rpc-mainnet-cardano-evm.c1.milkomeda.com"
@@ -4254,7 +4243,6 @@
   {
     "name": "Plian Mainnet Main",
     "chain": "Plian",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.plian.io/pchain"
     ],
@@ -4346,7 +4334,6 @@
   {
     "name": "PlatON Mainnet",
     "chain": "PlatON",
-    "network": "mainnet",
     "rpc": [
       "https://openapi2.platon.network/rpc",
       "wss://openapi2.platon.network/ws"
@@ -4419,7 +4406,6 @@
   {
     "name": "Findora Mainnet",
     "chain": "Findora",
-    "network": "mainnet",
     "rpc": [
       "https://prod-mainnet.prod.findora.org:8545"
     ],
@@ -4527,7 +4513,6 @@
   {
     "name": "Taycan",
     "chain": "Taycan",
-    "network": "mainnet",
     "rpc": [
       "https://taycan-rpc.hupayx.io:8545"
     ],
@@ -4557,7 +4542,6 @@
   {
     "name": "Bitcoin EVM",
     "chain": "Bitcoin EVM",
-    "network": "mainnet",
     "rpc": [
       "https://connect.bitcoinevm.com",
       ""
@@ -4641,7 +4625,6 @@
   {
     "name": "Evanesco Mainnet",
     "chain": "EVA",
-    "network": "mainnet",
     "rpc": [
       "https://seed4.evanesco.org:8546"
     ],
@@ -4716,7 +4699,6 @@
   {
     "name": "Kava EVM",
     "chain": "KAVA",
-    "network": "mainnet",
     "rpc": [
       "https://evm.kava.io",
       "https://evm2.kava.io",
@@ -5153,7 +5135,6 @@
   {
     "name": "CMP-Mainnet",
     "chain": "CMP",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.block.caduceus.foundation",
       "wss://mainnet.block.caduceus.foundation"
@@ -5179,7 +5160,6 @@
   {
     "name": "TechPay Mainnet",
     "chain": "TPC",
-    "network": "mainnet",
     "rpc": [
       "https://api.techpay.io/"
     ],
@@ -5245,7 +5225,6 @@
   {
     "name": "Redlight Chain Mainnet",
     "chain": "REDLC",
-    "network": "mainnet",
     "rpc": [
       "https://dataseed2.redlightscan.finance"
     ],
@@ -6323,7 +6302,6 @@
   {
     "name": "Q Mainnet",
     "chain": "Q",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.q.org"
     ],
@@ -6584,7 +6562,6 @@
   {
     "name": "SeedCoin-Network",
     "chain": "SeedCoin-Network",
-    "network": "mainnet",
     "rpc": [
       "https://node.seedcoin.network"
     ],
@@ -6603,7 +6580,6 @@
   {
     "name": "Crossbell",
     "chain": "Crossbell",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.crossbell.io"
     ],
@@ -6738,7 +6714,6 @@
   {
     "name": "YuanChain Mainnet",
     "chain": "YCC",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.yuan.org/eth"
     ],
@@ -6923,7 +6898,6 @@
     "name": "SX Network Mainnet",
     "chain": "SX",
     "icon": "SX",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.sx.technology"
     ],
@@ -6948,7 +6922,6 @@
   {
     "name": "PHI Network V1",
     "chain": "PHI V1",
-    "network": "mainnet",
     "rpc": [
       "https://rpc1.phi.network",
       "https://rpc2.phi.network"
@@ -7571,7 +7544,6 @@
   {
     "name": "Autobahn Network",
     "chain": "TXL",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.autobahn.network"
     ],
@@ -7864,7 +7836,6 @@
   {
     "name": "XinFin XDC Network",
     "chain": "XDC",
-    "network": "mainnet",
     "rpc": [
       "https://erpc.xinfin.network",
       "https://rpc.xinfin.network",
@@ -8199,7 +8170,6 @@
   {
     "name": "F(x)Core Mainnet Network",
     "chain": "Fxcore",
-    "network": "mainnet",
     "rpc": [
       "https://fx-json-web3.functionx.io:8545"
     ],
@@ -8269,7 +8239,6 @@
     "name": "DFK Chain",
     "chain": "DFK",
     "icon": "dfk",
-    "network": "mainnet",
     "rpc": [
       "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
     ],
@@ -8296,7 +8265,6 @@
     "name": "Openpiece Mainnet",
     "chain": "OPENPIECE",
     "icon": "openpiece",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.openpiece.io"
     ],
@@ -8374,7 +8342,6 @@
   {
     "name": "Nahmii Mainnet",
     "chain": "Nahmii",
-    "network": "mainnet",
     "rpc": [
       "https://l2.nahmii.io"
     ],
@@ -9190,7 +9157,6 @@
   {
     "name": "eCredits Mainnet",
     "chain": "ECS",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.ecredits.com"
     ],
@@ -9979,7 +9945,6 @@
   {
     "name": "Mixin Virtual Machine",
     "chain": "MVM",
-    "network": "mainnet",
     "rpc": [
       "https://geth.mvm.dev"
     ],
@@ -10006,7 +9971,6 @@
   {
     "name": "IDChain Mainnet",
     "chain": "IDChain",
-    "network": "mainnet",
     "rpc": [
       "https://idchain.one/rpc/",
       "wss://idchain.one/ws/"
@@ -10473,7 +10437,6 @@
   {
     "name": "Plian Mainnet Subchain 1",
     "chain": "Plian",
-    "network": "mainnet",
     "rpc": [
       "https://mainnet.plian.io/child_0"
     ],
@@ -11123,7 +11086,6 @@
   {
     "name": "Garizon Stage0",
     "chain": "GAR",
-    "network": "mainnet",
     "icon": "garizon",
     "rpc": [
       "https://s0.garizon.net/rpc"
@@ -11213,7 +11175,6 @@
   {
     "name": "Posichain Mainnet Shard 0",
     "chain": "PSC",
-    "network": "mainnet",
     "rpc": [
       "https://api.posichain.org",
       "https://api.s0.posichain.org"
@@ -11402,7 +11363,6 @@
     "name": "Portal Fantasy Chain",
     "chain": "PF",
     "icon": "pf",
-    "network": "mainnet",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -11420,7 +11380,6 @@
   {
     "name": "Garizon Stage1",
     "chain": "GAR",
-    "network": "mainnet",
     "icon": "garizon",
     "rpc": [
       "https://s1.garizon.net/rpc"
@@ -11498,7 +11457,6 @@
   {
     "name": "Garizon Stage2",
     "chain": "GAR",
-    "network": "mainnet",
     "icon": "garizon",
     "rpc": [
       "https://s2.garizon.net/rpc"
@@ -11615,7 +11573,6 @@
   {
     "name": "Garizon Stage3",
     "chain": "GAR",
-    "network": "mainnet",
     "icon": "garizon",
     "rpc": [
       "https://s3.garizon.net/rpc"
@@ -12116,7 +12073,6 @@
   {
     "name": "UB Smart Chain",
     "chain": "USC",
-    "network": "mainnet",
     "rpc": [
       "https://rpc.uschain.network"
     ],
