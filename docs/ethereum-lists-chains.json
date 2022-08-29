@@ -434,7 +434,6 @@
   {
     "name": "Chiado Testnet",
     "chain": "CHI",
-    "network": "testnet",
     "icon": "gnosis",
     "rpc": [
       "https://rpc-chiado.gnosistestnet.com"
@@ -488,7 +487,6 @@
   {
     "name": "Plian Testnet Subchain 1",
     "chain": "Plian",
-    "network": "testnet",
     "rpc": [
       "https://testnet.plian.io/child_test"
     ],
@@ -534,7 +532,6 @@
   {
     "name": "Eurus Mainnet",
     "chain": "EUN",
-    "network": "eurus",
     "rpc": [
       "https://mainnet.eurus.network/"
     ],
@@ -776,7 +773,6 @@
   {
     "name": "Kaiba Lightning Chain Testnet",
     "chain": "tKLC",
-    "network": "testnet",
     "rpc": [
       "https://klc.live/"
     ],
@@ -1024,7 +1020,6 @@
   {
     "name": "Quadrans Blockchain Testnet",
     "chain": "tQDC",
-    "network": "testnet",
     "icon": "quadrans",
     "rpc": [
       "https://rpctest.quadrans.io",
@@ -1413,7 +1408,6 @@
     "name": "Sepolia",
     "title": "Ethereum Testnet Sepolia",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://rpc.sepolia.dev",
       "https://rpc.sepolia.online",
@@ -1610,7 +1604,6 @@
   {
     "name": "Iora Chain",
     "chain": "IORA",
-    "network": "iorachain",
     "icon": "iorachain",
     "rpc": [
       "https://dataseed.iorachain.com"
@@ -1653,7 +1646,6 @@
   {
     "name": "Evanesco Testnet",
     "chain": "Evanesco Testnet",
-    "network": "avis",
     "rpc": [
       "https://seed5.evanesco.org:8547"
     ],
@@ -2477,7 +2469,6 @@
   {
     "name": "Kiln",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://rpc.kiln.themerge.dev"
     ],
@@ -2590,7 +2581,6 @@
     "name": "Openpiece Testnet",
     "chain": "OPENPIECE",
     "icon": "openpiece",
-    "network": "testnet",
     "rpc": [
       "https://testnet.openpiece.io"
     ],
@@ -2751,7 +2741,6 @@
   {
     "name": "Trust EVM Testnet",
     "chain": "Trust EVM Testnet",
-    "network": "testnet",
     "rpc": [
       "https://api.testnet-dev.trust.one"
     ],
@@ -2929,7 +2918,6 @@
   {
     "name": "Plian Testnet Main",
     "chain": "Plian",
-    "network": "testnet",
     "rpc": [
       "https://testnet.plian.io/testnet"
     ],
@@ -3485,7 +3473,6 @@
   {
     "name": "BON Network",
     "chain": "BON",
-    "network": "testnet",
     "rpc": [
       "http://rpc.boyanet.org:8545",
       "ws://rpc.boyanet.org:8546"
@@ -3640,7 +3627,6 @@
   {
     "name": "Eurus Testnet",
     "chain": "EUN",
-    "network": "eurus-testnet",
     "rpc": [
       "https://testnet.eurus.network"
     ],
@@ -3816,8 +3802,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Wrapped Dogecoin",
-      "symbol": "wDOGE",
+      "name": "Dogecoin",
+      "symbol": "DOGE",
       "decimals": 18
     },
     "infoURL": "https://dogechain.dog",
@@ -3862,7 +3848,6 @@
     "name": "Milkomeda C1 Testnet",
     "chain": "milkTAda",
     "icon": "milkomeda",
-    "network": "testnet",
     "rpc": [
       "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
       "wss://rpc-devnet-cardano-evm.c1.milkomeda.com"
@@ -3889,7 +3874,6 @@
     "name": "Milkomeda A1 Testnet",
     "chain": "milkTAlgo",
     "icon": "milkomeda",
-    "network": "testnet",
     "rpc": [
       "https://rpc-devnet-algorand-rollup.a1.milkomeda.com"
     ],
@@ -4197,7 +4181,6 @@
     "title": "Twala Testnet Jellie",
     "shortName": "twl-jellie",
     "chain": "ETH",
-    "network": "testnet",
     "chainId": 202624,
     "networkId": 202624,
     "icon": "twala",
@@ -4380,7 +4363,6 @@
   {
     "name": "CENNZnet Azalea",
     "chain": "CENNZnet",
-    "network": "azalea",
     "rpc": [
       "https://cennznet.unfrastructure.io/public"
     ],
@@ -4430,7 +4412,6 @@
   {
     "name": "Findora Testnet",
     "chain": "Testnet-anvil",
-    "network": "testnet",
     "rpc": [
       "https://prod-testnet.prod.findora.org:8545/"
     ],
@@ -4669,7 +4650,6 @@
   {
     "name": "Kava EVM Testnet",
     "chain": "KAVA",
-    "network": "testnet",
     "rpc": [
       "https://evm.testnet.kava.io",
       "wss://wevm.testnet.kava.io"
@@ -4817,7 +4797,6 @@
   {
     "name": "Haymo Testnet",
     "chain": "tHYM",
-    "network": "testnet",
     "rpc": [
       "https://testnet1.haymo.network"
     ],
@@ -5562,7 +5541,6 @@
     "name": "Ropsten",
     "title": "Ethereum Testnet Ropsten",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
       "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -5650,7 +5628,6 @@
   {
     "name": "CENNZnet Rata",
     "chain": "CENNZnet",
-    "network": "rata",
     "rpc": [
       "https://rata.centrality.me/public"
     ],
@@ -5671,7 +5648,6 @@
   {
     "name": "CENNZnet Nikau",
     "chain": "CENNZnet",
-    "network": "nikau",
     "rpc": [
       "https://nikau.centrality.me/public"
     ],
@@ -6105,7 +6081,6 @@
     "name": "DFK Chain Test",
     "chain": "DFK",
     "icon": "dfk",
-    "network": "testnet",
     "rpc": [
       "https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"
     ],
@@ -6205,7 +6180,6 @@
   {
     "name": "Paribu Net Mainnet",
     "chain": "PRB",
-    "network": "Paribu Net",
     "rpc": [
       "https://rpc.paribu.network"
     ],
@@ -6249,7 +6223,6 @@
   {
     "name": "Paribu Net Testnet",
     "chain": "PRB",
-    "network": "Paribu Net",
     "rpc": [
       "https://rpc.testnet.paribuscan.com"
     ],
@@ -6328,7 +6301,6 @@
   {
     "name": "Q Testnet",
     "chain": "Q",
-    "network": "testnet",
     "rpc": [
       "https://rpc.qtestnet.org"
     ],
@@ -6740,7 +6712,6 @@
     "name": "Rinkeby",
     "title": "Ethereum Testnet Rinkeby",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
@@ -6870,7 +6841,6 @@
   {
     "name": "AIOZ Network Testnet",
     "chain": "AIOZ",
-    "network": "testnet",
     "icon": "aioz",
     "rpc": [
       "https://eth-ds.testnet.aioz.network"
@@ -6950,7 +6920,6 @@
     "name": "Kovan",
     "title": "Ethereum Testnet Kovan",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://kovan.poa.network",
       "http://kovan.poa.network:8545",
@@ -7000,7 +6969,6 @@
   {
     "name": "Kekchain",
     "chain": "kek",
-    "network": "testnet",
     "rpc": [
       "https://testnet.kekchain.com"
     ],
@@ -7395,7 +7363,6 @@
   {
     "name": "Dexalot Testnet",
     "chain": "DEXALOT",
-    "network": "testnet",
     "rpc": [
       "https://subnets.avax.network/dexalot/testnet/rpc"
     ],
@@ -7570,7 +7537,6 @@
   {
     "name": "Darwinia Network",
     "chain": "darwinia",
-    "network": "darwinia network",
     "rpc": [
       "https://darwinia-rpc.darwinia.network"
     ],
@@ -7802,7 +7768,6 @@
     "name": "Görli",
     "title": "Ethereum Testnet Görli",
     "chain": "ETH",
-    "network": "testnet",
     "rpc": [
       "https://goerli.infura.io/v3/${INFURA_API_KEY}",
       "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
@@ -7898,7 +7863,6 @@
   {
     "name": "XDC Apothem Network",
     "chain": "XDC",
-    "network": "testnet",
     "rpc": [
       "https://rpc.apothem.network",
       "https://erpc.apothem.network"
@@ -7960,7 +7924,6 @@
   {
     "name": "CMP-Testnet",
     "chain": "CMP",
-    "network": "testnet",
     "rpc": [
       "https://galaxy.block.caduceus.foundation",
       "wss://galaxy.block.caduceus.foundation"
@@ -8377,7 +8340,6 @@
   {
     "name": "Nahmii Testnet",
     "chain": "Nahmii",
-    "network": "testnet",
     "rpc": [
       "https://l2.testnet.nahmii.io"
     ],
@@ -8534,8 +8496,8 @@
       "https://faucet.dogechain.dog"
     ],
     "nativeCurrency": {
-      "name": "Wrapped Dogecoin",
-      "symbol": "wDOGE",
+      "name": "Dogecoin",
+      "symbol": "DOGE",
       "decimals": 18
     },
     "infoURL": "https://dogechain.dog",
@@ -9183,7 +9145,6 @@
   {
     "name": "eCredits Testnet",
     "chain": "ECS",
-    "network": "testnet",
     "rpc": [
       "https://rpc.tst.ecredits.com"
     ],
@@ -9231,7 +9192,6 @@
     "name": "SX Network Testnet",
     "chain": "SX",
     "icon": "SX",
-    "network": "testnet",
     "rpc": [
       "https://rpc.toronto.sx.technology"
     ],
@@ -9755,7 +9715,6 @@
   {
     "name": "Conflux eSpace (Testnet)",
     "chain": "Conflux",
-    "network": "testnet",
     "rpc": [
       "https://evmtestnet.confluxrpc.com"
     ],
@@ -10235,7 +10194,6 @@
   {
     "name": "Aerochain Testnet",
     "chain": "Aerochain",
-    "network": "testnet",
     "rpc": [
       "https://testnet-rpc.aerochain.id/"
     ],
@@ -10500,7 +10458,6 @@
     "name": "Portal Fantasy Chain Test",
     "chain": "PF",
     "icon": "pf",
-    "network": "testnet",
     "rpc": [
       "https://subnets.avax.network/portal-fantasy/testnet/rpc"
     ],
@@ -10517,29 +10474,32 @@
     "explorers": []
   },
   {
-    "name": "GeneChain Adenine Testnet",
-    "chain": "GeneChain",
+    "name": "Shardeum Liberty 1.3",
+    "chain": "Shardeum",
     "rpc": [
-      "https://rpc-testnet.genechain.io"
+      "https://liberty10.shardeum.org/"
     ],
     "faucets": [
-      "https://faucet.genechain.io"
+      "https://faucet.liberty10.shardeum.org"
     ],
     "nativeCurrency": {
-      "name": "Testnet RNA",
-      "symbol": "tRNA",
+      "name": "Shardeum SHM",
+      "symbol": "SHM",
       "decimals": 18
     },
-    "infoURL": "https://scan-testnet.genechain.io/",
-    "shortName": "GeneChainAdn",
+    "infoURL": "https://docs.shardeum.org/",
+    "shortName": "ShardeumSHM",
     "chainId": 8080,
     "networkId": 8080,
     "explorers": [
       {
-        "name": "GeneChain Adenine Testnet Scan",
-        "url": "https://scan-testnet.genechain.io",
+        "name": "Sharedum Scan",
+        "url": "https://explorer.liberty10.shardeum.org",
         "standard": "EIP3091"
       }
+    ],
+    "redFlags": [
+      "reusedChainId"
     ]
   },
   {
@@ -10764,6 +10724,44 @@
       }
     ],
     "infoURL": "https://www.gatechain.io"
+  },
+  {
+    "name": "Toki Network",
+    "chain": "TOKI",
+    "rpc": [
+      "https://mainnet.buildwithtoki.com/v0/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Toki",
+      "symbol": "TOKI",
+      "decimals": 18
+    },
+    "infoURL": "https://www.buildwithtoki.com",
+    "shortName": "toki",
+    "chainId": 8654,
+    "networkId": 8654,
+    "icon": "toki",
+    "explorers": []
+  },
+  {
+    "name": "Toki Testnet",
+    "chain": "TOKI",
+    "rpc": [
+      "https://testnet.buildwithtoki.com/v0/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Toki",
+      "symbol": "TOKI",
+      "decimals": 18
+    },
+    "infoURL": "https://www.buildwithtoki.com",
+    "shortName": "toki-testnet",
+    "chainId": 8655,
+    "networkId": 8655,
+    "icon": "toki",
+    "explorers": []
   },
   {
     "name": "Godwoken Testnet (V1)",
@@ -11112,7 +11110,6 @@
   {
     "name": "Garizon Testnet Stage0",
     "chain": "GAR",
-    "network": "testnet",
     "icon": "garizon",
     "rpc": [
       "https://s0-testnet.garizon.net/rpc"
@@ -11236,7 +11233,6 @@
   {
     "name": "Garizon Testnet Stage1",
     "chain": "GAR",
-    "network": "testnet",
     "icon": "garizon",
     "rpc": [
       "https://s1-testnet.garizon.net/rpc"
@@ -11296,7 +11292,6 @@
   {
     "name": "Garizon Testnet Stage2",
     "chain": "GAR",
-    "network": "testnet",
     "icon": "garizon",
     "rpc": [
       "https://s2-testnet.garizon.net/rpc"
@@ -11329,7 +11324,6 @@
   {
     "name": "Garizon Testnet Stage3",
     "chain": "GAR",
-    "network": "testnet",
     "icon": "garizon",
     "rpc": [
       "https://s3-testnet.garizon.net/rpc"
@@ -11428,7 +11422,6 @@
   {
     "name": "Posichain Testnet Shard 0",
     "chain": "PSC",
-    "network": "testnet",
     "rpc": [
       "https://api.s0.t.posichain.org"
     ],
@@ -11487,7 +11480,6 @@
   {
     "name": "Posichain Devnet Shard 0",
     "chain": "PSC",
-    "network": "devnet",
     "rpc": [
       "https://api.s0.d.posichain.org"
     ],
@@ -11516,7 +11508,6 @@
   {
     "name": "Posichain Devnet Shard 1",
     "chain": "PSC",
-    "network": "devnet",
     "rpc": [
       "https://api.s1.d.posichain.org"
     ],
@@ -11624,7 +11615,6 @@
     "name": "PulseChain Testnet v2b",
     "shortName": "t2bpls",
     "chain": "t2bPLS",
-    "network": "testnet-2b",
     "chainId": 941,
     "networkId": 941,
     "infoURL": "https://pulsechain.com/",
@@ -11645,7 +11635,6 @@
     "name": "PulseChain Testnet v3",
     "shortName": "t3pls",
     "chain": "t3PLS",
-    "network": "testnet-3",
     "chainId": 942,
     "networkId": 942,
     "infoURL": "https://pulsechain.com/",
@@ -12055,7 +12044,6 @@
   {
     "name": "UB Smart Chain(testnet)",
     "chain": "USC",
-    "network": "testnet",
     "rpc": [
       "https://testnet.rpc.uschain.network"
     ],
