@@ -1905,7 +1905,7 @@
       "decimals": 18
     },
     "infoURL": "https://ultron.foundation",
-    "shortName": "Ultron Testnet",
+    "shortName": "UltronTestnet",
     "chainId": 1230,
     "networkId": 1230,
     "explorers": [
@@ -1931,7 +1931,7 @@
       "decimals": 18
     },
     "infoURL": "https://ultron.foundation",
-    "shortName": "Utron Mainnet",
+    "shortName": "UtronMainnet",
     "chainId": 1231,
     "networkId": 1231,
     "explorers": [
@@ -1999,7 +1999,7 @@
       "decimals": 18
     },
     "infoURL": "https://www.oychain.io",
-    "shortName": "oychain testnet",
+    "shortName": "OYchainTestnet",
     "chainId": 125,
     "networkId": 125,
     "slip44": 125,
@@ -2025,7 +2025,7 @@
       "decimals": 18
     },
     "infoURL": "https://www.oychain.io",
-    "shortName": "oychain mainnet",
+    "shortName": "OYchainMainnet",
     "chainId": 126,
     "networkId": 126,
     "slip44": 126,
@@ -2768,7 +2768,7 @@
       "decimals": 18
     },
     "infoURL": "https://sherpax.io/",
-    "shortName": "Sherpax Testnet",
+    "shortName": "SherpaxTestnet",
     "chainId": 1507,
     "networkId": 1507,
     "explorers": [
@@ -2820,7 +2820,7 @@
       "decimals": 18
     },
     "infoURL": "https://www.trust.one/",
-    "shortName": "Trust testnet",
+    "shortName": "TrustTestnet",
     "chainId": 15555,
     "networkId": 15555,
     "explorers": [
@@ -4286,7 +4286,7 @@
       "decimals": 18
     },
     "infoURL": "https://callisto.network",
-    "shortName": "clo testnet",
+    "shortName": "CLOTestnet",
     "chainId": 20729,
     "networkId": 79
   },
@@ -5463,7 +5463,7 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "Boba Rinkeby",
+    "shortName": "BobaRinkeby",
     "chainId": 28,
     "networkId": 28,
     "explorers": [
@@ -6820,7 +6820,7 @@
       "decimals": 18
     },
     "infoURL": "https://telos.net",
-    "shortName": "Telos EVM",
+    "shortName": "TelosEVM",
     "chainId": 40,
     "networkId": 40,
     "explorers": [
@@ -6875,7 +6875,7 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "Bobaopera Testnet",
+    "shortName": "BobaoperaTestnet",
     "chainId": 4051,
     "networkId": 4051,
     "explorers": [
@@ -6901,7 +6901,7 @@
       "decimals": 18
     },
     "infoURL": "https://telos.net",
-    "shortName": "Telos EVM Testnet",
+    "shortName": "TelosEVMTestnet",
     "chainId": 41,
     "networkId": 41
   },
@@ -7469,7 +7469,7 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "Bobafuji Testnet",
+    "shortName": "BobafujiTestnet",
     "chainId": 4328,
     "networkId": 4328,
     "explorers": [
@@ -7588,7 +7588,7 @@
       "decimals": 18
     },
     "infoURL": "https://autobahn.network",
-    "shortName": "Autobahn Network",
+    "shortName": "AutobahnNetwork",
     "chainId": 45000,
     "networkId": 45000,
     "icon": "autobahn",
@@ -8210,7 +8210,7 @@
       "decimals": 18
     },
     "infoURL": "https://functionx.io/",
-    "shortName": "f(x)Core",
+    "shortName": "FxCore",
     "chainId": 530,
     "networkId": 530,
     "icon": "fxcore",
@@ -8417,7 +8417,7 @@
       "decimals": 18
     },
     "infoURL": "https://nahmii.io",
-    "shortName": "Nahmii testnet",
+    "shortName": "NahmiiTestnet",
     "chainId": 5553,
     "networkId": 5553,
     "icon": "nahmii",
@@ -8678,7 +8678,7 @@
       "decimals": 18
     },
     "infoURL": "https://ont.io/",
-    "shortName": "Ontology Mainnet",
+    "shortName": "OntologyMainnet",
     "chainId": 58,
     "networkId": 58,
     "explorers": [
@@ -8711,7 +8711,7 @@
       "decimals": 18
     },
     "infoURL": "https://ont.io/",
-    "shortName": "Ontology Testnet",
+    "shortName": "OntologyTestnet",
     "chainId": 5851,
     "networkId": 5851,
     "explorers": [
@@ -8793,7 +8793,7 @@
       "decimals": 18
     },
     "infoURL": "https://eoscommunity.org/",
-    "shortName": "EOS Mainnet",
+    "shortName": "EOSMainnet",
     "chainId": 59,
     "networkId": 59,
     "explorers": [
@@ -10170,7 +10170,7 @@
       "decimals": 18
     },
     "infoURL": "https://riseofthewarbots.com/",
-    "shortName": "Rise of the Warbots Testnet",
+    "shortName": "RiseOfTheWarbotsTestnet",
     "chainId": 7777,
     "networkId": 7777,
     "explorers": [
@@ -11731,7 +11731,7 @@
       "decimals": 18
     },
     "infoURL": "https://www.cryptokylin.io/",
-    "shortName": "Kylin Testnet",
+    "shortName": "KylinTestnet",
     "chainId": 95,
     "networkId": 95,
     "explorers": [
@@ -11914,7 +11914,7 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "Boba BNB Testnet",
+    "shortName": "BobaBNBTestnet",
     "chainId": 9728,
     "networkId": 9728,
     "explorers": [
