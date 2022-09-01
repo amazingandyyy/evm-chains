@@ -2842,7 +2842,7 @@
       "https://fauceth.komputing.org?chain=16&address=${ADDRESS}"
     ],
     "nativeCurrency": {
-      "name": "Coston Spark",
+      "name": "Coston Flare",
       "symbol": "CFLR",
       "decimals": 18
     },
@@ -6608,7 +6608,7 @@
     "nativeCurrency": {
       "name": "SeedCoin",
       "symbol": "SEED",
-      "decimals": 8
+      "decimals": 18
     },
     "infoURL": "https://www.seedcoin.network/",
     "shortName": "SEED",
@@ -10087,6 +10087,35 @@
       {
         "name": "blockscout",
         "url": "https://blockscout.com/poa/sokol",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Canto",
+    "chain": "Canto",
+    "rpc": [
+      "https://canto.evm.chandrastation.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Canto",
+      "symbol": "CANTO",
+      "decimals": 18
+    },
+    "infoURL": "https://canto.io",
+    "shortName": "canto",
+    "chainId": 7700,
+    "networkId": 7700,
+    "explorers": [
+      {
+        "name": "Canto EVM Explorer (Blockscout)",
+        "url": "https://evm.explorer.canto.io",
+        "standard": "none"
+      },
+      {
+        "name": "Canto Cosmos Explorer (BigDipper)",
+        "url": "https://cosmos.explorer.canto.io",
         "standard": "none"
       }
     ]
