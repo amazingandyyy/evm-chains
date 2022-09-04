@@ -1,5 +1,30 @@
 [
   {
+    "name": "Lycan Chain",
+    "chain": "LYC",
+    "rpc": [
+      "https://rpc.lycanchain.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lycan",
+      "symbol": "LYC",
+      "decimals": 18
+    },
+    "infoURL": "https://lycanchain.com",
+    "shortName": "LYC",
+    "chainId": 721,
+    "networkId": 721,
+    "icon": "lycanchain",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.lycanchain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ethereum Mainnet",
     "chain": "ETH",
     "icon": "ethereum",
@@ -4308,6 +4333,30 @@
     "networkId": 79
   },
   {
+    "name": "Quokkacoin Mainnet",
+    "chain": "Qkacoin",
+    "rpc": [
+      "http://rpc.qkacoin.org:8548"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Qkacoin",
+      "symbol": "QKA",
+      "decimals": 18
+    },
+    "infoURL": "https://qkacoin.org",
+    "shortName": "QKA",
+    "chainId": 2077,
+    "networkId": 2077,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.qkacoin.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Plian Mainnet Main",
     "chain": "Plian",
     "rpc": [
@@ -5806,6 +5855,32 @@
       {
         "name": "Piece Scan",
         "url": "https://testnet-scan.piecenetwork.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Orlando Chain",
+    "chain": "ORL",
+    "rpc": [
+      "https://rpc-testnet.orlchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Orlando",
+      "symbol": "ORL",
+      "decimals": 18
+    },
+    "infoURL": "https://orlchain.com",
+    "shortName": "ORL",
+    "chainId": 3031,
+    "networkId": 3031,
+    "icon": "orl",
+    "explorers": [
+      {
+        "name": "Orlando (ORL) Explorer",
+        "url": "https://orlscan.com",
+        "icon": "orl",
         "standard": "EIP3091"
       }
     ]
