@@ -3408,6 +3408,57 @@
     ]
   },
   {
+    "name": "Frontier of Dreams Testnet",
+    "chain": "Game Network",
+    "rpc": [
+      "https://rpc.fod.games/"
+    ],
+    "nativeCurrency": {
+      "name": "ZKST",
+      "symbol": "ZKST",
+      "decimals": 18
+    },
+    "faucets": [],
+    "shortName": "ZKST",
+    "chainId": 18000,
+    "networkId": 18000,
+    "infoURL": "https://goexosphere.com",
+    "explorers": [
+      {
+        "name": "Game Network",
+        "url": "https://explorer.fod.games",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Rabbit Analog Testnet Chain",
+    "chain": "rAna",
+    "icon": "rabbit",
+    "rpc": [
+      "https://rabbit.analog-rpc.com"
+    ],
+    "faucets": [
+      "https://analogfaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Rabbit Analog Test Chain Native Token ",
+      "symbol": "rAna",
+      "decimals": 18
+    },
+    "infoURL": "https://rabbit.analogscan.com",
+    "shortName": "rAna",
+    "chainId": 1807,
+    "networkId": 1807,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://rabbit.analogscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Cube Chain Mainnet",
     "chain": "Cube",
     "icon": "cube",
@@ -5544,6 +5595,60 @@
     ]
   },
   {
+    "name": "Excoincial Chain Volta-Testnet",
+    "chain": "TEXL",
+    "icon": "exl",
+    "rpc": [
+      "https://testnet-rpc.exlscan.com"
+    ],
+    "faucets": [
+      "https://faucet.exlscan.com"
+    ],
+    "nativeCurrency": {
+      "name": "TExlcoin",
+      "symbol": "TEXL",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "exlvolta",
+    "chainId": 27082017,
+    "networkId": 27082017,
+    "explorers": [
+      {
+        "name": "exlscan",
+        "url": "https://testnet-explorer.exlscan.com",
+        "icon": "exl",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Excoincial Chain Mainnet",
+    "chain": "EXL",
+    "icon": "exl",
+    "rpc": [
+      "https://rpc.exlscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Exlcoin",
+      "symbol": "EXL",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "exl",
+    "chainId": 27082022,
+    "networkId": 27082022,
+    "explorers": [
+      {
+        "name": "exlscan",
+        "url": "https://exlscan.com",
+        "icon": "exl",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Boba Network Rinkeby Testnet",
     "chain": "ETH",
     "rpc": [
@@ -7051,6 +7156,30 @@
     ]
   },
   {
+    "name": "Opulent-X BETA",
+    "chainId": 41500,
+    "shortName": "ox-beta",
+    "chain": "Opulent-X",
+    "networkId": 41500,
+    "nativeCurrency": {
+      "name": "Oxyn Gas",
+      "symbol": "OXYN",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://connect.opulent-x.com"
+    ],
+    "faucets": [],
+    "infoURL": "https://beta.opulent-x.com",
+    "explorers": [
+      {
+        "name": "Opulent-X BETA Explorer",
+        "url": "https://explorer.opulent-x.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "SX Network Mainnet",
     "chain": "SX",
     "icon": "SX",
@@ -7397,33 +7526,35 @@
     ]
   },
   {
-    "name": "Emerald Paratime Testnet",
+    "name": "Oasis Emerald ParaTime Testnet",
     "chain": "Emerald",
     "icon": "oasis",
     "rpc": [
       "https://testnet.emerald.oasis.dev/",
       "wss://testnet.emerald.oasis.dev/ws"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.testnet.oasis.dev/"
+    ],
     "nativeCurrency": {
       "name": "Emerald Rose",
       "symbol": "ROSE",
       "decimals": 18
     },
     "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
-    "shortName": "emerald",
+    "shortName": "emerald-testnet",
     "chainId": 42261,
     "networkId": 42261,
     "explorers": [
       {
-        "name": "Emerald Paratime Testnet Explorer",
+        "name": "Emerald ParaTime Testnet Explorer",
         "url": "https://testnet.explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
     ]
   },
   {
-    "name": "Emerald Paratime Mainnet",
+    "name": "Oasis Emerald ParaTime Mainnet",
     "chain": "Emerald",
     "icon": "oasis",
     "rpc": [
@@ -7437,12 +7568,12 @@
       "decimals": 18
     },
     "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
-    "shortName": "oasis",
+    "shortName": "emerald",
     "chainId": 42262,
     "networkId": 42262,
     "explorers": [
       {
-        "name": "Emerald Paratime Mainnet Explorer",
+        "name": "Emerald ParaTime Mainnet Explorer",
         "url": "https://explorer.emerald.oasis.dev",
         "standard": "EIP3091"
       }
