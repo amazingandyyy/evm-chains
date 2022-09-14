@@ -10820,7 +10820,7 @@
     "explorers": []
   },
   {
-    "name": "Shardeum Liberty 1.3",
+    "name": "Shardeum Liberty",
     "chain": "Shardeum",
     "rpc": [
       "https://liberty10.shardeum.org/"
