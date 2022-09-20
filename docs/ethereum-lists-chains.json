@@ -10275,7 +10275,7 @@
     "name": "ResinCoin Mainnet",
     "chain": "RESIN",
     "rpc": [
-      "https://mainnet.resincoin.ml"
+      "https://mainnet.resincoin.dev"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10283,14 +10283,14 @@
       "symbol": "RESIN",
       "decimals": 18
     },
-    "infoURL": "https://resincoin.ml",
+    "infoURL": "https://resincoin.dev",
     "shortName": "resin",
     "chainId": 75000,
     "networkId": 75000,
     "explorers": [
       {
         "name": "ResinScan",
-        "url": "https://explorer.resincoin.ml",
+        "url": "https://explorer.resincoin.dev",
         "standard": "none"
       }
     ]
@@ -11666,6 +11666,34 @@
       "chain": "eip155-900",
       "type": "shard"
     }
+  },
+  {
+    "name": "Beverly Hills",
+    "title": "Ethereum multi-client Verkle Testnet Beverly Hills",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.beverlyhills.ethdevops.io:8545"
+    ],
+    "faucets": [
+      "https://faucet.beverlyhills.ethdevops.io"
+    ],
+    "nativeCurrency": {
+      "name": "Beverly Hills Testnet Ether",
+      "symbol": "BVE",
+      "decimals": 18
+    },
+    "infoURL": "https://beverlyhills.ethdevops.io",
+    "shortName": "bvhl",
+    "chainId": 90210,
+    "networkId": 90210,
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "Beverly Hills explorer",
+        "url": "https://explorer.beverlyhills.ethdevops.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Garizon Testnet Stage3",
