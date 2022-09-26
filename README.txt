@@ -642,7 +642,7 @@
         ├── app.aave.com.png
         ├── app.airnfts.com.png
         ├── app.apeswap.finance.png
-        ├── app.beefy.png
+        ├── app.beefy.finance.png
         ├── app.compound.finance.png
         ├── app.cream.finance.png
         ├── app.cryptoder.by.png
