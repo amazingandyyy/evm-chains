@@ -526,6 +526,7 @@
     │   ├── aeternity
     │   ├── aion
     │   ├── algorand
+    │   ├── aptos
     │   ├── arbitrum
     │   ├── ark
     │   ├── aryacoin
@@ -936,4 +937,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-108 directories, 828 files
+109 directories, 828 files
