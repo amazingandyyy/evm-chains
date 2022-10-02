@@ -3,7 +3,6 @@
 │   ├── LICENSE
 │   ├── README.md
 │   └── chains
-│       ├── eip155-0721.json
 │       ├── eip155-1.json
 │       ├── eip155-10.json
 │       ├── eip155-100.json
@@ -937,4 +936,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-109 directories, 828 files
+109 directories, 827 files
