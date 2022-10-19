@@ -2639,7 +2639,8 @@
       "https://matic-mainnet.chainstacklabs.com",
       "https://rpc-mainnet.maticvigil.com",
       "https://rpc-mainnet.matic.quiknode.pro",
-      "https://matic-mainnet-full-rpc.bwarelabs.com"
+      "https://matic-mainnet-full-rpc.bwarelabs.com",
+      "https://polygon-bor.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -6890,6 +6891,56 @@
     "slip44": 538
   },
   {
+    "name": "Metal C-Chain",
+    "chain": "Metal",
+    "rpc": [
+      "https://api.metalblockchain.org/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Metal",
+      "symbol": "METAL",
+      "decimals": 18
+    },
+    "infoURL": "https://www.metalblockchain.org/",
+    "shortName": "metal",
+    "chainId": 381931,
+    "networkId": 381931,
+    "slip44": 9005,
+    "explorers": [
+      {
+        "name": "metalscan",
+        "url": "https://metalscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Metal Tahoe C-Chain",
+    "chain": "Metal",
+    "rpc": [
+      "https://tahoe.metalblockchain.org/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Metal",
+      "symbol": "METAL",
+      "decimals": 18
+    },
+    "infoURL": "https://www.metalblockchain.org/",
+    "shortName": "Tahoe",
+    "chainId": 381932,
+    "networkId": 381932,
+    "slip44": 9005,
+    "explorers": [
+      {
+        "name": "metalscan",
+        "url": "https://tahoe.metalscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Lisinski",
     "chain": "CRO",
     "rpc": [
@@ -7763,6 +7814,32 @@
       {
         "name": "Bobafuji Testnet block explorer",
         "url": "https://blockexplorer.testnet.avax.boba.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Boba Avax",
+    "chain": "Boba Avax",
+    "rpc": [
+      "https://avax.boba.network",
+      "wss://wss.avax.boba.network",
+      "https://replica.avax.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.boba.network/for-developers/network-avalanche",
+    "shortName": "bobaavax",
+    "chainId": 43288,
+    "networkId": 43288,
+    "explorers": [
+      {
+        "name": "Boba Avax Explorer",
+        "url": "https://blockexplorer.avax.boba.network",
         "standard": "none"
       }
     ]
@@ -11254,6 +11331,32 @@
     "chainId": 8724,
     "networkId": 8724,
     "slip44": 479
+  },
+  {
+    "name": "Alph Network",
+    "chain": "ALPH",
+    "rpc": [
+      "http://rpc.alph.network:8545",
+      "ws://rpc.alph.network:8546"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Alph Network",
+      "symbol": "ALPH",
+      "decimals": 18
+    },
+    "infoURL": "https://alph.network",
+    "shortName": "alph",
+    "chainId": 8738,
+    "networkId": 8738,
+    "explorers": [
+      {
+        "name": "alphscan",
+        "url": "https://explorer.alph.network",
+        "icon": "alphscan",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "TomoChain",
