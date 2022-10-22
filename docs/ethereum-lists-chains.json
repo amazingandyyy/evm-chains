@@ -812,6 +812,34 @@
     ]
   },
   {
+    "name": "Bronos Testnet",
+    "chain": "Bronos",
+    "rpc": [
+      "https://testnet-json-rpc.bronos.org"
+    ],
+    "faucets": [
+      "https://faucet.bronos.org"
+    ],
+    "nativeCurrency": {
+      "name": "BRO",
+      "symbol": "BRO",
+      "decimals": 18
+    },
+    "infoURL": "https://bronos.org",
+    "shortName": "bronos-testnet",
+    "chainId": 1038,
+    "networkId": 1038,
+    "icon": "bronos",
+    "explorers": [
+      {
+        "name": "Bronos Testnet Explorer",
+        "url": "https://tbroscan.bronos.org",
+        "standard": "none",
+        "icon": "bronos"
+      }
+    ]
+  },
+  {
     "name": "Kaiba Lightning Chain Testnet",
     "chain": "tKLC",
     "rpc": [
@@ -8294,32 +8322,6 @@
         "name": "Blockscout",
         "url": "https://devnet-explorer.gather.network",
         "standard": "none"
-      }
-    ]
-  },
-  {
-    "name": "The Bifrost Testnet",
-    "title": "The Bifrost Testnet network",
-    "chain": "BFC",
-    "rpc": [
-      "https://public-01.testnet.thebifrost.io/rpc",
-      "https://public-02.testnet.thebifrost.io/rpc"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Bifrost",
-      "symbol": "BFC",
-      "decimals": 18
-    },
-    "infoURL": "https://goerli.net/#about",
-    "shortName": "gor",
-    "chainId": 49088,
-    "networkId": 49088,
-    "explorers": [
-      {
-        "name": "explorer-thebifrost",
-        "url": "https://explorer.testnet.thebifrost.io",
-        "standard": "EIP3091"
       }
     ]
   },

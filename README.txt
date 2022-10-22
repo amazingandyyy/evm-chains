@@ -37,6 +37,7 @@
 │       ├── eip155-1028.json
 │       ├── eip155-1030.json
 │       ├── eip155-103090.json
+│       ├── eip155-1038.json
 │       ├── eip155-104.json
 │       ├── eip155-105.json
 │       ├── eip155-106.json
@@ -347,7 +348,6 @@
 │       ├── eip155-474142.json
 │       ├── eip155-47805.json
 │       ├── eip155-486217935.json
-│       ├── eip155-49088.json
 │       ├── eip155-4918.json
 │       ├── eip155-4919.json
 │       ├── eip155-49797.json
