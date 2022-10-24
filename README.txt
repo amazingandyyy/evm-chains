@@ -555,6 +555,7 @@
     │   ├── bluzelle
     │   ├── boba
     │   ├── callisto
+    │   ├── canto
     │   ├── cardano
     │   ├── celo
     │   ├── classic
@@ -565,6 +566,7 @@
     │   ├── decred
     │   ├── digibyte
     │   ├── doge
+    │   ├── dogechain
     │   ├── ecash
     │   ├── ellaism
     │   ├── elrond
@@ -579,10 +581,12 @@
     │   ├── filecoin
     │   ├── fio
     │   ├── firo
+    │   ├── fusion
     │   ├── gochain
     │   ├── groestlcoin
     │   ├── harmony
     │   ├── heco
+    │   ├── hoo
     │   ├── icon
     │   ├── iost
     │   ├── iotex
@@ -608,6 +612,7 @@
     │   ├── nuls
     │   ├── oasis
     │   ├── okc
+    │   ├── okxchain
     │   ├── ontology
     │   ├── optimism
     │   ├── osmosis
@@ -952,4 +957,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-110 directories, 842 files
+115 directories, 842 files
