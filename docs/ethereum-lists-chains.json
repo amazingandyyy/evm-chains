@@ -815,14 +815,14 @@
     "name": "Bronos Testnet",
     "chain": "Bronos",
     "rpc": [
-      "https://testnet-json-rpc.bronos.org"
+      "https://evm-testnet.bronos.org"
     ],
     "faucets": [
       "https://faucet.bronos.org"
     ],
     "nativeCurrency": {
-      "name": "BRO",
-      "symbol": "BRO",
+      "name": "tBRO",
+      "symbol": "tBRO",
       "decimals": 18
     },
     "infoURL": "https://bronos.org",
@@ -834,6 +834,32 @@
       {
         "name": "Bronos Testnet Explorer",
         "url": "https://tbroscan.bronos.org",
+        "standard": "none",
+        "icon": "bronos"
+      }
+    ]
+  },
+  {
+    "name": "Bronos Mainnet",
+    "chain": "Bronos",
+    "rpc": [
+      "https://evm.bronos.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BRO",
+      "symbol": "BRO",
+      "decimals": 18
+    },
+    "infoURL": "https://bronos.org",
+    "shortName": "bronos-mainnet",
+    "chainId": 1039,
+    "networkId": 1039,
+    "icon": "bronos",
+    "explorers": [
+      {
+        "name": "Bronos Explorer",
+        "url": "https://broscan.bronos.org",
         "standard": "none",
         "icon": "bronos"
       }
@@ -887,6 +913,59 @@
         "name": "Web3Games Explorer",
         "url": "https://explorer-devnet.web3games.org",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Numbers Mainnet",
+    "chain": "NUM",
+    "icon": "num",
+    "rpc": [
+      "https://mainnetrpc.num.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "NUM Token",
+      "symbol": "NUM",
+      "decimals": 18
+    },
+    "infoURL": "https://numbersprotocol.io",
+    "shortName": "Jade",
+    "chainId": 10507,
+    "networkId": 10507,
+    "explorers": [
+      {
+        "name": "ethernal",
+        "url": "https://mainnet.num.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Numbers Testnet",
+    "chain": "NUM",
+    "icon": "num",
+    "rpc": [
+      "https://testnetrpc.num.network"
+    ],
+    "faucets": [
+      "https://faucet.avax.network/?subnet=num",
+      "https://faucet.num.network"
+    ],
+    "nativeCurrency": {
+      "name": "NUM Token",
+      "symbol": "NUM",
+      "decimals": 18
+    },
+    "infoURL": "https://numbersprotocol.io",
+    "shortName": "Snow",
+    "chainId": 10508,
+    "networkId": 10508,
+    "explorers": [
+      {
+        "name": "ethernal",
+        "url": "https://testnet.num.network",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -11275,6 +11354,57 @@
     ]
   },
   {
+    "name": "Qitmeer",
+    "chain": "MEER",
+    "rpc": [
+      "https://evm-dataseed3.meerscan.io",
+      "https://evm-dataseed1.meerscan.com",
+      "https://evm-dataseed.meerscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Qitmeer",
+      "symbol": "MEER",
+      "decimals": 18
+    },
+    "infoURL": "https://github.com/Qitmeer",
+    "shortName": "meer",
+    "chainId": 813,
+    "networkId": 813,
+    "slip44": 813,
+    "explorers": [
+      {
+        "name": "meerscan",
+        "url": "https://evm.meerscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Qitmeer Network Testnet",
+    "chain": "MEER",
+    "rpc": [
+      "https://explorer.qitmeer.io/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Qitmeer Testnet",
+      "symbol": "MEER-T",
+      "decimals": 18
+    },
+    "infoURL": "https://github.com/Qitmeer",
+    "shortName": "meertest",
+    "chainId": 8131,
+    "networkId": 8131,
+    "explorers": [
+      {
+        "name": "meerscan testnet",
+        "url": "https://testnet.qng.meerscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Meter Mainnet",
     "chain": "METER",
     "rpc": [
@@ -11769,6 +11899,23 @@
     "chainId": 888888,
     "networkId": 888888,
     "slip44": 60
+  },
+  {
+    "name": "Vyvo Smart Chain",
+    "chain": "VSC",
+    "rpc": [
+      "https://vsc-dataseed.vyvo.org:8889"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VSC",
+      "symbol": "VSC",
+      "decimals": 18
+    },
+    "infoURL": "https://vsc-dataseed.vyvo.org",
+    "shortName": "vsc",
+    "chainId": 8889,
+    "networkId": 8889
   },
   {
     "name": "Mammoth Mainnet",
