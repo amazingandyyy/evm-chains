@@ -1499,6 +1499,31 @@
     "icon": "etherlite"
   },
   {
+    "name": "WEMIX3.0 Mainnet",
+    "chain": "WEMIX",
+    "rpc": [
+      "https://api.wemix.com",
+      "wss://ws.wemix.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WEMIX",
+      "symbol": "WEMIX",
+      "decimals": 18
+    },
+    "infoURL": "https://wemix.com",
+    "shortName": "wemix",
+    "chainId": 1111,
+    "networkId": 1111,
+    "explorers": [
+      {
+        "name": "WEMIX Block Explorer",
+        "url": "https://explorer.wemix.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Astra",
     "chain": "Astra",
     "rpc": [
@@ -1597,7 +1622,7 @@
     "chain": "TWEMIX",
     "rpc": [
       "https://api.test.wemix.com",
-      "wss://ws.test.wemi.com"
+      "wss://ws.test.wemix.com"
     ],
     "faucets": [
       "https://wallet.test.wemix.com/faucet"
@@ -3566,6 +3591,32 @@
     ]
   },
   {
+    "name": "Proof Of Memes",
+    "title": "Proof Of Memes Mainnet",
+    "chain": "POM",
+    "icon": "pom",
+    "rpc": [
+      "https://mainnet-rpc.memescan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Proof Of Memes",
+      "symbol": "POM",
+      "decimals": 18
+    },
+    "infoURL": "https://proofofmemes.org",
+    "shortName": "pom",
+    "chainId": 18159,
+    "networkId": 18159,
+    "explorers": [
+      {
+        "name": "explorer-proofofmemes",
+        "url": "https://memescan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Cube Chain Mainnet",
     "chain": "Cube",
     "icon": "cube",
@@ -4016,13 +4067,13 @@
       "decimals": 18
     },
     "infoURL": "https://www.elastos.org/",
-    "shortName": "elaeth",
+    "shortName": "esc",
     "chainId": 20,
     "networkId": 20,
     "explorers": [
       {
-        "name": "elastos eth explorer",
-        "url": "https://eth.elastos.io",
+        "name": "elastos esc explorer",
+        "url": "https://esc.elastos.io",
         "standard": "EIP3091"
       }
     ]
@@ -4305,6 +4356,32 @@
     ]
   },
   {
+    "name": "PublicMint Devnet",
+    "title": "Public Mint Devnet",
+    "chain": "PublicMint",
+    "rpc": [
+      "https://rpc.dev.publicmint.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD",
+      "symbol": "USD",
+      "decimals": 18
+    },
+    "infoURL": "https://publicmint.com",
+    "shortName": "pmint_dev",
+    "chainId": 2018,
+    "networkId": 2018,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "PublicMint Explorer",
+        "url": "https://explorer.dev.publicmint.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "SmartMesh Mainnet",
     "chain": "Spectrum",
     "rpc": [
@@ -4347,19 +4424,56 @@
     "networkId": 20181205
   },
   {
-    "name": "420coin",
-    "chain": "420",
-    "rpc": [],
+    "name": "PublicMint Testnet",
+    "title": "Public Mint Testnet",
+    "chain": "PublicMint",
+    "rpc": [
+      "https://rpc.tst.publicmint.io:8545"
+    ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Fourtwenty",
-      "symbol": "420",
+      "name": "USD",
+      "symbol": "USD",
       "decimals": 18
     },
-    "infoURL": "https://420integrated.com",
-    "shortName": "420",
+    "infoURL": "https://publicmint.com",
+    "shortName": "pmint_test",
+    "chainId": 2019,
+    "networkId": 2019,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "PublicMint Explorer",
+        "url": "https://explorer.tst.publicmint.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "PublicMint Mainnet",
+    "title": "Public Mint Mainnet",
+    "chain": "PublicMint",
+    "rpc": [
+      "https://rpc.publicmint.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD",
+      "symbol": "USD",
+      "decimals": 18
+    },
+    "infoURL": "https://publicmint.com",
+    "shortName": "pmint",
     "chainId": 2020,
-    "networkId": 2020
+    "networkId": 2020,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "PublicMint Explorer",
+        "url": "https://explorer.publicmint.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Edgeware Mainnet",
@@ -4565,23 +4679,30 @@
     ]
   },
   {
-    "name": "ELA-ETH-Sidechain Testnet",
+    "name": "Elastos Smart Chain Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://rpc.elaeth.io"
+      "https://api-testnet.elastos.io/eth"
     ],
     "faucets": [
-      "https://faucet.elaeth.io/"
+      "https://esc-faucet.elastos.io/"
     ],
     "nativeCurrency": {
       "name": "Elastos",
       "symbol": "tELA",
       "decimals": 18
     },
-    "infoURL": "https://elaeth.io/",
-    "shortName": "elaetht",
+    "infoURL": "https://www.elastos.org/",
+    "shortName": "esct",
     "chainId": 21,
-    "networkId": 21
+    "networkId": 21,
+    "explorers": [
+      {
+        "name": "elastos esc explorer",
+        "url": "https://esc-testnet.elastos.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Ecoball Mainnet",
@@ -5385,7 +5506,7 @@
     "explorers": [
       {
         "name": "Cronos Explorer",
-        "url": "https://cronos.org/explorer",
+        "url": "https://cronoscan.com",
         "standard": "none"
       }
     ]
@@ -6722,25 +6843,24 @@
     "name": "Cronos Testnet",
     "chain": "CRO",
     "rpc": [
-      "https://cronos-testnet-3.crypto.org:8545",
-      "wss://cronos-testnet-3.crypto.org:8546"
+      "https://evm-t3.cronos.org"
     ],
     "faucets": [
-      "https://cronos.crypto.org/faucet"
+      "https://cronos.org/faucet"
     ],
     "nativeCurrency": {
-      "name": "Crypto.org Test Coin",
+      "name": "Cronos Test Coin",
       "symbol": "TCRO",
       "decimals": 18
     },
-    "infoURL": "https://cronos.crypto.org",
+    "infoURL": "https://cronos.org",
     "shortName": "tcro",
     "chainId": 338,
     "networkId": 338,
     "explorers": [
       {
         "name": "Cronos Testnet Explorer",
-        "url": "https://cronos.crypto.org/explorer/testnet3",
+        "url": "https://testnet.cronoscan.com",
         "standard": "none"
       }
     ]
