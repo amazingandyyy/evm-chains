@@ -5982,6 +5982,33 @@
     "explorers": []
   },
   {
+    "name": "Optimism Bedrock: Goerli Alpha Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://alpha-1-replica-0.bedrock-goerli.optimism.io",
+      "https://alpha-1-replica-1.bedrock-goerli.optimism.io",
+      "https://alpha-1-replica-2.bedrock-goerli.optimism.io",
+      "https://alpha-1-replica-2.bedrock-goerli.optimism.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Görli Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://community.optimism.io/docs/developers/bedrock",
+    "shortName": "obgor",
+    "chainId": 28528,
+    "networkId": 28528,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.com/optimism/bedrock-alpha",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Boba Network",
     "chain": "ETH",
     "rpc": [
@@ -6816,8 +6843,12 @@
     "name": "Shiden",
     "chain": "SDN",
     "rpc": [
-      "https://rpc.shiden.astar.network:8545",
-      "wss://shiden.api.onfinality.io/public-ws"
+      "https://shiden.api.onfinality.io/public",
+      "https://shiden-rpc.dwellir.com",
+      "https://shiden.public.blastapi.io",
+      "wss://shiden.api.onfinality.io/public-ws",
+      "wss://shiden.public.blastapi.io",
+      "wss://shiden-rpc.dwellir.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -11862,8 +11893,7 @@
     "name": "Alph Network",
     "chain": "ALPH",
     "rpc": [
-      "http://rpc.alph.network:8545",
-      "ws://rpc.alph.network:8546"
+      "https://rpc.alph.network"
     ],
     "faucets": [],
     "nativeCurrency": {
