@@ -3767,10 +3767,13 @@
   {
     "name": "Condor Test Network",
     "chain": "CONDOR",
+    "icon": "condor",
     "rpc": [
       "https://testnet.condor.systems/rpc"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.condor.systems"
+    ],
     "nativeCurrency": {
       "name": "Condor Native Token",
       "symbol": "CONDOR",
