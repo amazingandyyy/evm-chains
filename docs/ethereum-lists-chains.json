@@ -432,8 +432,8 @@
     "networkId": 1001
   },
   {
-    "name": "Chiado Testnet",
-    "chain": "CHI",
+    "name": "Chiado 1 Testnet",
+    "chain": "CHI1",
     "icon": "gnosis",
     "rpc": [
       "https://rpc-chiado.gnosistestnet.com"
@@ -447,7 +447,7 @@
       "decimals": 18
     },
     "infoURL": "https://docs.gnosischain.com",
-    "shortName": "chi",
+    "shortName": "chi1",
     "chainId": 100100,
     "networkId": 100100,
     "explorers": [
@@ -457,7 +457,8 @@
         "icon": "blockscout",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "status": "deprecated"
   },
   {
     "name": "Gon Chain",
@@ -663,6 +664,35 @@
     "shortName": "tw3g",
     "chainId": 102,
     "networkId": 102
+  },
+  {
+    "name": "Chiado Testnet",
+    "chain": "CHI",
+    "icon": "gnosis",
+    "rpc": [
+      "https://rpc.chiadochain.net",
+      "https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"
+    ],
+    "faucets": [
+      "https://gnosisfaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Chiado xDAI",
+      "symbol": "xDAI",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.gnosischain.com",
+    "shortName": "chi",
+    "chainId": 10200,
+    "networkId": 10200,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.chiadochain.net",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Sakura",
@@ -1668,6 +1698,11 @@
     "chainId": 11155111,
     "networkId": 11155111,
     "explorers": [
+      {
+        "name": "etherscan-sepolia",
+        "url": "https://sepolia.etherscan.io",
+        "standard": "EIP3091"
+      },
       {
         "name": "otterscan-sepolia",
         "url": "https://sepolia.otterscan.io",
@@ -4889,6 +4924,33 @@
     ]
   },
   {
+    "name": "BOSagora Mainnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://mainnet.bosagora.org",
+      "https://rpc.bosagora.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BOSAGORA",
+      "symbol": "BOA",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.bosagora.org",
+    "shortName": "boa",
+    "chainId": 2151,
+    "networkId": 2151,
+    "icon": "agora",
+    "explorers": [
+      {
+        "name": "BOASCAN",
+        "url": "https://boascan.io",
+        "icon": "agora",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Findora Mainnet",
     "chain": "Findora",
     "rpc": [
@@ -7930,7 +7992,7 @@
     "name": "Kekchain",
     "chain": "kek",
     "rpc": [
-      "https://testnet.kekchain.com"
+      "https://mainnet.kekchain.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -7940,6 +8002,32 @@
     },
     "infoURL": "https://kekchain.com",
     "shortName": "KEK",
+    "chainId": 420420,
+    "networkId": 103090,
+    "icon": "kek",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://mainnet-explorer.kekchain.com",
+        "icon": "kek",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Kekchain (kektest)",
+    "chain": "kek",
+    "rpc": [
+      "https://testnet.kekchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tKEK",
+      "symbol": "tKEK",
+      "decimals": 18
+    },
+    "infoURL": "https://kekchain.com",
+    "shortName": "tKEK",
     "chainId": 420666,
     "networkId": 1,
     "icon": "kek",
@@ -8651,6 +8739,32 @@
     ]
   },
   {
+    "name": "Ennothem Mainnet Proterozoic",
+    "chain": "ETMP",
+    "rpc": [
+      "https://rpc.etm.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ennothem",
+      "symbol": "ETMP",
+      "decimals": 18
+    },
+    "infoURL": "https://etm.network",
+    "shortName": "etmp",
+    "chainId": 48,
+    "networkId": 48,
+    "icon": "etmp",
+    "explorers": [
+      {
+        "name": "etmpscan",
+        "url": "https://etmscan.network",
+        "icon": "etmp",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Gather Devnet Network",
     "chain": "GTH",
     "rpc": [
@@ -8671,6 +8785,32 @@
         "name": "Blockscout",
         "url": "https://devnet-explorer.gather.network",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Ennothem Testnet Pioneer",
+    "chain": "ETMP",
+    "rpc": [
+      "https://rpc.pioneer.etm.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ennothem",
+      "symbol": "ETMP",
+      "decimals": 18
+    },
+    "infoURL": "https://etm.network",
+    "shortName": "etmpTest",
+    "chainId": 49,
+    "networkId": 49,
+    "icon": "etmp",
+    "explorers": [
+      {
+        "name": "etmp",
+        "url": "https://pioneer.etmscan.network",
+        "icon": "etmpscan",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -9214,6 +9354,74 @@
       {
         "name": "candleexplorer",
         "url": "https://candleexplorer.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Scroll",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://scroll.io",
+    "shortName": "scr",
+    "chainId": 534352,
+    "networkId": 534352,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    }
+  },
+  {
+    "name": "Scroll Görli Testnet",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://scroll.io",
+    "shortName": "scr-goerli",
+    "chainId": 534353,
+    "networkId": 534353,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-5",
+      "bridges": []
+    }
+  },
+  {
+    "name": "Scroll Pre-Alpha Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://prealpha.scroll.io/l2"
+    ],
+    "faucets": [
+      "https://prealpha.scroll.io"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://scroll.io",
+    "shortName": "scr-prealpha",
+    "chainId": 534354,
+    "networkId": 534354,
+    "explorers": [
+      {
+        "name": "Scroll L2 Block Explorer",
+        "url": "https://l2scan.scroll.io",
         "standard": "EIP3091"
       }
     ]
@@ -10045,6 +10253,60 @@
     "shortName": "mole",
     "chainId": 6022140761023,
     "networkId": 6022140761023
+  },
+  {
+    "name": "Tres Leches Testnet",
+    "chain": "TresLeches",
+    "rpc": [
+      "https://rpc-test.tresleches.finance/"
+    ],
+    "faucets": [
+      "http://faucet.tresleches.finance:8080"
+    ],
+    "nativeCurrency": {
+      "name": "Tres Leches",
+      "symbol": "TRES",
+      "decimals": 18
+    },
+    "infoURL": "https://tresleches.finance",
+    "shortName": "TRESTEST",
+    "chainId": 6065,
+    "networkId": 6065,
+    "icon": "tresleches",
+    "explorers": [
+      {
+        "name": "treslechesexplorer",
+        "url": "https://explorer-test.tresleches.finance",
+        "icon": "treslechesexplorer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Tres Leches Mainnet",
+    "chain": "TresLeches",
+    "rpc": [
+      "https://rpc.tresleches.finance/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tres Leches",
+      "symbol": "TRES",
+      "decimals": 18
+    },
+    "infoURL": "https://tresleches.finance",
+    "shortName": "TRESMAIN",
+    "chainId": 6066,
+    "networkId": 6066,
+    "icon": "tresleches",
+    "explorers": [
+      {
+        "name": "treslechesexplorer",
+        "url": "https://explorer.tresleches.finance",
+        "icon": "treslechesexplorer",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Ethereum Classic Mainnet",
@@ -11597,7 +11859,7 @@
     "explorers": []
   },
   {
-    "name": "Shardeum Liberty",
+    "name": "Shardeum Liberty 1.5",
     "chain": "Shardeum",
     "rpc": [
       "https://liberty10.shardeum.org/"
@@ -11611,13 +11873,42 @@
       "decimals": 18
     },
     "infoURL": "https://docs.shardeum.org/",
-    "shortName": "ShardeumSHM",
+    "shortName": "Liberty10",
     "chainId": 8080,
     "networkId": 8080,
     "explorers": [
       {
         "name": "Sharedum Scan",
-        "url": "https://explorer.liberty10.shardeum.org",
+        "url": "https://explorer-liberty10.shardeum.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "redFlags": [
+      "reusedChainId"
+    ]
+  },
+  {
+    "name": "Shardeum Liberty 2.0",
+    "chain": "Shardeum",
+    "rpc": [
+      "https://liberty20.shardeum.org/"
+    ],
+    "faucets": [
+      "https://faucet.liberty20.shardeum.org"
+    ],
+    "nativeCurrency": {
+      "name": "Shardeum SHM",
+      "symbol": "SHM",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.shardeum.org/",
+    "shortName": "Liberty20",
+    "chainId": 8081,
+    "networkId": 8081,
+    "explorers": [
+      {
+        "name": "Sharedum Scan",
+        "url": "https://explorer-liberty20.shardeum.org",
         "standard": "EIP3091"
       }
     ],
