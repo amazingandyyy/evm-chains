@@ -2750,20 +2750,22 @@
     ]
   },
   {
-    "name": "CENNZnet old",
-    "chain": "CENNZnet",
-    "rpc": [],
+    "name": "Geth Testnet",
+    "title": "Go Ethereum (Geth) Private Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "http://127.0.0.1:8545"
+    ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "CPAY",
-      "symbol": "CPAY",
+      "name": "Geth Testnet Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://cennz.net",
-    "shortName": "cennz-old",
+    "infoURL": "https://geth.ethereum.org",
+    "shortName": "geth",
     "chainId": 1337,
-    "networkId": 1337,
-    "status": "deprecated"
+    "networkId": 1337
   },
   {
     "name": "PepChain Churchill",
@@ -11269,12 +11271,12 @@
     "shortName": "FNCY",
     "chainId": 73,
     "networkId": 73,
-    "icon": "ethereum",
+    "icon": "fncy",
     "explorers": [
       {
         "name": "fncy scan",
         "url": "https://fncyscan.fncy.world",
-        "icon": "ethereum",
+        "icon": "fncy",
         "standard": "EIP3091"
       }
     ]
@@ -13162,6 +13164,34 @@
         "url": "https://explorer.lambda.top",
         "standard": "EIP3091",
         "icon": "lambda"
+      }
+    ]
+  },
+  {
+    "name": "FNCY Testnet",
+    "chain": "FNCY",
+    "rpc": [
+      "https://fncy-testnet-seed.fncy.world"
+    ],
+    "faucets": [
+      "https://faucet-testnet.fncy.world"
+    ],
+    "nativeCurrency": {
+      "name": "FNCY",
+      "symbol": "FNCY",
+      "decimals": 18
+    },
+    "infoURL": "https://fncyscan-testnet.fncy.world",
+    "shortName": "tFNCY",
+    "chainId": 923018,
+    "networkId": 923018,
+    "icon": "fncy",
+    "explorers": [
+      {
+        "name": "fncy scan testnet",
+        "url": "https://fncyscan-testnet.fncy.world",
+        "icon": "fncy",
+        "standard": "EIP3091"
       }
     ]
   },
