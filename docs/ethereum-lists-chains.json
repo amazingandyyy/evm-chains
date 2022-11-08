@@ -2193,7 +2193,7 @@
     "chain": "STEP",
     "icon": "step",
     "rpc": [
-      "https://testnet.rpc.step.network"
+      "https://rpc.testnet.step.network"
     ],
     "faucets": [
       "https://faucet.step.network"
@@ -4715,16 +4715,19 @@
     "shortName": "taycan-testnet",
     "chainId": 2023,
     "networkId": 2023,
+    "icon": "shuffle",
     "explorers": [
       {
         "name": "Taycan Explorer(Blockscout)",
         "url": "https://evmscan-test.hupayx.io",
-        "standard": "none"
+        "standard": "none",
+        "icon": "shuffle"
       },
       {
         "name": "Taycan Cosmos Explorer",
         "url": "https://cosmoscan-test.hupayx.io",
-        "standard": "none"
+        "standard": "none",
+        "icon": "shuffle"
       }
     ]
   },
@@ -5167,16 +5170,19 @@
     "shortName": "SFL",
     "chainId": 22023,
     "networkId": 22023,
+    "icon": "shuffle",
     "explorers": [
       {
         "name": "Taycan Explorer(Blockscout)",
         "url": "https://taycan-evmscan.hupayx.io",
-        "standard": "none"
+        "standard": "none",
+        "icon": "shuffle"
       },
       {
         "name": "Taycan Cosmos Explorer(BigDipper)",
         "url": "https://taycan-cosmoscan.hupayx.io",
-        "standard": "none"
+        "standard": "none",
+        "icon": "shuffle"
       }
     ]
   },
@@ -6822,9 +6828,13 @@
     "chain": "KCC",
     "rpc": [
       "https://rpc-mainnet.kcc.network",
-      "wss://rpc-ws-mainnet.kcc.network"
+      "https://kcc.mytokenpocket.vip",
+      "https://public-rpc.blockpi.io/http/kcc"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.kcc.io/",
+      "https://free-online-app.com/faucet-for-eth-evm-chains/"
+    ],
     "nativeCurrency": {
       "name": "KuCoin Token",
       "symbol": "KCS",
@@ -6833,7 +6843,8 @@
     "infoURL": "https://kcc.io",
     "shortName": "kcs",
     "chainId": 321,
-    "networkId": 1,
+    "networkId": 321,
+    "slip44": 641,
     "explorers": [
       {
         "name": "KCC Explorer",
@@ -6846,8 +6857,7 @@
     "name": "KCC Testnet",
     "chain": "KCC",
     "rpc": [
-      "https://rpc-testnet.kcc.network",
-      "wss://rpc-ws-testnet.kcc.network"
+      "https://rpc-testnet.kcc.network"
     ],
     "faucets": [
       "https://faucet-testnet.kcc.network"
@@ -6863,7 +6873,7 @@
     "networkId": 322,
     "explorers": [
       {
-        "name": "kcc-scan",
+        "name": "kcc-scan-testnet",
         "url": "https://scan-testnet.kcc.network",
         "standard": "EIP3091"
       }
