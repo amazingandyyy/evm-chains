@@ -1756,7 +1756,6 @@
   {
     "name": "Palm Testnet",
     "chain": "Palm",
-    "icon": "palm",
     "rpc": [
       "https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"
     ],
@@ -1774,15 +1773,13 @@
       {
         "name": "Palm Testnet Explorer",
         "url": "https://explorer.palm-uat.xyz",
-        "standard": "EIP3091",
-        "icon": "palm"
+        "standard": "EIP3091"
       }
     ]
   },
   {
     "name": "Palm",
     "chain": "Palm",
-    "icon": "palm",
     "rpc": [
       "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"
     ],
@@ -1800,8 +1797,7 @@
       {
         "name": "Palm Explorer",
         "url": "https://explorer.palm.io",
-        "standard": "EIP3091",
-        "icon": "palm"
+        "standard": "EIP3091"
       }
     ]
   },
@@ -3237,6 +3233,34 @@
       {
         "name": "Trust EVM Explorer",
         "url": "https://trustscan.one",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Calypso NFT Hub | SKALE",
+    "title": "Calypso NFT Hub Mainnet",
+    "chain": "honorable-steel-rasalhague",
+    "rpc": [
+      "https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague"
+    ],
+    "faucets": [
+      "https://sfuel.dirtroad.dev"
+    ],
+    "nativeCurrency": {
+      "name": "sFUEL",
+      "symbol": "sFUEL",
+      "decimals": 18
+    },
+    "infoURL": "https://calypsohub.network/",
+    "shortName": "calypso-mainnet",
+    "chainId": 1564830818,
+    "networkId": 1564830818,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com",
+        "icon": "calypso",
         "standard": "EIP3091"
       }
     ]
@@ -7460,6 +7484,34 @@
         "name": "Paribu Net Explorer",
         "url": "https://explorer.paribu.network",
         "icon": "explorer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Calypso NFT Hub | SKALE Testnet",
+    "title": "Calypso NFT Hub Testnet",
+    "chain": "staging-utter-unripe-menkar",
+    "rpc": [
+      "https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"
+    ],
+    "faucets": [
+      "https://sfuel.dirtroad.dev/staging"
+    ],
+    "nativeCurrency": {
+      "name": "sFUEL",
+      "symbol": "sFUEL",
+      "decimals": 18
+    },
+    "infoURL": "https://calypsohub.network/",
+    "shortName": "calypso-testnet",
+    "chainId": 344106930,
+    "networkId": 344106930,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com",
+        "icon": "calypso",
         "standard": "EIP3091"
       }
     ]
@@ -12488,6 +12540,7 @@
     "chainId": 813,
     "networkId": 813,
     "slip44": 813,
+    "icon": "meer",
     "explorers": [
       {
         "name": "meerscan",
@@ -12512,6 +12565,7 @@
     "shortName": "meertest",
     "chainId": 8131,
     "networkId": 8131,
+    "icon": "meer",
     "explorers": [
       {
         "name": "meerscan testnet",
@@ -13223,12 +13277,10 @@
     "shortName": "psc-s0",
     "chainId": 900000,
     "networkId": 900000,
-    "icon": "posichain",
     "explorers": [
       {
         "name": "Posichain Explorer",
         "url": "https://explorer.posichain.org",
-        "icon": "posichain",
         "standard": "EIP3091"
       }
     ]
@@ -13500,12 +13552,10 @@
     "shortName": "psc-t-s0",
     "chainId": 910000,
     "networkId": 910000,
-    "icon": "posichain",
     "explorers": [
       {
         "name": "Posichain Explorer Testnet",
         "url": "https://explorer-testnet.posichain.org",
-        "icon": "posichain",
         "standard": "EIP3091"
       }
     ]
@@ -13558,12 +13608,10 @@
     "shortName": "psc-d-s0",
     "chainId": 920000,
     "networkId": 920000,
-    "icon": "posichain",
     "explorers": [
       {
         "name": "Posichain Explorer Devnet",
         "url": "https://explorer-devnet.posichain.org",
-        "icon": "posichain",
         "standard": "EIP3091"
       }
     ]
@@ -13586,12 +13634,10 @@
     "shortName": "psc-d-s1",
     "chainId": 920001,
     "networkId": 920001,
-    "icon": "posichain",
     "explorers": [
       {
         "name": "Posichain Explorer Devnet",
         "url": "https://explorer-devnet.posichain.org",
-        "icon": "posichain",
         "standard": "EIP3091"
       }
     ]
