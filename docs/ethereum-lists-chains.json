@@ -872,9 +872,7 @@
   {
     "name": "Bronos Mainnet",
     "chain": "Bronos",
-    "rpc": [
-      "https://evm.bronos.org"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "BRO",
@@ -1227,9 +1225,7 @@
   {
     "name": "MOAC mainnet",
     "chain": "MOAC",
-    "rpc": [
-      "https://gateway.moac.io/mainnet"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "MOAC",
@@ -1872,9 +1868,7 @@
     "name": "Shyft Testnet",
     "chain": "SHYFTT",
     "icon": "shyft",
-    "rpc": [
-      "https://rpc.testnet.shyft.network/"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Shyft Test Token",
@@ -2714,9 +2708,7 @@
   {
     "name": "Aurora Betanet",
     "chain": "NEAR",
-    "rpc": [
-      "https://betanet.aurora.dev/"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -5212,6 +5204,34 @@
     ]
   },
   {
+    "name": "Exosama Network",
+    "chain": "EXN",
+    "rpc": [
+      "https://rpc.exosama.com",
+      "wss://rpc.exosama.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sama Token",
+      "symbol": "SAMA",
+      "decimals": 18
+    },
+    "infoURL": "https://moonsama.com",
+    "shortName": "exn",
+    "chainId": 2109,
+    "networkId": 2109,
+    "slip44": 2109,
+    "icon": "exn",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.exosama.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Freight Trust Network",
     "chain": "EDI",
     "rpc": [
@@ -5230,6 +5250,33 @@
     "shortName": "EDI",
     "chainId": 211,
     "networkId": 0
+  },
+  {
+    "name": "MAP Makalu",
+    "title": "MAP Testnet Makalu",
+    "chain": "MAP",
+    "rpc": [
+      "https://testnet-rpc.maplabs.io"
+    ],
+    "faucets": [
+      "https://faucet.maplabs.io"
+    ],
+    "nativeCurrency": {
+      "name": "Makalu MAP",
+      "symbol": "MAP",
+      "decimals": 18
+    },
+    "infoURL": "https://maplabs.io",
+    "shortName": "makalu",
+    "chainId": 212,
+    "networkId": 212,
+    "explorers": [
+      {
+        "name": "mapscan",
+        "url": "https://testnet.mapscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "CENNZnet Azalea",
@@ -5473,7 +5520,7 @@
     ]
   },
   {
-    "name": "PlatON Dev Testnet",
+    "name": "PlatON Dev Testnet Deprecated",
     "chain": "PlatON",
     "rpc": [
       "https://devnetopenapi2.platon.network/rpc",
@@ -5492,6 +5539,7 @@
     "chainId": 2203181,
     "networkId": 1,
     "icon": "platon",
+    "status": "deprecated",
     "explorers": [
       {
         "name": "PlatON explorer",
@@ -5705,6 +5753,32 @@
     ]
   },
   {
+    "name": "MAP Mainnet",
+    "chain": "MAP",
+    "icon": "map",
+    "rpc": [
+      "https://rpc.maplabs.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MAP",
+      "symbol": "MAP",
+      "decimals": 18
+    },
+    "infoURL": "https://maplabs.io",
+    "shortName": "map",
+    "chainId": 22776,
+    "networkId": 22776,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "mapscan",
+        "url": "https://mapscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ELA-DID-Sidechain Testnet",
     "chain": "ETH",
     "rpc": [],
@@ -5764,31 +5838,30 @@
     "networkId": 234666
   },
   {
-    "name": "Dithereum Mainnet",
-    "chain": "DTH",
-    "icon": "dithereum",
+    "name": "KardiaChain Mainnet",
+    "chain": "KAI",
+    "icon": "kardiachain",
     "rpc": [
-      "https://node-mainnet.dithereum.io"
+      "https://rpc.kardiachain.io"
     ],
-    "faucets": [
-      "https://faucet.dithereum.org"
-    ],
+    "faucets": [],
     "nativeCurrency": {
-      "name": "Dither",
-      "symbol": "DTH",
+      "name": "KardiaChain",
+      "symbol": "KAI",
       "decimals": 18
     },
-    "infoURL": "https://dithereum.org",
-    "shortName": "dthmainnet",
+    "infoURL": "https://kardiachain.io",
+    "shortName": "kardiachain",
     "chainId": 24,
-    "networkId": 24
+    "networkId": 0,
+    "redFlags": [
+      "reusedChainId"
+    ]
   },
   {
     "name": "Webchain",
     "chain": "WEB",
-    "rpc": [
-      "https://node1.webchain.network"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Webchain Ether",
@@ -9184,9 +9257,7 @@
   {
     "name": "Ennothem Mainnet Proterozoic",
     "chain": "ETMP",
-    "rpc": [
-      "https://rpc.etm.network"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ennothem",
@@ -9733,6 +9804,25 @@
     "shortName": "hmnd",
     "chainId": 5234,
     "networkId": 5234,
+    "explorers": []
+  },
+  {
+    "name": "Firechain Mainnet",
+    "chain": "FIRE",
+    "icon": "firechain",
+    "rpc": [
+      "https://mainnet.rpc1.thefirechain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Firechain",
+      "symbol": "FIRE",
+      "decimals": 18
+    },
+    "infoURL": "https://thefirechain.com",
+    "shortName": "fire",
+    "chainId": 5290,
+    "networkId": 5290,
     "explorers": []
   },
   {
@@ -12525,9 +12615,10 @@
     "name": "Qitmeer",
     "chain": "MEER",
     "rpc": [
-      "https://evm-dataseed3.meerscan.io",
-      "https://evm-dataseed1.meerscan.com",
-      "https://evm-dataseed.meerscan.com"
+      "https://evm-dataseed1.meerscan.io",
+      "https://evm-dataseed2.meerscan.io",
+      "https://evm-dataseed.meerscan.com",
+      "https://evm-dataseed1.meerscan.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -12552,9 +12643,7 @@
   {
     "name": "Qitmeer Network Testnet",
     "chain": "MEER",
-    "rpc": [
-      "https://explorer.qitmeer.io/rpc"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Qitmeer Testnet",
@@ -13289,7 +13378,8 @@
     "name": "Evmos",
     "chain": "Evmos",
     "rpc": [
-      "https://eth.bd.evmos.org:8545"
+      "https://eth.bd.evmos.org:8545",
+      "https://evmos-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13559,6 +13649,27 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Rinia Testnet",
+    "chain": "FIRE",
+    "icon": "rinia",
+    "rpc": [
+      "https://rinia.rpc1.thefirechain.com"
+    ],
+    "faucets": [
+      "https://faucet.thefirechain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Firechain",
+      "symbol": "FIRE",
+      "decimals": 18
+    },
+    "infoURL": "https://thefirechain.com",
+    "shortName": "tfire",
+    "chainId": 9170,
+    "networkId": 9170,
+    "explorers": []
   },
   {
     "name": "Garizon Stage2",
