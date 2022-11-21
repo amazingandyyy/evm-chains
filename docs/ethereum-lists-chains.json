@@ -3946,7 +3946,10 @@
     "chain": "POM",
     "icon": "pom",
     "rpc": [
-      "https://mainnet-rpc.memescan.io"
+      "https://mainnet-rpc.memescan.io",
+      "https://mainnet-rpc2.memescan.io",
+      "https://mainnet-rpc3.memescan.io",
+      "https://mainnet-rpc4.memescan.io"
     ],
     "faucets": [],
     "nativeCurrency": {
