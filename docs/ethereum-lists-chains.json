@@ -1828,6 +1828,43 @@
     ]
   },
   {
+    "name": "DeFiChain EVM Network Mainnet",
+    "chain": "defichain-evm",
+    "status": "incubating",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DeFiChain",
+      "symbol": "DFI",
+      "decimals": 18
+    },
+    "infoURL": "https://meta.defichain.com/",
+    "shortName": "DFI",
+    "chainId": 1130,
+    "networkId": 1130,
+    "slip44": 1130,
+    "icon": "defichain-network",
+    "explorers": []
+  },
+  {
+    "name": "DeFiChain EVM Network Testnet",
+    "chain": "defichain-evm-testnet",
+    "status": "incubating",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DeFiChain",
+      "symbol": "DFI",
+      "decimals": 18
+    },
+    "infoURL": "https://meta.defichain.com/",
+    "shortName": "DFI-T",
+    "chainId": 1131,
+    "networkId": 1131,
+    "icon": "defichain-network",
+    "explorers": []
+  },
+  {
     "name": "MathChain",
     "chain": "MATH",
     "rpc": [
@@ -2770,6 +2807,30 @@
     "networkId": 1313500
   },
   {
+    "name": "Alyx Mainnet",
+    "chain": "ALYX",
+    "rpc": [
+      "https://rpc.alyxchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Alyx Chain Native Token",
+      "symbol": "ALYX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.alyxchain.com",
+    "shortName": "alyx",
+    "chainId": 1314,
+    "networkId": 1314,
+    "explorers": [
+      {
+        "name": "alyxscan",
+        "url": "https://www.alyxscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ETND Chain Mainnets",
     "chain": "ETND",
     "rpc": [
@@ -2963,6 +3024,32 @@
         "name": "phoenixplorer",
         "url": "https://phoenixplorer.com",
         "icon": "phoenixplorer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Alyx Chain Testnet",
+    "chain": "Alyx Chain Testnet",
+    "rpc": [
+      "https://testnet-rpc.alyxchain.com"
+    ],
+    "faucets": [
+      "https://faucet.alyxchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Alyx Testnet Native Token",
+      "symbol": "ALYX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.alyxchain.com",
+    "shortName": "AlyxTestnet",
+    "chainId": 135,
+    "networkId": 135,
+    "explorers": [
+      {
+        "name": "alyx testnet scan",
+        "url": "https://testnet.alyxscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -7812,6 +7899,54 @@
     ]
   },
   {
+    "name": "Pandonet",
+    "chain": "Pando",
+    "rpc": [
+      "https://eth-rpc-api.pandoproject.org/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pando token ",
+      "symbol": "PTX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.pandoproject.org/",
+    "shortName": "pando-mainnet",
+    "chainId": 3601,
+    "networkId": 3601,
+    "explorers": [
+      {
+        "name": "Pando Mainnet Explorer",
+        "url": "https://explorer.pandoproject.org",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Pando Testnet",
+    "chain": "Pando",
+    "rpc": [
+      "https://testnet.ethrpc.pandoproject.org/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pando token ",
+      "symbol": "PTX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.pandoproject.org/",
+    "shortName": "pando-testnet",
+    "chainId": 3602,
+    "networkId": 3602,
+    "explorers": [
+      {
+        "name": "Pando Testnet Explorer",
+        "url": "https://testnet.explorer.pandoproject.org",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Theta Mainnet",
     "chain": "Theta",
     "rpc": [
@@ -11491,6 +11626,25 @@
         }
       ]
     }
+  },
+  {
+    "name": "PolySmartChain",
+    "chain": "PSC",
+    "rpc": [
+      "https://seed0.polysmartchain.com/",
+      "https://seed1.polysmartchain.com/",
+      "https://seed2.polysmartchain.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PSC",
+      "symbol": "PSC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.polysmartchain.com/",
+    "shortName": "psc",
+    "chainId": 6999,
+    "networkId": 6999
   },
   {
     "name": "ThaiChain",
