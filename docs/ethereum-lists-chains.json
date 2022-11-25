@@ -440,7 +440,7 @@
     "networkId": 1001
   },
   {
-    "name": "Chiado 1 Testnet",
+    "name": "Deprecated Chiado Testnet",
     "chain": "CHI1",
     "icon": "gnosis",
     "rpc": [
@@ -5681,6 +5681,31 @@
     ]
   },
   {
+    "name": "Excelon Mainnet",
+    "chain": "XLON",
+    "icon": "xlon",
+    "rpc": [
+      "http://wallet2.xlon.org:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Excelon",
+      "symbol": "xlon",
+      "decimals": 18
+    },
+    "infoURL": "https://xlon.org",
+    "shortName": "xlon",
+    "chainId": 22052002,
+    "networkId": 22052002,
+    "explorers": [
+      {
+        "name": "Excelon explorer",
+        "url": "https://explorer.excelon.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "PlatON Dev Testnet2",
     "chain": "PlatON",
     "rpc": [
@@ -9090,6 +9115,11 @@
     "chain": "AVAX",
     "rpc": [
       "https://api.avax.network/ext/bc/C/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
     ],
     "faucets": [
       "https://free-online-app.com/faucet-for-eth-evm-chains/"
@@ -14545,10 +14575,7 @@
     "name": "POA Network Core",
     "chain": "POA",
     "rpc": [
-      "https://core.poanetwork.dev",
-      "http://core.poanetwork.dev:8545",
-      "https://core.poa.network",
-      "ws://core.poanetwork.dev:8546"
+      "https://core.poa.network"
     ],
     "faucets": [],
     "nativeCurrency": {
