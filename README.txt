@@ -661,6 +661,7 @@
     │   ├── icon
     │   ├── iost
     │   ├── iotex
+    │   ├── juno
     │   ├── kava
     │   ├── kavaevm
     │   ├── kcc
@@ -1030,4 +1031,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-114 directories, 916 files
+115 directories, 916 files

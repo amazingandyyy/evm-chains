@@ -11689,7 +11689,7 @@
       "chain": "eip155-250",
       "bridges": [
         {
-          "url": "https://beta-bridge.lif3.com/"
+          "url": "https://lif3.com/bridge"
         }
       ]
     }
