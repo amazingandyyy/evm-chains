@@ -2688,6 +2688,31 @@
     "networkId": 13
   },
   {
+    "name": "SPS",
+    "chain": "SPS",
+    "rpc": [
+      "https://marketplace.ssquad.games"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ECG",
+      "symbol": "ECG",
+      "decimals": 18
+    },
+    "infoURL": "https://ssquad.games/",
+    "shortName": "SPS",
+    "chainId": 13000,
+    "networkId": 13000,
+    "explorers": [
+      {
+        "name": "SPS Explorer",
+        "url": "http://spsscan.ssquad.games",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "incubating"
+  },
+  {
     "name": "Dos Fuji Subnet",
     "chain": "DOS",
     "rpc": [
@@ -3117,6 +3142,30 @@
       {
         "name": "blockscout",
         "url": "https://flare-explorer.flare.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "SPS Testnet",
+    "chain": "SPS-Testnet",
+    "rpc": [
+      "https://www.3sps.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ECG",
+      "symbol": "ECG",
+      "decimals": 18
+    },
+    "infoURL": "https://ssquad.games/",
+    "shortName": "SPS-Test",
+    "chainId": 14000,
+    "networkId": 14000,
+    "explorers": [
+      {
+        "name": "SPS Test Explorer",
+        "url": "https://explorer.3sps.net",
         "standard": "EIP3091"
       }
     ]
@@ -5466,7 +5515,7 @@
     "name": "Findora Mainnet",
     "chain": "Findora",
     "rpc": [
-      "https://prod-mainnet.prod.findora.org:8545"
+      "https://rpc-mainnet.findora.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10463,10 +10512,11 @@
     ]
   },
   {
-    "name": "Imversed Canary",
+    "name": "Imversed Mainnet",
     "chain": "Imversed",
     "rpc": [
-      "https://jsonrpc-endpoint-canary.imversed.com"
+      "https://jsonrpc.imversed.network",
+      "https://ws-jsonrpc.imversed.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10481,6 +10531,12 @@
     "icon": "imversed",
     "explorers": [
       {
+        "name": "Imversed EVM explorer (Blockscout)",
+        "url": "https://txe.imversed.network",
+        "icon": "imversed",
+        "standard": "EIP3091"
+      },
+      {
         "name": "Imversed Cosmos Explorer (Big Dipper)",
         "url": "https://tex-c.imversed.com",
         "icon": "imversed",
@@ -10492,7 +10548,8 @@
     "name": "Imversed Testnet",
     "chain": "Imversed",
     "rpc": [
-      "https://jsonrpc-endpoint-test.imversed.com"
+      "https://jsonrpc-test.imversed.network",
+      "https://ws-jsonrpc-test.imversed.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10508,9 +10565,9 @@
     "explorers": [
       {
         "name": "Imversed EVM Explorer (Blockscout)",
-        "url": "https://txe-test.imversed.com",
+        "url": "https://txe-test.imversed.network",
         "icon": "imversed",
-        "standard": "none"
+        "standard": "EIP3091"
       },
       {
         "name": "Imversed Cosmos Explorer (Big Dipper)",
@@ -11964,6 +12021,36 @@
         "name": "BlockChain Station Explorer",
         "url": "https://explorer.bcsdev.io",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Planq Mainnet",
+    "chain": "Planq",
+    "icon": "planq",
+    "rpc": [
+      "https://evm-rpc.planq.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Planq",
+      "symbol": "PLQ",
+      "decimals": 18
+    },
+    "infoURL": "https://planq.network",
+    "shortName": "planq",
+    "chainId": 7070,
+    "networkId": 7070,
+    "explorers": [
+      {
+        "name": "Planq EVM Explorer (Blockscout)",
+        "url": "https://evm.planq.network",
+        "standard": "none"
+      },
+      {
+        "name": "Planq Cosmos Explorer (BigDipper)",
+        "url": "https://explorer.planq.network",
+        "standard": "none"
       }
     ]
   },

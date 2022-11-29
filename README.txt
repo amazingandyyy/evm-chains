@@ -112,6 +112,7 @@
 │       ├── eip155-1294.json
 │       ├── eip155-1297.json
 │       ├── eip155-13.json
+│       ├── eip155-13000.json
 │       ├── eip155-1311.json
 │       ├── eip155-1313114.json
 │       ├── eip155-1313161554.json
@@ -130,6 +131,7 @@
 │       ├── eip155-135.json
 │       ├── eip155-137.json
 │       ├── eip155-14.json
+│       ├── eip155-14000.json
 │       ├── eip155-1402.json
 │       ├── eip155-141.json
 │       ├── eip155-142.json
@@ -493,6 +495,7 @@
 │       ├── eip155-70103.json
 │       ├── eip155-7027.json
 │       ├── eip155-707.json
+│       ├── eip155-7070.json
 │       ├── eip155-708.json
 │       ├── eip155-71.json
 │       ├── eip155-71393.json
@@ -621,6 +624,7 @@
     │   ├── aurora
     │   ├── avalanchec
     │   ├── avalanchex
+    │   ├── axelar
     │   ├── band
     │   ├── binance
     │   ├── bitcoin
@@ -698,9 +702,11 @@
     │   ├── ravencoin
     │   ├── ripple
     │   ├── ronin
+    │   ├── secret
     │   ├── smartbch
     │   ├── smartchain
     │   ├── solana
+    │   ├── stargaze
     │   ├── steem
     │   ├── stellar
     │   ├── terra
@@ -1033,4 +1039,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-115 directories, 918 files
+118 directories, 921 files
