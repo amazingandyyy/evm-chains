@@ -5733,7 +5733,7 @@
     "chain": "XLON",
     "icon": "xlon",
     "rpc": [
-      "http://wallet2.xlon.org:8545"
+      "https://edgewallet1.xlon.org/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13078,8 +13078,10 @@
     "rpc": [
       "https://evm-dataseed1.meerscan.io",
       "https://evm-dataseed2.meerscan.io",
+      "https://evm-dataseed3.meerscan.io",
       "https://evm-dataseed.meerscan.com",
-      "https://evm-dataseed1.meerscan.com"
+      "https://evm-dataseed1.meerscan.com",
+      "https://evm-dataseed2.meerscan.com"
     ],
     "faucets": [],
     "nativeCurrency": {
