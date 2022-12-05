@@ -2411,6 +2411,32 @@
     ]
   },
   {
+    "name": "CIC Chain Testnet",
+    "chain": "CICT",
+    "rpc": [
+      "https://testapi.cicscan.com"
+    ],
+    "faucets": [
+      "https://cicfaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Crazy Internet Coin",
+      "symbol": "CICT",
+      "decimals": 18
+    },
+    "infoURL": "https://www.cicchain.net",
+    "shortName": "CICT",
+    "chainId": 1252,
+    "networkId": 1252,
+    "explorers": [
+      {
+        "name": "CICscan",
+        "url": "https://testnet.cicscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "OYchain Mainnet",
     "chain": "OYchain",
     "icon": "oychain",
@@ -3083,6 +3109,30 @@
       {
         "name": "alyx testnet scan",
         "url": "https://testnet.alyxscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "CIC Chain Mainnet",
+    "chain": "CIC",
+    "rpc": [
+      "https://xapi.cicscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Crazy Internet Coin",
+      "symbol": "CIC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.cicchain.net",
+    "shortName": "CIC",
+    "chainId": 1353,
+    "networkId": 1353,
+    "explorers": [
+      {
+        "name": "CICscan",
+        "url": "https://cicscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -5582,6 +5632,31 @@
     ]
   },
   {
+    "name": "SiriusNet V2",
+    "chain": "SIN2",
+    "faucets": [],
+    "rpc": [
+      "https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"
+    ],
+    "icon": "siriusnet",
+    "nativeCurrency": {
+      "name": "MCD",
+      "symbol": "MCD",
+      "decimals": 18
+    },
+    "infoURL": "https://siriusnet.io",
+    "shortName": "SIN2",
+    "chainId": 217,
+    "networkId": 217,
+    "explorers": [
+      {
+        "name": "siriusnet explorer",
+        "url": "http://rpc.siriusnet.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "SoterOne Mainnet old",
     "chain": "SOTER",
     "rpc": [
@@ -6019,6 +6094,52 @@
       {
         "name": "opsideInfo",
         "url": "https://opside.info",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Oasis Sapphire",
+    "chain": "Sapphire",
+    "icon": "oasis",
+    "rpc": [
+      "https://sapphire.oasis.dev",
+      "wss://sapphire.oasis.dev/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sapphire Rose",
+      "symbol": "ROSE",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.oasis.io/dapp/sapphire",
+    "shortName": "sapphire",
+    "chainId": 23294,
+    "networkId": 23294,
+    "status": "incubating"
+  },
+  {
+    "name": "Oasis Sapphire Testnet",
+    "chain": "Sapphire",
+    "icon": "oasis",
+    "rpc": [
+      "https://testnet.sapphire.oasis.dev",
+      "wss://testnet.sapphire.oasis.dev/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sapphire Test Rose",
+      "symbol": "TEST",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.oasis.io/dapp/sapphire",
+    "shortName": "sapphire-testnet",
+    "chainId": 23295,
+    "networkId": 23295,
+    "explorers": [
+      {
+        "name": "Oasis Sapphire Testnet Explorer",
+        "url": "https://testnet.explorer.sapphire.oasis.dev",
         "standard": "EIP3091"
       }
     ]
@@ -7202,6 +7323,59 @@
       {
         "name": "OneLedger Block Explorer",
         "url": "https://mainnet-explorer.oneledger.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "CloudTx Mainnet",
+    "chain": "CLD",
+    "icon": "cloudtx",
+    "rpc": [
+      "https://mainnet-rpc.cloudtx.finance"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CloudTx",
+      "symbol": "CLD",
+      "decimals": 9
+    },
+    "infoURL": "https://cloudtx.finance",
+    "shortName": "CLDTX",
+    "chainId": 31223,
+    "networkId": 31223,
+    "explorers": [
+      {
+        "name": "cloudtxscan",
+        "url": "https://scan.cloudtx.finance",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "CloudTx Testnet",
+    "chain": "CloudTx",
+    "rpc": [
+      "https://testnet-rpc.cloudtx.finance"
+    ],
+    "faucets": [
+      "https://faucet.cloudtx.finance"
+    ],
+    "nativeCurrency": {
+      "name": "CloudTx",
+      "symbol": "CLOUD",
+      "decimals": 9
+    },
+    "infoURL": "https://cloudtx.finance/",
+    "shortName": "CLD",
+    "chainId": 31224,
+    "networkId": 31224,
+    "icon": "cloudtx",
+    "explorers": [
+      {
+        "name": "cloudtxexplorer",
+        "url": "https://explorer.cloudtx.finance      ",
+        "icon": "cloudtx",
         "standard": "EIP3091"
       }
     ]
@@ -10063,7 +10237,13 @@
       "https://rpc.etherfair.org"
     ],
     "faucets": [],
-    "explorers": [],
+    "explorers": [
+      {
+        "name": "etherfair",
+        "url": "https://explorer.etherfair.org",
+        "standard": "EIP3091"
+      }
+    ],
     "infoURL": "https://etherfair.org"
   },
   {
@@ -10812,29 +10992,24 @@
     ]
   },
   {
-    "name": "Digest Swarm Chain",
-    "chain": "DSC",
-    "icon": "swarmchain",
+    "name": "Ganache",
+    "title": "Ganache GUI Ethereum Testnet",
+    "chain": "ETH",
+    "icon": "ganache",
     "rpc": [
-      "https://rpc.digestgroup.ltd"
+      "https://127.0.0.1:7545"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "DigestCoin",
-      "symbol": "DGCC",
+      "name": "Ganache Test Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://digestgroup.ltd",
-    "shortName": "dgcc",
+    "infoURL": "https://trufflesuite.com/ganache/",
+    "shortName": "ggui",
     "chainId": 5777,
     "networkId": 5777,
-    "explorers": [
-      {
-        "name": "swarmexplorer",
-        "url": "https://explorer.digestgroup.ltd",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": []
   },
   {
     "name": "Ontology Mainnet",
@@ -14594,6 +14769,21 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "muNode Testnet",
+    "chain": "munode",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://munode.dev/",
+    "shortName": "munode",
+    "chainId": 956,
+    "networkId": 956
   },
   {
     "name": "NEXT Smart Chain",
