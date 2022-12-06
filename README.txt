@@ -828,6 +828,7 @@
         ├── canwork.io.png
         ├── cdp.makerdao.png
         ├── cdpsaver.com.png
+        ├── chainlist.org.png
         ├── chainmonsters.io.png
         ├── cheeseswap.app.png
         ├── chesstoshi.com.png
@@ -1051,4 +1052,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-118 directories, 933 files
+118 directories, 934 files
