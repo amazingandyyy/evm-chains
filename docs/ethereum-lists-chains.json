@@ -7338,7 +7338,7 @@
     "nativeCurrency": {
       "name": "CloudTx",
       "symbol": "CLD",
-      "decimals": 9
+      "decimals": 18
     },
     "infoURL": "https://cloudtx.finance",
     "shortName": "CLDTX",
@@ -7355,6 +7355,7 @@
   {
     "name": "CloudTx Testnet",
     "chain": "CloudTx",
+    "icon": "cloudtx",
     "rpc": [
       "https://testnet-rpc.cloudtx.finance"
     ],
@@ -7363,19 +7364,17 @@
     ],
     "nativeCurrency": {
       "name": "CloudTx",
-      "symbol": "CLOUD",
-      "decimals": 9
+      "symbol": "CLD",
+      "decimals": 18
     },
     "infoURL": "https://cloudtx.finance/",
     "shortName": "CLD",
     "chainId": 31224,
     "networkId": 31224,
-    "icon": "cloudtx",
     "explorers": [
       {
         "name": "cloudtxexplorer",
-        "url": "https://explorer.cloudtx.finance      ",
-        "icon": "cloudtx",
+        "url": "https://explorer.cloudtx.finance",
         "standard": "EIP3091"
       }
     ]
@@ -8675,6 +8674,32 @@
     "chainId": 39797,
     "networkId": 39797,
     "slip44": 39797
+  },
+  {
+    "name": "OHO Mainnet",
+    "chain": "OHO",
+    "rpc": [
+      "https://mainnet.oho.ai"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OHO",
+      "symbol": "OHO",
+      "decimals": 18
+    },
+    "infoURL": "https://oho.ai",
+    "shortName": "oho",
+    "chainId": 39815,
+    "networkId": 39815,
+    "icon": "oho",
+    "explorers": [
+      {
+        "name": "ohoscan",
+        "url": "https://ohoscan.com",
+        "icon": "ohoscan",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "YuanChain Mainnet",
@@ -10054,6 +10079,31 @@
     ]
   },
   {
+    "name": "Camino C-Chain",
+    "chain": "CAM",
+    "rpc": [
+      "https://mainnet.camino.foundation/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Camino",
+      "symbol": "CAM",
+      "decimals": 18
+    },
+    "infoURL": "https://camino.foundation/",
+    "shortName": "Camino",
+    "chainId": 500,
+    "networkId": 1000,
+    "icon": "camino",
+    "explorers": [
+      {
+        "name": "blockexplorer",
+        "url": "https://explorer.camino.foundation/mainnet",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "GTON Testnet",
     "chain": "GTON Testnet",
     "rpc": [
@@ -10080,6 +10130,31 @@
       "type": "L2",
       "chain": "eip155-3"
     }
+  },
+  {
+    "name": "Columbus Test Network",
+    "chain": "CAM",
+    "rpc": [
+      "https://columbus.camino.foundation/ext/bc/C/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Camino",
+      "symbol": "CAM",
+      "decimals": 18
+    },
+    "infoURL": "https://camino.foundation/",
+    "shortName": "Columbus",
+    "chainId": 501,
+    "networkId": 1001,
+    "icon": "camino",
+    "explorers": [
+      {
+        "name": "blockexplorer",
+        "url": "https://explorer.camino.foundation",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Nebula Staging",
