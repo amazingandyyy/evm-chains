@@ -2715,7 +2715,7 @@
     "name": "SPS",
     "chain": "SPS",
     "rpc": [
-      "https://marketplace.ssquad.games"
+      "https://rpc.ssquad.games"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -2733,8 +2733,7 @@
         "url": "http://spsscan.ssquad.games",
         "standard": "EIP3091"
       }
-    ],
-    "status": "incubating"
+    ]
   },
   {
     "name": "Dos Fuji Subnet",
@@ -13883,6 +13882,32 @@
         "name": "alphscan",
         "url": "https://explorer.alph.network",
         "icon": "alphscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Dexit Network",
+    "chain": "DXT",
+    "rpc": [
+      "https://dxt.dexit.network"
+    ],
+    "faucets": [
+      "https://faucet.dexit.network"
+    ],
+    "nativeCurrency": {
+      "name": "Dexit network",
+      "symbol": "DXT",
+      "decimals": 18
+    },
+    "infoURL": "https://dexit.network",
+    "shortName": "DXT",
+    "chainId": 877,
+    "networkId": 877,
+    "explorers": [
+      {
+        "name": "dxtscan",
+        "url": "https://dxtscan.com",
         "standard": "EIP3091"
       }
     ]
