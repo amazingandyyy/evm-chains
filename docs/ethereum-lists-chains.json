@@ -495,6 +495,33 @@
     ]
   },
   {
+    "name": "T-EKTA",
+    "title": "EKTA Testnet T-EKTA",
+    "chain": "T-EKTA",
+    "rpc": [
+      "https://test.ekta.io:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "T-EKTA",
+      "symbol": "T-EKTA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.ekta.io",
+    "shortName": "t-ekta",
+    "chainId": 1004,
+    "networkId": 1004,
+    "icon": "ekta",
+    "explorers": [
+      {
+        "name": "test-ektascan",
+        "url": "https://test.ektascan.io",
+        "icon": "ekta",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Plian Testnet Subchain 1",
     "chain": "Plian",
     "rpc": [
@@ -2203,6 +2230,31 @@
     "networkId": 122
   },
   {
+    "name": "Exzo Network Mainnet",
+    "chain": "EXZO",
+    "icon": "exzo",
+    "rpc": [
+      "https://mainnet.exzo.technology"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Exzo",
+      "symbol": "XZO",
+      "decimals": 18
+    },
+    "infoURL": "https://exzo.network",
+    "shortName": "xzo",
+    "chainId": 1229,
+    "networkId": 1229,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://exzoscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Fuse Sparknet",
     "chain": "fuse",
     "rpc": [
@@ -2428,10 +2480,12 @@
     "shortName": "CICT",
     "chainId": 1252,
     "networkId": 1252,
+    "icon": "cicchain",
     "explorers": [
       {
         "name": "CICscan",
         "url": "https://testnet.cicscan.com",
+        "icon": "cicchain",
         "standard": "EIP3091"
       }
     ]
@@ -3128,10 +3182,12 @@
     "shortName": "CIC",
     "chainId": 1353,
     "networkId": 1353,
+    "icon": "cicchain",
     "explorers": [
       {
         "name": "CICscan",
         "url": "https://cicscan.com",
+        "icon": "cicchain",
         "standard": "EIP3091"
       }
     ]
@@ -4657,6 +4713,32 @@
         "name": "bttcscan",
         "url": "https://scan.bittorrentchain.io",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Ekta",
+    "chain": "EKTA",
+    "rpc": [
+      "https://main.ekta.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EKTA",
+      "symbol": "EKTA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.ekta.io",
+    "shortName": "ekta",
+    "chainId": 1994,
+    "networkId": 1994,
+    "icon": "ekta",
+    "explorers": [
+      {
+        "name": "ektascan",
+        "url": "https://ektascan.io",
+        "icon": "ekta",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -7657,6 +7739,35 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "zkSync v2",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://zksync.io/",
+    "shortName": "zksync",
+    "chainId": 324,
+    "networkId": 324,
+    "icon": "ethereum",
+    "explorers": [
+      {
+        "name": "zkSync v2 Block Explorer",
+        "url": "https://explorer.zksync.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    },
+    "status": "incubating"
   },
   {
     "name": "Bitgert Mainnet",
