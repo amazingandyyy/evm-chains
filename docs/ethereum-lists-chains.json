@@ -1783,6 +1783,30 @@
     "networkId": 1122334455
   },
   {
+    "name": "Haqq Network",
+    "chain": "Haqq",
+    "rpc": [
+      "https://rpc.eth.haqq.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Islamic Coin",
+      "symbol": "ISLM",
+      "decimals": 18
+    },
+    "infoURL": "https://islamiccoin.net",
+    "shortName": "ISLM",
+    "chainId": 11235,
+    "networkId": 11235,
+    "explorers": [
+      {
+        "name": "Mainnet HAQQ Explorer",
+        "url": "https://explorer.haqq.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Palm Testnet",
     "chain": "Palm",
     "rpc": [
@@ -2694,7 +2718,7 @@
     "networkId": 1288
   },
   {
-    "name": "Boba Network Bobabeam",
+    "name": "Bobabeam",
     "chain": "Bobabeam",
     "rpc": [
       "https://bobabeam.boba.network",
@@ -2721,7 +2745,7 @@
     ]
   },
   {
-    "name": "Boba Network Bobabase Testnet",
+    "name": "Bobabase Testnet",
     "chain": "Bobabase Testnet",
     "rpc": [
       "https://bobabase.boba.network",
@@ -5347,6 +5371,24 @@
     ]
   },
   {
+    "name": "OriginTrail Parachain",
+    "chain": "OTP",
+    "rpc": [
+      "https://astrosat.origintrail.network",
+      "wss://parachain-rpc.origin-trail.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OriginTrail Parachain Token",
+      "symbol": "OTP",
+      "decimals": 12
+    },
+    "infoURL": "https://parachain.origintrail.io",
+    "shortName": "otp",
+    "chainId": 2043,
+    "networkId": 2043
+  },
+  {
     "name": "Callisto Testnet",
     "chain": "CLO",
     "rpc": [
@@ -5364,6 +5406,39 @@
     "shortName": "CLOTestnet",
     "chainId": 20729,
     "networkId": 79
+  },
+  {
+    "name": "P12 Chain",
+    "chain": "P12",
+    "icon": "p12",
+    "rpc": [
+      "https://rpc-chain.p12.games"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Hooked P12",
+      "symbol": "hP12",
+      "decimals": 18
+    },
+    "infoURL": "https://p12.network",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "shortName": "p12",
+    "chainId": 20736,
+    "networkId": 20736,
+    "explorers": [
+      {
+        "name": "P12 Chain Explorer",
+        "url": "https://explorer.p12.games",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Quokkacoin Mainnet",
@@ -6229,8 +6304,7 @@
     "name": "Altcoinchain",
     "chain": "mainnet",
     "rpc": [
-      "http://161.35.101.221:8547",
-      "https://rpc0.altcoinchain.org"
+      "https://rpc0.altcoinchain.org/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -6247,7 +6321,7 @@
     "explorers": [
       {
         "name": "expedition",
-        "url": "https://expedition.altcoinchain.org",
+        "url": "http://expedition.altcoinchain.org",
         "icon": "altcoinchain",
         "standard": "none"
       }
@@ -7084,6 +7158,39 @@
     }
   },
   {
+    "name": "Boba Network Goerli Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://goerli.boba.network/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Goerli Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "Bobagoerli",
+    "chainId": 2888,
+    "networkId": 2888,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://testnet.bobascan.com",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-5",
+      "bridges": [
+        {
+          "url": "https://gateway.goerli.boba.network"
+        }
+      ]
+    }
+  },
+  {
     "name": "Auxilium Network Mainnet",
     "chain": "AUX",
     "rpc": [
@@ -7309,6 +7416,33 @@
         "name": "Piece Scan",
         "url": "https://testnet-scan.piecenetwork.com",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Bobaopera",
+    "chain": "Bobaopera",
+    "rpc": [
+      "https://bobaopera.boba.network",
+      "wss://wss.bobaopera.boba.network",
+      "https://replica.bobaopera.boba.network",
+      "wss://replica-wss.bobaopera.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "Bobaopera",
+    "chainId": 301,
+    "networkId": 301,
+    "explorers": [
+      {
+        "name": "Bobaopera block explorer",
+        "url": "https://blockexplorer.bobaopera.boba.network",
+        "standard": "none"
       }
     ]
   },
@@ -8369,7 +8503,7 @@
     ]
   },
   {
-    "name": "Pandonet",
+    "name": "Pando Mainnet",
     "chain": "Pando",
     "icon": "pando",
     "rpc": [
@@ -8949,7 +9083,7 @@
     ]
   },
   {
-    "name": "Boba Network Bobaopera Testnet",
+    "name": "Bobaopera Testnet",
     "chain": "Bobaopera Testnet",
     "rpc": [
       "https://testnet.bobaopera.boba.network",
@@ -9633,7 +9767,7 @@
     ]
   },
   {
-    "name": "Boba Network Bobafuji Testnet",
+    "name": "Bobafuji Testnet",
     "chain": "Bobafuji Testnet",
     "rpc": [
       "https://testnet.avax.boba.network",
@@ -9648,7 +9782,7 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "BobafujiTestnet",
+    "shortName": "BobaFujiTestnet",
     "chainId": 4328,
     "networkId": 4328,
     "explorers": [
@@ -9665,7 +9799,8 @@
     "rpc": [
       "https://avax.boba.network",
       "wss://wss.avax.boba.network",
-      "https://replica.avax.boba.network"
+      "https://replica.avax.boba.network",
+      "wss://replica-wss.avax.boba.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10819,6 +10954,32 @@
         "name": "Belly Scan",
         "url": "https://bellyscan.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Haqq Chain Testnet",
+    "chain": "TestEdge2",
+    "rpc": [
+      "https://rpc.eth.testedge2.haqq.network"
+    ],
+    "faucets": [
+      "https://testedge2.haqq.network"
+    ],
+    "nativeCurrency": {
+      "name": "Islamic Coin",
+      "symbol": "ISLMT",
+      "decimals": 18
+    },
+    "infoURL": "https://islamiccoin.net",
+    "shortName": "ISLMT",
+    "chainId": 54211,
+    "networkId": 54211,
+    "explorers": [
+      {
+        "name": "TestEdge HAQQ Explorer",
+        "url": "https://explorer.testedge2.haqq.network",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -15122,7 +15283,7 @@
     "icon": "ccn"
   },
   {
-    "name": "Boba Network BNB Testnet",
+    "name": "Boba BNB Testnet",
     "chain": "Boba BNB Testnet",
     "rpc": [
       "https://testnet.bnb.boba.network",
@@ -15137,13 +15298,40 @@
       "decimals": 18
     },
     "infoURL": "https://boba.network",
-    "shortName": "BobaBNBTestnet",
+    "shortName": "BobaBnbTestnet",
     "chainId": 9728,
     "networkId": 9728,
     "explorers": [
       {
         "name": "Boba BNB Testnet block explorer",
         "url": "https://blockexplorer.testnet.bnb.boba.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Boba BNB Mainnet",
+    "chain": "Boba BNB Mainnet",
+    "rpc": [
+      "https://bnb.boba.network",
+      "wss://wss.bnb.boba.network",
+      "https://replica.bnb.boba.network",
+      "wss://replica-wss.bnb.boba.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18
+    },
+    "infoURL": "https://boba.network",
+    "shortName": "BobaBnb",
+    "chainId": 97288,
+    "networkId": 97288,
+    "explorers": [
+      {
+        "name": "Boba BNB block explorer",
+        "url": "https://blockexplorer.bnb.boba.network",
         "standard": "none"
       }
     ]
