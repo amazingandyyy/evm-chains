@@ -2964,7 +2964,8 @@
         "url": "https://www.alyxscan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "icon": "alyx"
   },
   {
     "name": "ETND Chain Mainnets",
@@ -3188,7 +3189,8 @@
         "url": "https://testnet.alyxscan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "icon": "alyx"
   },
   {
     "name": "CIC Chain Mainnet",
@@ -5416,8 +5418,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Hooked P12",
-      "symbol": "hP12",
+      "name": "Hooked P2",
+      "symbol": "hP2",
       "decimals": 18
     },
     "infoURL": "https://p12.network",
@@ -6228,6 +6230,32 @@
     "networkId": 23
   },
   {
+    "name": "BOMB Chain",
+    "chain": "BOMB",
+    "rpc": [
+      "https://rpc.bombchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BOMB Token",
+      "symbol": "BOMB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.bombchain.com",
+    "shortName": "bomb",
+    "chainId": 2300,
+    "networkId": 2300,
+    "icon": "bomb",
+    "explorers": [
+      {
+        "name": "bombscan",
+        "icon": "bomb",
+        "url": "https://bombscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Opside Testnet",
     "chain": "Opside",
     "rpc": [
@@ -6343,6 +6371,34 @@
     "shortName": "hym",
     "chainId": 234666,
     "networkId": 234666
+  },
+  {
+    "name": "BOMB Chain Testnet",
+    "chain": "BOMB",
+    "rpc": [
+      "https://bombchain-testnet.ankr.com/bas_full_rpc_1"
+    ],
+    "faucets": [
+      "https://faucet.bombchain-testnet.ankr.com/"
+    ],
+    "nativeCurrency": {
+      "name": "BOMB Token",
+      "symbol": "tBOMB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.bombmoney.com",
+    "shortName": "bombt",
+    "chainId": 2399,
+    "networkId": 2399,
+    "icon": "bomb",
+    "explorers": [
+      {
+        "name": "bombscan-testnet",
+        "icon": "bomb",
+        "url": "https://explorer.bombchain-testnet.ankr.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "KardiaChain Mainnet",
