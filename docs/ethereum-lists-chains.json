@@ -13136,7 +13136,7 @@
     "chain": "QOM",
     "status": "incubating",
     "rpc": [
-      "https://rpc.qom.one:8545"
+      "https://rpc.qom.one"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13163,7 +13163,7 @@
     "chain": "QOM",
     "status": "incubating",
     "rpc": [
-      "https://rpct.qom.one:8545"
+      "https://rpc.testnet.qom.one"
     ],
     "faucets": [
       "https://faucet.qom.one"
