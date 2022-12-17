@@ -7754,6 +7754,7 @@
     "chain": "FIL",
     "status": "incubating",
     "rpc": [
+      "https://wallaby.filfox.info/rpc/v0",
       "https://wallaby.node.glif.io/rpc/v0"
     ],
     "faucets": [
@@ -7771,6 +7772,11 @@
     "networkId": 31415,
     "slip44": 1,
     "explorers": [
+      {
+        "name": "Filfox",
+        "url": "https://wallaby.filfox.info",
+        "standard": "none"
+      },
       {
         "name": "Glif Explorer",
         "url": "https://explorer.glif.io/wallaby",
@@ -8592,8 +8598,8 @@
     ]
   },
   {
-    "name": "Pando Mainnet",
-    "chain": "Pando",
+    "name": "PandoProject Mainnet",
+    "chain": "PandoProject",
     "icon": "pando",
     "rpc": [
       "https://eth-rpc-api.pandoproject.org/rpc"
@@ -8617,8 +8623,8 @@
     ]
   },
   {
-    "name": "Pando Testnet",
-    "chain": "Pando",
+    "name": "PandoProject Testnet",
+    "chain": "PandoProject",
     "icon": "pando",
     "rpc": [
       "https://testnet.ethrpc.pandoproject.org/rpc"
@@ -10855,9 +10861,30 @@
     },
     "infoURL": "https://thefirechain.com",
     "shortName": "fire",
+    "chainId": 529,
+    "networkId": 529,
+    "explorers": [],
+    "status": "incubating"
+  },
+  {
+    "name": "Firechain Mainnet Old",
+    "chain": "FIRE",
+    "icon": "firechain",
+    "rpc": [
+      "https://mainnet.rpc1.thefirechain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Firechain",
+      "symbol": "FIRE",
+      "decimals": 18
+    },
+    "infoURL": "https://thefirechain.com",
+    "shortName": "_old_fire",
     "chainId": 5290,
     "networkId": 5290,
-    "explorers": []
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "CoinEx Smart Chain Testnet",
@@ -12340,6 +12367,30 @@
     "networkId": 666
   },
   {
+    "name": "PDC Mainnet",
+    "chain": "IPDC",
+    "rpc": [
+      "https://mainnet.ipdc.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PDC",
+      "symbol": "PDC",
+      "decimals": 18
+    },
+    "infoURL": "https://ipdc.io",
+    "shortName": "ipdc",
+    "chainId": 666301171999,
+    "networkId": 666301171999,
+    "explorers": [
+      {
+        "name": "ipdcscan",
+        "url": "https://scan.ipdc.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Vision - Vpioneer Test Chain",
     "chain": "Vision-Vpioneer",
     "rpc": [
@@ -12543,9 +12594,18 @@
     "name": "ThaiChain",
     "chain": "TCH",
     "rpc": [
-      "https://rpc.dome.cloud"
+      "https://rpc.dome.cloud",
+      "https://rpc.thaichain.org"
     ],
     "faucets": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
     "nativeCurrency": {
       "name": "ThaiChain Ether",
       "symbol": "TCH",
@@ -12554,7 +12614,14 @@
     "infoURL": "https://thaichain.io",
     "shortName": "tch",
     "chainId": 7,
-    "networkId": 7
+    "networkId": 7,
+    "explorers": [
+      {
+        "name": "Thaichain Explorer",
+        "url": "https://exp.thaichain.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Hoo Smart Chain",
@@ -14965,9 +15032,32 @@
     },
     "infoURL": "https://thefirechain.com",
     "shortName": "tfire",
+    "chainId": 917,
+    "networkId": 917,
+    "explorers": [],
+    "status": "incubating"
+  },
+  {
+    "name": "Rinia Testnet Old",
+    "chain": "FIRE",
+    "icon": "rinia",
+    "rpc": [
+      "https://rinia.rpc1.thefirechain.com"
+    ],
+    "faucets": [
+      "https://faucet.thefirechain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Firechain",
+      "symbol": "FIRE",
+      "decimals": 18
+    },
+    "infoURL": "https://thefirechain.com",
+    "shortName": "_old_tfire",
     "chainId": 9170,
     "networkId": 9170,
-    "explorers": []
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "Garizon Stage2",
