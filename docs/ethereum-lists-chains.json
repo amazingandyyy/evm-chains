@@ -6690,6 +6690,11 @@
     "rpc": [
       "https://evm.cronos.org"
     ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Cronos",
