@@ -8736,7 +8736,7 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Pando token ",
+      "name": "pando-token",
       "symbol": "PTX",
       "decimals": 18
     },
@@ -8761,7 +8761,7 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Pando token ",
+      "name": "pando-token",
       "symbol": "PTX",
       "decimals": 18
     },
@@ -10412,7 +10412,9 @@
   {
     "name": "Ennothem Mainnet Proterozoic",
     "chain": "ETMP",
-    "rpc": [],
+    "rpc": [
+      "https://rpc.etm.network"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ennothem",
@@ -11073,7 +11075,9 @@
   {
     "name": "Humanode Mainnet",
     "chain": "HMND",
-    "rpc": [],
+    "rpc": [
+      "https://explorer-rpc-http.mainnet.stages.humanode.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "HMND",
@@ -14114,7 +14118,9 @@
   {
     "name": "Shardeum Liberty 2.X",
     "chain": "Shardeum",
-    "rpc": [],
+    "rpc": [
+      "https://liberty20.shardeum.org/"
+    ],
     "faucets": [
       "https://faucet.liberty20.shardeum.org"
     ],
