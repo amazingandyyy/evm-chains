@@ -1036,6 +1036,7 @@
         ├── poolx.launchzone.org.png
         ├── portfolio.defiprime.com.png
         ├── powerpool.finance.png
+        ├── prdt.finance.png
         ├── rarebits.io.png
         ├── rarible.com.png
         ├── relay.radar.tech.png
@@ -1096,4 +1097,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-118 directories, 978 files
+118 directories, 979 files

@@ -11360,14 +11360,14 @@
     "name": "Scroll Pre-Alpha Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://prealpha.scroll.io/l2"
+      "https://prealpha-rpc.scroll.io/l2"
     ],
     "faucets": [
-      "https://prealpha.scroll.io"
+      "https://prealpha.scroll.io/faucet"
     ],
     "nativeCurrency": {
       "name": "Ether",
-      "symbol": "ETH",
+      "symbol": "TSETH",
       "decimals": 18
     },
     "infoURL": "https://scroll.io",
@@ -14927,27 +14927,31 @@
     "slip44": 5718350
   },
   {
-    "name": "Ambros Chain Testnet",
-    "chain": "ambroschain",
+    "name": "XANAChain",
+    "chain": "XANAChain",
     "rpc": [
-      "https://api.testnet.ambros.network"
+      "https://mainnet.xana.net/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "AMBROS",
-      "symbol": "AMBROS",
+      "name": "XETA",
+      "symbol": "XETA",
       "decimals": 18
     },
-    "infoURL": "https://test.ambros.network",
-    "shortName": "ambrostestnet",
+    "infoURL": "https://xanachain.xana.net/",
+    "shortName": "XANAChain",
     "chainId": 8888,
     "networkId": 8888,
+    "icon": "xeta",
     "explorers": [
       {
-        "name": "Ambros Chain Explorer",
-        "url": "https://testnet.ambrosscan.com",
-        "standard": "none"
+        "name": "XANAChain",
+        "url": "https://xanachain.xana.net",
+        "standard": "EIP3091"
       }
+    ],
+    "redFlags": [
+      "reusedChainId"
     ]
   },
   {
