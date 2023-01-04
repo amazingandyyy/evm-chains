@@ -142,6 +142,7 @@
 │       ├── eip155-1402.json
 │       ├── eip155-141.json
 │       ├── eip155-142.json
+│       ├── eip155-14288640.json
 │       ├── eip155-144.json
 │       ├── eip155-1482601649.json
 │       ├── eip155-15.json
@@ -671,6 +672,7 @@
     ├── README.md
     ├── blockchains
     │   ├── aeternity
+    │   ├── agoric
     │   ├── aion
     │   ├── algorand
     │   ├── aptos
@@ -1097,4 +1099,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-118 directories, 979 files
+119 directories, 980 files
