@@ -730,6 +730,7 @@
     │   ├── hedera
     │   ├── hoo
     │   ├── icon
+    │   ├── injective
     │   ├── iost
     │   ├── iotex
     │   ├── juno
@@ -1106,4 +1107,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-119 directories, 987 files
+120 directories, 987 files
