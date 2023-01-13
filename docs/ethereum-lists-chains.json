@@ -8217,7 +8217,7 @@
     "chain": "FIL",
     "icon": "filecoin",
     "rpc": [
-      "https://hyperspace.node.glif.io/rpc/v0"
+      "https://api.hyperspace.node.glif.io/rpc/v0"
     ],
     "faucets": [
       "https://hyperspace.filtest.network/#faucet"
