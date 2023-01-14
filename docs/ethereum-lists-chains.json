@@ -3583,6 +3583,33 @@
     ]
   },
   {
+    "name": "Ctex Scan Blockchain",
+    "chain": "Ctex Scan Blockchain",
+    "icon": "ctex",
+    "rpc": [
+      "https://mainnet-rpc.ctexscan.com/"
+    ],
+    "faucets": [
+      "https://faucet.ctexscan.com"
+    ],
+    "nativeCurrency": {
+      "name": "CTEX",
+      "symbol": "CTEX",
+      "decimals": 18
+    },
+    "infoURL": "https://ctextoken.io",
+    "shortName": "CTEX",
+    "chainId": 1455,
+    "networkId": 1455,
+    "explorers": [
+      {
+        "name": "Ctex Scan Explorer",
+        "url": "https://ctexscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Nebula Mainnet",
     "chain": "green-giddy-denebola",
     "rpc": [
@@ -4782,6 +4809,24 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "D-Chain Mainnet",
+    "chain": "D-Chain",
+    "rpc": [
+      "https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"
+    ],
+    "nativeCurrency": {
+      "name": "DOINX",
+      "symbol": "DOINX",
+      "decimals": 18
+    },
+    "shortName": "dchain-mainnet",
+    "chainId": 1951,
+    "networkId": 1951,
+    "icon": "dchain",
+    "faucets": [],
+    "infoURL": ""
   },
   {
     "name": "ONUS Chain Mainnet",
@@ -6690,8 +6735,8 @@
     "chain": "Sapphire",
     "icon": "oasis",
     "rpc": [
-      "https://sapphire.oasis.dev",
-      "wss://sapphire.oasis.dev/ws"
+      "https://sapphire.oasis.io",
+      "wss://sapphire.oasis.io/ws"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -6703,7 +6748,13 @@
     "shortName": "sapphire",
     "chainId": 23294,
     "networkId": 23294,
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "Oasis Sapphire Explorer",
+        "url": "https://explorer.sapphire.oasis.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Oasis Sapphire Testnet",
@@ -9413,6 +9464,32 @@
       {
         "name": "metalscan",
         "url": "https://tahoe.metalscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Zeniq",
+    "chain": "ZENIQ",
+    "rpc": [
+      "https://smart.zeniq.network:9545"
+    ],
+    "faucets": [
+      "https://faucet.zeniq.net/"
+    ],
+    "nativeCurrency": {
+      "name": "Zeniq",
+      "symbol": "ZENIQ",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zeniq.dev/",
+    "shortName": "zeniq",
+    "chainId": 383414847825,
+    "networkId": 383414847825,
+    "explorers": [
+      {
+        "name": "zeniq-smart-chain-explorer",
+        "url": "https://smart.zeniq.net",
         "standard": "EIP3091"
       }
     ]
@@ -12646,7 +12723,7 @@
     "networkId": 6022140761023
   },
   {
-    "name": "Tres Leches Testnet",
+    "name": "Tres Testnet",
     "chain": "TresLeches",
     "rpc": [
       "https://rpc-test.tresleches.finance/"
@@ -12655,11 +12732,11 @@
       "http://faucet.tresleches.finance:8080"
     ],
     "nativeCurrency": {
-      "name": "Tres Leches",
+      "name": "TRES",
       "symbol": "TRES",
       "decimals": 18
     },
-    "infoURL": "https://tresleches.finance",
+    "infoURL": "https://treschain.com",
     "shortName": "TRESTEST",
     "chainId": 6065,
     "networkId": 6065,
@@ -12674,18 +12751,19 @@
     ]
   },
   {
-    "name": "Tres Leches Mainnet",
+    "name": "Tres Mainnet",
     "chain": "TresLeches",
     "rpc": [
-      "https://rpc.tresleches.finance/"
+      "https://rpc.tresleches.finance/",
+      "https://rpc.treschain.io/"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Tres Leches",
+      "name": "TRES",
       "symbol": "TRES",
       "decimals": 18
     },
-    "infoURL": "https://tresleches.finance",
+    "infoURL": "https://treschain.com",
     "shortName": "TRESMAIN",
     "chainId": 6066,
     "networkId": 6066,
@@ -12924,6 +13002,25 @@
     "chainId": 64,
     "networkId": 64,
     "slip44": 163
+  },
+  {
+    "name": "Bear Network Chain Mainnet",
+    "chain": "BRNKC",
+    "icon": "brnkc",
+    "rpc": [
+      "https://brnkc-mainnet.bearnetwork.net",
+      "https://brnkc-mainnet1.bearnetwork.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bear Network Chain Native Token",
+      "symbol": "BRNKC",
+      "decimals": 18
+    },
+    "infoURL": "https://bearnetwork.net",
+    "shortName": "BRNKC",
+    "chainId": 641230,
+    "networkId": 641230
   },
   {
     "name": "SX Network Testnet",
