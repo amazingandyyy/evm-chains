@@ -932,6 +932,30 @@
     ]
   },
   {
+    "name": "Proxy Network Testnet",
+    "chain": "Proxy Network",
+    "rpc": [
+      "http://128.199.94.183:8041"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PRX",
+      "symbol": "PRX",
+      "decimals": 18
+    },
+    "infoURL": "https://theproxy.network",
+    "shortName": "prx",
+    "chainId": 1031,
+    "networkId": 1031,
+    "explorers": [
+      {
+        "name": "proxy network testnet",
+        "url": "http://testnet-explorer.theproxy.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Bronos Testnet",
     "chain": "Bronos",
     "rpc": [
@@ -4628,6 +4652,39 @@
         "name": "Blockmeta",
         "url": "https://bmc.blockmeta.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Gitshock Cartenz Testnet",
+    "chain": "Gitshock Cartenz",
+    "icon": "gitshockchain",
+    "rpc": [
+      "https://rpc.cartenz.works"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gitshock Cartenz",
+      "symbol": "tGTFX",
+      "decimals": 18
+    },
+    "infoURL": "https://gitshock.com",
+    "shortName": "gitshockchain",
+    "chainId": 1881,
+    "networkId": 1881,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.cartenz.works",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -12954,6 +13011,39 @@
     "chainId": 61717561,
     "networkId": 61717561,
     "slip44": 61717561
+  },
+  {
+    "name": "Etica Mainnet",
+    "chain": "Etica Protocol (ETI/EGAZ)",
+    "icon": "etica",
+    "rpc": [
+      "https://eticamainnet.eticascan.org",
+      "https://eticamainnet.eticaprotocol.org"
+    ],
+    "faucets": [
+      "http://faucet.etica-stats.org/"
+    ],
+    "nativeCurrency": {
+      "name": "EGAZ",
+      "symbol": "EGAZ",
+      "decimals": 18
+    },
+    "infoURL": "https://eticaprotocol.org",
+    "shortName": "Etica",
+    "chainId": 61803,
+    "networkId": 61803,
+    "explorers": [
+      {
+        "name": "eticascan",
+        "url": "https://eticascan.org",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "eticastats",
+        "url": "http://explorer.etica-stats.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "DoKEN Super Chain Mainnet",
