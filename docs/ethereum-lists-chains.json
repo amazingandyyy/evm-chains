@@ -3868,6 +3868,24 @@
     ]
   },
   {
+    "name": "Armonia Eva Chain Mainnet",
+    "chain": "Eva",
+    "rpc": [
+      "https://evascan.io/api/eth-rpc/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Armonia Multichain Native Token",
+      "symbol": "AMAX",
+      "decimals": 18
+    },
+    "infoURL": "https://amax.network",
+    "shortName": "eva",
+    "chainId": 160,
+    "networkId": 160,
+    "status": "incubating"
+  },
+  {
     "name": "MetaDot Mainnet",
     "chain": "MTT",
     "rpc": [
@@ -3902,6 +3920,30 @@
     "shortName": "mtttest",
     "chainId": 16001,
     "networkId": 16001
+  },
+  {
+    "name": "Armonia Eva Chain Testnet",
+    "chain": "Wall-e",
+    "rpc": [
+      "https://testnet.evascan.io/api/eth-rpc/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Armonia Multichain Native Token",
+      "symbol": "AMAX",
+      "decimals": 18
+    },
+    "infoURL": "https://amax.network",
+    "shortName": "wall-e",
+    "chainId": 161,
+    "networkId": 161,
+    "explorers": [
+      {
+        "name": "blockscout - evascan",
+        "url": "https://testnet.evascan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Catecoin Chain Mainnet",
@@ -4826,6 +4868,35 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "HOME Verse Mainnet",
+    "chain": "HOME Verse",
+    "icon": "home_verse",
+    "rpc": [
+      "https://rpc.mainnet.oasys.homeverse.games/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OAS",
+      "symbol": "OAS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.homeverse.games/",
+    "shortName": "HMV",
+    "chainId": 19011,
+    "networkId": 19011,
+    "explorers": [
+      {
+        "name": "HOME Verse Explorer",
+        "url": "https://explorer.oasys.homeverse.games",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-248"
+    }
   },
   {
     "name": "Gather Mainnet Network",
