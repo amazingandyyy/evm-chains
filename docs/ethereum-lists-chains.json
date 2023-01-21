@@ -8479,10 +8479,11 @@
     "chain": "FIL",
     "icon": "filecoin",
     "rpc": [
-      "https://api.hyperspace.node.glif.io/rpc/v0"
+      "https://api.hyperspace.node.glif.io/rpc/v1",
+      "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"
     ],
     "faucets": [
-      "https://hyperspace.filtest.network/#faucet"
+      "https://hyperspace.yoga/#faucet"
     ],
     "nativeCurrency": {
       "name": "testnet filecoin",
@@ -8527,10 +8528,10 @@
     "chain": "FIL",
     "icon": "filecoin",
     "rpc": [
-      "https://wallaby.node.glif.io/rpc/v0"
+      "https://wallaby.node.glif.io/rpc/v1"
     ],
     "faucets": [
-      "https://wallaby.network/#faucet"
+      "https://wallaby.yoga/#faucet"
     ],
     "nativeCurrency": {
       "name": "testnet filecoin",
@@ -8549,7 +8550,7 @@
     "chain": "FIL",
     "icon": "filecoin",
     "rpc": [
-      "https://api.calibration.node.glif.io/rpc/v0"
+      "https://api.calibration.node.glif.io/rpc/v1"
     ],
     "faucets": [
       "https://faucet.calibration.fildev.network/"
