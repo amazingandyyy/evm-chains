@@ -767,6 +767,7 @@
     │   ├── hedera
     │   ├── hoo
     │   ├── icon
+    │   ├── info.json
     │   ├── injective
     │   ├── iost
     │   ├── iotex
@@ -778,6 +779,7 @@
     │   ├── klaytn
     │   ├── kusama
     │   ├── litecoin
+    │   ├── logo.png
     │   ├── loom
     │   ├── meter
     │   ├── metis
@@ -1148,4 +1150,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-120 directories, 1028 files
+120 directories, 1030 files
