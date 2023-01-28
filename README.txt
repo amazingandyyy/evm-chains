@@ -816,6 +816,7 @@
     │   ├── stargaze
     │   ├── steem
     │   ├── stellar
+    │   ├── sui
     │   ├── terra
     │   ├── terrav2
     │   ├── tezos
@@ -1152,4 +1153,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-120 directories, 1032 files
+121 directories, 1032 files
