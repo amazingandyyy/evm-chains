@@ -13744,6 +13744,60 @@
     ]
   },
   {
+    "name": "Autonity Bakerloo (Thames) Testnet",
+    "chain": "AUT",
+    "rpc": [
+      "https://rpc1.bakerloo.autonity.org/",
+      "wss://rpc1.bakerloo.autonity.org/ws/"
+    ],
+    "faucets": [
+      "https://faucet.autonity.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Bakerloo Auton",
+      "symbol": "ATN",
+      "decimals": 18
+    },
+    "infoURL": "https://autonity.org/",
+    "shortName": "bakerloo-0",
+    "chainId": 65010000,
+    "networkId": 65010000,
+    "explorers": [
+      {
+        "name": "autonity-blockscout",
+        "url": "https://bakerloo.autonity.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Autonity Piccadilly (Thames) Testnet",
+    "chain": "AUT",
+    "rpc": [
+      "https://rpc1.piccadilly.autonity.org/",
+      "wss://rpc1.piccadilly.autonity.org/ws/"
+    ],
+    "faucets": [
+      "https://faucet.autonity.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Piccadilly Auton",
+      "symbol": "ATN",
+      "decimals": 18
+    },
+    "infoURL": "https://autonity.org/",
+    "shortName": "piccadilly-0",
+    "chainId": 65100000,
+    "networkId": 65100000,
+    "explorers": [
+      {
+        "name": "autonity-blockscout",
+        "url": "https://piccadilly.autonity.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "OKXChain Mainnet",
     "chain": "okxchain",
     "rpc": [
@@ -15488,6 +15542,7 @@
   {
     "name": "Shardeum Liberty 1.X",
     "chain": "Shardeum",
+    "icon": "shardeum",
     "rpc": [
       "https://liberty10.shardeum.org/"
     ],
@@ -15505,9 +15560,9 @@
     "networkId": 8080,
     "explorers": [
       {
-        "name": "Sharedum Scan",
+        "name": "Shardeum Scan",
         "url": "https://explorer-liberty10.shardeum.org",
-        "standard": "EIP3091"
+        "standard": "none"
       }
     ],
     "redFlags": [
@@ -15517,6 +15572,7 @@
   {
     "name": "Shardeum Liberty 2.X",
     "chain": "Shardeum",
+    "icon": "shardeum",
     "rpc": [
       "https://liberty20.shardeum.org/"
     ],
@@ -15534,9 +15590,39 @@
     "networkId": 8081,
     "explorers": [
       {
-        "name": "Sharedum Scan",
+        "name": "Shardeum Scan",
         "url": "https://explorer-liberty20.shardeum.org",
-        "standard": "EIP3091"
+        "standard": "none"
+      }
+    ],
+    "redFlags": [
+      "reusedChainId"
+    ]
+  },
+  {
+    "name": "Shardeum Sphinx 1.X",
+    "chain": "Shardeum",
+    "icon": "shardeum",
+    "rpc": [
+      "https://sphinx.shardeum.org/"
+    ],
+    "faucets": [
+      "https://faucet-sphinx.shardeum.org/"
+    ],
+    "nativeCurrency": {
+      "name": "Shardeum SHM",
+      "symbol": "SHM",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.shardeum.org/",
+    "shortName": "Sphinx10",
+    "chainId": 8082,
+    "networkId": 8082,
+    "explorers": [
+      {
+        "name": "Shardeum Scan",
+        "url": "https://explorer-sphinx.shardeum.org",
+        "standard": "none"
       }
     ],
     "redFlags": [
@@ -16404,6 +16490,33 @@
     ],
     "redFlags": [
       "reusedChainId"
+    ]
+  },
+  {
+    "name": "Chiliz Scoville Testnet",
+    "chain": "CHZ",
+    "rpc": [
+      "https://scoville-rpc.chiliz.com"
+    ],
+    "faucets": [
+      "https://scoville-faucet.chiliz.com"
+    ],
+    "nativeCurrency": {
+      "name": "Chiliz",
+      "symbol": "CHZ",
+      "decimals": 18
+    },
+    "icon": "chiliz",
+    "infoURL": "https://www.chiliz.com/en/chain",
+    "shortName": "chz",
+    "chainId": 88880,
+    "networkId": 88880,
+    "explorers": [
+      {
+        "name": "scoville-explorer",
+        "url": "https://scoville-explorer.chiliz.com",
+        "standard": "none"
+      }
     ]
   },
   {
