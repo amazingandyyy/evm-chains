@@ -8691,6 +8691,33 @@
     ]
   },
   {
+    "name": "Bifrost Mainnet",
+    "title": "The Bifrost Mainnet network",
+    "chain": "BFC",
+    "rpc": [
+      "https://public-01.mainnet.thebifrost.io/rpc",
+      "https://public-02.mainnet.thebifrost.io/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bifrost",
+      "symbol": "BFC",
+      "decimals": 18
+    },
+    "infoURL": "https://thebifrost.io",
+    "shortName": "bfc",
+    "chainId": 3068,
+    "networkId": 3068,
+    "icon": "bifrost",
+    "explorers": [
+      {
+        "name": "explorer-thebifrost",
+        "url": "https://explorer.mainnet.thebifrost.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "RSK Testnet",
     "chain": "RSK",
     "rpc": [
@@ -11117,6 +11144,39 @@
     ]
   },
   {
+    "name": "Fastex Chain testnet",
+    "chain": "FTN",
+    "title": "Fastex Chain testnet",
+    "rpc": [
+      "https://rpc.testnet.fastexchain.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FTN",
+      "symbol": "FTN",
+      "decimals": 18
+    },
+    "infoURL": "https://fastex.com",
+    "shortName": "ftn",
+    "chainId": 424242,
+    "networkId": 424242,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.ftnscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Zeeth Chain",
     "chain": "ZeethChain",
     "rpc": [
@@ -11400,6 +11460,32 @@
     ]
   },
   {
+    "name": "Frenchain Testnet",
+    "chain": "tfren",
+    "rpc": [
+      "https://rpc-01tn.frenchain.app"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tFREN",
+      "symbol": "FtREN",
+      "decimals": 18
+    },
+    "infoURL": "https://frenchain.app",
+    "shortName": "tFREN",
+    "chainId": 444,
+    "networkId": 444,
+    "icon": "fren",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.frenscan.io",
+        "icon": "fren",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Htmlcoin Mainnet",
     "chain": "mainnet",
     "rpc": [
@@ -11425,6 +11511,32 @@
         "url": "https://explorer.htmlcoin.com",
         "icon": "htmlcoin",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Frenchain",
+    "chain": "fren",
+    "rpc": [
+      "https://rpc-02.frenscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FREN",
+      "symbol": "FREN",
+      "decimals": 18
+    },
+    "infoURL": "https://frenchain.app",
+    "shortName": "FREN",
+    "chainId": 44444,
+    "networkId": 44444,
+    "icon": "fren",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://frenscan.io",
+        "icon": "fren",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -11793,13 +11905,12 @@
     ]
   },
   {
-    "name": "Bifrost Testnet1",
+    "name": "Bifrost Testnet",
     "title": "The Bifrost Testnet network",
     "chain": "BFC",
     "rpc": [
       "https://public-01.testnet.thebifrost.io/rpc",
-      "https://public-02.testnet.thebifrost.io/rpc",
-      "https://private.chain.thebifrost.io/rpc"
+      "https://public-02.testnet.thebifrost.io/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -11807,10 +11918,11 @@
       "symbol": "BFC",
       "decimals": 18
     },
-    "infoURL": "https://testnet.thebifrost.io",
-    "shortName": "BIT",
+    "infoURL": "https://thebifrost.io",
+    "shortName": "tbfc",
     "chainId": 49088,
     "networkId": 49088,
+    "icon": "bifrost",
     "explorers": [
       {
         "name": "explorer-thebifrost",
@@ -12592,9 +12704,12 @@
     }
   },
   {
-    "name": "Scroll Goerli Testnet",
+    "name": "Scroll Alpha Testnet",
     "chain": "ETH",
-    "rpc": [],
+    "status": "incubating",
+    "rpc": [
+      "https://alpha-rpc.scroll.io/l2"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -12602,10 +12717,16 @@
       "decimals": 18
     },
     "infoURL": "https://scroll.io",
-    "shortName": "scr-goerli",
+    "shortName": "scr-alpha",
     "chainId": 534353,
     "networkId": 534353,
-    "explorers": [],
+    "explorers": [
+      {
+        "name": "Scroll Alpha Testnet Block Explorer",
+        "url": "https://blockscout.scroll.io",
+        "standard": "EIP3091"
+      }
+    ],
     "parent": {
       "type": "L2",
       "chain": "eip155-5",
@@ -15156,6 +15277,31 @@
         "name": "ResinScan",
         "url": "https://explorer.resincoin.dev",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Bear Network Chain Testnet",
+    "chain": "BRNKCTEST",
+    "icon": "brnkc",
+    "rpc": [
+      "https://brnkc-test.bearnetwork.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bear Network Chain Testnet Token",
+      "symbol": "tBRNKC",
+      "decimals": 18
+    },
+    "infoURL": "https://bearnetwork.net",
+    "shortName": "BRNKCTEST",
+    "chainId": 751230,
+    "networkId": 751230,
+    "explorers": [
+      {
+        "name": "brnktestscan",
+        "url": "https://brnktest-scan.bearnetwork.net",
+        "standard": "EIP3091"
       }
     ]
   },
