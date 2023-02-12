@@ -403,6 +403,33 @@
     ]
   },
   {
+    "name": "VeChain",
+    "chain": "VeChain",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VeChain",
+      "symbol": "VET",
+      "decimals": 18
+    },
+    "infoURL": "https://vechain.org",
+    "shortName": "vechain",
+    "chainId": 100009,
+    "networkId": 100009,
+    "explorers": [
+      {
+        "name": "VeChain Stats",
+        "url": "https://vechainstats.com",
+        "standard": "none"
+      },
+      {
+        "name": "VeChain Explorer",
+        "url": "https://explore.vechain.org",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Smart Bitcoin Cash Testnet",
     "chain": "smartBCHTest",
     "rpc": [
@@ -419,6 +446,30 @@
     "shortName": "smartbchtest",
     "chainId": 10001,
     "networkId": 10001
+  },
+  {
+    "name": "VeChain Testnet",
+    "chain": "VeChain",
+    "rpc": [],
+    "faucets": [
+      "https://faucet.vecha.in"
+    ],
+    "nativeCurrency": {
+      "name": "VeChain",
+      "symbol": "VET",
+      "decimals": 18
+    },
+    "infoURL": "https://vechain.org",
+    "shortName": "vechain-testnet",
+    "chainId": 100010,
+    "networkId": 100010,
+    "explorers": [
+      {
+        "name": "VeChain Explorer",
+        "url": "https://explore-testnet.vechain.org",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Klaytn Testnet Baobab",
@@ -4456,6 +4507,31 @@
     ]
   },
   {
+    "name": "AirDAO Mainnet",
+    "chain": "ambnet",
+    "icon": "airdao",
+    "rpc": [
+      "https://network.ambrosus.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Amber",
+      "symbol": "AMB",
+      "decimals": 18
+    },
+    "infoURL": "https://airdao.io",
+    "shortName": "airdao",
+    "chainId": 16718,
+    "networkId": 16718,
+    "explorers": [
+      {
+        "name": "AirDAO Network Explorer",
+        "url": "https://airdao.io/explorer",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "AIOZ Network",
     "chain": "AIOZ",
     "icon": "aioz",
@@ -6880,6 +6956,31 @@
       {
         "name": "PlatON explorer",
         "url": "https://devnetscan.platon.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "AirDAO Testnet",
+    "chain": "ambnet-test",
+    "icon": "airdao",
+    "rpc": [
+      "https://network.ambrosus-test.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Amber",
+      "symbol": "AMB",
+      "decimals": 18
+    },
+    "infoURL": "https://testnet.airdao.io",
+    "shortName": "airdao-test",
+    "chainId": 22040,
+    "networkId": 22040,
+    "explorers": [
+      {
+        "name": "AirDAO Network Explorer",
+        "url": "https://testnet.airdao.io/explorer",
         "standard": "none"
       }
     ]
@@ -15195,6 +15296,30 @@
     ]
   },
   {
+    "name": "Canto Testnet",
+    "chain": "Canto Tesnet",
+    "rpc": [
+      "https://eth.plexnode.wtf/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Canto",
+      "symbol": "CANTO",
+      "decimals": 18
+    },
+    "infoURL": "https://canto.io",
+    "shortName": "tcanto",
+    "chainId": 740,
+    "networkId": 740,
+    "explorers": [
+      {
+        "name": "Canto Tesnet Explorer (Neobase)",
+        "url": "http://testnet-explorer.canto.neobase.one",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Vention Smart Chain Testnet",
     "chain": "VSCT",
     "icon": "ventionTestnet",
@@ -16694,6 +16819,35 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Bandai Namco Research Verse Mainnet",
+    "chain": "Bandai Namco Research Verse",
+    "icon": "bnken",
+    "rpc": [
+      "https://rpc.main.oasvrs.bnken.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OAS",
+      "symbol": "OAS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.bandainamco-mirai.com/en/",
+    "shortName": "BNKEN",
+    "chainId": 876,
+    "networkId": 876,
+    "explorers": [
+      {
+        "name": "Bandai Namco Research Verse Explorer",
+        "url": "https://explorer.main.oasvrs.bnken.net",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-248"
+    }
   },
   {
     "name": "TMY Chain",
