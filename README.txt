@@ -1023,6 +1023,7 @@
         ├── etherscan.io.png
         ├── ethlend.io.png
         ├── everdragons.com.png
+        ├── everrise.com.png
         ├── exchange.cafeswap.finance.png
         ├── exchange.pancakeswap.finance.png
         ├── exchange.robustswap.com.png
@@ -1188,4 +1189,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-121 directories, 1067 files
+121 directories, 1068 files
