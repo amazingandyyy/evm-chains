@@ -2132,6 +2132,31 @@
     "explorers": []
   },
   {
+    "name": "AmStar Testnet",
+    "chain": "AmStar",
+    "icon": "amstar",
+    "rpc": [
+      "https://testnet-rpc.amstarscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SINSO",
+      "symbol": "SINSO",
+      "decimals": 18
+    },
+    "infoURL": "https://sinso.io",
+    "shortName": "ASARt",
+    "chainId": 1138,
+    "networkId": 1138,
+    "explorers": [
+      {
+        "name": "amstarscan-testnet",
+        "url": "https://testnet.amstarscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "MathChain",
     "chain": "MATH",
     "rpc": [
@@ -8445,32 +8470,41 @@
     }
   },
   {
-    "name": "zkSync alpha testnet",
+    "name": "zkSync Era Testnet",
     "chain": "ETH",
     "rpc": [
       "https://zksync2-testnet.zksync.dev"
     ],
     "faucets": [
-      "https://portal.zksync.io/faucet"
+      "https://goerli.portal.zksync.io/faucet"
     ],
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://v2-docs.zksync.io/",
+    "infoURL": "https://era.zksync.io/docs/",
     "shortName": "zksync-goerli",
     "chainId": 280,
     "networkId": 280,
-    "icon": "ethereum",
+    "icon": "zksync-era",
     "explorers": [
       {
-        "name": "blockscout",
-        "url": "https://zksync2-testnet.zkscan.io",
-        "icon": "blockscout",
+        "name": "zkSync Era Block Explorer",
+        "url": "https://goerli.explorer.zksync.io",
+        "icon": "zksync-era",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://goerli.portal.zksync.io/bridge"
+        }
+      ]
+    }
   },
   {
     "name": "Social Smart Chain Mainnet",
@@ -8662,6 +8696,178 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Hedera Mainnet",
+    "chain": "Hedera",
+    "icon": "hedera",
+    "rpc": [
+      "https://mainnet.hashio.io/api"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "hbar",
+      "symbol": "HBAR",
+      "decimals": 8
+    },
+    "infoURL": "https://hedera.com",
+    "shortName": "hedera-mainnet",
+    "chainId": 295,
+    "networkId": 295,
+    "slip44": 3030,
+    "explorers": [
+      {
+        "name": "HashScan",
+        "url": "https://hashscan.io/mainnet/dashboard",
+        "standard": "none"
+      },
+      {
+        "name": "Arkhia Explorer",
+        "url": "https://explorer.arkhia.io",
+        "standard": "none"
+      },
+      {
+        "name": "DragonGlass",
+        "url": "https://app.dragonglass.me",
+        "standard": "none"
+      },
+      {
+        "name": "Hedera Explorer",
+        "url": "https://hederaexplorer.io",
+        "standard": "none"
+      },
+      {
+        "name": "Ledger Works Explore",
+        "url": "https://explore.lworks.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Hedera Testnet",
+    "chain": "Hedera",
+    "icon": "hedera",
+    "rpc": [
+      "https://testnet.hashio.io/api"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://portal.hedera.com"
+    ],
+    "nativeCurrency": {
+      "name": "hbar",
+      "symbol": "HBAR",
+      "decimals": 8
+    },
+    "infoURL": "https://hedera.com",
+    "shortName": "hedera-testnet",
+    "chainId": 296,
+    "networkId": 296,
+    "slip44": 3030,
+    "explorers": [
+      {
+        "name": "HashScan",
+        "url": "https://hashscan.io/testnet/dashboard",
+        "standard": "none"
+      },
+      {
+        "name": "Arkhia Explorer",
+        "url": "https://explorer.arkhia.io",
+        "standard": "none"
+      },
+      {
+        "name": "DragonGlass",
+        "url": "https://app.dragonglass.me",
+        "standard": "none"
+      },
+      {
+        "name": "Hedera Explorer",
+        "url": "https://hederaexplorer.io",
+        "standard": "none"
+      },
+      {
+        "name": "Ledger Works Explore",
+        "url": "https://explore.lworks.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Hedera Previewnet",
+    "chain": "Hedera",
+    "icon": "hedera",
+    "rpc": [
+      "https://previewnet.hashio.io/api"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://portal.hedera.com"
+    ],
+    "nativeCurrency": {
+      "name": "hbar",
+      "symbol": "HBAR",
+      "decimals": 8
+    },
+    "infoURL": "https://hedera.com",
+    "shortName": "hedera-previewnet",
+    "chainId": 297,
+    "networkId": 297,
+    "slip44": 3030,
+    "explorers": [
+      {
+        "name": "HashScan",
+        "url": "https://hashscan.io/previewnet/dashboard",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Hedera Localnet",
+    "chain": "Hedera",
+    "icon": "hedera",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "hbar",
+      "symbol": "HBAR",
+      "decimals": 8
+    },
+    "infoURL": "https://hedera.com",
+    "shortName": "hedera-localnet",
+    "chainId": 298,
+    "networkId": 298,
+    "slip44": 3030,
+    "explorers": []
   },
   {
     "name": "BitYuan Mainnet",
@@ -9376,9 +9582,11 @@
     ]
   },
   {
-    "name": "zkSync v2",
+    "name": "zkSync Era Mainnet",
     "chain": "ETH",
-    "rpc": [],
+    "rpc": [
+      "https://zksync2-mainnet.zksync.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -9389,20 +9597,24 @@
     "shortName": "zksync",
     "chainId": 324,
     "networkId": 324,
-    "icon": "ethereum",
+    "icon": "zksync-era",
     "explorers": [
       {
-        "name": "zkSync v2 Block Explorer",
+        "name": "zkSync Era Block Explorer",
         "url": "https://explorer.zksync.io",
+        "icon": "zksync-era",
         "standard": "EIP3091"
       }
     ],
     "parent": {
       "type": "L2",
       "chain": "eip155-1",
-      "bridges": []
-    },
-    "status": "incubating"
+      "bridges": [
+        {
+          "url": "https://portal.zksync.io/bridge"
+        }
+      ]
+    }
   },
   {
     "name": "Bitgert Mainnet",
