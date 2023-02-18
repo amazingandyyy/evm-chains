@@ -5281,7 +5281,6 @@
     "icon": "songbird",
     "rpc": [
       "https://songbird-api.flare.network/ext/C/rpc",
-      "https://songbird.towolabs.com/ext/C/rpc",
       "https://sgb.ftso.com.au/ext/bc/C/rpc",
       "https://sgb.lightft.so/rpc",
       "https://sgb-rpc.ftso.eu"
@@ -15974,8 +15973,13 @@
         "standard": "none"
       },
       {
-        "name": "Canto Cosmos Explorer (BigDipper)",
-        "url": "https://cosmos.explorer.canto.io",
+        "name": "Canto Cosmos Explorer",
+        "url": "https://cosmos-explorers.neobase.one",
+        "standard": "none"
+      },
+      {
+        "name": "Canto EVM Explorer (Blockscout)",
+        "url": "https://tuber.build",
         "standard": "none"
       }
     ]
