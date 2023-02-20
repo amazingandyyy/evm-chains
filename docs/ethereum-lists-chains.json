@@ -14330,6 +14330,30 @@
     ]
   },
   {
+    "name": "Graphlinq Blockchain Mainnet",
+    "chain": "GLQ Blockchain",
+    "rpc": [
+      "https://glq-dataseed.graphlinq.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GLQ",
+      "symbol": "GLQ",
+      "decimals": 18
+    },
+    "infoURL": "https://graphlinq.io",
+    "shortName": "glq",
+    "chainId": 614,
+    "networkId": 614,
+    "explorers": [
+      {
+        "name": "GLQ Explorer",
+        "url": "https://explorer.graphlinq.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Aquachain",
     "chain": "AQUA",
     "rpc": [
@@ -17358,6 +17382,31 @@
       {
         "name": "Ambros Chain Explorer",
         "url": "https://ambrosscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "MARO Blockchain Mainnet",
+    "chain": "MARO Blockchain",
+    "icon": "MARO",
+    "rpc": [
+      "https://rpc-mainnet.ma.ro"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MARO",
+      "symbol": "MARO",
+      "decimals": 18
+    },
+    "infoURL": "https://ma.ro/",
+    "shortName": "maro",
+    "chainId": 8848,
+    "networkId": 8848,
+    "explorers": [
+      {
+        "name": "MARO Scan",
+        "url": "https://scan.ma.ro/#",
         "standard": "none"
       }
     ]

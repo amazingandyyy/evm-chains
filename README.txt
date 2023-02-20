@@ -570,6 +570,7 @@
 │       ├── eip155-6065.json
 │       ├── eip155-6066.json
 │       ├── eip155-61.json
+│       ├── eip155-614.json
 │       ├── eip155-61717561.json
 │       ├── eip155-61803.json
 │       ├── eip155-61916.json
@@ -693,6 +694,7 @@
 │       ├── eip155-877.json
 │       ├── eip155-88.json
 │       ├── eip155-880.json
+│       ├── eip155-8848.json
 │       ├── eip155-888.json
 │       ├── eip155-8880.json
 │       ├── eip155-8881.json
@@ -804,6 +806,7 @@
     │   ├── everscale
     │   ├── evmos
     │   ├── fantom
+    │   ├── fetch
     │   ├── filecoin
     │   ├── fio
     │   ├── firo
@@ -819,6 +822,7 @@
     │   ├── injective
     │   ├── iost
     │   ├── iotex
+    │   ├── iris
     │   ├── juno
     │   ├── kava
     │   ├── kavaevm
@@ -863,6 +867,7 @@
     │   ├── steem
     │   ├── stellar
     │   ├── sui
+    │   ├── teritory
     │   ├── terra
     │   ├── terrav2
     │   ├── tezos
@@ -1200,4 +1205,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-121 directories, 1079 files
+124 directories, 1081 files
