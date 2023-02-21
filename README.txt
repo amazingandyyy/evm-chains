@@ -113,6 +113,7 @@
 │       ├── eip155-123.json
 │       ├── eip155-1230.json
 │       ├── eip155-1231.json
+│       ├── eip155-12321.json
 │       ├── eip155-1234.json
 │       ├── eip155-12345.json
 │       ├── eip155-124.json
@@ -742,6 +743,7 @@
 │       ├── eip155-9528.json
 │       ├── eip155-955305.json
 │       ├── eip155-956.json
+│       ├── eip155-96.json
 │       ├── eip155-97.json
 │       ├── eip155-970.json
 │       ├── eip155-9700.json
@@ -867,7 +869,7 @@
     │   ├── steem
     │   ├── stellar
     │   ├── sui
-    │   ├── teritory
+    │   ├── teritori
     │   ├── terra
     │   ├── terrav2
     │   ├── tezos
@@ -1205,4 +1207,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-124 directories, 1081 files
+124 directories, 1083 files
