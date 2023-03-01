@@ -11163,6 +11163,33 @@
     ]
   },
   {
+    "name": "Tipboxcoin Mainnet",
+    "chain": "TPBX",
+    "icon": "tipboxcoinIcon",
+    "rpc": [
+      "https://mainnet-rpc.tipboxcoin.net"
+    ],
+    "faucets": [
+      "https://faucet.tipboxcoin.net"
+    ],
+    "nativeCurrency": {
+      "name": "Tipboxcoin",
+      "symbol": "TPBX",
+      "decimals": 18
+    },
+    "infoURL": "https://tipboxcoin.net",
+    "shortName": "TPBXm",
+    "chainId": 404040,
+    "networkId": 404040,
+    "explorers": [
+      {
+        "name": "Tipboxcoin",
+        "url": "https://tipboxcoin.net",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Bobaopera Testnet",
     "chain": "Bobaopera Testnet",
     "rpc": [
@@ -11284,6 +11311,33 @@
       {
         "name": "AIOZ Network Testnet Explorer",
         "url": "https://testnet.explorer.aioz.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Tipboxcoin Testnet",
+    "chain": "TPBX",
+    "icon": "tipboxcoinIcon",
+    "rpc": [
+      "https://testnet-rpc.tipboxcoin.net"
+    ],
+    "faucets": [
+      "https://faucet.tipboxcoin.net"
+    ],
+    "nativeCurrency": {
+      "name": "Tipboxcoin",
+      "symbol": "TPBX",
+      "decimals": 18
+    },
+    "infoURL": "https://tipboxcoin.net",
+    "shortName": "TPBXt",
+    "chainId": 4141,
+    "networkId": 4141,
+    "explorers": [
+      {
+        "name": "Tipboxcoin",
+        "url": "https://testnet.tipboxcoin.net",
         "standard": "EIP3091"
       }
     ]
@@ -14885,6 +14939,7 @@
     "shortName": "bakerloo-0",
     "chainId": 65010000,
     "networkId": 65010000,
+    "icon": "autonity",
     "explorers": [
       {
         "name": "autonity-blockscout",
@@ -14912,6 +14967,7 @@
     "shortName": "piccadilly-0",
     "chainId": 65100000,
     "networkId": 65100000,
+    "icon": "autonity",
     "explorers": [
       {
         "name": "autonity-blockscout",
