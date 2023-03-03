@@ -1985,7 +1985,7 @@
     "chain": "DOGS",
     "icon": "dogs",
     "rpc": [
-      "https://mainnet-rpc.dogcoin.network"
+      "https://mainnet-rpc.dogcoin.me"
     ],
     "faucets": [
       "https://faucet.dogcoin.network"
@@ -18760,7 +18760,7 @@
     "chain": "DOGS",
     "icon": "dogs",
     "rpc": [
-      "https://testnet-rpc.dogcoin.network"
+      "https://testnet-rpc.dogcoin.me"
     ],
     "faucets": [
       "https://faucet.dogcoin.network"
