@@ -2795,6 +2795,31 @@
     ]
   },
   {
+    "name": "Fibonacci Mainnet",
+    "chain": "FIBO",
+    "icon": "fibonacci",
+    "rpc": [
+      "https://node1.fibo-api.asia"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FIBONACCI UTILITY TOKEN",
+      "symbol": "FIBO",
+      "decimals": 18
+    },
+    "infoURL": "https://fibochain.org",
+    "shortName": "fibo",
+    "chainId": 12306,
+    "networkId": 1230,
+    "explorers": [
+      {
+        "name": "fiboscan",
+        "url": "https://scan.fibochain.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ultron Mainnet",
     "chain": "Ultron",
     "icon": "ultron",
@@ -5590,6 +5615,34 @@
     "icon": "dchain",
     "faucets": [],
     "infoURL": ""
+  },
+  {
+    "name": "Eleanor",
+    "title": "Metatime Testnet Eleanor",
+    "chain": "MTC",
+    "rpc": [
+      "https://rpc.metatime.com/eleanor",
+      "wss://ws.metatime.com/eleanor"
+    ],
+    "faucets": [
+      "https://faucet.metatime.com/eleanor"
+    ],
+    "nativeCurrency": {
+      "name": "Eleanor Metacoin",
+      "symbol": "MTC",
+      "decimals": 18
+    },
+    "infoURL": "https://eleanor.metatime.com",
+    "shortName": "mtc",
+    "chainId": 1967,
+    "networkId": 1967,
+    "explorers": [
+      {
+        "name": "metaexplorer-eleanor",
+        "url": "https://explorer.metatime.com/eleanor",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Atelier",
@@ -9537,6 +9590,21 @@
         "standard": "none"
       },
       {
+        "name": "Beryx",
+        "url": "https://beryx.zondax.ch",
+        "standard": "none"
+      },
+      {
+        "name": "Glif Explorer",
+        "url": "https://explorer.glif.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Filmine",
+        "url": "https://explorer.filmine.io",
+        "standard": "none"
+      },
+      {
         "name": "Filscan",
         "url": "https://filscan.io",
         "standard": "none"
@@ -9554,6 +9622,7 @@
     "icon": "filecoin",
     "rpc": [
       "https://api.hyperspace.node.glif.io/rpc/v1",
+      "https://rpc.ankr.com/filecoin_testnet",
       "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"
     ],
     "faucets": [
