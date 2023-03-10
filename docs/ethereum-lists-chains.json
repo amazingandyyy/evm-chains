@@ -3803,7 +3803,7 @@
     "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
     "chain": "Elysium",
     "rpc": [
-      "https://elysium-rpc.vulcanforged.com"
+      "https://rpc.elysiumchain.tech/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -3820,6 +3820,32 @@
         "name": "Elysium mainnet explorer",
         "url": "https://explorer.elysiumchain.tech",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "iExec Sidechain",
+    "chain": "Bellecour",
+    "icon": "rlc",
+    "rpc": [
+      "https://bellecour.iex.ec"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "xRLC",
+      "symbol": "xRLC",
+      "decimals": 18
+    },
+    "infoURL": "https://iex.ec",
+    "shortName": "rlc",
+    "chainId": 134,
+    "networkId": 134,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.bellecour.iex.ec",
+        "icon": "blockscout",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -8180,7 +8206,8 @@
     "name": "Cronos Mainnet Beta",
     "chain": "CRO",
     "rpc": [
-      "https://evm.cronos.org"
+      "https://evm.cronos.org",
+      "https://cronos-evm.publicnode.com"
     ],
     "features": [
       {
@@ -17861,7 +17888,7 @@
   {
     "name": "TMY Chain",
     "chain": "TMY",
-    "icon": "ethereum",
+    "icon": "tmychain",
     "rpc": [
       "https://node1.tmyblockchain.org/rpc"
     ],
