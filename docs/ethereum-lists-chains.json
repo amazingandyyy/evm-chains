@@ -4063,6 +4063,39 @@
     ]
   },
   {
+    "name": "WoopChain Mainnet",
+    "chain": "WOOP",
+    "icon": "woopchain",
+    "rpc": [
+      "https://rpc.woop.ai/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WoopCoin",
+      "symbol": "WOOC",
+      "decimals": 18
+    },
+    "infoURL": "https://wikiwoop.com",
+    "shortName": "woop",
+    "chainId": 139,
+    "networkId": 139,
+    "explorers": [
+      {
+        "name": "wikiwoop",
+        "url": "https://explorer.wikiwoop.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Flare Mainnet",
     "chain": "FLR",
     "icon": "flare",
@@ -8033,6 +8066,33 @@
         "icon": "bomb",
         "url": "https://bombscan.com",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "HashKey Chain Testnet",
+    "chain": "HashKey",
+    "rpc": [
+      "https://testnet.hashkeychain/rpc"
+    ],
+    "faucets": [
+      "https://testnet.hashkeychain/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "HashKey Token",
+      "symbol": "tHSK",
+      "decimals": 18
+    },
+    "infoURL": "https://www.hashkey.com",
+    "shortName": "hsktest",
+    "chainId": 230315,
+    "networkId": 230315,
+    "icon": "hsk",
+    "explorers": [
+      {
+        "name": "HashKey Chain Testnet Explorer",
+        "url": "https://testnet.hashkeyscan.io",
+        "standard": "none"
       }
     ]
   },
@@ -17421,7 +17481,7 @@
   },
   {
     "name": "Lucid Blockchain",
-    "chain": "Lucid Blockchain",
+    "chain": "Lucid",
     "icon": "lucid",
     "rpc": [
       "https://rpc.lucidcoin.io"
@@ -18855,7 +18915,7 @@
     "nativeCurrency": {
       "name": "TEAM",
       "symbol": "$TEAM",
-      "decimals": 8
+      "decimals": 18
     },
     "features": [
       {
