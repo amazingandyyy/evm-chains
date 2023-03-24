@@ -2991,6 +2991,31 @@
     }
   },
   {
+    "name": "ADIL Devnet",
+    "chain": "ADIL",
+    "icon": "adil",
+    "rpc": [
+      "https://devnet.adilchain-rpc.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Devnet ADIL",
+      "symbol": "ADIL",
+      "decimals": 18
+    },
+    "infoURL": "https://adilchain.io",
+    "shortName": "dadil",
+    "chainId": 123456,
+    "networkId": 123456,
+    "explorers": [
+      {
+        "name": "ADIL Devnet Explorer",
+        "url": "https://devnet.adilchain-scan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Decentralized Web Mainnet",
     "shortName": "dwu",
     "chain": "DWU",
@@ -9172,7 +9197,7 @@
     "name": "zkSync Era Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://zksync2-testnet.zksync.dev"
+      "https://testnet.era.zksync.dev"
     ],
     "faucets": [
       "https://goerli.portal.zksync.io/faucet"
@@ -10306,7 +10331,7 @@
     "name": "zkSync Era Mainnet",
     "chain": "ETH",
     "rpc": [
-      "https://zksync2-mainnet.zksync.io"
+      "https://mainnet.era.zksync.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10332,7 +10357,7 @@
       "chain": "eip155-1",
       "bridges": [
         {
-          "url": "https://portal.zksync.io/bridge"
+          "url": "https://bridge.zksync.io/"
         }
       ]
     }
