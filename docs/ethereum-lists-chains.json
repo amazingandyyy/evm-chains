@@ -11703,10 +11703,12 @@
     "shortName": "dost",
     "chainId": 3939,
     "networkId": 3939,
+    "icon": "doschain",
     "explorers": [
       {
         "name": "DOScan-Test",
         "url": "https://test.doscan.io",
+        "icon": "doschain",
         "standard": "EIP3091"
       }
     ]
@@ -17584,10 +17586,12 @@
     "shortName": "dos",
     "chainId": 7979,
     "networkId": 7979,
+    "icon": "doschain",
     "explorers": [
       {
         "name": "DOScan",
         "url": "https://doscan.io",
+        "icon": "doschain",
         "standard": "EIP3091"
       }
     ]
@@ -19094,6 +19098,42 @@
     "chainId": 888888,
     "networkId": 888888,
     "slip44": 60
+  },
+  {
+    "name": "Quarix Testnet",
+    "chain": "Quarix",
+    "status": "incubating",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Q",
+      "symbol": "Q",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "quarix-testnet",
+    "chainId": 8888881,
+    "networkId": 8888881,
+    "icon": "quarix",
+    "explorers": []
+  },
+  {
+    "name": "Quarix",
+    "chain": "Quarix",
+    "status": "incubating",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Q",
+      "symbol": "Q",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "quarix",
+    "chainId": 8888888,
+    "networkId": 8888888,
+    "icon": "quarix",
+    "explorers": []
   },
   {
     "name": "T.E.A.M Blockchain",
