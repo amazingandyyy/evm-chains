@@ -6295,6 +6295,32 @@
     ]
   },
   {
+    "name": "Neutrinos TestNet",
+    "chain": "NEUTR",
+    "rpc": [
+      "https://testnet-rpc.neutrinoschain.com"
+    ],
+    "faucets": [
+      "https://neutrinoschain.com/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Neutrinos",
+      "symbol": "NEUTR",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.neutrinoschain.com",
+    "shortName": "NEUTR",
+    "chainId": 197,
+    "networkId": 197,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.neutrinoschain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Super Smart Chain Mainnet",
     "chain": "SCS",
     "rpc": [
@@ -8622,10 +8648,12 @@
     ],
     "faucets": [],
     "infoURL": "https://wemixkanvas.io",
+    "icon": "wemixkanvas",
     "explorers": [
       {
         "name": "blockscout",
         "url": "https://blockscout.aqua.wemixkanvas.io",
+        "icon": "wemixkanvas",
         "standard": "EIP3091"
       }
     ],
