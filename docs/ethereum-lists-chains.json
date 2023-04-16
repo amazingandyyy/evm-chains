@@ -2146,6 +2146,7 @@
   {
     "name": "Palm Testnet",
     "chain": "Palm",
+    "icon": "palm",
     "rpc": [
       "https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"
     ],
@@ -2170,6 +2171,7 @@
   {
     "name": "Palm",
     "chain": "Palm",
+    "icon": "palm",
     "rpc": [
       "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"
     ],
