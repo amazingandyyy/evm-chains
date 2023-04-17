@@ -4721,8 +4721,16 @@
   {
     "name": "OEBlock Testnet",
     "chain": "OEBt",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
     "rpc": [
-      "https://testnet-rpc.oeblock.com/"
+      "https://testnet-rpc.oeblock.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -8330,6 +8338,26 @@
     "networkId": 2221,
     "slip44": 2221,
     "status": "deprecated"
+  },
+  {
+    "name": "Kanazawa",
+    "title": "Meld Testnet Kanazawa",
+    "chain": "MELD",
+    "rpc": [
+      "https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"
+    ],
+    "faucets": [],
+    "features": [],
+    "nativeCurrency": {
+      "name": "gMeld",
+      "symbol": "gMELD",
+      "decimals": 18
+    },
+    "infoURL": "https://meld.com",
+    "shortName": "meld",
+    "chainId": 222000222,
+    "networkId": 222000222,
+    "explorers": []
   },
   {
     "name": "Kava EVM Testnet",
@@ -16661,6 +16689,23 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Cosmic Chain",
+    "chain": "COSMIC",
+    "rpc": [
+      "http://testnet.cosmicchain.site:3344"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cosmic Chain",
+      "symbol": "COSMIC",
+      "decimals": 18
+    },
+    "infoURL": "https://cosmicchain.site",
+    "shortName": "Cosmic",
+    "chainId": 67588,
+    "networkId": 3344
   },
   {
     "name": "Gold Smart Chain Mainnet",
