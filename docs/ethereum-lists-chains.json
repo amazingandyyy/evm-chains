@@ -4129,6 +4129,31 @@
     ]
   },
   {
+    "name": "Zafirium Mainnet",
+    "chain": "ZAFIC",
+    "icon": "zafirium",
+    "rpc": [
+      "https://mainnet.zakumi.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Zakumi Chain Native Token",
+      "symbol": "ZAFIC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zakumi.io",
+    "shortName": "zafic",
+    "chainId": 1369,
+    "networkId": 1369,
+    "explorers": [
+      {
+        "name": "zafirium-explorer",
+        "url": "https://explorer.zakumi.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Polygon Mainnet",
     "chain": "Polygon",
     "icon": "polygon",
@@ -4749,6 +4774,40 @@
     ]
   },
   {
+    "name": "EOS EVM Network Testnet",
+    "chain": "EOS",
+    "icon": "eos",
+    "rpc": [
+      "https://api.testnet.evm.eosnetwork.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EOS",
+      "symbol": "EOS",
+      "decimals": 18
+    },
+    "infoURL": "https://eosnetwork.com/eos-evm",
+    "shortName": "eos-testnet",
+    "chainId": 15557,
+    "networkId": 15557,
+    "explorers": [
+      {
+        "name": "EOS EVM Explorer",
+        "url": "https://explorer.testnet.evm.eosnetwork.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.testnet.evm.eosnetwork.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "OEBlock Testnet",
     "chain": "OEBt",
     "features": [
@@ -5035,6 +5094,43 @@
       {
         "name": "Yuma Testnet Block Explorer",
         "url": "https://yuma-explorer.horizen.io",
+        "icon": "eon",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Horizen Gobi Testnet",
+    "shortName": "Gobi",
+    "chain": "Gobi",
+    "icon": "eon",
+    "rpc": [
+      "https://gobi-testnet.horizenlabs.io/ethv1"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://faucet.horizen.io"
+    ],
+    "nativeCurrency": {
+      "name": "Testnet Zen",
+      "symbol": "tZEN",
+      "decimals": 18
+    },
+    "infoURL": "https://horizen.io/",
+    "chainId": 1663,
+    "networkId": 1663,
+    "slip44": 121,
+    "explorers": [
+      {
+        "name": "Gobi Testnet Block Explorer",
+        "url": "https://gobi-explorer.horizen.io",
         "icon": "eon",
         "standard": "EIP3091"
       }
@@ -5629,6 +5725,43 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "EOS EVM Network",
+    "chain": "EOS",
+    "icon": "eos",
+    "rpc": [
+      "https://api.evm.eosnetwork.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EOS",
+      "symbol": "EOS",
+      "decimals": 18
+    },
+    "infoURL": "https://eosnetwork.com/eos-evm",
+    "shortName": "eos",
+    "chainId": 17777,
+    "networkId": 17777,
+    "explorers": [
+      {
+        "name": "EOS EVM Explorer",
+        "url": "https://explorer.evm.eosnetwork.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.evm.eosnetwork.com"
+        },
+        {
+          "url": "https://app.multichain.org"
+        }
+      ]
+    }
   },
   {
     "name": "ThunderCore Testnet",
@@ -15744,7 +15877,7 @@
     "status": "deprecated"
   },
   {
-    "name": "EOS Mainnet",
+    "name": "EOS EVM Legacy",
     "chain": "EOS",
     "rpc": [
       "https://api.eosargentina.io"
@@ -15755,17 +15888,12 @@
       "symbol": "EOS",
       "decimals": 18
     },
-    "infoURL": "https://eoscommunity.org/",
-    "shortName": "EOSMainnet",
+    "infoURL": "https://eosargentina.io",
+    "shortName": "eos-legacy",
     "chainId": 59,
     "networkId": 59,
-    "explorers": [
-      {
-        "name": "bloks",
-        "url": "https://bloks.eosargentina.io",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "Linea Testnet",
@@ -21171,16 +21299,11 @@
       "decimals": 18
     },
     "infoURL": "https://www.cryptokylin.io/",
-    "shortName": "KylinTestnet",
+    "shortName": "kylin",
     "chainId": 95,
     "networkId": 95,
-    "explorers": [
-      {
-        "name": "eosq",
-        "url": "https://kylin.eosargentina.io",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "Rangers Protocol Testnet Robin",
@@ -21539,6 +21662,44 @@
     "shortName": "yeti",
     "chainId": 977,
     "networkId": 977
+  },
+  {
+    "name": "Carbon EVM",
+    "chain": "Carbon",
+    "icon": "carbon",
+    "rpc": [
+      "https://evm-api.carbon.network/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "swth",
+      "symbol": "SWTH",
+      "decimals": 18
+    },
+    "infoURL": "https://carbon.network/",
+    "shortName": "carbon",
+    "chainId": 9790,
+    "networkId": 9790,
+    "explorers": []
+  },
+  {
+    "name": "Carbon EVM Testnet",
+    "chain": "Carbon",
+    "icon": "carbon",
+    "rpc": [
+      "https://test-evm-api.carbon.network/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "swth",
+      "symbol": "SWTH",
+      "decimals": 18
+    },
+    "infoURL": "https://carbon.network/",
+    "shortName": "carbon-testnet",
+    "chainId": 9792,
+    "networkId": 9792,
+    "explorers": []
   },
   {
     "name": "TOP Mainnet EVM",
