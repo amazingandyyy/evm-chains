@@ -6874,7 +6874,7 @@
     "explorers": [
       {
         "name": "edexa-testnet",
-        "url": "https://explorer.edexa.com",
+        "url": "https://explorer.testnet.edexa.com",
         "standard": "EIP3091"
       }
     ]
@@ -8941,10 +8941,10 @@
     "networkId": 234666
   },
   {
-    "name": "WEMIX Kanvas Sepolia",
-    "title": "WEMIX Kanvas Testnet Sepolia",
+    "name": "Kroma Sepolia",
+    "title": "Kroma Testnet Sepolia",
     "chainId": 2357,
-    "shortName": "kanvas-aqua",
+    "shortName": "kroma-sepolia",
     "chain": "ETH",
     "networkId": 2357,
     "nativeCurrency": {
@@ -8953,16 +8953,16 @@
       "decimals": 18
     },
     "rpc": [
-      "https://api.aqua.wemixkanvas.io"
+      "https://api.sepolia.kroma.network"
     ],
     "faucets": [],
-    "infoURL": "https://wemixkanvas.io",
-    "icon": "wemixkanvas",
+    "infoURL": "https://kroma.network",
+    "icon": "kroma",
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://blockscout.aqua.wemixkanvas.io",
-        "icon": "wemixkanvas",
+        "url": "https://blockscout.sepolia.kroma.network",
+        "icon": "kroma",
         "standard": "EIP3091"
       }
     ],
@@ -8971,7 +8971,7 @@
       "chain": "eip155-11155111",
       "bridges": [
         {
-          "url": "https://wemixkanvas.io/bridge"
+          "url": "https://kroma.network/bridge"
         }
       ]
     }
@@ -14467,7 +14467,8 @@
     "rpc": [
       "https://erpc.xinfin.network",
       "https://rpc.xinfin.network",
-      "https://rpc1.xinfin.network"
+      "https://rpc1.xinfin.network",
+      "https://rpc-xdc.icecreamswap.com"
     ],
     "faucets": [],
     "nativeCurrency": {
