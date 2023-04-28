@@ -354,6 +354,7 @@
 │       ├── eip155-226.json
 │       ├── eip155-22776.json
 │       ├── eip155-23.json
+│       ├── eip155-230.json
 │       ├── eip155-2300.json
 │       ├── eip155-230315.json
 │       ├── eip155-2309.json
@@ -936,6 +937,7 @@
     │   ├── fio
     │   ├── firo
     │   ├── fusion
+    │   ├── gbnb
     │   ├── gochain
     │   ├── goerlitestnet
     │   ├── groestlcoin
@@ -1359,4 +1361,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-151 directories, 1208 files
+152 directories, 1209 files
