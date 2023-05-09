@@ -3206,6 +3206,58 @@
     }
   },
   {
+    "name": "ARC Mainnet",
+    "chain": "ARC",
+    "icon": "arc",
+    "rpc": [
+      "https://rpc-main-1.archiechain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18
+    },
+    "infoURL": "https://archiechain.io/",
+    "shortName": "ARC",
+    "chainId": 1243,
+    "networkId": 1243,
+    "explorers": [
+      {
+        "name": "archiescan",
+        "url": "https://app.archiescan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "ARC Testnet",
+    "chain": "ARC",
+    "icon": "arc",
+    "rpc": [
+      "https://rpc-test-1.archiechain.io"
+    ],
+    "faucets": [
+      "https://faucet.archiechain.io"
+    ],
+    "nativeCurrency": {
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18
+    },
+    "infoURL": "https://archiechain.io/",
+    "shortName": "TARC",
+    "chainId": 1244,
+    "networkId": 1244,
+    "explorers": [
+      {
+        "name": "archiescan",
+        "url": "https://testnet.archiescan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "OM Platform Mainnet",
     "chain": "omplatform",
     "rpc": [
@@ -4710,6 +4762,31 @@
     ]
   },
   {
+    "name": "GIL Testnet",
+    "chain": "GIL",
+    "icon": "gauss",
+    "rpc": [
+      "https://rpc.giltestnet.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GANG",
+      "symbol": "GANG",
+      "decimals": 18
+    },
+    "infoURL": "https://gaussgang.com/",
+    "shortName": "gil",
+    "chainId": 1452,
+    "networkId": 1452,
+    "explorers": [
+      {
+        "name": "GIL Explorer",
+        "url": "https://explorer.giltestnet.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ctex Scan Blockchain",
     "chain": "Ctex Scan Blockchain",
     "icon": "ctex",
@@ -5937,6 +6014,31 @@
         "name": "PartyExplorer",
         "url": "https://partyexplorer.co",
         "icon": "grams",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Gauss Mainnet",
+    "chain": "Gauss",
+    "icon": "gauss",
+    "rpc": [
+      "https://rpc.gaussgang.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GANG",
+      "symbol": "GANG",
+      "decimals": 18
+    },
+    "infoURL": "https://gaussgang.com/",
+    "shortName": "gauss",
+    "chainId": 1777,
+    "networkId": 1777,
+    "explorers": [
+      {
+        "name": "Gauss Explorer",
+        "url": "https://explorer.gaussgang.com",
         "standard": "EIP3091"
       }
     ]
@@ -17993,11 +18095,6 @@
     "networkId": 71401,
     "explorers": [
       {
-        "name": "GWScout Explorer",
-        "url": "https://gw-testnet-explorer.nervosdao.community",
-        "standard": "none"
-      },
-      {
         "name": "GWScan Block Explorer",
         "url": "https://v1.testnet.gwscan.com",
         "standard": "none"
@@ -18021,11 +18118,6 @@
     "chainId": 71402,
     "networkId": 71402,
     "explorers": [
-      {
-        "name": "GWScout Explorer",
-        "url": "https://gw-mainnet-explorer.nervosdao.community",
-        "standard": "none"
-      },
       {
         "name": "GWScan Block Explorer",
         "url": "https://v1.gwscan.com",
