@@ -5638,7 +5638,7 @@
     "name": "IRIShub Testnet",
     "chain": "IRIShub",
     "rpc": [
-      "http://34.80.202.172:8545"
+      "https://evmrpc.nyancat.irisnet.org"
     ],
     "features": [
       {
@@ -15065,7 +15065,7 @@
     "explorers": [
       {
         "name": "blockexplorer",
-        "url": "https://explorer.camino.foundation",
+        "url": "https://suite.camino.network/explorer",
         "standard": "none"
       }
     ]
