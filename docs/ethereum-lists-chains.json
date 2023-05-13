@@ -8896,7 +8896,7 @@
     "title": "Meld Testnet Kanazawa",
     "chain": "Kanazawa",
     "rpc": [
-      "https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"
+      "https://subnets.avax.network/meld/testnet/rpc"
     ],
     "faucets": [],
     "features": [],
@@ -8910,7 +8910,14 @@
     "shortName": "kanazawa",
     "chainId": 222000222,
     "networkId": 222000222,
-    "explorers": []
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://subnets-test.avax.network/meld",
+        "icon": "meld",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Kava EVM Testnet",
@@ -11827,7 +11834,7 @@
     "title": "Meld Mainnet",
     "chain": "MELD",
     "rpc": [
-      "https://network-rpc.meld.com"
+      "https://subnets.avax.network/meld/mainnet/rpc"
     ],
     "faucets": [],
     "features": [],
@@ -11841,7 +11848,14 @@
     "shortName": "meld",
     "chainId": 333000333,
     "networkId": 333000333,
-    "explorers": []
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://subnets.avax.network/meld",
+        "icon": "meld",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "ZCore Testnet",
@@ -13310,10 +13324,10 @@
     }
   },
   {
-    "name": "Oasis Testnet",
-    "title": "Bahamut Testnet Oasis",
+    "name": "Fastex Chain (Bahamut) Oasis Testnet",
+    "title": "Bahamut testnet Oasis",
     "icon": "bahamut",
-    "chain": "Bahamut",
+    "chain": "Fastex Chain (Bahamut)",
     "rpc": [
       "https://rpc1.oasis.bahamutchain.com"
     ],
@@ -15379,9 +15393,9 @@
     "explorers": []
   },
   {
-    "name": "Sahara",
+    "name": "Fastex Chain (Bahamut)",
     "title": "Bahamut mainnet Sahara",
-    "chain": "Bahamut",
+    "chain": "Fastex Chain (Bahamut)",
     "icon": "bahamut",
     "rpc": [
       "https://rpc1.sahara.bahamutchain.com",
