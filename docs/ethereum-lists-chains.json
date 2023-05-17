@@ -3028,9 +3028,24 @@
     "chain": "FIBO",
     "icon": "fibonacci",
     "rpc": [
-      "https://node1.fibo-api.asia"
+      "https://node1.fibo-api.asia",
+      "https://node2.fibo-api.asia",
+      "https://node3.fibo-api.asia",
+      "https://node4.fibo-api.asia",
+      "https://node5.fibo-api.asia",
+      "https://node6.fibo-api.asia",
+      "https://node7.fibo-api.asia",
+      "https://node1.fibo-rpc.asia",
+      "https://node2.fibo-rpc.asia",
+      "https://node3.fibo-rpc.asia",
+      "https://node4.fibo-rpc.asia",
+      "https://node5.fibo-rpc.asia",
+      "https://node6.fibo-rpc.asia",
+      "https://node7.fibo-rpc.asia"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://test.fibochain.org/faucets"
+    ],
     "nativeCurrency": {
       "name": "FIBONACCI UTILITY TOKEN",
       "symbol": "FIBO",
@@ -4495,6 +4510,31 @@
     ]
   },
   {
+    "name": "Joseon Mainnet",
+    "chain": "Joseon",
+    "icon": "joseon",
+    "rpc": [
+      "https://rpc.modchain.net/blockchain.joseon.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Joseon Mun",
+      "symbol": "JSM",
+      "decimals": 18
+    },
+    "infoURL": "https://www.joseon.com/",
+    "shortName": "mun",
+    "chainId": 1392,
+    "networkId": 1392,
+    "explorers": [
+      {
+        "name": "BlockExplorer",
+        "url": "https://www.blockexplorer.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Flare Mainnet",
     "chain": "FLR",
     "icon": "flare",
@@ -5336,6 +5376,31 @@
     "shortName": "pht",
     "chainId": 163,
     "networkId": 163
+  },
+  {
+    "name": "Genesys Mainnet",
+    "chain": "Genesys",
+    "icon": "genesys",
+    "rpc": [
+      "https://rpc.genesys.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Genesys",
+      "symbol": "GSYS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.genesys.network/",
+    "shortName": "Genesys",
+    "chainId": 16507,
+    "networkId": 16507,
+    "explorers": [
+      {
+        "name": "GchainExplorer",
+        "url": "https://gchainexplorer.genesys.network",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Btachain",
@@ -14524,6 +14589,31 @@
     ]
   },
   {
+    "name": "ARZIO Chain",
+    "chain": "ARZIO",
+    "icon": "arzio",
+    "rpc": [
+      "https://chain-rpc.arzio.co"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ARZIO",
+      "symbol": "AZO",
+      "decimals": 18
+    },
+    "infoURL": "https://chain.arzio.co",
+    "shortName": "arzio",
+    "chainId": 456,
+    "networkId": 456,
+    "explorers": [
+      {
+        "name": "ARZIO Scan",
+        "url": "https://scan.arzio.co",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Darwinia Network",
     "chain": "darwinia",
     "rpc": [
@@ -15771,6 +15861,11 @@
       {
         "name": "Scroll Alpha Testnet Block Explorer",
         "url": "https://blockscout.scroll.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Scroll Alpha Testnet Block Explorer",
+        "url": "https://scrollexplorer.unifra.io",
         "standard": "EIP3091"
       }
     ],
