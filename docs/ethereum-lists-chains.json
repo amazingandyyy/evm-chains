@@ -9305,6 +9305,34 @@
     ]
   },
   {
+    "name": "SOMA Network Testnet",
+    "chain": "SOMA",
+    "rpc": [
+      "https://data-testnet-v1.somanetwork.io/"
+    ],
+    "faucets": [
+      "https://faucet.somanetwork.io"
+    ],
+    "nativeCurrency": {
+      "name": "SMA",
+      "symbol": "tSMA",
+      "decimals": 18
+    },
+    "infoURL": "https://somanetwork.io",
+    "shortName": "sma",
+    "chainId": 2323,
+    "networkId": 2323,
+    "icon": "soma",
+    "explorers": [
+      {
+        "name": "SOMA Testnet Explorer",
+        "icon": "soma",
+        "url": "https://testnet.somascan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Oasis Sapphire",
     "chain": "Sapphire",
     "icon": "oasis",
@@ -9379,6 +9407,35 @@
         "name": "expedition",
         "url": "http://expedition.altcoinchain.org",
         "icon": "altcoinchain",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "SOMA Network Mainnet",
+    "chain": "SOMA",
+    "rpc": [
+      "https://data-mainnet-v1.somanetwork.io/"
+    ],
+    "faucets": [
+      "https://airdrop.somanetwork.io"
+    ],
+    "nativeCurrency": {
+      "name": "Soma Native Token",
+      "symbol": "SMA",
+      "decimals": 18
+    },
+    "infoURL": "https://somanetwork.io",
+    "shortName": "smam",
+    "chainId": 2332,
+    "networkId": 2332,
+    "icon": "soma",
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "SOMA Explorer Mainnet",
+        "icon": "soma",
+        "url": "https://somascan.io",
         "standard": "none"
       }
     ]
@@ -10428,6 +10485,7 @@
   {
     "name": "LaChain",
     "chain": "LaChain",
+    "icon": "LaChain",
     "rpc": [
       "https://rpc1.mainnet.lachain.network",
       "https://rpc2.mainnet.lachain.network"
@@ -13601,8 +13659,9 @@
     ]
   },
   {
-    "name": "LA Testnet",
-    "chain": "LATestnet",
+    "name": "LaTestnet",
+    "chain": "LaTestnet",
+    "icon": "LaChain",
     "rpc": [
       "https://rpc.testnet.lachain.network"
     ],
@@ -13610,7 +13669,7 @@
       "https://faucet.lachain.network"
     ],
     "nativeCurrency": {
-      "name": "Test La Coin",
+      "name": "Test LaCoin",
       "symbol": "TLA",
       "decimals": 18
     },
@@ -13625,7 +13684,7 @@
     "networkId": 418,
     "explorers": [
       {
-        "name": "LA Testnet Explorer",
+        "name": "LaTestnet Explorer",
         "url": "https://testexplorer.lachain.network",
         "standard": "EIP3091"
       }
@@ -14121,6 +14180,33 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Worlds Caldera",
+    "chain": "WCal",
+    "rpc": [
+      "https://worlds-test.calderachain.xyz/http"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://caldera.xyz/",
+    "shortName": "worldscal",
+    "chainId": 4281033,
+    "networkId": 4281033,
+    "icon": "ethereum",
+    "explorers": []
   },
   {
     "name": "Darwinia Pangolin Testnet",
@@ -15358,6 +15444,41 @@
         "name": "blocksscan",
         "url": "https://apothem.blocksscan.io",
         "icon": "blocksscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Opside Testnet Pre-Alpha",
+    "chain": "ETH",
+    "rpc": [
+      "https://pre-alpha-us-http-geth.opside.network",
+      "https://pre-alpha-hk-http-geth.opside.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "IDE Test Token",
+      "symbol": "IDE",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://opsi.de/",
+    "shortName": "Opside-Testnet",
+    "chainId": 51178,
+    "networkId": 51178,
+    "icon": "opside-new",
+    "explorers": [
+      {
+        "name": "OpsideTestnetInfo",
+        "url": "https://pre-alpha.opside.info",
+        "icon": "opside-new",
         "standard": "EIP3091"
       }
     ]
@@ -19770,6 +19891,24 @@
     "redFlags": [
       "reusedChainId"
     ]
+  },
+  {
+    "name": "BitEth",
+    "chain": "BTE",
+    "rpc": [
+      "https://rpc.biteth.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BitEth",
+      "symbol": "BTE",
+      "decimals": 18
+    },
+    "infoURL": "https://biteth.org",
+    "shortName": "BitEth",
+    "chainId": 8086,
+    "networkId": 8086,
+    "explorers": []
   },
   {
     "name": "StreamuX Blockchain",
