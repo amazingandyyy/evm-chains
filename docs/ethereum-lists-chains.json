@@ -2567,6 +2567,32 @@
     ]
   },
   {
+    "name": "Origin Testnet",
+    "chain": "Origin",
+    "rpc": [
+      "https://json-rpc.origin.uptick.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Origin",
+      "symbol": "UOC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.uptick.network",
+    "shortName": "auoc",
+    "chainId": 1170,
+    "networkId": 1170,
+    "icon": "origin",
+    "explorers": [
+      {
+        "name": "Origin Explorer",
+        "url": "https://evm-explorer.origin.uptick.network",
+        "icon": "origin",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Smart Host Teknoloji TESTNET",
     "chain": "SHT",
     "rpc": [
@@ -12554,6 +12580,33 @@
     ]
   },
   {
+    "name": "Bitfinity Network Testnet",
+    "chain": "BFT",
+    "rpc": [
+      "https://testnet.bitfinity.network"
+    ],
+    "faucets": [
+      "https://bitfinity.network/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "BITFINITY",
+      "symbol": "BFT",
+      "decimals": 18
+    },
+    "infoURL": "https://bitfinity.network",
+    "shortName": "Bitfinity",
+    "chainId": 355113,
+    "networkId": 355113,
+    "explorers": [
+      {
+        "name": "Bitfinity Block Explorer",
+        "url": "https://explorer.bitfinity.network",
+        "icon": "bitfinity",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Gather Testnet Network",
     "chain": "GTH",
     "rpc": [
@@ -16044,8 +16097,31 @@
     ]
   },
   {
+    "name": "Scroll Sepolia Testnet",
+    "chain": "ETH",
+    "status": "incubating",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://scroll.io",
+    "shortName": "scr-sepolia",
+    "chainId": 534351,
+    "networkId": 534351,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": []
+    }
+  },
+  {
     "name": "Scroll",
     "chain": "ETH",
+    "status": "incubating",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
@@ -16067,7 +16143,7 @@
   {
     "name": "Scroll Alpha Testnet",
     "chain": "ETH",
-    "status": "incubating",
+    "status": "active",
     "rpc": [
       "https://alpha-rpc.scroll.io/l2"
     ],
@@ -16102,6 +16178,7 @@
   {
     "name": "Scroll Pre-Alpha Testnet",
     "chain": "ETH",
+    "status": "deprecated",
     "rpc": [
       "https://prealpha-rpc.scroll.io/l2"
     ],
@@ -22880,6 +22957,32 @@
     "shortName": "yeti",
     "chainId": 977,
     "networkId": 977
+  },
+  {
+    "name": "PepeNetwork Mainnet",
+    "chain": "PepeNetwork",
+    "rpc": [
+      "https://rpc-mainnet.pepenetwork.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pepe",
+      "symbol": "WPEPE",
+      "decimals": 18
+    },
+    "infoURL": "https://pepenetwork.io",
+    "shortName": "pn",
+    "chainId": 9779,
+    "networkId": 9779,
+    "icon": "pepenetwork",
+    "explorers": [
+      {
+        "name": "Pepe Explorer",
+        "url": "https://explorer.pepenetwork.io",
+        "icon": "pepenetwork",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Carbon EVM",
