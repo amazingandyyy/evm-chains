@@ -15180,11 +15180,13 @@
     ]
   },
   {
-    "name": "Floripa",
-    "title": "Wireshape Testnet Floripa",
+    "name": "Wireshape Floripa Testnet",
+    "title": "Wireshape Floripa Testnet",
     "chain": "Wireshape",
+    "icon": "wireshape",
     "rpc": [
-      "https://rpc-floripa.wireshape.org"
+      "https://rpc-floripa.wireshape.org",
+      "https://floripa.rpc.thirdweb.com"
     ],
     "faucets": [],
     "nativeCurrency": {
