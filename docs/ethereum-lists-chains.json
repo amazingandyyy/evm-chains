@@ -1874,7 +1874,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Siberium",
-      "symbol": "SBR",
+      "symbol": "SIBR",
       "decimals": 18
     },
     "infoURL": "https://siberium.net",
@@ -11236,6 +11236,37 @@
     ]
   },
   {
+    "name": "PLAYA3ULL GAMES",
+    "chain": "3ULL",
+    "rpc": [
+      "https://api.mainnet.playa3ull.games"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "3ULL",
+      "symbol": "3ULL",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://playa3ull.games",
+    "shortName": "3ULL",
+    "chainId": 3011,
+    "networkId": 3011,
+    "icon": "playa3ull",
+    "explorers": [
+      {
+        "name": "PLAYA3ULL GAMES Explorer",
+        "url": "https://3011.routescan.io",
+        "icon": "playa3ull",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Neurochain Testnet",
     "chain": "NCN",
     "rpc": [
@@ -16191,7 +16222,7 @@
       },
       {
         "name": "Scroll Alpha Testnet Block Explorer",
-        "url": "https://scrollexplorer.unifra.io",
+        "url": "https://scrollscan.co",
         "standard": "EIP3091"
       }
     ],
@@ -17466,6 +17497,31 @@
     "chainId": 61717561,
     "networkId": 61717561,
     "slip44": 61717561
+  },
+  {
+    "name": "AxelChain Dev-Net",
+    "chain": "AXEL",
+    "rpc": [
+      "https://aium-rpc-dev.viacube.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Axelium",
+      "symbol": "AIUM",
+      "decimals": 18
+    },
+    "infoURL": "https://www.axel.org",
+    "shortName": "aium-dev",
+    "chainId": 61800,
+    "networkId": 61800,
+    "icon": "axelium",
+    "explorers": [
+      {
+        "name": "AxelChain Dev-Net Explorer",
+        "url": "https://devexplorer2.viacube.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Etica Mainnet",
