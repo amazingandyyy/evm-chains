@@ -70,20 +70,23 @@
     "icon": "gnosis",
     "rpc": [
       "https://rpc.gnosischain.com",
+      "https://rpc.gnosis.gateway.fm",
       "https://rpc.ankr.com/gnosis",
       "https://gnosischain-rpc.gateway.pokt.network",
       "https://gnosis-mainnet.public.blastapi.io",
+      "https://gnosis.api.onfinality.io/public",
+      "https://gnosis.blockpi.network/v1/rpc/public",
+      "https://web3endpoints.com/gnosischain-mainnet",
       "wss://rpc.gnosischain.com/wss"
     ],
     "faucets": [
       "https://gnosisfaucet.com",
-      "https://faucet.gimlu.com/gnosis",
       "https://stakely.io/faucet/gnosis-chain-xdai",
       "https://faucet.prussia.dev/xdai"
     ],
     "nativeCurrency": {
       "name": "xDAI",
-      "symbol": "xDAI",
+      "symbol": "XDAI",
       "decimals": 18
     },
     "infoURL": "https://docs.gnosischain.com",
@@ -491,15 +494,11 @@
     "networkId": 1001
   },
   {
-    "name": "Deprecated Chiado Testnet",
+    "name": "Deprecated CHI",
     "chain": "CHI1",
     "icon": "gnosis",
-    "rpc": [
-      "https://rpc-chiado.gnosistestnet.com"
-    ],
-    "faucets": [
-      "https://gnosisfaucet.com"
-    ],
+    "rpc": [],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Chiado xDAI",
       "symbol": "xDAI",
@@ -509,14 +508,7 @@
     "shortName": "chi1",
     "chainId": 100100,
     "networkId": 100100,
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://blockscout-chiado.gnosistestnet.com",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      }
-    ],
+    "explorers": [],
     "status": "deprecated"
   },
   {
@@ -807,19 +799,20 @@
     "networkId": 102
   },
   {
-    "name": "Chiado Testnet",
-    "chain": "CHI",
+    "name": "Gnosis Chiado Testnet",
+    "chain": "GNO",
     "icon": "gnosis",
     "rpc": [
       "https://rpc.chiadochain.net",
-      "https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"
+      "https://rpc.chiado.gnosis.gateway.fm",
+      "wss://rpc.chiadochain.net/wss"
     ],
     "faucets": [
       "https://gnosisfaucet.com"
     ],
     "nativeCurrency": {
       "name": "Chiado xDAI",
-      "symbol": "xDAI",
+      "symbol": "XDAI",
       "decimals": 18
     },
     "infoURL": "https://docs.gnosischain.com",
@@ -11085,32 +11078,21 @@
     ]
   },
   {
-    "name": "Optimism on Gnosis",
+    "name": "(deprecated) Optimism on GC",
     "chain": "OGC",
-    "rpc": [
-      "https://optimism.gnosischain.com",
-      "wss://optimism.gnosischain.com/wss"
-    ],
-    "faucets": [
-      "https://faucet.gimlu.com/gnosis"
-    ],
+    "rpc": [],
+    "faucets": [],
     "nativeCurrency": {
       "name": "xDAI",
       "symbol": "xDAI",
       "decimals": 18
     },
-    "infoURL": "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc",
     "shortName": "ogc",
     "chainId": 300,
     "networkId": 300,
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://blockscout.com/xdai/optimism",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      }
-    ]
+    "infoURL": "https://docs.gnosischain.com",
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "CENNZnet Rata",
