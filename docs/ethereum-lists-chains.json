@@ -5805,6 +5805,7 @@
   {
     "name": "Taiko (Alpha-2 Testnet)",
     "chain": "ETH",
+    "status": "deprecated",
     "icon": "taiko",
     "rpc": [
       "https://rpc.a2.taiko.xyz"
@@ -5823,6 +5824,32 @@
       {
         "name": "blockscout",
         "url": "https://explorer.a2.taiko.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Taiko (Alpha-3 Testnet)",
+    "chain": "ETH",
+    "status": "active",
+    "icon": "taiko",
+    "rpc": [
+      "https://rpc.test.taiko.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://taiko.xyz",
+    "shortName": "taiko-a3",
+    "chainId": 167005,
+    "networkId": 167005,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.test.taiko.xyz",
         "standard": "EIP3091"
       }
     ]
@@ -10335,6 +10362,33 @@
         "name": "Surnet Explorer",
         "url": "https://explorer.surnet.org",
         "icon": "SUR",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "WhiteBIT Network Testnet",
+    "chain": "WBT",
+    "rpc": [
+      "https://rpc-testnet.whitebit.network"
+    ],
+    "faucets": [
+      "https://explorer.whitebit.network/testnet/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "WhiteBIT Coin",
+      "symbol": "WBT",
+      "decimals": 18
+    },
+    "infoURL": "https://whitebit.com/wbt",
+    "shortName": "twbt",
+    "chainId": 2625,
+    "networkId": 2625,
+    "icon": "whitebit-testnet",
+    "explorers": [
+      {
+        "name": "wb-explorer-testnet",
+        "url": "https://explorer.whitebit.network/testnet",
         "standard": "EIP3091"
       }
     ]
