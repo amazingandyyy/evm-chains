@@ -2803,6 +2803,31 @@
     ]
   },
   {
+    "name": "SatoshiChain Mainnet",
+    "chain": "SATS",
+    "icon": "satoshichain",
+    "rpc": [
+      "https://mainnet-rpc.satoshichain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SatoshiChain Coin",
+      "symbol": "SATS",
+      "decimals": 18
+    },
+    "infoURL": "https://satoshichain.net",
+    "shortName": "sats",
+    "chainId": 12009,
+    "networkId": 12009,
+    "explorers": [
+      {
+        "name": "SatoshiChain Explorer",
+        "url": "https://satoshiscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Evanesco Testnet",
     "chain": "Evanesco Testnet",
     "rpc": [
@@ -13628,6 +13653,31 @@
     ]
   },
   {
+    "name": "Ozone Chain Mainnet",
+    "chain": "OZONE",
+    "rpc": [
+      "https://node1.ozonechain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OZONE",
+      "symbol": "OZO",
+      "decimals": 18
+    },
+    "infoURL": "https://ozonechain.io",
+    "shortName": "ozo",
+    "chainId": 4000,
+    "networkId": 4000,
+    "icon": "ozonechain",
+    "explorers": [
+      {
+        "name": "OZONE Scan",
+        "url": "https://ozonescan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Fantom Testnet",
     "chain": "FTM",
     "rpc": [
@@ -13652,6 +13702,31 @@
         "name": "ftmscan",
         "url": "https://testnet.ftmscan.com",
         "icon": "ftmscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Ozone Chain Testnet",
+    "chain": "OZONE",
+    "rpc": [
+      "https://node1.testnet.ozonechain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OZONE",
+      "symbol": "OZO",
+      "decimals": 18
+    },
+    "infoURL": "https://ozonechain.io",
+    "shortName": "ozo_tst",
+    "chainId": 401,
+    "networkId": 401,
+    "icon": "ozonechain",
+    "explorers": [
+      {
+        "name": "OZONE Scan",
+        "url": "https://testnet.ozonescan.io",
         "standard": "EIP3091"
       }
     ]
@@ -17065,7 +17140,7 @@
     "chain": "SATS",
     "icon": "satoshichain",
     "rpc": [
-      "https://rpc.satoshichain.io"
+      "https://testnet-rpc.satoshichain.io"
     ],
     "faucets": [
       "https://faucet.satoshichain.io"
@@ -17076,13 +17151,13 @@
       "decimals": 18
     },
     "infoURL": "https://satoshichain.net",
-    "shortName": "sats",
+    "shortName": "satst",
     "chainId": 5758,
     "networkId": 5758,
     "explorers": [
       {
-        "name": "SatoshiChain Explorer",
-        "url": "https://satoshiscan.io",
+        "name": "SatoshiChain Testnet Explorer",
+        "url": "https://testnet.satoshiscan.io",
         "standard": "EIP3091"
       }
     ]
