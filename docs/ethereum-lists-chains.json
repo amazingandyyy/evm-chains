@@ -8184,6 +8184,23 @@
     "networkId": 2043
   },
   {
+    "name": "Shrapnel Subnet",
+    "chain": "shrapnel",
+    "rpc": [
+      "https://subnets.avax.network/shrapnel/mainnet/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shrapnel Gas Token",
+      "symbol": "SHRAPG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.shrapnel.com/",
+    "shortName": "Shrapnel",
+    "chainId": 2044,
+    "networkId": 2044
+  },
+  {
     "name": "Europa SKALE Chain",
     "chain": "europa",
     "icon": "europa",
