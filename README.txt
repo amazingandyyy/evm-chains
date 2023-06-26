@@ -1013,7 +1013,6 @@
     │   ├── hoo
     │   ├── icon
     │   ├── info.json
-    │   ├── injective
     │   ├── iost
     │   ├── iotex
     │   ├── iotexevm
@@ -1038,6 +1037,7 @@
     │   ├── nano
     │   ├── nativecanto
     │   ├── nativeevmos
+    │   ├── nativeinjective
     │   ├── near
     │   ├── nebulas
     │   ├── neo
