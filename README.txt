@@ -1408,8 +1408,8 @@
         ├── tornado.cash.png
         ├── tranchess.com.png
         ├── traphouse.vip.png
-        ├── trustmemecoinweek.png
         ├── ttroll.ttmobileapps.com.png
+        ├── tw.btcgiveaway.png
         ├── uniswap.exchange.png
         ├── uniswap.io.png
         ├── v1exchange.pancakeswap.finance.png
