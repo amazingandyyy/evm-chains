@@ -1073,6 +1073,7 @@
     │   ├── okx
     │   ├── okxchain
     │   ├── ontology
+    │   ├── opbnb
     │   ├── optimism
     │   ├── optimismgoerli
     │   ├── osmosis
@@ -1465,4 +1466,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-165 directories, 1300 files
+166 directories, 1300 files
