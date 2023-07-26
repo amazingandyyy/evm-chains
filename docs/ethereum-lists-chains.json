@@ -2124,7 +2124,10 @@
     "rpc": [
       "https://rpc.sepolia.org",
       "https://rpc2.sepolia.org",
-      "https://rpc-sepolia.rockx.com"
+      "https://rpc-sepolia.rockx.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.infura.io/v3/${INFURA_API_KEY}",
+      "wss://sepolia.infura.io/v3/${INFURA_API_KEY}"
     ],
     "faucets": [
       "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
@@ -8180,7 +8183,7 @@
     "name": "Decimal Smart Chain Testnet",
     "chain": "tDSC",
     "rpc": [
-      "https://testnet-val.decimalchain.com/web3"
+      "https://testnet-val.decimalchain.com/web3/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -8654,7 +8657,7 @@
     "name": "Bitnet",
     "chain": "BTN",
     "rpc": [
-      "http://rpc.bitnet.money"
+      "https://rpc.bitnet.money"
     ],
     "faucets": [
       "https://bitnet.money/forum/showthread.php?tid=2"
@@ -20744,7 +20747,7 @@
     "name": "Decimal Smart Chain Mainnet",
     "chain": "DSC",
     "rpc": [
-      "https://node.decimalchain.com/web3"
+      "https://node.decimalchain.com/web3/"
     ],
     "faucets": [],
     "nativeCurrency": {
