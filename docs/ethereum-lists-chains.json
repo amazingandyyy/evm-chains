@@ -50,7 +50,8 @@
     "name": "OP Mainnet",
     "chain": "ETH",
     "rpc": [
-      "https://mainnet.optimism.io/"
+      "https://mainnet.optimism.io",
+      "https://optimism.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -2274,7 +2275,8 @@
     "name": "Haqq Network",
     "chain": "Haqq",
     "rpc": [
-      "https://rpc.eth.haqq.network"
+      "https://rpc.eth.haqq.network",
+      "https://haqq-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5364,7 +5366,8 @@
     "chain": "TENET",
     "icon": "tenet",
     "rpc": [
-      "https://rpc.tenet.org"
+      "https://rpc.tenet.org",
+      "https://tenet-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -9586,7 +9589,8 @@
       "https://evm.kava.io",
       "https://evm2.kava.io",
       "wss://wevm.kava.io",
-      "wss://wevm2.kava.io"
+      "wss://wevm2.kava.io",
+      "https://kava-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10527,7 +10531,7 @@
     ]
   },
   {
-    "name": "Cronos Mainnet Beta",
+    "name": "Cronos Mainnet",
     "chain": "CRO",
     "rpc": [
       "https://evm.cronos.org",
@@ -13688,8 +13692,9 @@
     "networkId": 369,
     "infoURL": "https://pulsechain.com/",
     "rpc": [
-      "https://rpc.pulsechain.com/",
-      "wss://rpc.pulsechain.com/"
+      "https://rpc.pulsechain.com",
+      "wss://rpc.pulsechain.com",
+      "https://pulsechain.publicnode.com"
     ],
     "features": [
       {
@@ -14941,7 +14946,8 @@
     "name": "Optimism Goerli Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://goerli.optimism.io/"
+      "https://goerli.optimism.io",
+      "https://optimism-goerli.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -15079,7 +15085,8 @@
     "rpc": [
       "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
       "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-      "https://arb1.arbitrum.io/rpc"
+      "https://arb1.arbitrum.io/rpc",
+      "https://arbitrum-one.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -15159,7 +15166,8 @@
       "decimals": 18
     },
     "rpc": [
-      "https://goerli-rollup.arbitrum.io/rpc/"
+      "https://goerli-rollup.arbitrum.io/rpc",
+      "https://arbitrum-goerli.publicnode.com"
     ],
     "faucets": [],
     "infoURL": "https://arbitrum.io/",
@@ -15219,7 +15227,8 @@
       "decimals": 18
     },
     "rpc": [
-      "https://nova.arbitrum.io/rpc"
+      "https://nova.arbitrum.io/rpc",
+      "https://arbitrum-nova.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -16637,7 +16646,8 @@
     "chain": "ETH",
     "icon": "mantle",
     "rpc": [
-      "https://rpc.mantle.xyz"
+      "https://rpc.mantle.xyz",
+      "https://mantle.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -18001,6 +18011,23 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Arcturus Chain Testnet",
+    "chain": "ARCTURUS",
+    "rpc": [
+      "http://185.99.196.3:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Test Arct",
+      "symbol": "tARCT",
+      "decimals": 18
+    },
+    "infoURL": "https://arcturuschain.io",
+    "shortName": "ARCT",
+    "chainId": 5616,
+    "networkId": 5616
   },
   {
     "name": "Boba BNB Mainnet",
@@ -19715,7 +19742,8 @@
     "name": "IRIShub",
     "chain": "IRIShub",
     "rpc": [
-      "https://evmrpc.irishub-1.irisnet.org"
+      "https://evmrpc.irishub-1.irisnet.org",
+      "https://iris-evm.publicnode.com"
     ],
     "features": [
       {
@@ -24646,7 +24674,8 @@
     "infoURL": "https://pulsechain.com",
     "rpc": [
       "https://rpc.v4.testnet.pulsechain.com/",
-      "wss://rpc.v4.testnet.pulsechain.com/"
+      "wss://rpc.v4.testnet.pulsechain.com/",
+      "https://pulsechain-testnet.publicnode.com"
     ],
     "features": [
       {
@@ -25482,7 +25511,8 @@
     "chain": "MIND",
     "icon": "mindchain",
     "rpc": [
-      "https://rpc-msc.mindchain.info/"
+      "https://rpc-msc.mindchain.info/",
+      "https://seednode.mindchain.info"
     ],
     "faucets": [],
     "nativeCurrency": {
