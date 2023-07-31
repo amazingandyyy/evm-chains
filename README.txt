@@ -1201,13 +1201,16 @@
         ├── app.mail3.me.png
         ├── app.marsecosystem.com.png
         ├── app.mcdex.io.png
+        ├── app.neutron.png
         ├── app.nuo.network.png
         ├── app.paraswap.io.png
+        ├── app.polygon.zkevm.png
         ├── app.pooltogether.com.png
         ├── app.pooltogether.us.png
         ├── app.raise.it.png
         ├── app.refinable.com.png
         ├── app.sablier.finance.png
+        ├── app.satori.finance.png
         ├── app.shibance.com.png
         ├── app.sil.finance.png
         ├── app.spaceid.png
@@ -1223,6 +1226,7 @@
         ├── app.venus.io.png
         ├── app.warriders.com.png
         ├── app.zerion.io.png
+        ├── app.zksync.era.png
         ├── aptos.pancakeswap.finance.png
         ├── arb_giveaway.png
         ├── autofarm.network.png
@@ -1506,4 +1510,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-166 directories, 1340 files
+166 directories, 1344 files
