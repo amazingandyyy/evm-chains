@@ -5184,6 +5184,26 @@
     ]
   },
   {
+    "name": "Humanode Testnet 5 Israfel",
+    "chain": "Humanode Testnet 5",
+    "rpc": [
+      "https://explorer-rpc-http.testnet5.stages.humanode.io"
+    ],
+    "faucets": [
+      "https://t.me/HumanodeTestnet5FaucetBot"
+    ],
+    "nativeCurrency": {
+      "name": "HMND",
+      "symbol": "HMND",
+      "decimals": 18
+    },
+    "infoURL": "https://humanode.io",
+    "shortName": "hmnd-t5",
+    "chainId": 14853,
+    "networkId": 14853,
+    "explorers": []
+  },
+  {
     "name": "Diode Prenet",
     "chain": "DIODE",
     "rpc": [
@@ -9576,7 +9596,7 @@
     "name": "Reapchain Testnet",
     "chain": "REAP",
     "rpc": [
-      "https://test-rpc.reapchain.org"
+      "https://test-eth.reapchain.org"
     ],
     "faucets": [
       "http://faucet.reapchain.com"
