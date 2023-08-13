@@ -17847,6 +17847,30 @@
     ]
   },
   {
+    "name": "PAWCHAIN Testnet",
+    "chain": "PAW",
+    "rpc": [
+      "https://pawchainx.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PAW",
+      "symbol": "PAW",
+      "decimals": 18
+    },
+    "infoURL": "https://pawchainx.com/",
+    "shortName": "PAW",
+    "chainId": 542,
+    "networkId": 542,
+    "explorers": [
+      {
+        "name": "PAWCHAIN Testnet",
+        "url": "https://pawscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Haqq Chain Testnet",
     "chain": "TestEdge2",
     "rpc": [
@@ -21416,6 +21440,31 @@
     "chainId": 76,
     "networkId": 76,
     "slip44": 76
+  },
+  {
+    "name": "Miexs Smartchain",
+    "chain": "MiexsSmartchain",
+    "icon": "miexs",
+    "rpc": [
+      "https://mainnet-rpc.miexs.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Miexs Coin",
+      "symbol": "MIX",
+      "decimals": 18
+    },
+    "infoURL": "https://miexs.com",
+    "shortName": "Miexs",
+    "chainId": 761412,
+    "networkId": 761412,
+    "explorers": [
+      {
+        "name": "Miexs Smartchain Explorer",
+        "url": "https://miexs.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "QL1",
