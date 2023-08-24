@@ -5846,10 +5846,10 @@
     "networkId": 163
   },
   {
-    "name": "Omni Testnet 1",
+    "name": "Omni Testnet",
     "chain": "Omni",
     "rpc": [
-      "https://testnet-1.omni.network"
+      "https://testnet.omni.network"
     ],
     "features": [
       {
@@ -5869,7 +5869,7 @@
     "explorers": [
       {
         "name": "Omni Explorer",
-        "url": "https://testnet-1.explorer.omni.network",
+        "url": "https://testnet.explorer.omni.network",
         "standard": "EIP3091"
       }
     ]
@@ -26342,7 +26342,8 @@
     "chain": "tMIND",
     "icon": "mindchain",
     "rpc": [
-      "https://testnet-msc.mindchain.info/"
+      "https://testnet-msc.mindchain.info/",
+      "wss://testnet-msc.mindchain.info/ws"
     ],
     "faucets": [
       "https://faucet.mindchain.info/"
