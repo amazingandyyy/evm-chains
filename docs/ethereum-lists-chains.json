@@ -14386,6 +14386,33 @@
     "networkId": 37
   },
   {
+    "name": "Xpla Mainnet",
+    "chain": "XPLA",
+    "rpc": [
+      "https://dimension-rpc.xpla.dev"
+    ],
+    "faucets": [
+      "https://faucet.xpla.io/"
+    ],
+    "nativeCurrency": {
+      "name": "XPLA",
+      "symbol": "XPLA",
+      "decimals": 18
+    },
+    "infoURL": "https://xpla.io/",
+    "shortName": "xpla",
+    "chainId": 3701,
+    "networkId": 3701,
+    "icon": "xpla",
+    "explorers": [
+      {
+        "name": "XPLA Explorer",
+        "url": "https://explorer.xpla.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Consta Testnet",
     "chain": "tCNT",
     "rpc": [
@@ -14601,6 +14628,72 @@
     "shortName": "lisinski",
     "chainId": 385,
     "networkId": 385
+  },
+  {
+    "name": "KalyChain Mainnet",
+    "chain": "KLC",
+    "icon": "kalychain",
+    "rpc": [
+      "https://rpc.kalychain.io/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KalyCoin",
+      "symbol": "KLC",
+      "decimals": 18
+    },
+    "infoURL": "https://kalychain.io",
+    "shortName": "kalymainnet",
+    "chainId": 3888,
+    "networkId": 3888,
+    "explorers": [
+      {
+        "name": "KalyScan",
+        "url": "https://kalyscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "KalyChain Testnet",
+    "chain": "KLC",
+    "icon": "kalychain",
+    "rpc": [
+      "https://testnetrpc.kalychain.io/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KalyCoin",
+      "symbol": "KLC",
+      "decimals": 18
+    },
+    "infoURL": "https://kalychain.io",
+    "shortName": "kalytestnet",
+    "chainId": 3889,
+    "networkId": 3889,
+    "explorers": [
+      {
+        "name": "KalyScan",
+        "url": "https://testnet.kalyscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Unicorn Ultra Testnet",
@@ -16369,6 +16462,35 @@
         "name": "Boba Avax Explorer",
         "url": "https://blockexplorer.avax.boba.network",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Beam Subnet",
+    "chain": "BEAM",
+    "rpc": [
+      "https://subnets.avax.network/beam/mainnet/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Merit Circle",
+      "symbol": "MC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.onbeam.com/",
+    "shortName": "beamsubnet",
+    "chainId": 4337,
+    "networkId": 4337,
+    "explorers": [
+      {
+        "name": "BEAM Explorer",
+        "url": "https://subnets.avax.network/beam",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -18742,6 +18864,52 @@
         }
       ]
     }
+  },
+  {
+    "name": "Tanssi EVM ContainerChain",
+    "chain": "EVMCC",
+    "rpc": [
+      "https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network",
+      "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Unit",
+      "symbol": "Unit",
+      "decimals": 18
+    },
+    "infoURL": "https://tanssi.network",
+    "shortName": "TanssiCC",
+    "chainId": 5678,
+    "networkId": 5678,
+    "explorers": []
+  },
+  {
+    "name": "VELO Labs Mainnet",
+    "chain": "NOVA chain",
+    "rpc": [
+      "https://nova.velo.org"
+    ],
+    "faucets": [
+      "https://nova-faucet.velo.org"
+    ],
+    "nativeCurrency": {
+      "name": "Nova",
+      "symbol": "NOVA",
+      "decimals": 18
+    },
+    "infoURL": "https://velo.org",
+    "shortName": "VELO",
+    "chainId": 56789,
+    "networkId": 56789,
+    "icon": "novachain",
+    "explorers": [
+      {
+        "name": "novascan",
+        "url": "https://novascan.velo.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Dogechain Testnet",
@@ -23393,19 +23561,17 @@
     ]
   },
   {
-    "name": "BeOne Chain Testnet",
-    "chain": "BOC",
+    "name": "Testnet BeOne Chain",
+    "chain": "tBOC",
     "rpc": [
-      "https://pre-boc1.beonechain.com",
-      "https://pre-boc2.beonechain.com",
-      "https://pre-boc3.beonechain.com"
+      "https://pre-boc1.beonechain.com"
     ],
     "faucets": [
       "https://testnet.beonescan.com/faucet"
     ],
     "nativeCurrency": {
-      "name": "BeOne Chain Testnet",
-      "symbol": "BOC",
+      "name": "Testnet BeOne Chain",
+      "symbol": "tBOC",
       "decimals": 18
     },
     "infoURL": "https://testnet.beonescan.com",
@@ -23415,7 +23581,7 @@
     "icon": "beonechain",
     "explorers": [
       {
-        "name": "BeOne Chain Testnet",
+        "name": "Testnet BeOne Chain",
         "url": "https://testnet.beonescan.com",
         "icon": "beonechain",
         "standard": "none"
@@ -23778,6 +23944,32 @@
     "shortName": "bloqs4good",
     "chainId": 846000,
     "networkId": 846000
+  },
+  {
+    "name": "Aerie Network",
+    "chain": "Aerie",
+    "rpc": [
+      "https://mainnet.aerielab.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Aerie",
+      "symbol": "AER",
+      "decimals": 18
+    },
+    "infoURL": "https://aerielab.io/",
+    "shortName": "Aerie",
+    "chainId": 84886,
+    "networkId": 84886,
+    "icon": "aerie",
+    "explorers": [
+      {
+        "name": "Aerie Explorer",
+        "url": "https://explorer.aerielab.io",
+        "icon": "aerie",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "GateChain Testnet",
