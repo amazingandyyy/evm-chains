@@ -10190,6 +10190,32 @@
     ]
   },
   {
+    "name": "Nautilus Mainnet",
+    "chain": "ETH",
+    "icon": "nautilus",
+    "rpc": [
+      "https://api.nautilus.nautchain.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Zebec",
+      "symbol": "ZBC",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.nautchain.xyz",
+    "shortName": "NAUTCHAIN",
+    "chainId": 22222,
+    "networkId": 22222,
+    "explorers": [
+      {
+        "name": "Nautscan",
+        "url": "https://nautscan.com",
+        "standard": "EIP3091",
+        "icon": "nautilus"
+      }
+    ]
+  },
+  {
     "name": "VChain Mainnet",
     "chain": "VChain",
     "rpc": [
@@ -11812,6 +11838,39 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Morphism Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc-testnet.morphism.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://morphism.xyz",
+    "shortName": "tmorph",
+    "chainId": 2710,
+    "networkId": 2710,
+    "explorers": [
+      {
+        "name": "Morphism Testnet Explorer",
+        "url": "https://explorer-testnet.morphism.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge-testnet.morphism.xyz"
+        }
+      ]
+    }
   },
   {
     "name": "EgonCoin Testnet",
@@ -20948,6 +21007,34 @@
     ]
   },
   {
+    "name": "JuncaGlobal Chain Testnet",
+    "chain": "JuncaGlobal Test Chain",
+    "rpc": [
+      "https://rpc-testnet.juncachain.com",
+      "wss://ws-testnet.juncachain.com"
+    ],
+    "faucets": [
+      "https://faucet-testnet.juncachain.com"
+    ],
+    "nativeCurrency": {
+      "name": "JuncaGlobal Chain Testnet Native Token",
+      "symbol": "JGCT",
+      "decimals": 18
+    },
+    "infoURL": "https://junca-cash.world",
+    "shortName": "junca",
+    "chainId": 669,
+    "networkId": 669,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan-testnet.juncachain.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "DBChain Testnet",
     "chain": "DBM",
     "rpc": [
@@ -21842,12 +21929,13 @@
     "status": "incubating"
   },
   {
-    "name": "Horizen EON",
+    "name": "Horizen EON Mainnet",
     "shortName": "EON",
     "chain": "EON",
     "icon": "eon",
     "rpc": [
-      "https://eon-rpc.horizenlabs.io/ethv1"
+      "https://eon-rpc.horizenlabs.io/ethv1",
+      "https://rpc.ankr.com/horizen_eon"
     ],
     "features": [
       {
@@ -24720,6 +24808,34 @@
         "name": "Ambros Chain Explorer",
         "url": "https://ambrosscan.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Nautilus Proteus Testnet",
+    "chain": "ETH",
+    "icon": "nautilus",
+    "rpc": [
+      "https://api.proteus.nautchain.xyz/solana"
+    ],
+    "faucets": [
+      "https://proteusfaucet.nautchain.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Zebec Test Token",
+      "symbol": "tZBC",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.nautchain.xyz",
+    "shortName": "NAUTTest",
+    "chainId": 88002,
+    "networkId": 88002,
+    "explorers": [
+      {
+        "name": "Nautscan",
+        "url": "https://proteus.nautscan.com",
+        "standard": "EIP3091",
+        "icon": "nautilus"
       }
     ]
   },
