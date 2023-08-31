@@ -2929,6 +2929,34 @@
     ]
   },
   {
+    "name": "Polygon Supernet Arianee",
+    "chain": "Arianee",
+    "rpc": [
+      "https://rpc.polygonsupernet.public.arianee.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Arianee",
+      "symbol": "ARIA20",
+      "decimals": 18
+    },
+    "infoURL": "https://arianee.org",
+    "shortName": "Arianee",
+    "chainId": 11891,
+    "networkId": 11891,
+    "explorers": [
+      {
+        "name": "Polygon Supernet Arianee Explorer",
+        "url": "https://polygonsupernet.explorer.arianee.net",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-1",
+      "type": "L2"
+    }
+  },
+  {
     "name": "ENULS Mainnet",
     "chain": "ENULS",
     "rpc": [
@@ -8937,6 +8965,35 @@
     ]
   },
   {
+    "name": "Shrapnel Testnet",
+    "chain": "SHRAPNEL",
+    "rpc": [
+      "https://subnets.avax.network/shrapnel/testnet/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SHRAPG",
+      "symbol": "SHRAPG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.shrapnel.com/",
+    "shortName": "shraptest",
+    "chainId": 2038,
+    "networkId": 2038,
+    "explorers": [
+      {
+        "name": "SHRAPNEL Explorer",
+        "url": "https://subnets-test.avax.network/shrapnel",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "opBNB Mainnet",
     "chain": "opBNB",
     "rpc": [
@@ -14616,7 +14673,7 @@
     "name": "Xpla Mainnet",
     "chain": "XPLA",
     "rpc": [
-      "https://dimension-rpc.xpla.dev"
+      "https://dimension-evm-rpc.xpla.dev"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -14632,8 +14689,8 @@
     "explorers": [
       {
         "name": "XPLA Explorer",
-        "url": "https://explorer.xpla.io",
-        "standard": "none"
+        "url": "https://explorer.xpla.io/mainnet",
+        "standard": "EIP3091"
       }
     ],
     "redFlags": [
@@ -14666,9 +14723,7 @@
         "standard": "none"
       }
     ],
-    "redFlags": [
-      "reusedChainId"
-    ]
+    "status": "deprecated"
   },
   {
     "name": "Consta Testnet",
@@ -20972,6 +21027,30 @@
     ]
   },
   {
+    "name": "JuncaChain",
+    "chain": "JuncaChain",
+    "rpc": [
+      "https://rpc.juncachain.com"
+    ],
+    "nativeCurrency": {
+      "name": "JuncaChain Native Token",
+      "symbol": "JGC",
+      "decimals": 18
+    },
+    "faucets": [],
+    "infoURL": "https://junca-cash.world",
+    "shortName": "junca",
+    "chainId": 668,
+    "networkId": 668,
+    "explorers": [
+      {
+        "name": "JuncaScan",
+        "url": "https://scan.juncachain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "IRIShub",
     "chain": "IRIShub",
     "rpc": [
@@ -21007,8 +21086,8 @@
     ]
   },
   {
-    "name": "JuncaGlobal Chain Testnet",
-    "chain": "JuncaGlobal Test Chain",
+    "name": "JuncaChain testnet",
+    "chain": "JuncaChain testnet",
     "rpc": [
       "https://rpc-testnet.juncachain.com",
       "wss://ws-testnet.juncachain.com"
@@ -21017,19 +21096,18 @@
       "https://faucet-testnet.juncachain.com"
     ],
     "nativeCurrency": {
-      "name": "JuncaGlobal Chain Testnet Native Token",
+      "name": "JuncaChain Testnet Native Token",
       "symbol": "JGCT",
       "decimals": 18
     },
     "infoURL": "https://junca-cash.world",
-    "shortName": "junca",
+    "shortName": "juncat",
     "chainId": 669,
     "networkId": 669,
     "explorers": [
       {
-        "name": "blockscout",
+        "name": "JuncaScan",
         "url": "https://scan-testnet.juncachain.com",
-        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
