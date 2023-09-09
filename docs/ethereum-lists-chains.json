@@ -2696,6 +2696,33 @@
     "explorers": []
   },
   {
+    "name": "DeFiMetaChain",
+    "icon": "changi",
+    "chain": "DFI",
+    "rpc": [
+      "https://testnet-dmc.mydefichain.com:20551"
+    ],
+    "faucets": [
+      "http://tc04.mydefichain.com/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "DeFiChain Token",
+      "symbol": "DFI",
+      "decimals": 18
+    },
+    "infoURL": "https://defichain.com",
+    "shortName": "changi",
+    "chainId": 1133,
+    "networkId": 1133,
+    "explorers": [
+      {
+        "name": "MetaScan",
+        "url": "https://meta.defiscan.live",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "AmStar Testnet",
     "chain": "AmStar",
     "icon": "amstar",
@@ -12823,6 +12850,7 @@
   {
     "name": "Canxium Mainnet",
     "chain": "CAU",
+    "icon": "canxium",
     "rpc": [
       "https://rpc.canxium.org"
     ],
@@ -12894,6 +12922,31 @@
       {
         "name": "Bobaopera block explorer",
         "url": "https://blockexplorer.bobaopera.boba.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Cerium Testnet",
+    "chain": "CAU",
+    "icon": "canxium",
+    "rpc": [
+      "https://cerium-rpc.canxium.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Canxium",
+      "symbol": "CAU",
+      "decimals": 18
+    },
+    "infoURL": "https://canxium.org",
+    "shortName": "ceri",
+    "chainId": 30103,
+    "networkId": 30103,
+    "explorers": [
+      {
+        "name": "canxium explorer",
+        "url": "https://cerium-explorer.canxium.net",
         "standard": "none"
       }
     ]
@@ -14741,6 +14794,7 @@
       "wss://rpc.pulsechain.com",
       "https://pulsechain.publicnode.com"
     ],
+    "slip44": 60,
     "features": [
       {
         "name": "EIP155"
@@ -14753,12 +14807,25 @@
     "ens": {
       "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
     },
-    "status": "incubating",
+    "status": "active",
     "nativeCurrency": {
       "name": "Pulse",
       "symbol": "PLS",
       "decimals": 18
-    }
+    },
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.pulsechain.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "otterscan",
+        "url": "https://otter.pulsechain.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Bittex Mainnet",
@@ -17126,6 +17193,7 @@
   },
   {
     "name": "Frenchain Testnet",
+    "status": "deprecated",
     "chain": "tfren",
     "rpc": [
       "https://rpc-01tn.frenchain.app"
@@ -23391,7 +23459,7 @@
     ]
   },
   {
-    "name": "MAAL Sharia Chain",
+    "name": "MAAL Chain",
     "chain": "MAAL",
     "icon": "maal",
     "rpc": [
@@ -23405,7 +23473,7 @@
       "symbol": "MAAL",
       "decimals": 18
     },
-    "infoURL": "https://www.maalblockchain.com/",
+    "infoURL": "https://www.maalchain.com/",
     "shortName": "maal",
     "chainId": 786,
     "networkId": 786,
@@ -23791,9 +23859,7 @@
     "chain": "Polygon",
     "icon": "polygon",
     "rpc": [
-      "https://matic-mumbai.chainstacklabs.com",
       "https://rpc-mumbai.maticvigil.com",
-      "https://matic-testnet-archive-rpc.bwarelabs.com",
       "https://polygon-mumbai-bor.publicnode.com",
       "https://polygon-mumbai.gateway.tenderly.co",
       "wss://polygon-mumbai.gateway.tenderly.co"
@@ -26596,6 +26662,7 @@
     "faucets": [
       "https://faucet.v3.testnet.pulsechain.com/"
     ],
+    "status": "deprecated",
     "nativeCurrency": {
       "name": "Test Pulse",
       "symbol": "tPLS",
@@ -26629,13 +26696,21 @@
     "ens": {
       "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
     },
-    "status": "incubating",
-    "explorers": [],
+    "status": "active",
+    "slip44": 60,
     "nativeCurrency": {
       "name": "Test Pulse",
       "symbol": "tPLS",
       "decimals": 18
-    }
+    },
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://scan.v4.testnet.pulsechain.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "CamDL Mainnet",
