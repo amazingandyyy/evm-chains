@@ -9,6 +9,7 @@
       "https://api.mycryptoapi.com/eth",
       "https://cloudflare-eth.com",
       "https://ethereum.publicnode.com",
+      "wss://ethereum.publicnode.com",
       "https://mainnet.gateway.tenderly.co",
       "wss://mainnet.gateway.tenderly.co"
     ],
@@ -54,6 +55,7 @@
     "rpc": [
       "https://mainnet.optimism.io",
       "https://optimism.publicnode.com",
+      "wss://optimism.publicnode.com",
       "https://optimism.gateway.tenderly.co",
       "wss://optimism.gateway.tenderly.co"
     ],
@@ -1458,9 +1460,7 @@
       "https://mainnet-rpc.thundertoken.net",
       "https://mainnet-rpc.thundercore.io"
     ],
-    "faucets": [
-      "https://faucet.thundercore.com"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "ThunderCore Token",
       "symbol": "TT",
@@ -2286,9 +2286,7 @@
       "https://mainnet-rpc.hashbit.org",
       "https://rpc.hashbit.org"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "HashBit Native Token",
       "symbol": "HBIT",
@@ -2531,7 +2529,8 @@
     "chain": "Haqq",
     "rpc": [
       "https://rpc.eth.haqq.network",
-      "https://haqq-evm.publicnode.com"
+      "https://haqq-evm.publicnode.com",
+      "wss://haqq-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -3354,9 +3353,7 @@
       "wss://rcl-dataseed3.rclsidechain.com/v1/",
       "wss://rcl-dataseed4.rclsidechain.com/v1/"
     ],
-    "faucets": [
-      "https://faucet.rclsidechain.com"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Realchain",
       "symbol": "REAL",
@@ -3970,9 +3967,7 @@
       "https://http-mainnet.hecochain.com",
       "wss://ws-mainnet.hecochain.com"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Huobi ECO Chain Native Token",
       "symbol": "HT",
@@ -4123,6 +4118,31 @@
     "shortName": "mrock",
     "chainId": 1288,
     "networkId": 1288
+  },
+  {
+    "name": "Quantum Chain Testnet",
+    "chain": "QNET",
+    "icon": "qnet",
+    "rpc": [
+      "https://testnet-rpc.quantumscan.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Quantum Chain",
+      "symbol": "QNET",
+      "decimals": 18
+    },
+    "infoURL": "https://quantumnetwork.gg",
+    "shortName": "qnet",
+    "chainId": 12890,
+    "networkId": 12890,
+    "explorers": [
+      {
+        "name": "Quantum Scan Testnet",
+        "url": "https://testnet.quantumscan.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Swisstronik Testnet",
@@ -4919,6 +4939,7 @@
       "https://rpc-mainnet.matic.quiknode.pro",
       "https://matic-mainnet-full-rpc.bwarelabs.com",
       "https://polygon-bor.publicnode.com",
+      "wss://polygon-bor.publicnode.com",
       "https://polygon.gateway.tenderly.co",
       "wss://polygon.gateway.tenderly.co"
     ],
@@ -5855,7 +5876,8 @@
     "icon": "tenet",
     "rpc": [
       "https://rpc.tenet.org",
-      "https://tenet-evm.publicnode.com"
+      "https://tenet-evm.publicnode.com",
+      "wss://tenet-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -8136,6 +8158,58 @@
     ]
   },
   {
+    "name": "SatoshIE",
+    "chain": "TUSHY",
+    "rpc": [
+      "http://rpc.satosh.ie"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tushy Token",
+      "symbol": "TUSHY",
+      "decimals": 18
+    },
+    "infoURL": "https://satosh.ie",
+    "shortName": "satoshie",
+    "chainId": 1985,
+    "networkId": 1985,
+    "icon": "satoshie",
+    "explorers": [
+      {
+        "name": "mainnetexplorer",
+        "url": "http://explore.satosh.ie",
+        "icon": "satoshie",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "SatoshIE Testnet",
+    "chain": "TUSHY",
+    "rpc": [
+      "http://testnet.satosh.ie"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Tushy Token",
+      "symbol": "TUSHY",
+      "decimals": 18
+    },
+    "infoURL": "https://satosh.ie",
+    "shortName": "satoshie_testnet",
+    "chainId": 1986,
+    "networkId": 1986,
+    "icon": "satoshie",
+    "explorers": [
+      {
+        "name": "testnetexplorer",
+        "url": "http://explore-testnet.satosh.ie",
+        "icon": "satoshie",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "EtherGem",
     "chain": "EGEM",
     "rpc": [
@@ -8255,9 +8329,7 @@
     "rpc": [
       "https://api.elastos.io/eth"
     ],
-    "faucets": [
-      "https://faucet.elastos.org/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Elastos",
       "symbol": "ELA",
@@ -8714,7 +8786,10 @@
     "chain": "QKI",
     "rpc": [
       "https://hz.rpc.qkiscan.cn",
-      "https://jp.rpc.qkiscan.io"
+      "https://jp.rpc.qkiscan.io",
+      "https://rpc1.qkiscan.io",
+      "https://rpc2.qkiscan.io",
+      "https://rpc3.qkiscan.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -8725,7 +8800,14 @@
     "infoURL": "https://quarkblockchain.org/",
     "shortName": "qki",
     "chainId": 20181205,
-    "networkId": 20181205
+    "networkId": 20181205,
+    "explorers": [
+      {
+        "name": "qkiscan",
+        "url": "https://qkiscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "PublicMint Testnet",
@@ -9166,9 +9248,7 @@
     "rpc": [
       "https://opbnb-mainnet-rpc.bnbchain.org"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "BNB Chain Native Token",
       "symbol": "BNB",
@@ -10410,7 +10490,8 @@
       "https://kava-evm.rpc.thirdweb.com",
       "wss://wevm.kava.io",
       "wss://wevm2.kava.io",
-      "https://kava-evm.publicnode.com"
+      "https://kava-evm.publicnode.com",
+      "wss://kava-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -11259,10 +11340,7 @@
       "https://rpc.energyweb.org",
       "wss://rpc.energyweb.org/ws"
     ],
-    "faucets": [
-      "https://faucet.carbonswap.exchange",
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Energy Web Token",
       "symbol": "EWT",
@@ -11416,7 +11494,8 @@
     "chain": "CRO",
     "rpc": [
       "https://evm.cronos.org",
-      "https://cronos-evm.publicnode.com"
+      "https://cronos-evm.publicnode.com",
+      "wss://cronos-evm.publicnode.com"
     ],
     "features": [
       {
@@ -11446,11 +11525,10 @@
     "chain": "FTM",
     "rpc": [
       "https://rpc.ftm.tools",
-      "https://fantom.publicnode.com"
+      "https://fantom.publicnode.com",
+      "wss://fantom.publicnode.com"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Fantom",
       "symbol": "FTM",
@@ -12764,9 +12842,7 @@
       "https://public-node.rsk.co",
       "https://mycrypto.rsk.co"
     ],
-    "faucets": [
-      "https://faucet.rsk.co/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Smart Bitcoin",
       "symbol": "RBTC",
@@ -13500,10 +13576,7 @@
       "https://kcc.mytokenpocket.vip",
       "https://public-rpc.blockpi.io/http/kcc"
     ],
-    "faucets": [
-      "https://faucet.kcc.io/",
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "KuCoin Token",
       "symbol": "KCS",
@@ -14792,7 +14865,8 @@
     "rpc": [
       "https://rpc.pulsechain.com",
       "wss://rpc.pulsechain.com",
-      "https://pulsechain.publicnode.com"
+      "https://pulsechain.publicnode.com",
+      "wss://pulsechain.publicnode.com"
     ],
     "slip44": 60,
     "features": [
@@ -15678,7 +15752,8 @@
     "chain": "FTM",
     "rpc": [
       "https://rpc.testnet.fantom.network",
-      "https://fantom-testnet.publicnode.com"
+      "https://fantom-testnet.publicnode.com",
+      "wss://fantom-testnet.publicnode.com"
     ],
     "faucets": [
       "https://faucet.fantom.network"
@@ -16189,6 +16264,7 @@
     "rpc": [
       "https://goerli.optimism.io",
       "https://optimism-goerli.publicnode.com",
+      "wss://optimism-goerli.publicnode.com",
       "https://optimism-goerli.gateway.tenderly.co",
       "wss://optimism-goerli.gateway.tenderly.co"
     ],
@@ -16363,7 +16439,8 @@
       "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
       "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
       "https://arb1.arbitrum.io/rpc",
-      "https://arbitrum-one.publicnode.com"
+      "https://arbitrum-one.publicnode.com",
+      "wss://arbitrum-one.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -16444,7 +16521,8 @@
     },
     "rpc": [
       "https://goerli-rollup.arbitrum.io/rpc",
-      "https://arbitrum-goerli.publicnode.com"
+      "https://arbitrum-goerli.publicnode.com",
+      "wss://arbitrum-goerli.publicnode.com"
     ],
     "faucets": [],
     "infoURL": "https://arbitrum.io/",
@@ -16539,7 +16617,8 @@
     },
     "rpc": [
       "https://nova.arbitrum.io/rpc",
-      "https://arbitrum-nova.publicnode.com"
+      "https://arbitrum-nova.publicnode.com",
+      "wss://arbitrum-nova.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -16576,9 +16655,7 @@
       "https://forno.celo.org",
       "wss://forno.celo.org/ws"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "infoURL": "https://docs.celo.org/",
     "explorers": [
       {
@@ -16886,7 +16963,8 @@
     "icon": "avax",
     "rpc": [
       "https://api.avax-test.network/ext/bc/C/rpc",
-      "https://avalanche-fuji-c-chain.publicnode.com"
+      "https://avalanche-fuji-c-chain.publicnode.com",
+      "wss://avalanche-fuji-c-chain.publicnode.com"
     ],
     "faucets": [
       "https://faucet.avax-test.network/"
@@ -16914,16 +16992,15 @@
     "icon": "avax",
     "rpc": [
       "https://api.avax.network/ext/bc/C/rpc",
-      "https://avalanche-c-chain.publicnode.com"
+      "https://avalanche-c-chain.publicnode.com",
+      "wss://avalanche-c-chain.publicnode.com"
     ],
     "features": [
       {
         "name": "EIP1559"
       }
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Avalanche",
       "symbol": "AVAX",
@@ -17984,6 +18061,7 @@
       "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
       "https://rpc.goerli.mudit.blog/",
       "https://ethereum-goerli.publicnode.com",
+      "wss://ethereum-goerli.publicnode.com",
       "https://goerli.gateway.tenderly.co",
       "wss://goerli.gateway.tenderly.co"
     ],
@@ -18084,7 +18162,8 @@
     "icon": "mantle",
     "rpc": [
       "https://rpc.mantle.xyz",
-      "https://mantle.publicnode.com"
+      "https://mantle.publicnode.com",
+      "wss://mantle.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -18980,9 +19059,7 @@
     "rpc": [
       "https://mainnet-rpc.bescscan.io"
     ],
-    "faucets": [
-      "faucet.bescscan.ion"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "BeanEco SmartChain",
       "symbol": "BESC",
@@ -19488,11 +19565,10 @@
       "https://bsc-dataseed3.ninicoin.io",
       "https://bsc-dataseed4.ninicoin.io",
       "https://bsc.publicnode.com",
+      "wss://bsc.publicnode.com",
       "wss://bsc-ws-node.nariox.org"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "BNB Chain Native Token",
       "symbol": "BNB",
@@ -19678,7 +19754,8 @@
       "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
       "https://syscoin.public-rpc.com",
       "wss://rpc.syscoin.org/wss",
-      "https://syscoin-evm.publicnode.com"
+      "https://syscoin-evm.publicnode.com",
+      "wss://syscoin-evm.publicnode.com"
     ],
     "faucets": [
       "https://faucet.syscoin.org"
@@ -19735,7 +19812,8 @@
     "rpc": [
       "https://rpc.tanenbaum.io",
       "wss://rpc.tanenbaum.io/wss",
-      "https://syscoin-tanenbaum-evm.publicnode.com"
+      "https://syscoin-tanenbaum-evm.publicnode.com",
+      "wss://syscoin-tanenbaum-evm.publicnode.com"
     ],
     "faucets": [
       "https://faucet.tanenbaum.io"
@@ -20316,9 +20394,7 @@
     "rpc": [
       "https://rpc.gochain.io"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "GoChain Ether",
       "symbol": "GO",
@@ -21332,9 +21408,7 @@
       "https://exchainrpc.okex.org",
       "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"
     ],
-    "faucets": [
-      "https://free-online-app.com/faucet-for-eth-evm-chains/?"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "OKXChain Global Utility Token",
       "symbol": "OKT",
@@ -21498,7 +21572,8 @@
     "chain": "IRIShub",
     "rpc": [
       "https://evmrpc.irishub-1.irisnet.org",
-      "https://iris-evm.publicnode.com"
+      "https://iris-evm.publicnode.com",
+      "wss://iris-evm.publicnode.com"
     ],
     "features": [
       {
@@ -23033,9 +23108,7 @@
       "wss://sokol.poa.network/wss",
       "ws://sokol.poa.network:8546"
     ],
-    "faucets": [
-      "https://faucet.poa.network"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "POA Sokol Ether",
       "symbol": "SPOA",
@@ -23861,6 +23934,7 @@
     "rpc": [
       "https://rpc-mumbai.maticvigil.com",
       "https://polygon-mumbai-bor.publicnode.com",
+      "wss://polygon-mumbai-bor.publicnode.com",
       "https://polygon-mumbai.gateway.tenderly.co",
       "wss://polygon-mumbai.gateway.tenderly.co"
     ],
@@ -24799,7 +24873,8 @@
       "https://developer-access-mainnet.base.org/",
       "https://base.gateway.tenderly.co",
       "wss://base.gateway.tenderly.co",
-      "https://base.publicnode.com"
+      "https://base.publicnode.com",
+      "wss://base.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -24834,7 +24909,8 @@
       "https://goerli.base.org",
       "https://base-goerli.gateway.tenderly.co",
       "wss://base-goerli.gateway.tenderly.co",
-      "https://base-goerli.publicnode.com"
+      "https://base-goerli.publicnode.com",
+      "wss://base-goerli.publicnode.com"
     ],
     "faucets": [
       "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"
@@ -25940,9 +26016,7 @@
       "https://api.posichain.org",
       "https://api.s0.posichain.org"
     ],
-    "faucets": [
-      "https://faucet.posichain.org/"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Posichain Native Token",
       "symbol": "POSI",
@@ -25964,7 +26038,8 @@
     "name": "Evmos",
     "chain": "Evmos",
     "rpc": [
-      "https://evmos-evm.publicnode.com"
+      "https://evmos-evm.publicnode.com",
+      "wss://evmos-evm.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -26680,7 +26755,8 @@
     "rpc": [
       "https://rpc.v4.testnet.pulsechain.com/",
       "wss://rpc.v4.testnet.pulsechain.com/",
-      "https://pulsechain-testnet.publicnode.com"
+      "https://pulsechain-testnet.publicnode.com",
+      "wss://pulsechain-testnet.publicnode.com"
     ],
     "features": [
       {
@@ -26951,7 +27027,8 @@
       "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
       "https://data-seed-prebsc-1-s3.bnbchain.org:8545",
       "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
-      "https://bsc-testnet.publicnode.com"
+      "https://bsc-testnet.publicnode.com",
+      "wss://bsc-testnet.publicnode.com"
     ],
     "faucets": [
       "https://testnet.bnbchain.org/faucet-smart"
