@@ -6760,6 +6760,39 @@
     ]
   },
   {
+    "name": "Manta Pacific Mainnet",
+    "chain": "Manta Pacific",
+    "rpc": [
+      "https://pacific-rpc.manta.network/http"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://pacific-info.manta.network",
+    "shortName": "manta",
+    "chainId": 169,
+    "networkId": 169,
+    "icon": "manta",
+    "explorers": [
+      {
+        "name": "manta-pacific Explorer",
+        "url": "https://pacific-explorer.manta.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ThaiChain 2.0 ThaiFi",
     "chain": "TCH",
     "rpc": [
@@ -14379,7 +14412,7 @@
       }
     ],
     "infoURL": "https://manta-testnet.caldera.dev/",
-    "shortName": "manta",
+    "shortName": "mantaTestnet",
     "chainId": 3441005,
     "networkId": 3441005,
     "icon": "manta",
@@ -17334,31 +17367,41 @@
     }
   },
   {
-    "name": "Frenchain Testnet",
-    "status": "deprecated",
-    "chain": "tfren",
+    "name": "Synapse Chain Testnet",
+    "status": "active",
+    "chain": "ETH",
     "rpc": [
-      "https://rpc-01tn.frenchain.app"
+      "https://sepolia.synapseprotocol.com"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "tFREN",
-      "symbol": "FtREN",
+      "name": "Sepolia ETH",
+      "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://frenchain.app",
-    "shortName": "tFREN",
+    "infoURL": "https://synapseprotocol.com",
+    "shortName": "synapse-sepolia",
     "chainId": 444,
     "networkId": 444,
-    "icon": "fren",
+    "redFlags": [
+      "reusedChainId"
+    ],
     "explorers": [
       {
-        "name": "blockscout",
-        "url": "https://testnet.frenscan.io",
-        "icon": "fren",
+        "name": "Synapse Chain Sepolia",
+        "url": "https://sepolia.synapsescan.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://docs.synapseprotocol.com/synapse-chain/using-synapse-chain/bridging-to-synapse-chain"
+        }
+      ]
+    }
   },
   {
     "name": "Htmlcoin Mainnet",
@@ -27661,7 +27704,7 @@
       "symbol": "tMIND",
       "decimals": 18
     },
-    "infoURL": "https://mindscan.info",
+    "infoURL": "https://mindchain.info",
     "shortName": "tMIND",
     "chainId": 9977,
     "networkId": 9977,
@@ -27737,7 +27780,7 @@
       "symbol": "MIND",
       "decimals": 18
     },
-    "infoURL": "https://mindscan.info",
+    "infoURL": "https://mindchain.info",
     "shortName": "MIND",
     "chainId": 9996,
     "networkId": 9996,
