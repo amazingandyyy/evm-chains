@@ -10714,8 +10714,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "MAP",
-      "symbol": "MAP",
+      "name": "MAPO",
+      "symbol": "MAPO",
       "decimals": 18
     },
     "infoURL": "https://maplabs.io",
@@ -26699,6 +26699,31 @@
     ]
   },
   {
+    "name": "Yidark Chain Mainnet",
+    "chain": "Yidark",
+    "icon": "ydk",
+    "rpc": [
+      "https://rpc.yidark.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Yidark",
+      "symbol": "YDK",
+      "decimals": 18
+    },
+    "infoURL": "https://yidarkscan.com",
+    "shortName": "ydk",
+    "chainId": 927,
+    "networkId": 927,
+    "explorers": [
+      {
+        "name": "Yidarkscan",
+        "url": "https://yidarkscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Garizon Stage3",
     "chain": "GAR",
     "icon": "garizon",
@@ -27764,6 +27789,31 @@
     "shortName": "twan",
     "chainId": 999,
     "networkId": 999
+  },
+  {
+    "name": "Agung Network",
+    "chain": "Agung",
+    "icon": "agung",
+    "rpc": [
+      "https://rpcpc1-qa.agung.peaq.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Agung",
+      "symbol": "AGNG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.peaq.network",
+    "shortName": "AGNG",
+    "chainId": 9990,
+    "networkId": 9990,
+    "explorers": [
+      {
+        "name": "Polkadot.js",
+        "url": "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Mind Smart Chain Mainnet",
