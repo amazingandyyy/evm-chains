@@ -9491,9 +9491,11 @@
     ]
   },
   {
-    "name": "Stratos Mainnet",
+    "name": "Stratos",
     "chain": "STOS",
-    "rpc": [],
+    "rpc": [
+      "https://web3-rpc.thestratos.org"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "STOS",
@@ -9504,7 +9506,18 @@
     "shortName": "stos-mainnet",
     "chainId": 2048,
     "networkId": 2048,
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "Stratos EVM Explorer (Blockscout)",
+        "url": "https://web3-explorer.thestratos.org",
+        "standard": "none"
+      },
+      {
+        "name": "Stratos Cosmos Explorer (BigDipper)",
+        "url": "https://explorer.thestratos.org",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Callisto Testnet",
@@ -10447,7 +10460,7 @@
     "name": "Reapchain Mainnet",
     "chain": "REAP",
     "rpc": [
-      "https://rpc.reapchain.org"
+      "https://eth.reapchain.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -12987,27 +13000,34 @@
     ]
   },
   {
-    "name": "RSK Mainnet",
-    "chain": "RSK",
+    "name": "Rootstock Mainnet",
+    "chain": "Rootstock",
     "rpc": [
       "https://public-node.rsk.co",
       "https://mycrypto.rsk.co"
     ],
     "faucets": [],
+    "icon": "rootstock",
     "nativeCurrency": {
       "name": "Smart Bitcoin",
       "symbol": "RBTC",
       "decimals": 18
     },
-    "infoURL": "https://rsk.co",
+    "infoURL": "https://rootstock.io",
     "shortName": "rsk",
     "chainId": 30,
     "networkId": 30,
     "slip44": 137,
     "explorers": [
       {
-        "name": "RSK Explorer",
+        "name": "Rootstock Explorer",
         "url": "https://explorer.rsk.co",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "blockscout",
+        "url": "https://rootstock.blockscout.com",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -13326,8 +13346,8 @@
     ]
   },
   {
-    "name": "RSK Testnet",
-    "chain": "RSK",
+    "name": "Rootstock Testnet",
+    "chain": "Rootstock",
     "rpc": [
       "https://public-node.testnet.rsk.co",
       "https://mycrypto.testnet.rsk.co"
@@ -13335,12 +13355,13 @@
     "faucets": [
       "https://faucet.rsk.co/"
     ],
+    "icon": "rootstock",
     "nativeCurrency": {
       "name": "Testnet Smart Bitcoin",
       "symbol": "tRBTC",
       "decimals": 18
     },
-    "infoURL": "https://rsk.co",
+    "infoURL": "https://rootstock.io",
     "shortName": "trsk",
     "chainId": 31,
     "networkId": 31,
@@ -14252,26 +14273,52 @@
   },
   {
     "name": "Oone Chain Testnet",
-    "chain": "OONE",
+    "chain": "OONE Testnet",
     "rpc": [
-      "https://blockchain-test.adigium.world"
+      "https://rpc.testnet.oonechain.com"
     ],
     "faucets": [
       "https://apps-test.adigium.com/faucet"
     ],
     "nativeCurrency": {
-      "name": "Oone",
+      "name": "tOONE",
       "symbol": "tOONE",
       "decimals": 18
     },
-    "infoURL": "https://oone.world",
+    "infoURL": "https://oonechain.com",
     "shortName": "oonetest",
+    "chainId": 333666,
+    "networkId": 333666,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.oonescan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Oone Chain Devnet",
+    "chain": "OONE Devnet",
+    "rpc": [
+      "https://rpc.dev.oonechain.com"
+    ],
+    "faucets": [
+      "https://apps-test.adigium.com/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "tOONE",
+      "symbol": "tOONE",
+      "decimals": 18
+    },
+    "infoURL": "https://oonechain.com",
+    "shortName": "oonedev",
     "chainId": 333777,
     "networkId": 333777,
     "explorers": [
       {
-        "name": "expedition",
-        "url": "https://explorer-test.adigium.world",
+        "name": "blockscout",
+        "url": "https://dev.oonescan.com",
         "standard": "none"
       }
     ]
@@ -15439,6 +15486,31 @@
         "name": "zeniq-smart-chain-explorer",
         "url": "https://smart.zeniq.net",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ConnectorManager",
+    "chain": "Rangers",
+    "icon": "rangers",
+    "rpc": [
+      "https://cm.rangersprotocol.com/api/jsonrpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Rangers Protocol Gas",
+      "symbol": "cmRPG",
+      "decimals": 18
+    },
+    "infoURL": "https://rangersprotocol.com",
+    "shortName": "cmrpg",
+    "chainId": 38400,
+    "networkId": 38400,
+    "explorers": [
+      {
+        "name": "rangersscan",
+        "url": "https://scan.rangersprotocol.com",
+        "standard": "none"
       }
     ]
   },
@@ -18970,7 +19042,14 @@
     "shortName": "hmnd",
     "chainId": 5234,
     "networkId": 5234,
-    "explorers": []
+    "explorers": [
+      {
+        "name": "Subscan",
+        "url": "https://humanode.subscan.io",
+        "standard": "EIP3091",
+        "icon": "subscan"
+      }
+    ]
   },
   {
     "name": "Firechain Mainnet",
@@ -19109,7 +19188,10 @@
     "chain": "ETH",
     "status": "active",
     "rpc": [
-      "https://sepolia-rpc.scroll.io/"
+      "https://sepolia-rpc.scroll.io",
+      "https://rpc.ankr.com/scroll_sepolia_testnet",
+      "https://scroll-sepolia.chainstacklabs.com",
+      "https://scroll-testnet-public.unifra.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -19123,7 +19205,12 @@
     "networkId": 534351,
     "explorers": [
       {
-        "name": "Scroll Sepolia Testnet Block Explorer",
+        "name": "Scroll Sepolia Etherscan",
+        "url": "https://sepolia.scrollscan.dev",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Scroll Sepolia Blockscout",
         "url": "https://sepolia-blockscout.scroll.io",
         "standard": "EIP3091"
       }
