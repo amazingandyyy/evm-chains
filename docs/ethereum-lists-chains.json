@@ -3942,6 +3942,54 @@
     ]
   },
   {
+    "name": "Astar zkEVM",
+    "shortName": "astrzk",
+    "title": "Astar zkEVM Mainnet",
+    "chain": "ETH",
+    "icon": "astarzk",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://astar.network",
+    "chainId": 12611,
+    "networkId": 12611,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    },
+    "status": "incubating"
+  },
+  {
+    "name": "zKatana",
+    "shortName": "azktn",
+    "title": "Astar zkEVM Testnet zKatana",
+    "chain": "ETH",
+    "icon": "astarzk",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://astar.network",
+    "chainId": 1261120,
+    "networkId": 1261120,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": []
+    },
+    "status": "incubating"
+  },
+  {
     "name": "Factory 127 Mainnet",
     "chain": "FETH",
     "rpc": [],
@@ -15097,7 +15145,9 @@
       "https://rpc.pulsechain.com",
       "wss://rpc.pulsechain.com",
       "https://pulsechain.publicnode.com",
-      "wss://pulsechain.publicnode.com"
+      "wss://pulsechain.publicnode.com",
+      "https://rpc-pulsechain.g4mm4.io",
+      "wss://rpc-pulsechain.g4mm4.io"
     ],
     "slip44": 60,
     "features": [
@@ -27138,10 +27188,12 @@
     "icon": "pulsechain",
     "infoURL": "https://pulsechain.com",
     "rpc": [
-      "https://rpc.v4.testnet.pulsechain.com/",
-      "wss://rpc.v4.testnet.pulsechain.com/",
+      "https://rpc.v4.testnet.pulsechain.com",
+      "wss://rpc.v4.testnet.pulsechain.com",
       "https://pulsechain-testnet.publicnode.com",
-      "wss://pulsechain-testnet.publicnode.com"
+      "wss://pulsechain-testnet.publicnode.com",
+      "https://rpc-testnet-pulsechain.g4mm4.io",
+      "wss://rpc-testnet-pulsechain.g4mm4.io"
     ],
     "features": [
       {
@@ -27169,6 +27221,11 @@
         "name": "blockscout",
         "url": "https://scan.v4.testnet.pulsechain.com",
         "icon": "blockscout",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "blockscout",
+        "url": "https://otter-testnet-pulsechain.g4mm4.io",
         "standard": "EIP3091"
       }
     ]
