@@ -9554,7 +9554,7 @@
     "explorers": [
       {
         "name": "opbnbscan",
-        "url": "http://mainnet.opbnbscan.com",
+        "url": "https://mainnet.opbnbscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -10216,6 +10216,31 @@
         "name": "Quorum Explorer",
         "url": "https://public-2138.defi-oracle.io",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Shinarium Mainnet",
+    "chain": "Shinarium",
+    "icon": "shinarium",
+    "rpc": [
+      "https://mainnet.shinarium.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shina Inu",
+      "symbol": "SHI",
+      "decimals": 18
+    },
+    "infoURL": "https://shinarium.org",
+    "shortName": "shinarium",
+    "chainId": 214,
+    "networkId": 214,
+    "explorers": [
+      {
+        "name": "shinascan",
+        "url": "https://shinascan.shinarium.org",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -20289,7 +20314,7 @@
       },
       {
         "name": "opbnbscan",
-        "url": "http://opbnbscan.com",
+        "url": "https://opbnbscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -25752,6 +25777,32 @@
       {
         "name": "basescout",
         "url": "https://base-goerli.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Base Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://sepolia.base.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://base.org",
+    "shortName": "basesep",
+    "chainId": 84532,
+    "networkId": 84532,
+    "icon": "baseTestnet",
+    "explorers": [
+      {
+        "name": "basescout",
+        "url": "https://base-sepolia.blockscout.com",
         "icon": "blockscout",
         "standard": "EIP3091"
       }
