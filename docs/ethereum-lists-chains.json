@@ -19722,7 +19722,8 @@
     "chain": "ETH",
     "status": "incubating",
     "rpc": [
-      "https://rpc.scroll.io"
+      "https://rpc.scroll.io",
+      "https://rpc-scroll.icecreamswap.com"
     ],
     "faucets": [],
     "nativeCurrency": {
