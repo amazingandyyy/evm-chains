@@ -9583,9 +9583,14 @@
   },
   {
     "name": "opBNB Mainnet",
+    "icon": "bnbchain",
     "chain": "opBNB",
     "rpc": [
       "https://opbnb-mainnet-rpc.bnbchain.org",
+      "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+      "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
       "https://opbnb.publicnode.com",
       "wss://opbnb.publicnode.com"
     ],
@@ -13596,7 +13601,7 @@
   },
   {
     "name": "Bifrost Mainnet",
-    "title": "The Bifrost Mainnet network",
+    "title": "Bifrost Network Mainnet",
     "chain": "BFC",
     "rpc": [
       "https://public-01.mainnet.thebifrost.io/rpc",
@@ -20402,8 +20407,13 @@
   {
     "name": "opBNB Testnet",
     "chain": "opBNB",
+    "icon": "bnbchain",
     "rpc": [
-      "https://opbnb-testnet-rpc.bnbchain.org"
+      "https://opbnb-testnet-rpc.bnbchain.org",
+      "https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+      "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
     ],
     "faucets": [
       "https://testnet.bnbchain.org/faucet-smart"
@@ -22942,7 +22952,7 @@
     ],
     "nativeCurrency": {
       "name": "Zeta",
-      "symbol": "aZETA",
+      "symbol": "ZETA",
       "decimals": 18
     },
     "infoURL": "https://zetachain.com/docs",
@@ -27069,6 +27079,7 @@
     "name": "Evmos Testnet",
     "chain": "Evmos",
     "rpc": [
+      "https://evmos-testnet.lava.build",
       "https://eth.bd.evmos.dev:8545"
     ],
     "faucets": [
@@ -27122,6 +27133,8 @@
     "name": "Evmos",
     "chain": "Evmos",
     "rpc": [
+      "https://evmos.lava.build",
+      "wss://evmos.lava.build/websocket",
       "https://evmos-evm.publicnode.com",
       "wss://evmos-evm.publicnode.com"
     ],
