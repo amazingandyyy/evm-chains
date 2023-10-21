@@ -12,7 +12,9 @@
       "wss://ethereum.publicnode.com",
       "https://mainnet.gateway.tenderly.co",
       "wss://mainnet.gateway.tenderly.co",
-      "https://rpc.blocknative.com/boost"
+      "https://rpc.blocknative.com/boost",
+      "https://rpc.flashbots.net",
+      "https://rpc.flashbots.net/fast"
     ],
     "features": [
       {
@@ -7767,6 +7769,30 @@
     ]
   },
   {
+    "name": "Bitica Chain Mainnet",
+    "chain": "BDCC",
+    "rpc": [
+      "https://mainnet-rpc.biticablockchain.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitica Coin",
+      "symbol": "BDCC",
+      "decimals": 18
+    },
+    "infoURL": "https://biticablockchain.com/",
+    "shortName": "bdcc",
+    "chainId": 188710,
+    "networkId": 188710,
+    "explorers": [
+      {
+        "name": "Bitica DPOS Blockchain Explorer",
+        "url": "https://biticablockchain.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Condor Test Network",
     "chain": "CONDOR",
     "icon": "condor",
@@ -9769,6 +9795,32 @@
         "name": "movoscan",
         "url": "https://movoscan.com",
         "icon": "movoscan",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "VinuChain Network",
+    "chain": "VinuChain",
+    "icon": "vitainu",
+    "rpc": [
+      "https://vinuchain-rpc.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VinuChain",
+      "symbol": "VС",
+      "decimals": 18
+    },
+    "infoURL": "https://vitainu.org",
+    "shortName": "VC",
+    "chainId": 207,
+    "networkId": 207,
+    "explorers": [
+      {
+        "name": "VinuScan",
+        "url": "https://vinuscan.com",
+        "icon": "vinuscan",
         "standard": "none"
       }
     ]
@@ -14884,24 +14936,34 @@
     ]
   },
   {
-    "name": "Dithereum Testnet",
-    "chain": "DTH",
-    "icon": "dithereum",
+    "name": "SecureChain Mainnet",
+    "chain": "SCAI",
+    "icon": "SCAIIcon",
     "rpc": [
-      "https://node-testnet.dithereum.io"
+      "https://mainnet-rpc.scai.network"
     ],
     "faucets": [
-      "https://faucet.dithereum.org"
+      "https://faucet.securechain.ai"
     ],
     "nativeCurrency": {
-      "name": "Dither",
-      "symbol": "DTH",
+      "name": "SecureChain",
+      "symbol": "SCAI",
       "decimals": 18
     },
-    "infoURL": "https://dithereum.org",
-    "shortName": "dth",
+    "infoURL": "https://securechain.ai",
+    "shortName": "scai",
     "chainId": 34,
-    "networkId": 34
+    "networkId": 34,
+    "redFlags": [
+      "reusedChainId"
+    ],
+    "explorers": [
+      {
+        "name": "SecureChain Mainnet",
+        "url": "https://explorer.securechain.ai",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Paribu Net Mainnet",
@@ -18668,7 +18730,7 @@
   },
   {
     "name": "Bifrost Testnet",
-    "title": "The Bifrost Testnet network",
+    "title": "Bifrost Network Testnet",
     "chain": "BFC",
     "rpc": [
       "https://public-01.testnet.thebifrost.io/rpc",
