@@ -12403,6 +12403,23 @@
     ]
   },
   {
+    "name": "DPU Chain",
+    "chain": "DPU",
+    "rpc": [
+      "https://sc-rpc.dpu.ac.th"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DGS",
+      "symbol": "DGS",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "DPU",
+    "chainId": 2611555,
+    "networkId": 2611555
+  },
+  {
     "name": "EZChain C-Chain Mainnet",
     "chain": "EZC",
     "rpc": [
@@ -14963,7 +14980,7 @@
   {
     "name": "SecureChain Mainnet",
     "chain": "SCAI",
-    "icon": "SCAIIcon",
+    "icon": "scaiIcon",
     "rpc": [
       "https://mainnet-rpc.scai.network"
     ],
@@ -19855,13 +19872,13 @@
     "networkId": 534352,
     "explorers": [
       {
-        "name": "Blockscout",
-        "url": "https://blockscout.scroll.io",
+        "name": "Scrollscan",
+        "url": "https://scrollscan.com",
         "standard": "EIP3091"
       },
       {
-        "name": "Scrollscan",
-        "url": "https://scrollscan.com",
+        "name": "Blockscout",
+        "url": "https://blockscout.scroll.io",
         "standard": "EIP3091"
       }
     ],
@@ -25711,6 +25728,32 @@
     ]
   },
   {
+    "name": "Torus Testnet",
+    "chain": "TQF",
+    "icon": "torus",
+    "rpc": [
+      "https://rpc.testnet.toruschain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tTQF",
+      "symbol": "TTQF",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.toruschain.com",
+    "shortName": "ttqf",
+    "chainId": 8194,
+    "networkId": 8194,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.torusscan.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Meter Mainnet",
     "chain": "METER",
     "rpc": [
@@ -29073,5 +29116,30 @@
     "shortName": "usc",
     "chainId": 99999,
     "networkId": 99999
+  },
+  {
+    "name": "Zora Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://sepolia.rpc.zora.energy"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "icon": "zoraSepoliaTestnet",
+    "infoURL": "https://zora.energy",
+    "shortName": "zsep",
+    "chainId": 999999999,
+    "networkId": 999999999,
+    "explorers": [
+      {
+        "name": "Zora Sepolia Testnet Network Explorer",
+        "url": "https://sepolia.explorer.zora.energy",
+        "standard": "EIP3091"
+      }
+    ]
   }
 ]
