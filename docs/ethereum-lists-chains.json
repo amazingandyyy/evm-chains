@@ -15497,27 +15497,27 @@
   },
   {
     "name": "Botanix Testnet",
-    "chain": "BTC",
+    "chain": "BOTANIX",
     "icon": "botanix",
     "rpc": [
-      "https://testnet-rpc.btxtestchain.com"
+      "https://node.botanixlabs.dev"
     ],
     "faucets": [
-      "https://faucet.btxtestchain.com"
+      "https://faucet.botanixlabs.dev"
     ],
     "nativeCurrency": {
       "name": "Botanix",
       "symbol": "BTC",
       "decimals": 18
     },
-    "infoURL": "https://btxtestchain.com",
-    "shortName": "BTCt",
+    "infoURL": "https://botanixlabs.xyz",
+    "shortName": "BTNX",
     "chainId": 3636,
     "networkId": 3636,
     "explorers": [
       {
-        "name": "Botanix",
-        "url": "https://testnet.btxtestchain.com",
+        "name": "3xpl",
+        "url": "https://3xpl.com/botanix",
         "standard": "EIP3091"
       }
     ]
@@ -22780,6 +22780,33 @@
       "type": "L2",
       "chain": "eip155-248"
     }
+  },
+  {
+    "name": "Frame Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.testnet.frame.xyz/http"
+    ],
+    "faucets": [
+      "https://faucet.triangleplatform.com/frame/testnet"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "icon": "frameTestnet",
+    "infoURL": "https://www.frame.xyz/",
+    "shortName": "frametest",
+    "chainId": 68840142,
+    "networkId": 68840142,
+    "explorers": [
+      {
+        "name": "Frame Testnet Explorer",
+        "url": "https://explorer.testnet.frame.xyz",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Optimism Kovan",
