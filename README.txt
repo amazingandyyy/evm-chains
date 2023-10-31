@@ -382,6 +382,7 @@
 │       ├── eip155-2047.json
 │       ├── eip155-2048.json
 │       ├── eip155-2049.json
+│       ├── eip155-206.json
 │       ├── eip155-207.json
 │       ├── eip155-20729.json
 │       ├── eip155-20736.json
@@ -1176,6 +1177,7 @@
     │   ├── gbnb
     │   ├── gochain
     │   ├── goerlitestnet
+    │   ├── greenfield
     │   ├── groestlcoin
     │   ├── harmony
     │   ├── heco
@@ -1200,6 +1202,7 @@
     │   ├── litecoin
     │   ├── logo.png
     │   ├── loom
+    │   ├── mantle
     │   ├── mars
     │   ├── meter
     │   ├── metis
@@ -1630,4 +1633,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-170 directories, 1460 files
+172 directories, 1461 files
