@@ -6596,6 +6596,7 @@
     "shortName": "hmy-s2",
     "chainId": 1666600002,
     "networkId": 1666600002,
+    "status": "deprecated",
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -6621,6 +6622,7 @@
     "shortName": "hmy-s3",
     "chainId": 1666600003,
     "networkId": 1666600003,
+    "status": "deprecated",
     "explorers": [
       {
         "name": "Harmony Block Explorer",
@@ -11013,11 +11015,9 @@
     "chain": "KAVA",
     "rpc": [
       "https://evm.kava.io",
-      "https://evm2.kava.io",
       "https://kava-rpc.gateway.pokt.network",
       "https://kava-evm.rpc.thirdweb.com",
       "wss://wevm.kava.io",
-      "wss://wevm2.kava.io",
       "https://kava-evm.publicnode.com",
       "wss://kava-evm.publicnode.com"
     ],
@@ -19326,6 +19326,32 @@
       "type": "L2",
       "chain": "eip155-3"
     }
+  },
+  {
+    "name": "Mantle Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.sepolia.mantle.xyz"
+    ],
+    "faucets": [
+      "https://faucet.sepolia.mantle.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Mantle",
+      "symbol": "MNT",
+      "decimals": 18
+    },
+    "infoURL": "https://mantle.xyz",
+    "shortName": "mnt-sep",
+    "chainId": 5003,
+    "networkId": 5003,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.sepolia.mantle.xyz",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Treasurenet Testnet",
