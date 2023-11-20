@@ -19776,7 +19776,9 @@
       "https://rpc1.bahamut.io",
       "https://rpc2.bahamut.io",
       "wss://ws1.sahara.bahamutchain.com",
-      "wss://ws2.sahara.bahamutchain.com"
+      "wss://ws2.sahara.bahamutchain.com",
+      "https://bahamut.publicnode.com",
+      "wss://bahamut.publicnode.com"
     ],
     "features": [
       {
@@ -29530,6 +29532,8 @@
     "rpc": [
       "https://rpc-msc.mindchain.info/",
       "https://seednode.mindchain.info",
+      "https://archive.mindchain.info/",
+      "wss://archive.mindchain.info/ws",
       "wss://seednode.mindchain.info/ws"
     ],
     "faucets": [],
