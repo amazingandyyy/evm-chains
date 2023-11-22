@@ -1201,7 +1201,6 @@
     │   ├── hedera
     │   ├── hoo
     │   ├── icon
-    │   ├── info.json
     │   ├── internet_computer
     │   ├── iost
     │   ├── iotex
@@ -1218,7 +1217,6 @@
     │   ├── kusama
     │   ├── linea
     │   ├── litecoin
-    │   ├── logo.png
     │   ├── loom
     │   ├── mantle
     │   ├── mars
@@ -1655,4 +1653,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-174 directories, 1481 files
+174 directories, 1479 files
