@@ -992,6 +992,7 @@
 │       ├── eip155-81720.json
 │       ├── eip155-818.json
 │       ├── eip155-8181.json
+│       ├── eip155-8192.json
 │       ├── eip155-8194.json
 │       ├── eip155-82.json
 │       ├── eip155-820.json
@@ -1653,4 +1654,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-174 directories, 1479 files
+174 directories, 1480 files
