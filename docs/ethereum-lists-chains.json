@@ -15713,7 +15713,7 @@
     "name": "Digit Soul Smart Chain 2",
     "chain": "DS2",
     "rpc": [
-      "http://dgs-rpc.digitsoul.co.th"
+      "https://dgs-rpc.digitsoul.co.th"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -22456,7 +22456,7 @@
     "name": "Digit Soul Smart Chain",
     "chain": "DGS",
     "rpc": [
-      "http://dsc-rpc.digitsoul.co.th"
+      "https://dsc-rpc.digitsoul.co.th"
     ],
     "faucets": [],
     "nativeCurrency": {
