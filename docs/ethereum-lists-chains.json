@@ -13182,10 +13182,10 @@
     ]
   },
   {
-    "name": "Morphism Testnet",
+    "name": "Morph Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://rpc-testnet.morphism.xyz"
+      "https://rpc-testnet.morphl2.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13193,14 +13193,14 @@
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://morphism.xyz",
+    "infoURL": "https://morphl2.io",
     "shortName": "tmorph",
     "chainId": 2710,
     "networkId": 2710,
     "explorers": [
       {
-        "name": "Morphism Testnet Explorer",
-        "url": "https://explorer-testnet.morphism.xyz",
+        "name": "Morph Testnet Explorer",
+        "url": "https://explorer-testnet.morphl2.io",
         "standard": "EIP3091"
       }
     ],
@@ -13209,7 +13209,7 @@
       "chain": "eip155-1",
       "bridges": [
         {
-          "url": "https://bridge-testnet.morphism.xyz"
+          "url": "https://bridge-testnet.morphl2.io"
         }
       ]
     }
@@ -16749,6 +16749,27 @@
     "networkId": 385
   },
   {
+    "name": "Firechain zkEVM Ghostrider",
+    "title": "Firechain zkEVM Ghostrider",
+    "chain": "Firechain",
+    "rpc": [
+      "https://rpc.zkevm.ghostrider.thefirechain.com"
+    ],
+    "faucets": [
+      "zkevm-faucet.thefirechain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.thefirechain.com/",
+    "shortName": "firechain-zkEVM-ghostrider",
+    "chainId": 3885,
+    "networkId": 3885,
+    "explorers": []
+  },
+  {
     "name": "KalyChain Mainnet",
     "chain": "KLC",
     "icon": "kalychain",
@@ -18798,6 +18819,40 @@
       {
         "name": "Beam Explorer",
         "url": "https://subnets.avax.network/beam",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ZKFair Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://testnet-rpc.zkfair.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USDC Token",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://zkfair.io",
+    "shortName": "ZKFair-Testnet",
+    "chainId": 43851,
+    "networkId": 43851,
+    "icon": "zkfair",
+    "explorers": [
+      {
+        "name": "ZKFair Testnet Info",
+        "url": "https://testnet-scan.zkfair.io",
+        "icon": "zkfair",
         "standard": "EIP3091"
       }
     ]
@@ -22811,17 +22866,18 @@
     "networkId": 2
   },
   {
-    "name": "Rethereum Mainnet",
-    "chain": "RTH",
+    "name": "Hypra Mainnet",
+    "chain": "HYP",
     "rpc": [
+      "https://rpc.hypra.network",
       "https://rpc.rethereum.org",
       "https://rethereum.rpc.restratagem.com",
       "https://rpc.rthcentral.org"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Rethereum",
-      "symbol": "RTH",
+      "name": "Hypra",
+      "symbol": "HYP",
       "decimals": 18
     },
     "features": [
@@ -22832,15 +22888,15 @@
         "name": "EIP1559"
       }
     ],
-    "infoURL": "https://www.rethereum.org",
-    "shortName": "rth",
+    "infoURL": "https://www.hypra.network",
+    "shortName": "hyp",
     "chainId": 622277,
     "networkId": 622277,
     "icon": "rethereum",
     "explorers": [
       {
-        "name": "rethereum",
-        "url": "https://explorer.rethereum.org",
+        "name": "hypra",
+        "url": "https://explorer.hypra.network",
         "icon": "blockscout",
         "standard": "EIP3091"
       }
@@ -26757,6 +26813,35 @@
     "status": "incubating"
   },
   {
+    "name": "Firechain zkEVM",
+    "title": "Firechain zkEVM",
+    "chain": "Firechain",
+    "rpc": [
+      "https://rpc.zkevm.thefirechain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.thefirechain.com/",
+    "shortName": "firechan-zkEVM",
+    "chainId": 814,
+    "networkId": 814,
+    "icon": "firechain",
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://zkevm.bridge.rpc.thefirechain.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Quantum Chain Mainnet",
     "chain": "QNET",
     "icon": "qnet",
@@ -29568,7 +29653,7 @@
     "name": "Oort Mainnet",
     "chain": "Oort Mainnet",
     "rpc": [
-      "https://rpc.oortech.com"
+      "https://mainnet-rpc.oortech.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -29580,13 +29665,23 @@
     "shortName": "ccn",
     "chainId": 970,
     "networkId": 970,
-    "icon": "ccn"
+    "icon": "oort",
+    "explorers": [
+      {
+        "name": "Oort Mainnet Explorer",
+        "url": "https://mainnet-scan.oortech.com",
+        "standard": "none",
+        "icon": "oort"
+      }
+    ]
   },
   {
     "name": "Oort MainnetDev",
     "title": "Oort MainnetDev",
     "chain": "MainnetDev",
-    "rpc": [],
+    "rpc": [
+      "https://dev-rpc.oortech.com"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Oort",
@@ -29597,7 +29692,15 @@
     "shortName": "MainnetDev",
     "chainId": 9700,
     "networkId": 9700,
-    "icon": "ccn"
+    "icon": "oort",
+    "explorers": [
+      {
+        "name": "Oort MainnetDev Scan",
+        "url": "https://dev-scan.oortech.com",
+        "standard": "none",
+        "icon": "oort"
+      }
+    ]
   },
   {
     "name": "Oort Huygens",
@@ -29632,7 +29735,15 @@
     "shortName": "Ascraeus",
     "chainId": 972,
     "networkId": 972,
-    "icon": "ccn"
+    "icon": "oort",
+    "explorers": [
+      {
+        "name": "Oort Ascraeus Explorer",
+        "url": "https://ascraeus-scan.oortech.com",
+        "standard": "none",
+        "icon": "oort"
+      }
+    ]
   },
   {
     "name": "Boba BNB Testnet",
