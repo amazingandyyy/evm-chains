@@ -930,6 +930,7 @@
 │       ├── eip155-721.json
 │       ├── eip155-7225878.json
 │       ├── eip155-727.json
+│       ├── eip155-72992.json
 │       ├── eip155-73.json
 │       ├── eip155-7331.json
 │       ├── eip155-7332.json
@@ -1395,6 +1396,7 @@
         ├── app.zksync.era.png
         ├── aptos.pancakeswap.finance.png
         ├── arb_giveaway.png
+        ├── aura.finance.png
         ├── autofarm.network.png
         ├── avnrichdefi.com.png
         ├── avnswap.com.png
@@ -1593,6 +1595,7 @@
         ├── pantheon.exchange.png
         ├── pay.sablier.finance.png
         ├── peepeth.com.png
+        ├── phi.png
         ├── phoswap.io.png
         ├── pizzafinance.app.png
         ├── platform.trustwallet.com.png
@@ -1625,6 +1628,7 @@
         ├── spiderdex.com.png
         ├── squidrouter.com.png
         ├── staking.thundercore.com.png
+        ├── stargate.finance.png
         ├── steemhunt.com.png
         ├── steemit.com.png
         ├── store.touristoken.com.png
@@ -1656,12 +1660,12 @@
         ├── tw.newbrandhere.png
         ├── tw.rebrandpromo.png
         ├── tw.secure.assets.png
+        ├── tw.swift.gas_logo.png
+        ├── tw.swift.passkey_logo.png
+        ├── tw.swift.security_logo.png
+        ├── tw.swift.starte_guide_logo.png
         ├── tw.udpromo.png
-        ├── tw_scw_brain.png
-        ├── tw_scw_fuel.png
-        ├── tw_scw_lock.png
-        ├── tw_scw_speaking.png
-        ├── tw_scw_wave.png
+        ├── tw_scw_writing_hand.png
         ├── uniswap.exchange.png
         ├── uniswap.io.png
         ├── v1exchange.pancakeswap.finance.png
@@ -1684,4 +1688,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-174 directories, 1510 files
+174 directories, 1514 files
