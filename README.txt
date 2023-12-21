@@ -1667,9 +1667,11 @@
         ├── tw.1inchpromo.png
         ├── tw.arb.giveaway.png
         ├── tw.btcgiveaway.png
+        ├── tw.discover.swap.png
         ├── tw.newbrandhere.png
         ├── tw.rebrandpromo.png
         ├── tw.secure.assets.png
+        ├── tw.swift.feedback_logo.png
         ├── tw.swift.gas_logo.png
         ├── tw.swift.passkey_logo.png
         ├── tw.swift.security_logo.png
@@ -1698,4 +1700,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-174 directories, 1524 files
+174 directories, 1526 files
