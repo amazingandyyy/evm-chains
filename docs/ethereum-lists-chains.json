@@ -4589,6 +4589,41 @@
     ]
   },
   {
+    "name": "Engram Testnet",
+    "chain": "tGRAM",
+    "icon": "engram",
+    "rpc": [
+      "https://tokioswift.engram.tech",
+      "https://tokio-archive.engram.tech"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Engram Tokio Testnet",
+      "symbol": "tGRAM",
+      "decimals": 18
+    },
+    "infoURL": "https://engramnet.io",
+    "shortName": "tgram",
+    "chainId": 131,
+    "networkId": 131,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://tokioscan-v2.engram.tech",
+        "icon": "engram",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Dos Fuji Subnet",
     "chain": "DOS",
     "rpc": [
@@ -16253,11 +16288,11 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "JFIN Coin",
-      "symbol": "jfin",
+      "symbol": "JFIN",
       "decimals": 18
     },
     "infoURL": "https://jfinchain.com",
-    "shortName": "jfin",
+    "shortName": "JFIN",
     "chainId": 3501,
     "networkId": 3501,
     "explorers": [
@@ -23142,7 +23177,7 @@
     "name": "PEER Testnet",
     "chain": "PEER",
     "rpc": [
-      "http://testnet-polka-host-232813573.us-west-1.elb.amazonaws.com"
+      "https://rpc-testnet.peer.inc"
     ],
     "faucets": [
       "https://testnet.peer.inc"
