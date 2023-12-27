@@ -398,6 +398,7 @@
 │       ├── eip155-2046399126.json
 │       ├── eip155-2047.json
 │       ├── eip155-2048.json
+│       ├── eip155-20482050.json
 │       ├── eip155-2049.json
 │       ├── eip155-206.json
 │       ├── eip155-207.json
@@ -902,6 +903,7 @@
 │       ├── eip155-66.json
 │       ├── eip155-6626.json
 │       ├── eip155-666.json
+│       ├── eip155-6660.json
 │       ├── eip155-6661.json
 │       ├── eip155-666301171999.json
 │       ├── eip155-6666.json
@@ -915,6 +917,7 @@
 │       ├── eip155-67.json
 │       ├── eip155-67390.json
 │       ├── eip155-67588.json
+│       ├── eip155-6779.json
 │       ├── eip155-6789.json
 │       ├── eip155-68.json
 │       ├── eip155-686.json
@@ -1016,6 +1019,7 @@
 │       ├── eip155-803.json
 │       ├── eip155-808.json
 │       ├── eip155-8080.json
+│       ├── eip155-8080808.json
 │       ├── eip155-8081.json
 │       ├── eip155-8082.json
 │       ├── eip155-8086.json
@@ -1174,6 +1178,7 @@
 │       ├── eip155-997.json
 │       ├── eip155-9977.json
 │       ├── eip155-998.json
+│       ├── eip155-9980.json
 │       ├── eip155-999.json
 │       ├── eip155-9990.json
 │       ├── eip155-9996.json
@@ -1271,6 +1276,7 @@
     │   ├── linea
     │   ├── litecoin
     │   ├── loom
+    │   ├── manta
     │   ├── mantle
     │   ├── mars
     │   ├── meter
@@ -1712,4 +1718,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-174 directories, 1538 files
+175 directories, 1543 files
