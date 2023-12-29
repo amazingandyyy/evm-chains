@@ -23266,31 +23266,30 @@
     ]
   },
   {
-    "name": "PEER Testnet",
-    "chain": "PEER",
+    "name": "Vine Testnet",
+    "chain": "VINE",
     "rpc": [
-      "https://rpc-testnet.peer.inc"
+      "https://rpc-testnet.vne.network"
     ],
     "faucets": [
-      "https://testnet.peer.inc"
+      "https://vne.network/rose"
     ],
     "nativeCurrency": {
-      "name": "PEER Token",
-      "symbol": "PEER",
+      "name": "VINE",
+      "symbol": "VNE",
       "decimals": 18
     },
-    "infoURL": "https://peer.inc",
-    "shortName": "PEER",
+    "infoURL": "https://www.peer.inc",
+    "shortName": "VINE",
     "chainId": 601,
     "networkId": 601,
-    "slip44": 1,
-    "icon": "peer",
+    "icon": "vine",
     "explorers": [
       {
-        "name": "PEER Explorer",
-        "url": "https://testnet.peer.inc",
+        "name": "Vine Explorer",
+        "url": "https://vne.network/rose",
         "standard": "none",
-        "icon": "peer"
+        "icon": "vine"
       }
     ]
   },
@@ -29509,9 +29508,7 @@
       "https://rpc-l1.jibchain.net",
       "https://jib-rpc.inan.in.th"
     ],
-    "faucets": [
-      "https://faucet.jibchain.net/"
-    ],
+    "faucets": [],
     "icon": "jbc",
     "features": [
       {
