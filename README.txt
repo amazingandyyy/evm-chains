@@ -42,6 +42,7 @@
 │       ├── eip155-1022.json
 │       ├── eip155-1023.json
 │       ├── eip155-1024.json
+│       ├── eip155-10242.json
 │       ├── eip155-10243.json
 │       ├── eip155-10248.json
 │       ├── eip155-1028.json
@@ -155,6 +156,7 @@
 │       ├── eip155-1243.json
 │       ├── eip155-1244.json
 │       ├── eip155-1246.json
+│       ├── eip155-1248.json
 │       ├── eip155-125.json
 │       ├── eip155-1252.json
 │       ├── eip155-126.json
@@ -309,6 +311,7 @@
 │       ├── eip155-1818.json
 │       ├── eip155-18181.json
 │       ├── eip155-1819.json
+│       ├── eip155-1821.json
 │       ├── eip155-18289463.json
 │       ├── eip155-1856.json
 │       ├── eip155-186.json
@@ -329,6 +332,7 @@
 │       ├── eip155-1908.json
 │       ├── eip155-1909.json
 │       ├── eip155-1911.json
+│       ├── eip155-1912.json
 │       ├── eip155-192837465.json
 │       ├── eip155-193.json
 │       ├── eip155-1945.json
@@ -389,6 +393,7 @@
 │       ├── eip155-202624.json
 │       ├── eip155-2031.json
 │       ├── eip155-2032.json
+│       ├── eip155-2035.json
 │       ├── eip155-2037.json
 │       ├── eip155-2038.json
 │       ├── eip155-204.json
@@ -1720,4 +1725,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-175 directories, 1545 files
+175 directories, 1550 files
