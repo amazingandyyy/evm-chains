@@ -10214,8 +10214,12 @@
   {
     "name": "Centrifuge",
     "chain": "CFG",
+    "icon": "centrifuge",
     "rpc": [
-      "wss://fullnode.parachain.centrifuge.io"
+      "wss://fullnode.parachain.centrifuge.io",
+      "wss://centrifuge-parachain.api.onfinality.io/public-ws",
+      "wss://centrifuge-rpc.dwellir.com",
+      "wss://rpc-centrifuge.luckyfriday.io"
     ],
     "features": [
       {
@@ -10239,7 +10243,8 @@
       {
         "name": "subscan",
         "url": "https://centrifuge.subscan.io",
-        "standard": "EIP3091"
+        "standard": "EIP3091",
+        "icon": "subscan"
       }
     ]
   },
@@ -10736,8 +10741,10 @@
   {
     "name": "Altair",
     "chain": "AIR",
+    "icon": "altair",
     "rpc": [
-      "wss://fullnode.altair.centrifuge.io"
+      "wss://fullnode.altair.centrifuge.io",
+      "wss://altair.api.onfinality.io/public-ws"
     ],
     "features": [
       {
@@ -10761,6 +10768,7 @@
   {
     "name": "Algol",
     "chain": "algol",
+    "status": "deprecated",
     "rpc": [
       "wss://fullnode.algol.cntrfg.com"
     ],
@@ -19041,9 +19049,7 @@
     "rpc": [
       "https://mainnet-rpc.goldxchain.io"
     ],
-    "faucets": [
-      "https://goldx.gold"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "GoldX",
       "symbol": "GOLDX",
