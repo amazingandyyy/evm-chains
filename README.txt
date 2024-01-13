@@ -1660,6 +1660,7 @@
         ├── portfolio.defiprime.com.png
         ├── powerpool.finance.png
         ├── prdt.finance.png
+        ├── rango.png
         ├── rarebits.io.png
         ├── rarible.com.png
         ├── relay.radar.tech.png
@@ -1740,4 +1741,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-175 directories, 1565 files
+175 directories, 1566 files
