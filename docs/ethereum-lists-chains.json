@@ -15456,6 +15456,33 @@
     "explorers": []
   },
   {
+    "name": "Evoke Testnet",
+    "chain": "Evoke",
+    "icon": "mthn",
+    "rpc": [
+      "https://testnet-rpc.evokescan.org"
+    ],
+    "faucets": [
+      "https://faucet.evokescan.org"
+    ],
+    "nativeCurrency": {
+      "name": "MTHN Testnet",
+      "symbol": "MTHN",
+      "decimals": 18
+    },
+    "infoURL": "https://testnet-explorer.evokescan.org",
+    "shortName": "tmthn",
+    "chainId": 31414,
+    "networkId": 31414,
+    "explorers": [
+      {
+        "name": "Evoke SmartChain Testnet Explorer",
+        "url": "https://testnet-explorer.evokescan.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Filecoin - Wallaby testnet",
     "status": "deprecated",
     "chain": "FIL",
@@ -25239,6 +25266,32 @@
     "slip44": 1
   },
   {
+    "name": "PAXB Mainnet",
+    "chain": "PAXB",
+    "rpc": [
+      "https://chain.paxb.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PAXB",
+      "symbol": "PAXB",
+      "decimals": 18
+    },
+    "infoURL": "https://paxb.io/",
+    "shortName": "PAXB",
+    "chainId": 6701,
+    "networkId": 6701,
+    "icon": "paxb",
+    "explorers": [
+      {
+        "name": "PAXB Explorer",
+        "url": "https://scan.paxb.io",
+        "icon": "paxb",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "SiriusNet",
     "chain": "SIN",
     "status": "deprecated",
@@ -31131,6 +31184,31 @@
       {
         "name": "Dogcoin",
         "url": "https://testnet.dogcoin.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Evoke Mainnet",
+    "chain": "MTHN",
+    "icon": "mthn",
+    "rpc": [
+      "https://mainnet-rpc.evokescan.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MTHN",
+      "symbol": "MTHN",
+      "decimals": 18
+    },
+    "infoURL": "https://explorer.evokescan.org",
+    "shortName": "MTHN",
+    "chainId": 9395,
+    "networkId": 9395,
+    "explorers": [
+      {
+        "name": "Evoke SmartChain Explorer",
+        "url": "https://explorer.evokescan.org",
         "standard": "EIP3091"
       }
     ]
