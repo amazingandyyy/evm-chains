@@ -1721,6 +1721,7 @@
         ├── tw.1inchpromo.png
         ├── tw.arb.giveaway.png
         ├── tw.btcgiveaway.png
+        ├── tw.discover.ethstake.png
         ├── tw.discover.swap.png
         ├── tw.newbrandhere.png
         ├── tw.rebrandpromo.png
@@ -1756,4 +1757,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-175 directories, 1581 files
+175 directories, 1582 files
