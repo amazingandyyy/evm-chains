@@ -10816,6 +10816,36 @@
     ]
   },
   {
+    "name": "Jono11 Subnet",
+    "chain": "JONO11",
+    "icon": "jono11",
+    "rpc": [
+      "https://subnets.avax.network/jono11/testnet/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Jono11 Token",
+      "symbol": "JONO",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "jono11",
+    "chainId": 20765,
+    "networkId": 20765,
+    "explorers": [
+      {
+        "name": "JONO11 Explorer",
+        "url": "https://subnets-test.avax.network/jono11",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Quokkacoin Mainnet",
     "chain": "Qkacoin",
     "rpc": [
@@ -24091,6 +24121,31 @@
         "name": "UPTN Explorer",
         "url": "https://explorer.uptn.io",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "EIOB Mainnet",
+    "chain": "EIOB",
+    "icon": "eiob",
+    "rpc": [
+      "https://rpc.eiob.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EIOB",
+      "symbol": "EIOB",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "eiob",
+    "chainId": 612,
+    "networkId": 612,
+    "explorers": [
+      {
+        "name": "EIOB Explorer",
+        "url": "https://explorer.eiob.xyz",
+        "standard": "none"
       }
     ]
   },
