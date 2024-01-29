@@ -11213,6 +11213,33 @@
     "networkId": 0
   },
   {
+    "name": "All About Healthy",
+    "chain": "AAH",
+    "rpc": [
+      "https://rpc.c4ex.net"
+    ],
+    "faucets": [
+      "https://t.me/c4eiAirdrop"
+    ],
+    "nativeCurrency": {
+      "name": "AAH",
+      "symbol": "AAH",
+      "decimals": 18
+    },
+    "infoURL": "https://c4ex.net",
+    "shortName": "aah",
+    "chainId": 21133,
+    "networkId": 21133,
+    "explorers": [
+      {
+        "name": "AAH Blockscout",
+        "url": "https://exp.c4ex.net",
+        "icon": "aah",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "MAP Makalu",
     "title": "MAP Testnet Makalu",
     "chain": "MAP",
@@ -12066,7 +12093,10 @@
       "https://kava-evm.rpc.thirdweb.com",
       "wss://wevm.kava.io",
       "https://kava-evm.publicnode.com",
-      "wss://kava-evm.publicnode.com"
+      "wss://kava-evm.publicnode.com",
+      "https://evm.kava-rpc.com",
+      "https://rpc.ankr.com/kava_evm",
+      "wss://wevm.kava-rpc.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -15820,6 +15850,31 @@
       {
         "name": "kcc-scan-testnet",
         "url": "https://scan-testnet.kcc.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Cosvm Mainnet",
+    "chain": "CVM",
+    "rpc": [
+      "https://rpc.cosvm.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cosvm",
+      "symbol": "CVM",
+      "decimals": 18
+    },
+    "infoURL": "https://cosvm.network",
+    "shortName": "cvm",
+    "chainId": 323,
+    "networkId": 323,
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer.cosvm.net",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -26084,6 +26139,31 @@
     ]
   },
   {
+    "name": "BST Chain",
+    "chain": "BSTC",
+    "rpc": [
+      "https://rpc.bstchain.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BST Chain",
+      "symbol": "BSTC",
+      "decimals": 18
+    },
+    "infoURL": "https://bstchain.io",
+    "shortName": "BSTC",
+    "chainId": 7007,
+    "networkId": 7007,
+    "icon": "bstc",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://bstscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Thinkium Mainnet Chain 103",
     "chain": "Thinkium",
     "rpc": [
@@ -30474,6 +30554,31 @@
       {
         "name": "teamscan",
         "url": "https://teamblockchain.team",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Ancient8",
+    "chain": "Ancient8",
+    "icon": "ancient8",
+    "rpc": [
+      "https://rpc.ancient8.gg"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://ancient8.gg/",
+    "shortName": "ancient8",
+    "chainId": 888888888,
+    "networkId": 888888888,
+    "explorers": [
+      {
+        "name": "Ancient8 Explorer",
+        "url": "https://scan.ancient8.gg",
         "standard": "EIP3091"
       }
     ]
