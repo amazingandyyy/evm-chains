@@ -3156,6 +3156,31 @@
     "explorers": []
   },
   {
+    "name": "BEVM Testnet",
+    "chain": "BEVM",
+    "rpc": [
+      "https://testnet.bevm.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18
+    },
+    "infoURL": "https://bevm.io",
+    "shortName": "bevm",
+    "chainId": 11503,
+    "networkId": 11503,
+    "icon": "bevmcanary",
+    "explorers": [
+      {
+        "name": "bevm testnet scan",
+        "url": "https://scan-testnet.bevm.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "DeBank Mainnet",
     "chain": "DeBank",
     "rpc": [],
@@ -11240,28 +11265,28 @@
     ]
   },
   {
-    "name": "MAP Makalu",
-    "title": "MAP Testnet Makalu",
-    "chain": "MAP",
+    "name": "MAPO Makalu",
+    "title": "MAPO Testnet Makalu",
+    "chain": "MAPO",
     "rpc": [
       "https://testnet-rpc.maplabs.io"
     ],
     "faucets": [
-      "https://faucet.maplabs.io"
+      "https://faucet.mapprotocol.io"
     ],
     "nativeCurrency": {
-      "name": "Makalu MAP",
-      "symbol": "MAP",
+      "name": "Makalu MAPO",
+      "symbol": "MAPO",
       "decimals": 18
     },
-    "infoURL": "https://maplabs.io",
+    "infoURL": "https://mapprotocol.io/",
     "shortName": "makalu",
     "chainId": 212,
     "networkId": 212,
     "explorers": [
       {
-        "name": "mapscan",
-        "url": "https://testnet.mapscan.io",
+        "name": "maposcan",
+        "url": "https://testnet.maposcan.io",
         "standard": "EIP3091"
       }
     ]
@@ -12364,8 +12389,8 @@
     ]
   },
   {
-    "name": "MAP Mainnet",
-    "chain": "MAP",
+    "name": "MAP Protocol",
+    "chain": "MAPO",
     "icon": "map",
     "rpc": [
       "https://rpc.maplabs.io"
@@ -12376,15 +12401,15 @@
       "symbol": "MAPO",
       "decimals": 18
     },
-    "infoURL": "https://maplabs.io",
-    "shortName": "map",
+    "infoURL": "https://mapprotocol.io/",
+    "shortName": "mapo",
     "chainId": 22776,
     "networkId": 22776,
     "slip44": 60,
     "explorers": [
       {
-        "name": "mapscan",
-        "url": "https://mapscan.io",
+        "name": "maposcan",
+        "url": "https://maposcan.io",
         "standard": "EIP3091"
       }
     ]
