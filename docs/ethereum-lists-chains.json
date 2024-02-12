@@ -5131,6 +5131,8 @@
     "name": "Beam Testnet",
     "chain": "BEAM",
     "rpc": [
+      "https://build.onbeam.com/rpc/testnet",
+      "wss://build.onbeam.com/ws/testnet",
       "https://subnets.avax.network/beam/testnet/rpc",
       "wss://subnets.avax.network/beam/testnet/ws"
     ],
@@ -6916,6 +6918,43 @@
     ]
   },
   {
+    "name": "Plume Testnet",
+    "title": "Plume Sepolia Rollup Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://plume-testnet.rpc.caldera.xyz/http"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plume Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.plumenetwork.xyz/",
+    "shortName": "plume-testnet",
+    "chainId": 161221135,
+    "networkId": 161221135,
+    "slip44": 1,
+    "icon": "plume",
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://plume-testnet.explorer.caldera.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://plume-testnet.calderabridge.xyz"
+        }
+      ]
+    }
+  },
+  {
     "name": "Catecoin Chain Mainnet",
     "chain": "Catechain",
     "rpc": [
@@ -8477,6 +8516,44 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "unreal",
+    "title": "unreal testnet for re.al",
+    "chain": "unreal",
+    "rpc": [
+      "https://rpc.unreal.gelato.digital",
+      "wss://ws.unreal.gelato.digital"
+    ],
+    "nativeCurrency": {
+      "name": "unreal Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
+    "faucets": [],
+    "shortName": "unreal",
+    "chainId": 18231,
+    "networkId": 18231,
+    "slip44": 60,
+    "icon": "unreal",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://unreal.blockscout.com",
+        "icon": "unreal",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.unreal.gelato.digital"
+        }
+      ]
+    }
   },
   {
     "name": "IOLite",
@@ -15476,6 +15553,33 @@
     ]
   },
   {
+    "name": "ZKSats Mainnet",
+    "title": "ZKSats Mainnet",
+    "chain": "ZKSats",
+    "rpc": [
+      "https://mainnet.zksats.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18
+    },
+    "infoURL": "https://zksats.io",
+    "shortName": "ZKSats-Mainnet",
+    "chainId": 305,
+    "networkId": 305,
+    "icon": "zksats",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.zksats.io",
+        "icon": "zksats",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Bifrost Mainnet",
     "title": "Bifrost Network Mainnet",
     "chain": "BFC",
@@ -20529,6 +20633,8 @@
     "name": "Beam",
     "chain": "BEAM",
     "rpc": [
+      "https://build.onbeam.com/rpc",
+      "wss://build.onbeam.com/ws",
       "https://subnets.avax.network/beam/mainnet/rpc",
       "wss://subnets.avax.network/beam/mainnet/ws"
     ],
@@ -31650,27 +31756,53 @@
     ]
   },
   {
-    "name": "Nexa Block",
-    "chain": "Nexa",
+    "name": "Nexa Testnet Block",
+    "chain": "Nexa Testnet",
     "rpc": [
       "https://rpc-testnet-nodes.nexablockscan.io"
     ],
     "faucets": [
-      "https://nexablockscan.io/faucet"
+      "https://testnet.nexablockscan.io/faucet"
     ],
     "nativeCurrency": {
-      "name": "Nexa Token",
+      "name": "Nexa Testnet Token",
       "symbol": "NEXB",
       "decimals": 18
     },
-    "infoURL": "https://www.nexablock.io/",
-    "shortName": "Nexa",
+    "infoURL": "https://www.nexablock.io",
+    "shortName": "NexaTestnet",
     "chainId": 9024,
     "networkId": 9024,
     "icon": "nexaChain",
     "explorers": [
       {
-        "name": "Nexablock Explorer",
+        "name": "Nexablock Testnet Explorer",
+        "url": "https://testnet.nexablockscan.io",
+        "standard": "none",
+        "icon": "nexaChain"
+      }
+    ]
+  },
+  {
+    "name": "Nexa Mainnet Block",
+    "chain": "Nexa Mainnet",
+    "rpc": [
+      "https://rpc-nodes.nexablockscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Nexa Mainnet Token",
+      "symbol": "NEXB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.nexablock.io",
+    "shortName": "Nexa",
+    "chainId": 9025,
+    "networkId": 9025,
+    "icon": "nexaChain",
+    "explorers": [
+      {
+        "name": "Nexablock Mainnet Explorer",
         "url": "https://nexablockscan.io",
         "standard": "none",
         "icon": "nexaChain"
