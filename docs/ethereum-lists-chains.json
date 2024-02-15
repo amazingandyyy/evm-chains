@@ -13418,6 +13418,41 @@
     ]
   },
   {
+    "name": "Polygon zkEVM Cardona Testnet",
+    "title": "Polygon zkEVM Cardona Testnet",
+    "chain": "Polygon",
+    "rpc": [
+      "https://rpc.cardona.zkevm-rpc.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://polygon.technology/polygon-zkevm",
+    "shortName": "zkevm-testnet-cardona",
+    "chainId": 2442,
+    "networkId": 2442,
+    "icon": "zkevm",
+    "explorers": [
+      {
+        "name": "polygonscan",
+        "url": "https://cardona-zkevm.polygonscan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge-ui.cardona.zkevm-rpc.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Webchain",
     "chain": "WEB",
     "rpc": [],
@@ -32817,6 +32852,33 @@
       {
         "name": "LiquidLayer Testnet Explorer",
         "url": "https://testnet-scan.liquidlayer.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Dela Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://sepolia-dela.deperp.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.deperp.com/dela",
+    "shortName": "delasep",
+    "chainId": 9393,
+    "networkId": 9393,
+    "slip44": 1,
+    "icon": "delaTestnet",
+    "explorers": [
+      {
+        "name": "basescout",
+        "url": "https://sepolia-delascan.deperp.com",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]

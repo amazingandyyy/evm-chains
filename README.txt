@@ -511,6 +511,7 @@
 │       ├── eip155-2410.json
 │       ├── eip155-2415.json
 │       ├── eip155-242.json
+│       ├── eip155-2442.json
 │       ├── eip155-24484.json
 │       ├── eip155-245022926.json
 │       ├── eip155-245022934.json
@@ -1224,6 +1225,7 @@
 │       ├── eip155-9322253.json
 │       ├── eip155-9339.json
 │       ├── eip155-93572.json
+│       ├── eip155-9393.json
 │       ├── eip155-9395.json
 │       ├── eip155-94.json
 │       ├── eip155-940.json
@@ -1378,7 +1380,6 @@
     │   ├── nativecanto
     │   ├── nativeevmos
     │   ├── nativeinjective
-    │   ├── nativezetachain
     │   ├── near
     │   ├── neblio
     │   ├── nebulas
@@ -1450,6 +1451,7 @@
     │   ├── zcash
     │   ├── zelcash
     │   ├── zen
+    │   ├── zetachain
     │   ├── zetaevm
     │   ├── zilliqa
     │   └── zksync
@@ -1819,4 +1821,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-177 directories, 1642 files
+177 directories, 1644 files
