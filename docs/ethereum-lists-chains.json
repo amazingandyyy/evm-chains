@@ -3924,6 +3924,31 @@
     ]
   },
   {
+    "name": "Hybrid Testnet",
+    "chain": "$HYB",
+    "icon": "hybridIcon",
+    "rpc": [
+      "https://testnet-rpc.buildonhybrid.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Hybrid",
+      "symbol": "$HYB",
+      "decimals": 18
+    },
+    "infoURL": "https://buildonhybrid.com",
+    "shortName": "hyb",
+    "chainId": 1224,
+    "networkId": 1224,
+    "explorers": [
+      {
+        "name": "Hybrid Testnet",
+        "url": "https://alphatestnet.buildonhybrid.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Exzo Network Mainnet",
     "chain": "EXZO",
     "icon": "exzo",
@@ -9388,6 +9413,25 @@
     "explorers": []
   },
   {
+    "name": "Selendra Network Testnet",
+    "chain": "tSEL",
+    "rpc": [
+      "https://rpc0-testnet.selendra.org",
+      "https://rpc1-testnet.selendra.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Selendra",
+      "symbol": "tSEL",
+      "decimals": 18
+    },
+    "infoURL": "https://selendra.org",
+    "shortName": "tSEL",
+    "chainId": 1953,
+    "networkId": 1953,
+    "icon": "selendra"
+  },
+  {
     "name": "Dexilla Testnet",
     "chain": "Dexilla",
     "rpc": [
@@ -9439,6 +9483,32 @@
     "networkId": 196,
     "explorers": [],
     "status": "incubating"
+  },
+  {
+    "name": "Selendra Network Mainnet",
+    "chain": "SEL",
+    "rpc": [
+      "https://rpc0.selendra.org",
+      "https://rpc1.selendra.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Selendra",
+      "symbol": "SEL",
+      "decimals": 18
+    },
+    "infoURL": "https://selendra.org",
+    "shortName": "SEL",
+    "chainId": 1961,
+    "networkId": 1961,
+    "icon": "selendra",
+    "explorers": [
+      {
+        "name": "Selendra Scan",
+        "url": "https://scan.selendra.org",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Eleanor",
@@ -13171,6 +13241,38 @@
         "icon": "soma",
         "url": "https://somascan.io",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "ProtoJumbo Testnet",
+    "chain": "Jumbo",
+    "rpc": [
+      "https://testnode.jumbochain.org"
+    ],
+    "faucets": [
+      "https://protojumbo.jumbochain.org/faucet-smart"
+    ],
+    "nativeCurrency": {
+      "name": "JNFTC",
+      "symbol": "JNFTC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://jumbochain.org",
+    "shortName": "ProtoJumbo",
+    "chainId": 234,
+    "networkId": 234,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "ProtoJumbo",
+        "url": "https://protojumbo.jumbochain.org",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -21590,6 +21692,26 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Gold Chain",
+    "title": "Gold Chain",
+    "chain": "Gold",
+    "rpc": [
+      "https://chain-rpc.gold.dev"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://gold.dev",
+    "shortName": "gold",
+    "chainId": 4653,
+    "networkId": 4653,
+    "status": "incubating",
+    "icon": "gold"
   },
   {
     "name": "Fusion Testnet",
@@ -30308,6 +30430,28 @@
           "url": "https://zkevm.bridge.rpc.thefirechain.com"
         }
       ]
+    }
+  },
+  {
+    "name": "Blast",
+    "status": "incubating",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://blast.io/",
+    "shortName": "blastmainnet",
+    "chainId": 81457,
+    "networkId": 81457,
+    "icon": "blast",
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
     }
   },
   {
