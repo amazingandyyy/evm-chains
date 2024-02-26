@@ -19091,11 +19091,11 @@
     "networkId": 385
   },
   {
-    "name": "Firechain zkEVM Ghostrider",
+    "name": "Firechain zkEVM Testnet",
     "title": "Firechain zkEVM Ghostrider",
     "chain": "Firechain",
     "rpc": [
-      "https://rpc.zkevm.ghostrider.thefirechain.com"
+      "https://rpc-zkevm-ghostrider.thefirechain.com"
     ],
     "faucets": [
       "zkevm-faucet.thefirechain.com"
@@ -23631,7 +23631,7 @@
     "chain": "FIRE",
     "icon": "firechain",
     "rpc": [
-      "https://mainnet.rpc1.thefirechain.com"
+      "https://rpc-mainnet.thefirechain.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -30708,7 +30708,7 @@
     "title": "Firechain zkEVM",
     "chain": "Firechain",
     "rpc": [
-      "https://rpc.zkevm.thefirechain.com"
+      "https://rpc-zkevm.thefirechain.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -30727,7 +30727,7 @@
       "chain": "eip155-1",
       "bridges": [
         {
-          "url": "https://zkevm.bridge.rpc.thefirechain.com"
+          "url": "https://zkevm-bridge-rpc.thefirechain.com"
         }
       ]
     }
@@ -33058,7 +33058,7 @@
     "chain": "FIRE",
     "icon": "rinia",
     "rpc": [
-      "https://rinia.rpc1.thefirechain.com"
+      "https://rinia-rpc1.thefirechain.com"
     ],
     "faucets": [
       "https://faucet.thefirechain.com"
