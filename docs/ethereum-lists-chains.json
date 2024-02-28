@@ -13794,8 +13794,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Karak",
-      "symbol": "KRK",
+      "name": "Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://karak.network",
