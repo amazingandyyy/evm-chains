@@ -4418,30 +4418,6 @@
     ]
   },
   {
-    "name": "Astar zkEVM",
-    "shortName": "astrzk",
-    "title": "Astar zkEVM Mainnet",
-    "chain": "ETH",
-    "icon": "astarzk",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "infoURL": "https://astar.network",
-    "chainId": 12611,
-    "networkId": 12611,
-    "explorers": [],
-    "parent": {
-      "type": "L2",
-      "chain": "eip155-1",
-      "bridges": []
-    },
-    "status": "incubating"
-  },
-  {
     "name": "zKatana",
     "shortName": "azktn",
     "title": "Astar zkEVM Testnet zKatana",
@@ -7257,6 +7233,38 @@
         }
       ]
     }
+  },
+  {
+    "name": "Ethereum Inscription Mainnet",
+    "chain": "ETINS",
+    "rpc": [
+      "https://rpc.etins.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ethereum Inscription",
+      "symbol": "ETINS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.etins.org",
+    "shortName": "etins",
+    "chainId": 1617,
+    "networkId": 1617,
+    "explorers": [
+      {
+        "name": "Ethereum Inscription Explorer",
+        "url": "https://explorer.etins.org",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Catecoin Chain Mainnet",
@@ -11069,7 +11077,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "SWANETH",
-      "symbol": "SWAN",
+      "symbol": "sETH",
       "decimals": 18
     },
     "infoURL": "https://swanchain.io/",
@@ -11509,6 +11517,34 @@
         "url": "https://movoscan.com",
         "icon": "movoscan",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Auroria Testnet",
+    "title": "Stratis Testnet Auroria",
+    "chain": "Auroria",
+    "rpc": [
+      "https://auroria.rpc.stratisevm.com"
+    ],
+    "faucets": [
+      "https://auroria.faucet.stratisevm.com"
+    ],
+    "nativeCurrency": {
+      "name": "Auroria Stratis",
+      "symbol": "tSTRAX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.stratisplatform.com",
+    "shortName": "auroria",
+    "chainId": 205205,
+    "networkId": 205205,
+    "icon": "auroria",
+    "explorers": [
+      {
+        "name": "Auroria Testnet Explorer",
+        "url": "https://auroria.explorer.stratisevm.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -14351,9 +14387,11 @@
     ]
   },
   {
-    "name": "Fraxtal Mainnet",
+    "name": "Fraxtal",
     "chain": "FRAX",
-    "rpc": [],
+    "rpc": [
+      "https://rpc.frax.com"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Frax Ether",
@@ -14364,8 +14402,14 @@
     "shortName": "fraxtal",
     "chainId": 252,
     "networkId": 252,
-    "explorers": [],
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "fraxscan",
+        "url": "https://fraxscan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Fraxtal Testnet",
@@ -14384,7 +14428,13 @@
     "chainId": 2522,
     "networkId": 2522,
     "slip44": 1,
-    "explorers": [],
+    "explorers": [
+      {
+        "name": "fraxscan",
+        "url": "https://holesky.fraxscan.com",
+        "standard": "EIP3091"
+      }
+    ],
     "status": "active"
   },
   {
@@ -14903,6 +14953,28 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "APEX",
+    "status": "incubating",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://apexlayer.xyz/",
+    "shortName": "apexmainnet",
+    "chainId": 2662,
+    "networkId": 2662,
+    "icon": "apexmainnet",
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
+    }
   },
   {
     "name": "Gear Zero Network Testnet",
@@ -18355,6 +18427,11 @@
         "name": "3xpl",
         "url": "https://3xpl.com/botanix",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Blockscout",
+        "url": "https://blockscout.botanixlabs.dev",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -18819,6 +18896,30 @@
         "icon": "hap"
       }
     ]
+  },
+  {
+    "name": "Astar zkEVM",
+    "shortName": "astrzk",
+    "title": "Astar zkEVM Mainnet",
+    "chain": "ETH",
+    "icon": "astarzk",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://astar.network",
+    "chainId": 3776,
+    "networkId": 3776,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    },
+    "status": "incubating"
   },
   {
     "name": "AlveyChain Mainnet",
@@ -25666,6 +25767,46 @@
     "shortName": "mole",
     "chainId": 6022140761023,
     "networkId": 6022140761023
+  },
+  {
+    "name": "Astar zKyoto",
+    "shortName": "azkyt",
+    "title": "Astar zkEVM Testnet zKyoto",
+    "chain": "ETH",
+    "icon": "astarzk",
+    "rpc": [
+      "https://rpc.startale.com/zkyoto",
+      "https://rpc.zkyoto.gelato.digital"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://astar.network",
+    "chainId": 6038361,
+    "networkId": 6038361,
+    "explorers": [
+      {
+        "name": "Blockscout zKyoto chain explorer",
+        "url": "https://astar-zkyoto.blockscout.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://portal.astar.network"
+        },
+        {
+          "url": "https://bridge.gelato.network/bridge/astar-zkyoto"
+        }
+      ]
+    },
+    "status": "incubating"
   },
   {
     "name": "Tres Testnet",
