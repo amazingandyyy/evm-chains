@@ -19287,8 +19287,8 @@
     "networkId": 385
   },
   {
-    "name": "Firechain zkEVM Testnet",
-    "title": "Firechain zkEVM Ghostrider",
+    "name": "Firechain zkEVM Ghostrider",
+    "title": "Firechain zkEVM Testnet",
     "chain": "Firechain",
     "rpc": [
       "https://rpc-zkevm-ghostrider.thefirechain.com"
@@ -19302,7 +19302,7 @@
       "decimals": 18
     },
     "infoURL": "https://docs.thefirechain.com/",
-    "shortName": "firechain-zkEVM-ghostrider",
+    "shortName": "firechain-zkEVM-testnet",
     "chainId": 3885,
     "networkId": 3885,
     "explorers": []
@@ -31313,6 +31313,35 @@
     ]
   },
   {
+    "name": "Runic Chain Testnet",
+    "chain": "Runic",
+    "rpc": [
+      "https://rpc-testnet.runic.build"
+    ],
+    "faucets": [
+      "https://faucet.runic.build"
+    ],
+    "nativeCurrency": {
+      "name": "Bitcoin",
+      "symbol": "rBTC",
+      "decimals": 18
+    },
+    "infoURL": "https://runic.build",
+    "shortName": "runic-testnet",
+    "chainId": 822,
+    "networkId": 822,
+    "status": "active",
+    "icon": "runic-testnet",
+    "explorers": [
+      {
+        "name": "RunicScan",
+        "url": "https://scan.runic.build",
+        "icon": "runic-testnet",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Smart Layer Network Testnet",
     "chain": "SLN",
     "rpc": [
@@ -33407,8 +33436,13 @@
     "chainId": 917,
     "networkId": 917,
     "slip44": 1,
-    "explorers": [],
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "FireScan",
+        "url": "https://rinia.firescan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Rinia Testnet Old",
