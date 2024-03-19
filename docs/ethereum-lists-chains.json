@@ -22524,6 +22524,32 @@
     ]
   },
   {
+    "name": "Swamps L2",
+    "chain": "SWP",
+    "icon": "swamps",
+    "rpc": [
+      "https://swamps.tc.l2aas.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SWP",
+      "symbol": "SWP",
+      "decimals": 18
+    },
+    "infoURL": "https://www.swamps.fi",
+    "shortName": "SWP",
+    "chainId": 45454,
+    "networkId": 45454,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://swamps-explorer.tc.l2aas.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Deelance Mainnet",
     "title": "Deelance Network Mainnet",
     "chain": "DEE",
@@ -30249,6 +30275,50 @@
     ]
   },
   {
+    "name": "0xHash Testnet",
+    "chain": "HETH",
+    "icon": "ethereum",
+    "rpc": [
+      "https://rpc-test.0xhash.io"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "0xHash",
+      "symbol": "HETH",
+      "decimals": 18
+    },
+    "infoURL": "https://0xhash.io",
+    "shortName": "HETH",
+    "chainId": 77787778,
+    "networkId": 77787778,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://test.0xhashscan.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://app.optimism.io/bridge/deposit"
+        }
+      ]
+    }
+  },
+  {
     "name": "PrimusChain mainnet",
     "chain": "PC",
     "rpc": [
@@ -30947,6 +31017,35 @@
       {
         "name": "polygonscan",
         "url": "https://mumbai.polygonscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Amoy",
+    "title": "Polygon Amoy Testnet",
+    "chain": "Polygon",
+    "icon": "polygon",
+    "rpc": [
+      "https://rpc-amoy.polygon.technology"
+    ],
+    "faucets": [
+      "https://faucet.polygon.technology/"
+    ],
+    "nativeCurrency": {
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "infoURL": "https://polygon.technology/",
+    "shortName": "polygonamoy",
+    "chainId": 80002,
+    "networkId": 80002,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "polygonamoy",
+        "url": "https://www.oklink.com/amoy",
         "standard": "EIP3091"
       }
     ]
@@ -33075,6 +33174,33 @@
     ]
   },
   {
+    "name": "IOTA EVM",
+    "title": "IOTA EVM",
+    "chain": "IOTA EVM",
+    "rpc": [
+      "https://json-rpc.evm.iotaledger.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "IOTA",
+      "symbol": "IOTA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.iota.org",
+    "shortName": "iotaevm",
+    "chainId": 8822,
+    "networkId": 8822,
+    "icon": "iotaevm",
+    "explorers": [
+      {
+        "name": "explorer",
+        "url": "https://iota-evm.blockscout.com",
+        "icon": "iotaevm",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "MARO Blockchain Mainnet",
     "chain": "MARO Blockchain",
     "icon": "MARO",
@@ -33593,6 +33719,41 @@
     "chainId": 89,
     "networkId": 89,
     "slip44": 1
+  },
+  {
+    "name": "MAXI Chain Testnet",
+    "chain": "MAXI",
+    "rpc": [
+      "https://rpc-testnet.maxi.network"
+    ],
+    "faucets": [
+      "https://faucet.maxi.network"
+    ],
+    "nativeCurrency": {
+      "name": "MAXICOIN",
+      "symbol": "MAXI",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://maxi.network",
+    "shortName": "maxi-testnet",
+    "chainId": 898,
+    "networkId": 898,
+    "icon": "maxi",
+    "explorers": [
+      {
+        "name": "Maxi Chain Testnet Explorer",
+        "url": "https://testnet.maxi.network",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Giant Mammoth Mainnet",
