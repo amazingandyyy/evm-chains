@@ -5962,8 +5962,8 @@
     "chain": "dfiometa",
     "icon": "defioraclemeta",
     "rpc": [
-      "https://rpc.public-0138.defi-oracle.io",
-      "wss://rpc.public-0138.defi-oracle.io"
+      "https://rpc.defi-oracle.io",
+      "wss://wss.defi-oracle.io"
     ],
     "features": [
       {
@@ -5979,7 +5979,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://defi-oracle.io/",
+    "infoURL": "https://info.defi-oracle.io/",
     "shortName": "dfio-meta-main",
     "chainId": 138,
     "networkId": 1,
@@ -5989,8 +5989,13 @@
     },
     "explorers": [
       {
+        "name": "Blockscout Explorer",
+        "url": "https://blockscout.defi-oracle.io",
+        "standard": "none"
+      },
+      {
         "name": "Quorum Explorer",
-        "url": "https://public-0138.defi-oracle.io",
+        "url": "https://explorer.defi-oracle.io",
         "standard": "none"
       }
     ]
@@ -10809,7 +10814,9 @@
     "chain": "Bitlayer",
     "rpc": [
       "https://testnet-rpc.bitlayer.org",
-      "wss://testnet-ws.bitlayer.org"
+      "wss://testnet-ws.bitlayer.org",
+      "https://testnet-rpc.bitlayer-rpc.com",
+      "wss://testnet-ws.bitlayer-rpc.com"
     ],
     "faucets": [
       "https://www.bitlayer.org/faucet"
@@ -11408,6 +11415,30 @@
     "shortName": "swan",
     "chainId": 2024,
     "networkId": 2024
+  },
+  {
+    "name": "YMTECH-BESU Testnet",
+    "chain": "YMTECH-BESU",
+    "rpc": [
+      "http://39.119.118.216:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.ymtech.co.kr",
+    "shortName": "YMTECH-BESU",
+    "chainId": 202401,
+    "networkId": 202401,
+    "explorers": [
+      {
+        "name": "YMTECH-BESU Chainlens",
+        "url": "http://39.119.118.198",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Rangers Protocol Mainnet",
@@ -25417,6 +25448,40 @@
     ]
   },
   {
+    "name": "Arcturus Testneet",
+    "chain": "Arcturus",
+    "rpc": [
+      "https://rpc-testnet.arcturuschain.io/"
+    ],
+    "faucets": [
+      "https://faucet.arcturuschain.io"
+    ],
+    "nativeCurrency": {
+      "name": "tARC",
+      "symbol": "tARC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://arcturuschain.io",
+    "shortName": "arcturus-testnet",
+    "chainId": 5615,
+    "networkId": 5615,
+    "explorers": [
+      {
+        "name": "explorer-arcturus-testnet",
+        "url": "https://testnet.arcscan.net",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arcturus Chain Testnet",
     "chain": "ARCTURUS",
     "rpc": [
@@ -33400,6 +33465,38 @@
         "name": "Unique Scan / Quartz",
         "url": "https://uniquescan.io/quartz",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Unit Zero Stagenet",
+    "chain": "Unit Zero",
+    "rpc": [
+      "https://rpc-stagenet.unit0.dev"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "UNIT0",
+      "symbol": "UNIT0",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://units.network",
+    "shortName": "unit0-stagenet",
+    "chainId": 88819,
+    "networkId": 88819,
+    "explorers": [
+      {
+        "name": "explorer-stagenet",
+        "url": "https://explorer-stagenet.unit0.dev",
+        "standard": "EIP3091"
       }
     ]
   },
