@@ -7921,6 +7921,28 @@
     "networkId": 1657
   },
   {
+    "name": "Omni",
+    "chain": "Omni",
+    "status": "incubating",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Omni",
+      "symbol": "OMNI",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.omni.network/",
+    "shortName": "omni",
+    "chainId": 166,
+    "networkId": 166,
+    "slip44": 1
+  },
+  {
     "name": "Liquichain",
     "shortName": "Liquichain",
     "chain": "LQC",
@@ -12313,7 +12335,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "VinuChain",
-      "symbol": "VС",
+      "symbol": "VC",
       "decimals": 18
     },
     "infoURL": "https://vitainu.org",
@@ -12340,7 +12362,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "VinuChain",
-      "symbol": "VС",
+      "symbol": "VC",
       "decimals": 18
     },
     "infoURL": "https://vitainu.org",
@@ -15845,6 +15867,33 @@
     ]
   },
   {
+    "name": "Neura",
+    "title": "Neura Mainnet",
+    "chain": "NEURA",
+    "icon": "neura",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ankr",
+      "symbol": "ANKR",
+      "decimals": 18
+    },
+    "infoURL": "https://www.neuraprotocol.io/",
+    "shortName": "neura",
+    "chainId": 266,
+    "networkId": 266,
+    "status": "incubating",
+    "explorers": []
+  },
+  {
     "name": "Hertz Network Mainnet",
     "chain": "HTZ",
     "rpc": [
@@ -15918,6 +15967,62 @@
     "networkId": 266256,
     "slip44": 1,
     "explorers": []
+  },
+  {
+    "name": "Neura Testnet",
+    "title": "Neura Testnet",
+    "chain": "NEURA",
+    "icon": "neura",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Testnet Ankr",
+      "symbol": "ANKR",
+      "decimals": 18
+    },
+    "infoURL": "https://www.neuraprotocol.io/",
+    "shortName": "tneura",
+    "chainId": 267,
+    "networkId": 267,
+    "explorers": [],
+    "status": "incubating",
+    "slip44": 1
+  },
+  {
+    "name": "Neura Devnet",
+    "title": "Neura Devnet",
+    "chain": "NEURA",
+    "icon": "neura",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Devnet Ankr",
+      "symbol": "ANKR",
+      "decimals": 18
+    },
+    "infoURL": "https://www.neuraprotocol.io/",
+    "shortName": "dneura",
+    "chainId": 268,
+    "networkId": 268,
+    "explorers": [],
+    "status": "incubating",
+    "slip44": 1
   },
   {
     "name": "OasisChain Mainnet",
@@ -16392,6 +16497,33 @@
     ]
   },
   {
+    "name": "Cronos zkEVM Testnet",
+    "chain": "CronosZkEVMTestnet",
+    "rpc": [
+      "https://rpc-zkevm-t0.cronos.org"
+    ],
+    "faucets": [
+      "https://zkevm-t0.cronos.org/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Cronos zkEVM Test Coin",
+      "symbol": "TCRO",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.cronos.org/cronos-zkevm-chain/introduction-to-cronos-zkevm-chain-testnet",
+    "shortName": "zktcro",
+    "chainId": 282,
+    "networkId": 282,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Cronos zkEVM Testnet Explorer",
+        "url": "https://zkevm-t0.cronos.org/explorer",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Zillion Sepolia Testnet",
     "status": "active",
     "chain": "ETH",
@@ -16652,6 +16784,31 @@
         "name": "FLXExplorer",
         "url": "https://explorer.flaexchange.top",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Elux Chain",
+    "chain": "ELUX",
+    "icon": "eluxchain",
+    "rpc": [
+      "https://rpc.eluxscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Elux Chain",
+      "symbol": "ELUX",
+      "decimals": 18
+    },
+    "infoURL": "https://eluxscan.com",
+    "shortName": "ELUX",
+    "chainId": 2907,
+    "networkId": 2907,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://eluxscan.com",
+        "standard": "none"
       }
     ]
   },
@@ -17428,6 +17585,30 @@
       {
         "name": "Lovely Network Testnet",
         "url": "https://tscan.lovely.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Furtheon",
+    "chain": "Furtheon Network",
+    "rpc": [
+      "https://rpc.furtheon.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Furtheon",
+      "symbol": "FTH",
+      "decimals": 18
+    },
+    "infoURL": "https://furtheon.org/",
+    "shortName": "furtheon",
+    "chainId": 308,
+    "networkId": 308,
+    "explorers": [
+      {
+        "name": "furthscan",
+        "url": "http://furthscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -24490,6 +24671,37 @@
     ]
   },
   {
+    "name": "Nollie Skatechain Testnet",
+    "chain": "Skatechain",
+    "rpc": [
+      "https://nollie-rpc.skatechain.org/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "",
+    "shortName": "nollie-testnet",
+    "chainId": 5051,
+    "networkId": 5051,
+    "icon": "nollie",
+    "explorers": [
+      {
+        "name": "Nollie Skate Chain Testnet Explorer",
+        "url": "https://nolliescan.skatechain.org",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
+  },
+  {
     "name": "XDC Apothem Network",
     "chain": "XDC",
     "rpc": [
@@ -25286,6 +25498,32 @@
     "networkId": 5315
   },
   {
+    "name": "OpTrust Testnet",
+    "chain": "OpTrust",
+    "rpc": [
+      "https://rpctest.optrust.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TestBSC",
+      "symbol": "tBNB",
+      "decimals": 18
+    },
+    "infoURL": "https://optrust.io",
+    "shortName": "toptrust",
+    "chainId": 5317,
+    "networkId": 5317,
+    "icon": "optrust",
+    "explorers": [
+      {
+        "name": "OpTrust Testnet explorer",
+        "url": "https://scantest.optrust.io",
+        "icon": "optrust",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "DOID",
     "chain": "DOID",
     "rpc": [
@@ -25557,6 +25795,32 @@
         "name": "TRITANIUM Testnet Explorer",
         "icon": "tritanium",
         "url": "https://testnet.tritanium.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "OpTrust Mainnet",
+    "chain": "OpTrust",
+    "rpc": [
+      "https://rpc.optrust.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BSC",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "infoURL": "https://optrust.io",
+    "shortName": "optrust",
+    "chainId": 537,
+    "networkId": 537,
+    "icon": "optrust",
+    "explorers": [
+      {
+        "name": "OpTrust explorer",
+        "url": "https://scan.optrust.io",
+        "icon": "optrust",
         "standard": "none"
       }
     ]
