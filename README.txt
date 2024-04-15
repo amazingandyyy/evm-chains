@@ -492,6 +492,7 @@
 │       ├── eip155-211.json
 │       ├── eip155-21133.json
 │       ├── eip155-212.json
+│       ├── eip155-2121.json
 │       ├── eip155-2122.json
 │       ├── eip155-2124.json
 │       ├── eip155-21337.json
@@ -1061,6 +1062,7 @@
 │       ├── eip155-61916.json
 │       ├── eip155-62.json
 │       ├── eip155-62049.json
+│       ├── eip155-62050.json
 │       ├── eip155-622277.json
 │       ├── eip155-62320.json
 │       ├── eip155-62621.json
@@ -1538,6 +1540,7 @@
     │   ├── manta
     │   ├── mantle
     │   ├── mars
+    │   ├── merlin
     │   ├── meter
     │   ├── metis
     │   ├── moonbasealpha
@@ -2020,4 +2023,4 @@
         ├── zed.run.png
         └── zerion.io.png
 
-177 directories, 1843 files
+178 directories, 1845 files
