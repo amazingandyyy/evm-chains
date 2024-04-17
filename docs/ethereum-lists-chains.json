@@ -9973,7 +9973,10 @@
     "name": "Titan (TKX)",
     "chain": "Titan (TKX)",
     "rpc": [
-      "https://titan-json-rpc.titanlab.io"
+      "https://titan-json-rpc.titanlab.io",
+      "https://titan-json-rpc-tokyo.titanlab.io",
+      "https://titan-json-rpc-seoul.titanlab.io",
+      "https://titan-json-rpc-hongkong.titanlab.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -9990,7 +9993,7 @@
     "explorers": [
       {
         "name": "Titan Explorer",
-        "url": "https://titan-explorer-light.titanlab.io/Titan",
+        "url": "https://tkxscan.io/Titan",
         "standard": "none",
         "icon": "titan_tkx"
       }
@@ -10695,7 +10698,7 @@
         "standard": "EIP3091"
       }
     ],
-    "status": "incubating"
+    "status": "active"
   },
   {
     "name": "Selendra Network Mainnet",
@@ -14952,7 +14955,7 @@
     "name": "Atleta Testnet",
     "chain": "Atleta",
     "rpc": [
-      "https://atleta-testnet-rpc.quark.blue:9944"
+      "wss://testnet-rpc.atleta.network:9944"
     ],
     "faucets": [
       "https://faucet.atleta.network"
@@ -14972,7 +14975,7 @@
       {
         "name": "Atleta Testnet Explorer",
         "icon": "atleta",
-        "url": "http://185.234.69.18/?rpc=wss%3A%2F%2Fatleta-testnet-rpc.quark.blue%3A9944#/explorer",
+        "url": "https://polkadot-explorer.atleta.network/#/explorer",
         "standard": "none"
       }
     ]
@@ -16872,6 +16875,79 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "KLAOS Nova",
+    "title": "KLAOS Nova Test Chain",
+    "chain": "KLAOS Nova",
+    "icon": "k-laos",
+    "rpc": [
+      "https://rpc.klaosnova.laosfoundation.io",
+      "wss://rpc.klaosnova.laosfoundation.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KLAOS",
+      "symbol": "KLAOS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.laosfoundation.io/",
+    "shortName": "klaosnova",
+    "chainId": 27181,
+    "networkId": 27181,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.klaosnova.laosfoundation.io",
+        "icon": "k-laos",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "XR Sepolia",
+    "chain": "ETH",
+    "rpc": [
+      "https://xr-sepolia-testnet.rpc.caldera.xyz/http"
+    ],
+    "faucets": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "nativeCurrency": {
+      "name": "tXR",
+      "symbol": "tXR",
+      "decimals": 18
+    },
+    "infoURL": "https://xr-one.gitbook.io",
+    "shortName": "txr",
+    "chainId": 2730,
+    "networkId": 2730,
+    "icon": "xr",
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "XR Sepolia Explorer",
+        "url": "https://xr-sepolia-testnet.explorer.caldera.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://xr-sepolia-testnet.bridge.caldera.xyz"
+        }
+      ]
+    },
+    "status": "active"
   },
   {
     "name": "Elizabeth Testnet",
@@ -19850,6 +19926,70 @@
         "name": "blockscout",
         "url": "https://blockscout.com/shiden",
         "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "UPchain Testnet",
+    "chain": "UPchain",
+    "rpc": [
+      "https://rpc-testnet.uniport.network"
+    ],
+    "faucets": [
+      "https://faucet-testnet.uniport.network"
+    ],
+    "nativeCurrency": {
+      "name": "UBTC",
+      "symbol": "UBTC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://uniport.network",
+    "shortName": "UPchain-testnet",
+    "chainId": 336655,
+    "networkId": 336655,
+    "icon": "up",
+    "explorers": [
+      {
+        "name": "UPchain Testnet Explorer",
+        "url": "https://explorer-testnet.uniport.network",
+        "icon": "up",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "UPchain Mainnet",
+    "chain": "UPchain",
+    "rpc": [
+      "https://rpc.uniport.network"
+    ],
+    "nativeCurrency": {
+      "name": "UBTC",
+      "symbol": "UBTC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "faucets": [],
+    "infoURL": "https://uniport.network",
+    "shortName": "UPchain-mainnet",
+    "chainId": 336666,
+    "networkId": 336666,
+    "icon": "up",
+    "explorers": [
+      {
+        "name": "UPchain Mainnet Explorer",
+        "url": "https://explorer.uniport.network",
+        "icon": "up",
         "standard": "EIP3091"
       }
     ]
@@ -26955,6 +27095,32 @@
     ]
   },
   {
+    "name": "Photon Testnet",
+    "chain": "Photon",
+    "rpc": [
+      "https://rpc-test.photonchain.io"
+    ],
+    "faucets": [
+      "https://photonchain.io/airdrop"
+    ],
+    "nativeCurrency": {
+      "name": "Photon",
+      "symbol": "PTON",
+      "decimals": 18
+    },
+    "infoURL": "https://photonchain.io",
+    "shortName": "pton",
+    "chainId": 54555,
+    "networkId": 54555,
+    "explorers": [
+      {
+        "name": "photon_testnet_explorer",
+        "url": "https://testnet.photonchain.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Zyx Mainnet",
     "chain": "ZYX",
     "rpc": [
@@ -30208,6 +30374,58 @@
     "chainId": 666666,
     "networkId": 666666,
     "slip44": 1
+  },
+  {
+    "name": "Safe(AnWang) Mainnet",
+    "chain": "Safe(AnWang)",
+    "icon": "safe-anwang",
+    "rpc": [
+      "https://rpc.anwang.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SAFE(AnWang)",
+      "symbol": "SAFE",
+      "decimals": 18
+    },
+    "infoURL": "https://www.anwang.com",
+    "shortName": "SafeMainnet",
+    "chainId": 6666665,
+    "networkId": 6666665,
+    "explorers": [
+      {
+        "name": "Safe(AnWang) Explorer",
+        "url": "http://safe4.anwang.com",
+        "icon": "safe-anwang",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Safe(AnWang) Testnet",
+    "chain": "Safe(AnWang)",
+    "icon": "safe-anwang",
+    "rpc": [
+      "https://rpc-testnet.anwang.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SAFE(AnWang)",
+      "symbol": "SAFE",
+      "decimals": 18
+    },
+    "infoURL": "https://www.anwang.com",
+    "shortName": "SafeTestnet",
+    "chainId": 6666666,
+    "networkId": 6666666,
+    "explorers": [
+      {
+        "name": "Safe(AnWang) Testnet Explorer",
+        "url": "http://safe4-testnet.anwang.com",
+        "icon": "safe-anwang",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Degen Chain",
