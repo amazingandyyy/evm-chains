@@ -1241,11 +1241,12 @@
     ]
   },
   {
-    "name": "Worldland Mainnet",
+    "name": "WorldLand Mainnet",
     "chain": "Worldland",
     "icon": "worldland",
     "rpc": [
-      "https://seoul.worldland.foundation"
+      "https://seoul.worldland.foundation",
+      "https://seoul2.worldland.foundation"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -1426,7 +1427,7 @@
     ]
   },
   {
-    "name": "Worldland Testnet",
+    "name": "WorldLand Testnet",
     "chain": "Worldland",
     "icon": "worldland",
     "rpc": [
