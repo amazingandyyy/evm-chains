@@ -1513,6 +1513,32 @@
     ]
   },
   {
+    "name": "KaspaClassic Mainnet",
+    "chain": "KaspaClassic",
+    "icon": "kaspaclassic",
+    "rpc": [
+      "https://api.kaspaclassic.world/",
+      "http://80.178.101.118:8000/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KaspaClassic",
+      "symbol": "CAS",
+      "decimals": 18
+    },
+    "infoURL": "https://kaspaclassic.com/",
+    "shortName": "cas",
+    "chainId": 104566,
+    "networkId": 104566,
+    "explorers": [
+      {
+        "name": "KaspaClassic Explorer",
+        "url": "https://explorer.kaspaclassic.world",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Web3Games Devnet",
     "chain": "Web3Games",
     "icon": "web3games",
@@ -5826,6 +5852,27 @@
     ]
   },
   {
+    "name": "HashKey Chain Testnet",
+    "title": "HashKey Chain Testnet",
+    "chain": "HashKey Chain Testnet",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "HashKey EcoPoints",
+      "symbol": "HSK",
+      "decimals": 18
+    },
+    "infoURL": "https://hashkey.cloud",
+    "shortName": "HSKT",
+    "chainId": 133,
+    "networkId": 133,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    }
+  },
+  {
     "name": "Credit Smart Chain",
     "chain": "CREDIT",
     "rpc": [
@@ -9313,7 +9360,7 @@
       "decimals": 18
     },
     "infoURL": "https://redstone.xyz/docs/network-info",
-    "shortName": "redstone",
+    "shortName": "redstone-holesky",
     "chainId": 17001,
     "networkId": 17001,
     "slip44": 1,
@@ -9325,7 +9372,8 @@
         "icon": "ethereum",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "status": "deprecated"
   },
   {
     "name": "Anytype EVM Chain",
@@ -9354,6 +9402,42 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Garnet Holesky",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.garnetchain.com",
+      "wss://rpc.garnetchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://redstone.xyz",
+    "shortName": "garnet",
+    "chainId": 17069,
+    "networkId": 17069,
+    "icon": "garnet",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.garnetchain.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-17000",
+      "bridges": [
+        {
+          "url": "https://garnetchain.com/deposit"
+        }
+      ]
+    }
   },
   {
     "name": "TBSI Mainnet",
@@ -11106,6 +11190,38 @@
     "status": "active"
   },
   {
+    "name": "LBRY Mainnet",
+    "chain": "LBRY",
+    "icon": "lbry",
+    "rpc": [
+      "https://lbry.nl/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "LBRY Credits",
+      "symbol": "LBC",
+      "decimals": 8
+    },
+    "infoURL": "https://lbry.com",
+    "shortName": "LBRY",
+    "chainId": 19600,
+    "networkId": 19600,
+    "slip44": 140,
+    "explorers": [
+      {
+        "name": "LBRY Block Explorer",
+        "url": "https://explorer.lbry.com",
+        "icon": "lbry",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Selendra Network Mainnet",
     "chain": "SEL",
     "rpc": [
@@ -11755,6 +11871,29 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "xFair.AI Testnet",
+    "chain": "FAIT",
+    "rpc": [
+      "https://rpc_testnet.xfair.ai",
+      "wss://rpc_testnet.xfair.ai"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FAI",
+      "symbol": "FAI",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://xfair.ai",
+    "shortName": "fait",
+    "chainId": 200000,
+    "networkId": 200000
   },
   {
     "name": "Camelark Mainnet",
@@ -15159,6 +15298,29 @@
     ]
   },
   {
+    "name": "Mind Network Mainnet",
+    "chain": "FHE",
+    "rpc": [
+      "https://rpc_mainnet.mindnetwork.xyz",
+      "wss://rpc_mainnet.mindnetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FHE",
+      "symbol": "FHE",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://mindnetwork.xyz",
+    "shortName": "fhe",
+    "chainId": 228,
+    "networkId": 228
+  },
+  {
     "name": "ELA-DID-Sidechain Testnet",
     "chain": "ETH",
     "rpc": [],
@@ -15254,7 +15416,7 @@
     ]
   },
   {
-    "name": "HashKey Chain Testnet",
+    "name": "HashKey Chain Testnet(discard)",
     "chain": "HashKey",
     "rpc": [
       "https://testnet.hashkeychain/rpc"
@@ -17763,6 +17925,29 @@
         }
       ]
     }
+  },
+  {
+    "name": "xFair.AI Mainnet",
+    "chain": "FAI",
+    "rpc": [
+      "https://rpc_mainnet.xfair.ai",
+      "wss://rpc_mainnet.xfair.ai"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FAI",
+      "symbol": "FAI",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://xfair.ai",
+    "shortName": "fai",
+    "chainId": 278,
+    "networkId": 278
   },
   {
     "name": "zeroone Mainnet Subnet",
@@ -32306,6 +32491,42 @@
     "chainId": 69,
     "networkId": 69,
     "slip44": 1
+  },
+  {
+    "name": "Redstone",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.redstonechain.com",
+      "wss://rpc.redstonechain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://redstone.xyz",
+    "shortName": "redstone",
+    "chainId": 690,
+    "networkId": 690,
+    "icon": "redstone",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.redstone.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://redstone.xyz/deposit"
+        }
+      ]
+    }
   },
   {
     "name": "Condrieu",
