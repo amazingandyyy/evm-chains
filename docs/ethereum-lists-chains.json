@@ -1377,6 +1377,33 @@
     ]
   },
   {
+    "name": "TAO EVM Testnet",
+    "chain": "TAO EVM",
+    "icon": "taoevmIcon",
+    "rpc": [
+      "https://testnet-rpc.taoevm.io"
+    ],
+    "faucets": [
+      "https://faucet.taoevm.io"
+    ],
+    "nativeCurrency": {
+      "name": "TAO",
+      "symbol": "TAO",
+      "decimals": 18
+    },
+    "infoURL": "https://taoevm.io",
+    "shortName": "TAOt",
+    "chainId": 10324,
+    "networkId": 10324,
+    "explorers": [
+      {
+        "name": "TAO Testnet Explorer",
+        "url": "https://testnet.taoscan.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Masa Testnet",
     "chain": "MASA",
     "icon": "masa",
@@ -3055,7 +3082,6 @@
       {
         "name": "Cyber Testnet Explorer",
         "url": "https://testnet.cyberscan.co",
-        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ],
@@ -3064,7 +3090,7 @@
       "chain": "eip155-11155111",
       "bridges": [
         {
-          "url": "https://cyber-testnet-bridge.alt.technology/deposit"
+          "url": "https://cyber-testnet.testnets.rollbridge.app/"
         }
       ]
     }
@@ -5578,7 +5604,7 @@
     "chain": "COTI",
     "icon": "coti",
     "rpc": [
-      "https://devnet.coti.io"
+      "https://devnet.coti.io/rpc"
     ],
     "faucets": [
       "https://faucet.coti.io"
@@ -5592,7 +5618,14 @@
     "shortName": "coti-devnet",
     "chainId": 13068200,
     "networkId": 13068200,
-    "explorers": []
+    "explorers": [
+      {
+        "name": "coti devnet explorer",
+        "url": "https://explorer-devnet.coti.io",
+        "icon": "ethernal",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Engram Testnet",
@@ -34884,7 +34917,6 @@
       {
         "name": "Cyber Mainnet Explorer",
         "url": "https://cyberscan.co",
-        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ],
@@ -34893,7 +34925,7 @@
       "chain": "eip155-1",
       "bridges": [
         {
-          "url": "https://cyber-bridge.alt.technology/deposit"
+          "url": "https://cyber.co/bridge"
         }
       ]
     }
