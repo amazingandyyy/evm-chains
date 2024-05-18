@@ -1769,6 +1769,8 @@
         ├── app.ercdex.com.png
         ├── app.everrise.com.png
         ├── app.frax.finance.png
+        ├── app.galxe.com.png
+        ├── app.harvest.finance.png
         ├── app.mail3.me.png
         ├── app.marginfi.com.png
         ├── app.marsecosystem.com.png
@@ -1780,6 +1782,8 @@
         ├── app.polygon.zkevm.png
         ├── app.pooltogether.com.png
         ├── app.pooltogether.us.png
+        ├── app.pstake.finance.png
+        ├── app.questn.com.png
         ├── app.raise.it.png
         ├── app.refinable.com.png
         ├── app.sablier.finance.png
@@ -2117,6 +2121,7 @@
         ├── uniswap.io.png
         ├── v1exchange.pancakeswap.finance.png
         ├── v3app.everrise.com.png
+        ├── veno.finance.png
         ├── voting.cafeswap.finance.png
         ├── wallet.mocotoken.io.png
         ├── wardenswap.finance.png
@@ -2128,6 +2133,7 @@
         ├── www.bonkbot.io.png
         ├── www.circle.com.png
         ├── www.comproi.com.png
+        ├── www.convexfinance.com.png
         ├── www.crypt-oink.io.png
         ├── www.eigenlayer.xyz:.png.png
         ├── www.friend.tech.png
@@ -2142,6 +2148,7 @@
         ├── www.playbux.co.png
         ├── www.solchat.app.png
         ├── www.spark.fi.png
+        ├── www.staderlabs.com.png
         ├── www.synapseprotocol.com.png
         ├── xank.io.png
         ├── yearn.finance.png
@@ -2151,4 +2158,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-180 directories, 1971 files
+180 directories, 1978 files
