@@ -1169,6 +1169,32 @@
     "networkId": 1024
   },
   {
+    "name": "ALIENX Hal Testnet",
+    "chain": "ALIENX Hal",
+    "rpc": [
+      "https://hal-rpc.alienxchain.io/http",
+      "https://hal.rpc.caldera.xyz/http"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://alienxchain.io/home",
+    "shortName": "ALIENXHal",
+    "chainId": 10241025,
+    "networkId": 10241025,
+    "icon": "hal",
+    "explorers": [
+      {
+        "name": "Hal Explorer",
+        "url": "https://hal-explorer.alienxchain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arthera Mainnet",
     "chain": "AA",
     "icon": "arthera",
@@ -4667,6 +4693,74 @@
     "chainId": 12321,
     "networkId": 12321,
     "slip44": 1
+  },
+  {
+    "name": "L3X Protocol",
+    "chainId": 12324,
+    "shortName": "l3x",
+    "chain": "L3X",
+    "icon": "l3x",
+    "networkId": 12324,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc-mainnet.l3x.com"
+    ],
+    "faucets": [],
+    "explorers": [
+      {
+        "name": "L3X Mainnet Explorer",
+        "url": "https://explorer.l3x.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "infoURL": "https://l3x.com",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-42161",
+      "bridges": [
+        {
+          "url": "https://bridge.arbitrum.io"
+        }
+      ]
+    }
+  },
+  {
+    "name": "L3X Protocol Testnet",
+    "chainId": 12325,
+    "shortName": "l3x-testnet",
+    "chain": "L3X",
+    "icon": "l3x",
+    "networkId": 12325,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc-testnet.l3x.com"
+    ],
+    "faucets": [],
+    "explorers": [
+      {
+        "name": "L3X Testnet Explorer",
+        "url": "https://explorer-testnet.l3x.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "infoURL": "https://l3x.com",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://bridge.arbitrum.io"
+        }
+      ]
+    }
   },
   {
     "name": "Step Network",
@@ -8293,6 +8387,36 @@
     ]
   },
   {
+    "name": "DeFiVerse Mainnet",
+    "chain": "DeFiVerse",
+    "icon": "defiverse",
+    "rpc": [
+      "https://rpc.defi-verse.org/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Oasys",
+      "symbol": "OAS",
+      "decimals": 18
+    },
+    "infoURL": "https://defi-verse.org",
+    "shortName": "DFV",
+    "chainId": 16116,
+    "networkId": 16116,
+    "explorers": [
+      {
+        "name": "DeFiVerse Explorer",
+        "url": "https://scan.defi-verse.org",
+        "icon": "defiverse",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-248"
+    }
+  },
+  {
     "name": "PlayFi Mainnet",
     "chain": "PLAY",
     "rpc": [],
@@ -9670,6 +9794,32 @@
     ]
   },
   {
+    "name": "DeFiVerse Testnet",
+    "chain": "DeFiVerse Testnet",
+    "icon": "defiverse",
+    "rpc": [
+      "https://rpc-testnet.defi-verse.org/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Oasys",
+      "symbol": "OAS",
+      "decimals": 18
+    },
+    "infoURL": "https://defi-verse.org",
+    "shortName": "DFV-testnet",
+    "chainId": 17117,
+    "networkId": 17117,
+    "explorers": [
+      {
+        "name": "DeFiVerse Testnet Explorer",
+        "url": "https://scan-testnet.defi-verse.org",
+        "icon": "defiverse",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Doric Network",
     "chain": "DRC",
     "icon": "doric",
@@ -9893,6 +10043,58 @@
     "shortName": "TDD",
     "chainId": 1731313,
     "networkId": 1731313
+  },
+  {
+    "name": "Metal L2 Testnet",
+    "chain": "Metal L2 Testnet",
+    "rpc": [
+      "https://testnet.rpc.metall2.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://metall2.com",
+    "shortName": "metall2-testnet",
+    "chainId": 1740,
+    "networkId": 1740,
+    "icon": "metal",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.explorer.metall2.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Metal L2",
+    "chain": "Metal L2",
+    "rpc": [
+      "https://rpc.metall2.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://metall2.com",
+    "shortName": "metall2",
+    "chainId": 1750,
+    "networkId": 1750,
+    "icon": "metal",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.metall2.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "DC Mainnet",
@@ -13099,6 +13301,30 @@
       {
         "name": "DeBank Chain Explorer",
         "url": "https://sepolia-explorer.testnet.debank.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Swan Proxima Testnet",
+    "chain": "SWAN",
+    "rpc": [
+      "https://rpc-proxima.swanchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SWANETH",
+      "symbol": "sETH",
+      "decimals": 18
+    },
+    "infoURL": "https://swanchain.io/",
+    "shortName": "Proxima",
+    "chainId": 20241133,
+    "networkId": 20241133,
+    "explorers": [
+      {
+        "name": "Swan Proxima Chain explorer",
+        "url": "https://proxima-explorer.swanchain.io",
         "standard": "EIP3091"
       }
     ]
@@ -27743,13 +27969,47 @@
       "decimals": 18
     },
     "infoURL": "https://www.ongr.org/",
-    "shortName": "onigiri",
+    "shortName": "onigiritest",
     "chainId": 5039,
     "networkId": 5039,
+    "icon": "onigiri",
     "explorers": [
       {
         "name": "ONIGIRI Explorer",
         "url": "https://subnets-test.avax.network/onigiri",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ONIGIRI Subnet",
+    "chain": "ONIGIRI",
+    "rpc": [
+      "https://subnets.avax.network/onigiri/mainnet/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ONIGIRI",
+      "symbol": "ONGR",
+      "decimals": 18
+    },
+    "infoURL": "https://www.ongr.org/",
+    "shortName": "onigiri",
+    "chainId": 5040,
+    "networkId": 5040,
+    "icon": "onigiri",
+    "explorers": [
+      {
+        "name": "ONIGIRI Explorer",
+        "url": "https://subnets.avax.network/onigiri",
         "standard": "EIP3091"
       }
     ]
@@ -30830,7 +31090,8 @@
           "url": "https://testnet-bridge.metis.io"
         }
       ]
-    }
+    },
+    "status": "deprecated"
   },
   {
     "name": "Genesys Code Mainnet",
@@ -41262,6 +41523,31 @@
       {
         "name": "blockscout",
         "url": "https://scan.bitcoincode.technology",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "EthXY",
+    "chain": "EthXY",
+    "rpc": [
+      "https://rpc.ethxy.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Settled EthXY Token",
+      "symbol": "SEXY",
+      "decimals": 18
+    },
+    "icon": "sexy",
+    "infoURL": "https://ethxy.com",
+    "shortName": "sexy",
+    "chainId": 969,
+    "networkId": 969,
+    "explorers": [
+      {
+        "name": "EthXY Network Explorer",
+        "url": "https://explorer.ethxy.com",
         "standard": "EIP3091"
       }
     ]
