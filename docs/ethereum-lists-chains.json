@@ -7061,6 +7061,25 @@
     ]
   },
   {
+    "name": "EternalCoin Mainnet",
+    "chain": "Eter",
+    "icon": "eternal",
+    "rpc": [
+      "https://mainnet.eternalcoin.io/v1",
+      "ws://mainnet.eternalcoin.io/v1/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Eternal",
+      "symbol": "Eter",
+      "decimals": 18
+    },
+    "infoURL": "https://eternalcoin.io",
+    "shortName": "Eter",
+    "chainId": 140,
+    "networkId": 140
+  },
+  {
     "name": "SPS Testnet",
     "chain": "SPS-Testnet",
     "rpc": [
@@ -8633,6 +8652,51 @@
     "chainId": 1620,
     "networkId": 11235813,
     "slip44": 1620
+  },
+  {
+    "name": "Gravity Alpha Mainnet",
+    "chain": "Gravity",
+    "rpc": [
+      "https://rpc.gravity.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Gravity",
+      "symbol": "G.",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP1108"
+      }
+    ],
+    "infoURL": "https://gravity.xyz",
+    "shortName": "gravity",
+    "chainId": 1625,
+    "networkId": 1625,
+    "icon": "gravity",
+    "explorers": [
+      {
+        "name": "Gravity Alpha Mainnet Explorer",
+        "url": "https://explorer.gravity.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.gravity.xyz"
+        }
+      ]
+    }
   },
   {
     "name": "Lightstreams Mainnet",
@@ -10698,7 +10762,9 @@
     "name": "Mint Mainnet",
     "chain": "ETH",
     "rpc": [
-      "https://rpc.mintchain.io"
+      "https://rpc.mintchain.io",
+      "https://global.rpc.mintchain.io",
+      "https://asia.rpc.minchain.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -22589,7 +22655,7 @@
     "explorers": [
       {
         "name": "Bitfinity Mainnet Block Explorer",
-        "url": "https://explorer.testnet.bitfinity.network",
+        "url": "https://explorer.mainnet.bitfinity.network",
         "icon": "bitfinity",
         "standard": "EIP3091"
       }
@@ -24458,6 +24524,36 @@
         }
       ]
     }
+  },
+  {
+    "name": "Carbonium Testnet Network",
+    "chain": "CBR",
+    "rpc": [
+      "https://rpc-dev.carbonium.network/",
+      "https://server-testnet.carbonium.network"
+    ],
+    "nativeCurrency": {
+      "name": "Carbonium",
+      "symbol": "tCBR",
+      "decimals": 18
+    },
+    "infoURL": "https://carbonium.network",
+    "shortName": "tcbr",
+    "chainId": 4040,
+    "networkId": 4040,
+    "slip44": 1,
+    "icon": "cbr",
+    "faucets": [
+      "https://getfaucet.carbonium.network"
+    ],
+    "explorers": [
+      {
+        "name": "Carbonium Network tesnet Explorer",
+        "icon": "cbr",
+        "url": "https://testnet.carboniumscan.com",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Tipboxcoin Mainnet",
@@ -31653,11 +31749,8 @@
     "rpc": [
       "https://etc.rivet.link",
       "https://besu-at.etc-network.info",
-      "https://besu-de.etc-network.info",
       "https://geth-at.etc-network.info",
-      "https://geth-de.etc-network.info",
       "https://etc.etcdesktop.com",
-      "https://rpc.etcinscribe.com",
       "https://etc.mytokenpocket.vip"
     ],
     "features": [
@@ -33570,6 +33663,33 @@
       {
         "name": "blockscout",
         "url": "https://blockscout.karura.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Pools Mainnet",
+    "chain": "Pools",
+    "rpc": [
+      "https://rpc.poolsmobility.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "POOLS Native Token",
+      "symbol": "POOLS",
+      "decimals": 18
+    },
+    "infoURL": "https://www.poolschain.org",
+    "shortName": "POOLS",
+    "icon": "POOLS",
+    "chainId": 6868,
+    "networkId": 6868,
+    "slip44": 6868,
+    "explorers": [
+      {
+        "name": "poolsscan",
+        "url": "https://scan.poolsmobility.com",
+        "icon": "POOLS",
         "standard": "EIP3091"
       }
     ]
@@ -39922,6 +40042,118 @@
     "slip44": 1
   },
   {
+    "name": "Algen",
+    "chain": "ALG",
+    "rpc": [
+      "https://rpc.algen.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ALG",
+      "symbol": "ALG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.algen.network",
+    "shortName": "alg",
+    "chainId": 8911,
+    "networkId": 8911,
+    "icon": "alg",
+    "explorers": [
+      {
+        "name": "algscan",
+        "url": "https://scan.algen.network",
+        "icon": "alg",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Algen Testnet",
+    "chain": "ALG",
+    "rpc": [
+      "https://rpc.test.algen.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ALG",
+      "symbol": "ALG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.algen.network",
+    "shortName": "algTest",
+    "chainId": 8912,
+    "networkId": 8912,
+    "icon": "alg",
+    "explorers": [
+      {
+        "name": "algscan",
+        "url": "https://scan.test.algen.network",
+        "icon": "alg",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Algen Layer2",
+    "chain": "ALG L2",
+    "rpc": [
+      "https://rpc.alg2.algen.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ALG",
+      "symbol": "ALG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.algen.network",
+    "shortName": "algl2",
+    "chainId": 8921,
+    "networkId": 8921,
+    "icon": "algl2",
+    "explorers": [
+      {
+        "name": "algl2scan",
+        "url": "https://scan.alg2.algen.network",
+        "icon": "algl2",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-8911",
+      "type": "shard"
+    }
+  },
+  {
+    "name": "Algen Layer2 Testnet",
+    "chain": "ALG L2",
+    "rpc": [
+      "https://rpc.alg2-test.algen.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ALG",
+      "symbol": "ALG",
+      "decimals": 18
+    },
+    "infoURL": "https://www.algen.network",
+    "shortName": "algl2Test",
+    "chainId": 8922,
+    "networkId": 8922,
+    "icon": "algl2",
+    "explorers": [
+      {
+        "name": "algl2scan",
+        "url": "https://scan.alg2-test.algen.network",
+        "icon": "algl2",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "chain": "eip155-8921",
+      "type": "shard"
+    }
+  },
+  {
     "name": "MAXI Chain Testnet",
     "chain": "MAXI",
     "rpc": [
@@ -42341,6 +42573,25 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Ebi Chain",
+    "title": "Ebi Chain",
+    "chain": "Ebi",
+    "rpc": [
+      "https://rpc.ebi.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://ebi.xyz",
+    "shortName": "ebi",
+    "chainId": 98881,
+    "networkId": 98881,
+    "status": "incubating"
   },
   {
     "name": "TOP Mainnet",
