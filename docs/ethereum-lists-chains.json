@@ -14675,6 +14675,33 @@
     ]
   },
   {
+    "name": "DCpay Testnet",
+    "chain": "DCpay",
+    "icon": "dcpayIcon",
+    "rpc": [
+      "https://testnet-rpc.dcpay.io"
+    ],
+    "faucets": [
+      "https://faucet.dcpay.io"
+    ],
+    "nativeCurrency": {
+      "name": "DCP",
+      "symbol": "DCP",
+      "decimals": 18
+    },
+    "infoURL": "https://dcpay.io",
+    "shortName": "DCPt",
+    "chainId": 21224,
+    "networkId": 21224,
+    "explorers": [
+      {
+        "name": "DCpay Testnet Explorer",
+        "url": "https://testnet.dcpay.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Metaplayerone Dubai Testnet",
     "chain": "MP1 Dubai-Testnet",
     "rpc": [
@@ -39356,6 +39383,7 @@
     "shortName": "INOAI",
     "chainId": 88559,
     "networkId": 88559,
+    "icon": "inoai",
     "explorers": [
       {
         "name": "inoai live",
