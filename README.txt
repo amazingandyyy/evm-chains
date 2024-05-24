@@ -55,6 +55,7 @@
 │       ├── eip155-1030.json
 │       ├── eip155-103090.json
 │       ├── eip155-1031.json
+│       ├── eip155-10321.json
 │       ├── eip155-10324.json
 │       ├── eip155-103454.json
 │       ├── eip155-1038.json
@@ -457,6 +458,7 @@
 │       ├── eip155-1992.json
 │       ├── eip155-1994.json
 │       ├── eip155-1995.json
+│       ├── eip155-1996.json
 │       ├── eip155-1998.json
 │       ├── eip155-2.json
 │       ├── eip155-20.json
@@ -2185,4 +2187,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-180 directories, 2005 files
+180 directories, 2007 files
