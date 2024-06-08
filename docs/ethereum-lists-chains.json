@@ -1157,6 +1157,33 @@
     "networkId": 1022
   },
   {
+    "name": "GLScan",
+    "chain": "GLC",
+    "icon": "glc",
+    "rpc": [
+      "https://glc-dataseed.glscan.io/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GLC",
+      "symbol": "GLC",
+      "decimals": 18
+    },
+    "infoURL": "https://glscan.io/",
+    "shortName": "glc",
+    "chainId": 10222,
+    "networkId": 10222,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "GLScan Explorer",
+        "url": "https://glscan.io",
+        "standard": "none",
+        "icon": "glc"
+      }
+    ]
+  },
+  {
     "name": "Clover Testnet",
     "chain": "Clover",
     "rpc": [],
@@ -3706,6 +3733,7 @@
   {
     "name": "Lisk",
     "chain": "ETH",
+    "icon": "lisk",
     "rpc": [
       "https://rpc.api.lisk.com"
     ],
@@ -5100,6 +5128,30 @@
       {
         "name": "ADIL Devnet Explorer",
         "url": "https://devnet.adilchain-scan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ITX Mainnet",
+    "chain": "ITX",
+    "rpc": [
+      "https://rpc.itxchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ITX",
+      "symbol": "ITX",
+      "decimals": 18
+    },
+    "infoURL": "https://explorer.itxchain.com",
+    "shortName": "itx",
+    "chainId": 1235,
+    "networkId": 1235,
+    "explorers": [
+      {
+        "name": "ITX Mainnet Explorer (Blockscout)",
+        "url": "https://explorer.itxchain.com",
         "standard": "EIP3091"
       }
     ]
@@ -14010,6 +14062,30 @@
     ]
   },
   {
+    "name": "GM Network Testnet",
+    "chain": "GM Network Testnet",
+    "rpc": [
+      "https://gmnetwork-testnet.alt.technology/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://gmnetwork.ai",
+    "shortName": "gmnetwork-testnet",
+    "chainId": 202402181627,
+    "networkId": 202402181627,
+    "explorers": [
+      {
+        "name": "gmnetwork-testnet",
+        "url": "https://gmnetwork-testnet-explorer.alt.technology",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "DeBank Sepolia Testnet",
     "chain": "DeBank",
     "rpc": [
@@ -19420,7 +19496,9 @@
   {
     "name": "GM Network Mainnet",
     "chain": "GM Network Mainnet",
-    "rpc": [],
+    "rpc": [
+      "https://rpc.gmnetwork.ai"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -19431,8 +19509,14 @@
     "shortName": "gmnetwork-mainnet",
     "chainId": 2777,
     "networkId": 2777,
-    "explorers": [],
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "GM Network Mainnet Explorer",
+        "url": "https://scan.gmnetwork.ai",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "xFair.AI Mainnet",
@@ -22158,6 +22242,31 @@
         "name": "Zilliqa EVM Explorer",
         "url": "https://evmx.zilliqa.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Nal Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://testnet-rpc.nal.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "icon": "nal",
+    "infoURL": "https://www.nal.network",
+    "shortName": "nalsep",
+    "chainId": 328527624,
+    "networkId": 328527624,
+    "explorers": [
+      {
+        "name": "Nal Sepolia Testnet Network Explorer",
+        "url": "https://testnet-scan.nal.network",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -26101,10 +26210,13 @@
   {
     "name": "Lisk Sepolia Testnet",
     "chain": "ETH",
+    "icon": "lisk",
     "rpc": [
       "https://rpc.sepolia-api.lisk.com"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://app.optimism.io/faucet"
+    ],
     "nativeCurrency": {
       "name": "Sepolia Ether",
       "symbol": "ETH",
@@ -27692,7 +27804,7 @@
       }
     ],
     "infoURL": "https://hydrachain.org",
-    "shortName": "hydra",
+    "shortName": "HYDRA",
     "chainId": 4488,
     "networkId": 4488,
     "icon": "hydra",
@@ -28357,6 +28469,61 @@
       {
         "name": "Blockscout",
         "url": "https://devnet-explorer.gather.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Space Subnet Testnet",
+    "chain": "SPACETESTNET",
+    "rpc": [
+      "https://subnets.avax.network/space/testnet/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FUEL",
+      "symbol": "FUEL",
+      "decimals": 18
+    },
+    "infoURL": "https://otherworld.network",
+    "shortName": "spacetestnet",
+    "chainId": 48795,
+    "networkId": 48795,
+    "explorers": [
+      {
+        "name": "SPACE Explorer",
+        "url": "https://subnets-test.avax.network/space",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Zircuit Testnet",
+    "chain": "Zircuit Testnet",
+    "icon": "zircuit",
+    "rpc": [
+      "https://zircuit1.p2pify.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zircuit.com/",
+    "shortName": "zircuit-testnet",
+    "chainId": 48899,
+    "networkId": 48899,
+    "explorers": [
+      {
+        "name": "Zircuit",
+        "url": "https://explorer.zircuit.com",
+        "icon": "zircuit",
         "standard": "none"
       }
     ]
@@ -29370,6 +29537,33 @@
     ]
   },
   {
+    "name": "Ham",
+    "chain": "Ham",
+    "rpc": [
+      "https://rpc.ham.fun"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://ham.fun",
+    "shortName": "ham",
+    "chainId": 5112,
+    "networkId": 5112,
+    "icon": "ham",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.ham.fun",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
+  },
+  {
     "name": "NumBlock Chain",
     "chain": "NumBlock",
     "rpc": [
@@ -30082,6 +30276,30 @@
         "name": "reactscan",
         "url": "https://kopli.reactscan.net",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "ITX Testnet",
+    "chain": "ITX",
+    "rpc": [
+      "https://rpc.testnet.itxchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ITX",
+      "symbol": "ITX",
+      "decimals": 18
+    },
+    "infoURL": "https://explorer.testnet.itxchain.com",
+    "shortName": "itx-testnet",
+    "chainId": 5321,
+    "networkId": 5321,
+    "explorers": [
+      {
+        "name": "ITX Testnet Explorer (Blockscout)",
+        "url": "https://explorer.testnet.itxchain.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -31509,6 +31727,7 @@
     "rpc": [
       "https://rpc.rollux.com",
       "wss://rpc.rollux.com/wss",
+      "https://rpc.ankr.com/rollux",
       "https://rollux.rpc.syscoin.org",
       "wss://rollux.rpc.syscoin.org/wss"
     ],
@@ -33160,8 +33379,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "ATLAS",
-      "symbol": "ATLAS",
+      "name": "TON",
+      "symbol": "TON",
       "decimals": 18
     },
     "infoURL": "https://atl.network",
@@ -38221,6 +38440,40 @@
     }
   },
   {
+    "name": "Fhenix Helium",
+    "chain": "tFHE",
+    "rpc": [
+      "https://api.helium.fhenix.zone"
+    ],
+    "faucets": [
+      "https://get-helium.fhenix.zone"
+    ],
+    "nativeCurrency": {
+      "name": "tFHE",
+      "symbol": "tFHE",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.fhenix.io",
+    "shortName": "fhe-helium",
+    "chainId": 8008135,
+    "networkId": 8008135,
+    "explorers": [
+      {
+        "name": "Fhenix Helium Explorer (Blockscout)",
+        "url": "https://explorer.helium.fhenix.zone",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Berachain Artio",
     "chain": "Berachain Artio",
     "rpc": [
@@ -40671,7 +40924,7 @@
       }
     ],
     "infoURL": "https://hydrachain.org",
-    "shortName": "thydra",
+    "shortName": "THYDRA",
     "chainId": 8844,
     "networkId": 8844,
     "icon": "hydra",
@@ -41533,8 +41786,8 @@
       "https://faucet.maxi.network"
     ],
     "nativeCurrency": {
-      "name": "MAXICOIN",
-      "symbol": "MAXI",
+      "name": "MAXI GAS",
+      "symbol": "MGAS",
       "decimals": 18
     },
     "features": [
@@ -41582,6 +41835,39 @@
         "url": "https://scan.gmmtchain.io",
         "standard": "EIP3091",
         "icon": "gmmt"
+      }
+    ]
+  },
+  {
+    "name": "MAXI Chain Mainnet",
+    "chain": "MAXI",
+    "rpc": [
+      "https://rpc.maxi.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MAXI GAS",
+      "symbol": "MGAS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://maxi.network",
+    "shortName": "maxi-mainnet",
+    "chainId": 899,
+    "networkId": 899,
+    "icon": "maxi",
+    "explorers": [
+      {
+        "name": "Maxi Chain Mainnet Explorer",
+        "url": "https://mainnet.maxi.network",
+        "standard": "EIP3091"
       }
     ]
   },
