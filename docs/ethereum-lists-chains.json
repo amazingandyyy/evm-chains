@@ -4627,6 +4627,35 @@
     ]
   },
   {
+    "name": "Cuckoo Sepolia",
+    "title": "Cuckoo AI Testnet Sepolia",
+    "chain": "CuckooAI",
+    "icon": "cuckoo-ai",
+    "rpc": [
+      "https://testnet-rpc.cuckoo.network",
+      "wss://testnet-rpc.cuckoo.network"
+    ],
+    "faucets": [
+      "https://cuckoo.network/portal/faucet/"
+    ],
+    "nativeCurrency": {
+      "name": "CuckooAI",
+      "symbol": "CAI",
+      "decimals": 18
+    },
+    "infoURL": "https://cuckoo.network",
+    "shortName": "caisepolia",
+    "chainId": 1210,
+    "networkId": 1210,
+    "explorers": [
+      {
+        "name": "Cuckoo Sepolia Explorer",
+        "url": "https://testnet-scan.cuckoo.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "BRC Chain Mainnet",
     "chain": "BRC",
     "rpc": [
@@ -13222,6 +13251,31 @@
       {
         "name": "Blockscout",
         "url": "https://explorer-devnet-algorand-rollup.a1.milkomeda.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "MetaLink Network",
+    "chain": "MetaLink",
+    "rpc": [
+      "http://77.237.237.69:9933"
+    ],
+    "icon": "metaLink",
+    "faucets": [],
+    "shortName": "mtl",
+    "nativeCurrency": {
+      "name": "MetaLink",
+      "symbol": "MTL",
+      "decimals": 18
+    },
+    "infoURL": "http://totwo3.com:3000",
+    "chainId": 2004,
+    "networkId": 2004,
+    "explorers": [
+      {
+        "name": "MetaScan",
+        "url": "http://twoto3.com:3000",
         "standard": "none"
       }
     ]
@@ -26052,6 +26106,7 @@
     "name": "CrossFi Testnet",
     "title": "CrossFi Testnet",
     "chain": "XFI",
+    "icon": "crossfi",
     "rpc": [
       "https://rpc.testnet.ms"
     ],
@@ -26061,7 +26116,7 @@
       "symbol": "XFI",
       "decimals": 18
     },
-    "infoURL": "https://crossfi.org/",
+    "infoURL": "https://crossfi.org",
     "shortName": "crossfi-testnet",
     "chainId": 4157,
     "networkId": 4157,
@@ -26069,8 +26124,9 @@
     "explorers": [
       {
         "name": "CrossFi Testnet Scan",
-        "url": "https://scan.testnet.ms",
-        "standard": "EIP3091"
+        "url": "https://test.xfiscan.com",
+        "standard": "EIP3091",
+        "icon": "crossfi"
       }
     ]
   },
@@ -30425,6 +30481,44 @@
     ]
   },
   {
+    "name": "Superseed Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://sepolia.superseed.xyz",
+      "wss://sepolia.superseed.xyz"
+    ],
+    "faucets": [
+      "https://sepoliafaucet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.superseed.xyz",
+    "shortName": "seedsep",
+    "chainId": 53302,
+    "networkId": 53302,
+    "slip44": 1,
+    "icon": "seedTestnet",
+    "explorers": [
+      {
+        "name": "seedscout",
+        "url": "https://sepolia-explorer.superseed.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://sepolia-bridge.superseed.xyz/"
+        }
+      ]
+    }
+  },
+  {
     "name": "Candle",
     "chain": "Candle",
     "rpc": [
@@ -31956,6 +32050,32 @@
         "name": "Hika Network Testnet Explorer",
         "url": "https://scan-testnet.hika.network",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "COINSEC",
+    "title": "COINSEC Network",
+    "chain": "coinsecnetwork",
+    "icon": "coinsec",
+    "rpc": [
+      "https://mainnet-rpc.coinsec.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "COINSEC",
+      "symbol": "SEC",
+      "decimals": 18
+    },
+    "infoURL": "https://explorer.coinsec.network/",
+    "shortName": "coinsecnetwork",
+    "chainId": 57451,
+    "networkId": 57451,
+    "explorers": [
+      {
+        "name": "coinsec network",
+        "url": "https://explorer.coinsec.network",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -44793,6 +44913,31 @@
       {
         "name": "combotrace explorer",
         "url": "https://combotrace.nodereal.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Volley Mainnet",
+    "chain": "Volley",
+    "icon": "volley",
+    "rpc": [
+      "https://main-rpc.volleychain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "V2X",
+      "symbol": "V2X",
+      "decimals": 18
+    },
+    "infoURL": "https://www.volleychain.com",
+    "shortName": "volley-mainnet",
+    "chainId": 9981,
+    "networkId": 9981,
+    "explorers": [
+      {
+        "name": "Volley Mainnet Explorer",
+        "url": "https://volleyscan.io",
         "standard": "EIP3091"
       }
     ]
