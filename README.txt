@@ -1828,6 +1828,7 @@
     │   ├── zetachain
     │   ├── zetaevm
     │   ├── zilliqa
+    │   ├── zklink
     │   └── zksync
     └── dapps
         ├── 0x.org.png
@@ -1872,6 +1873,7 @@
         ├── app.marginfi.com.png
         ├── app.marsecosystem.com.png
         ├── app.mcdex.io.png
+        ├── app.mocaid.png
         ├── app.morpho.org.png
         ├── app.neutron.png
         ├── app.nuo.network.png
@@ -2269,4 +2271,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-180 directories, 2089 files
+181 directories, 2090 files
