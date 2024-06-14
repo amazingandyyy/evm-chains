@@ -6389,6 +6389,34 @@
     ]
   },
   {
+    "name": "Sei Testnet",
+    "chain": "Sei",
+    "rpc": [
+      "https://evm-rpc-testnet.sei-apis.com",
+      "wss://evm-ws-testnet.sei-apis.com"
+    ],
+    "faucets": [
+      "https://atlantic-2.app.sei.io/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Sei",
+      "symbol": "SEI",
+      "decimals": 18
+    },
+    "infoURL": "https://www.sei.io",
+    "shortName": "sei-testnet",
+    "chainId": 1328,
+    "networkId": 1328,
+    "icon": "sei",
+    "explorers": [
+      {
+        "name": "Seitrace",
+        "url": "https://seitrace.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Sei Network",
     "chain": "Sei",
     "rpc": [
@@ -8123,6 +8151,32 @@
         "name": "explorer",
         "url": "https://explorer.evm.shimmer.network",
         "icon": "shimmerevm",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Vana Satori Testnet",
+    "chain": "Satori",
+    "rpc": [
+      "http://rpc.satori.vana.org"
+    ],
+    "faucets": [
+      "https://faucet.vana.org"
+    ],
+    "nativeCurrency": {
+      "name": "DAT",
+      "symbol": "DAT",
+      "decimals": 18
+    },
+    "infoURL": "https://satori.vana.org",
+    "shortName": "satori",
+    "chainId": 14801,
+    "networkId": 14801,
+    "explorers": [
+      {
+        "name": "satoriscan",
+        "url": "https://satori.vanascan.io",
         "standard": "EIP3091"
       }
     ]
@@ -25697,6 +25751,40 @@
     ]
   },
   {
+    "name": "Bahamut ocean",
+    "title": "Bahamut ocean",
+    "chain": "Bahamut",
+    "icon": "bahamut",
+    "rpc": [
+      "https://rpc1.ocean.bahamutchain.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FTN",
+      "symbol": "FTN",
+      "decimals": 18
+    },
+    "shortName": "ocean",
+    "infoURL": "https://bahamut.io",
+    "chainId": 4058,
+    "networkId": 4058,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://ocean.ftnscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Nahmii 3 Mainnet",
     "chain": "Nahmii",
     "rpc": [
@@ -31333,6 +31421,42 @@
     ]
   },
   {
+    "name": "Pentagon Testnet",
+    "chain": "Pentagon",
+    "rpc": [
+      "https://rpc-testnet.pentagon.games"
+    ],
+    "faucets": [
+      "https://bridge-testnet.pentagon.games"
+    ],
+    "nativeCurrency": {
+      "name": "Pentagon",
+      "symbol": "PEN",
+      "decimals": 18
+    },
+    "icon": "pentagon",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://pentagon.games",
+    "shortName": "pentagon-testnet",
+    "chainId": 555555,
+    "networkId": 555555,
+    "explorers": [
+      {
+        "name": "Pentagon Testnet Explorer",
+        "url": "https://explorer-testnet.pentagon.games",
+        "icon": "pentagon",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Imversed Mainnet",
     "chain": "Imversed",
     "rpc": [
@@ -32054,7 +32178,7 @@
     ]
   },
   {
-    "name": "COINSEC",
+    "name": "COINSEC Network",
     "title": "COINSEC Network",
     "chain": "coinsecnetwork",
     "icon": "coinsec",
@@ -44938,6 +45062,34 @@
       {
         "name": "Volley Mainnet Explorer",
         "url": "https://volleyscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Supernet Testnet",
+    "title": "Supernet Testnet",
+    "chain": "Supernet Testnet",
+    "rpc": [
+      "https://testnet-rpc.supernet.chaingames.io/"
+    ],
+    "faucets": [
+      "https://faucet.chaingames.io"
+    ],
+    "nativeCurrency": {
+      "name": "CHAIN",
+      "symbol": "CHAIN",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "supernetchain",
+    "chainId": 998899,
+    "networkId": 998899,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "supernet-testnet-explorer",
+        "url": "https://testnet-explorer.supernet.chaingames.io",
         "standard": "EIP3091"
       }
     ]
