@@ -15595,8 +15595,8 @@
     "name": "BigShortBets Testnet",
     "chain": "BIGSB Testnet",
     "rpc": [
-      "https://test-market.bigsb.io",
-      "wss://test-market.bigsb.io"
+      "https://test-market.bigsb.network",
+      "wss://test-market.bigsb.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -32197,7 +32197,7 @@
     "networkId": 57451,
     "explorers": [
       {
-        "name": "coinsec network",
+        "name": "coinsecnetwork",
         "url": "https://explorer.coinsec.network",
         "standard": "EIP3091"
       }
@@ -37562,7 +37562,8 @@
     "chain": "BORA",
     "icon": "bora",
     "rpc": [
-      "https://public-node.api.boraportal.com/bora/mainnet"
+      "https://public-node.api.boraportal.com/bora/mainnet",
+      "https://public-node.api.boraportal.io/bora/mainnet"
     ],
     "faucets": [],
     "nativeCurrency": {
