@@ -3461,7 +3461,9 @@
     "title": "B2 Testnet",
     "chain": "Habitat",
     "rpc": [
-      "https://b2-testnet.alt.technology"
+      "https://b2-testnet.alt.technology",
+      "https://rpc.ankr.com/b2_testnet",
+      "https://testnet-rpc.bsquared.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4779,7 +4781,7 @@
     "icon": "cycle"
   },
   {
-    "name": "Hybrid Testnet",
+    "name": "Hybrid Testnet (Deprecated)",
     "chain": "HYB",
     "icon": "hybridIcon",
     "rpc": [
@@ -4792,8 +4794,9 @@
       "decimals": 18
     },
     "infoURL": "https://buildonhybrid.com",
-    "shortName": "hyb",
+    "shortName": "hyb_deprecated",
     "chainId": 1224,
+    "status": "deprecated",
     "networkId": 1224,
     "explorers": [
       {
@@ -4802,6 +4805,33 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Hybrid Testnet",
+    "chain": "HYB",
+    "icon": "hybridIcon",
+    "rpc": [
+      "https://hybrid-testnet.rpc.caldera.xyz/http",
+      "wss://hybrid-testnet.rpc.caldera.xyz/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Hybrid",
+      "symbol": "HYB",
+      "decimals": 18
+    },
+    "infoURL": "https://buildonhybrid.com",
+    "shortName": "hyb",
+    "chainId": 1225,
+    "networkId": 1225,
+    "explorers": [
+      {
+        "name": "Hybrid Testnet",
+        "url": "https://explorer.buildonhybrid.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Exzo Network Mainnet",
@@ -16598,7 +16628,8 @@
       "https://mainnet.b2-rpc.com",
       "https://rpc.bsquared.network",
       "https://b2-mainnet.alt.technology",
-      "https://b2-mainnet-public.s.chainbase.com"
+      "https://b2-mainnet-public.s.chainbase.com",
+      "https://rpc.ankr.com/b2"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -18923,6 +18954,60 @@
       {
         "name": "whitechain-testnet-explorer",
         "url": "https://testnet.whitechain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "AILayer Testnet",
+    "chain": "AILayer",
+    "rpc": [
+      "https://testnet-rpc.ailayer.xyz",
+      "wss://testnet-rpc.ailayer.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18
+    },
+    "infoURL": "https://ailayer.xyz/",
+    "shortName": "ailayer-testnet",
+    "chainId": 2648,
+    "networkId": 2648,
+    "icon": "ailayer",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet-explorer.ailayer.xyz",
+        "icon": "ailayer",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "AILayer Mainnet",
+    "chain": "AILayer",
+    "rpc": [
+      "https://mainnet-rpc.ailayer.xyz",
+      "wss://mainnet-rpc.ailayer.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18
+    },
+    "infoURL": "https://ailayer.xyz/",
+    "shortName": "ailayer-mainnet",
+    "chainId": 2649,
+    "networkId": 2649,
+    "icon": "ailayer",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://mainnet-explorer.ailayer.xyz",
+        "icon": "ailayer",
         "standard": "EIP3091"
       }
     ]
@@ -24073,6 +24158,7 @@
   {
     "name": "iChain Network",
     "chain": "iChain",
+    "icon": "iChain",
     "rpc": [
       "https://rpc.ichainscan.com"
     ],
@@ -24115,6 +24201,31 @@
       {
         "name": "Theta Amber Testnet Explorer",
         "url": "https://guardian-testnet-amber-explorer.thetatoken.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "iChain Testnet",
+    "chain": "iChain Testnet",
+    "icon": "iChain",
+    "rpc": [
+      "https://istanbul.ichainscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ISLAMICOIN",
+      "symbol": "ISLAMI",
+      "decimals": 18
+    },
+    "infoURL": "https://islamicoin.finance",
+    "shortName": "ISLAMIT",
+    "chainId": 3645,
+    "networkId": 3645,
+    "explorers": [
+      {
+        "name": "iChainscan",
+        "url": "https://test.ichainscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -38872,6 +38983,34 @@
         "name": "Fhenix Helium Explorer (Blockscout)",
         "url": "https://explorer.helium.fhenix.zone",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Berachain bArtio",
+    "chain": "Berachain bArtio",
+    "rpc": [
+      "https://bartio.rpc.berachain.com"
+    ],
+    "faucets": [
+      "https://bartio.faucet.berachain.com"
+    ],
+    "nativeCurrency": {
+      "name": "BERA Token",
+      "symbol": "BERA",
+      "decimals": 18
+    },
+    "infoURL": "https://www.berachain.com",
+    "shortName": "berachainbArtio",
+    "chainId": 80084,
+    "networkId": 80084,
+    "icon": "berachain",
+    "explorers": [
+      {
+        "name": "Beratrail",
+        "url": "https://bartio.beratrail.io",
+        "icon": "berachain",
+        "standard": "none"
       }
     ]
   },
