@@ -2229,6 +2229,7 @@
         ├── tw.discover.gomining_promo.png
         ├── tw.discover.icp_campaign.png
         ├── tw.discover.join_squad_announcement.png
+        ├── tw.discover.kiloex_promo.png
         ├── tw.discover.lingo_promo.png
         ├── tw.discover.merlin_promo.png
         ├── tw.discover.onchain_campaign.png
@@ -2299,4 +2300,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-181 directories, 2118 files
+181 directories, 2119 files
