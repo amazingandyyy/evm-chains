@@ -10986,6 +10986,34 @@
     ]
   },
   {
+    "name": "Chronicle - Lit Protocol Testnet",
+    "chain": "LPC",
+    "icon": "lit",
+    "rpc": [
+      "https://chain-rpc.litprotocol.com/http"
+    ],
+    "faucets": [
+      "https://faucet.litprotocol.com"
+    ],
+    "nativeCurrency": {
+      "name": "Test LIT",
+      "symbol": "tstLIT",
+      "decimals": 18
+    },
+    "infoURL": "https://developer.litprotocol.com/v3/network/rollup",
+    "shortName": "lpc",
+    "chainId": 175177,
+    "networkId": 175177,
+    "explorers": [
+      {
+        "name": "Lit Chronicle Explorer",
+        "url": "https://chain.litprotocol.com",
+        "icon": "lit",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "DC Mainnet",
     "chain": "dcchain",
     "icon": "dcchain",
@@ -17243,6 +17271,34 @@
     "networkId": 2309,
     "explorers": [],
     "status": "incubating"
+  },
+  {
+    "name": "Chronicle Vesuvius - Lit Protocol Testnet",
+    "chain": "LPV",
+    "icon": "lit",
+    "rpc": [
+      "https://vesuvius-rpc.litprotocol.com"
+    ],
+    "faucets": [
+      "https://developer.litprotocol.com/support/intro"
+    ],
+    "nativeCurrency": {
+      "name": "Test LPX",
+      "symbol": "tstLPX",
+      "decimals": 18
+    },
+    "infoURL": "https://litprotocol.com",
+    "shortName": "lpv",
+    "chainId": 2311,
+    "networkId": 2311,
+    "explorers": [
+      {
+        "name": "Lit Chronicle Vesuvius Explorer",
+        "url": "https://vesuvius-explorer.litprotocol.com",
+        "icon": "lit",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Opside Testnet",
