@@ -32,6 +32,7 @@
 │       ├── eip155-10081.json
 │       ├── eip155-10086.json
 │       ├── eip155-1009.json
+│       ├── eip155-10096.json
 │       ├── eip155-101.json
 │       ├── eip155-1010.json
 │       ├── eip155-10101.json
@@ -698,6 +699,7 @@
 │       ├── eip155-2442.json
 │       ├── eip155-24484.json
 │       ├── eip155-245022926.json
+│       ├── eip155-245022929.json
 │       ├── eip155-245022934.json
 │       ├── eip155-245022940.json
 │       ├── eip155-2458.json
@@ -1863,6 +1865,7 @@
     │   ├── ravencoin
     │   ├── ripple
     │   ├── ronin
+    │   ├── rootstock
     │   ├── scroll
     │   ├── secret
     │   ├── sei
@@ -2352,4 +2355,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-182 directories, 2170 files
+183 directories, 2172 files
