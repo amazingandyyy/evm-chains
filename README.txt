@@ -2305,6 +2305,7 @@
         ├── tw.discover.abble.png
         ├── tw.discover.ethstake.png
         ├── tw.discover.firecoin_promo.png
+        ├── tw.discover.gm_web3_campaign.png
         ├── tw.discover.gomining_promo.png
         ├── tw.discover.icp_campaign.png
         ├── tw.discover.join_squad_announcement.png
@@ -2381,4 +2382,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2198 files
+183 directories, 2199 files
