@@ -30468,10 +30468,27 @@
     },
     "infoURL": "https://worldcoin.org/",
     "shortName": "wcsep",
-    "chainId": 484752,
-    "networkId": 484752,
+    "chainId": 4801,
+    "networkId": 4801,
     "slip44": 1,
     "explorers": []
+  },
+  {
+    "name": "World Chain Sepolia Testnet Deprecated",
+    "status": "deprecated",
+    "chain": "ETH",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://worldcoin.org/",
+    "shortName": "wcsep-dep",
+    "rpc": [],
+    "faucets": [],
+    "chainId": 484752,
+    "networkId": 484752,
+    "slip44": 1
   },
   {
     "name": "Gather Devnet Network",
@@ -35228,10 +35245,10 @@
     "name": "Darwin Devnet",
     "chain": "Darwin",
     "rpc": [
-      "https://devnet.darwinchain.ai"
+      "https://devnet-rpc.darwinchain.ai"
     ],
     "faucets": [
-      "https://devnet.darwinchain.ai/faucet"
+      "https://devnet-rpc.darwinchain.ai/faucet"
     ],
     "nativeCurrency": {
       "name": "Darwin Devnet token",
@@ -46150,7 +46167,8 @@
     "name": "WeaveVM Testnet",
     "chain": "WVM",
     "rpc": [
-      "https://testnet.wvm.dev"
+      "https://testnet.wvm.dev",
+      "https://testnet-rpc.wvm.dev"
     ],
     "faucets": [],
     "nativeCurrency": {
