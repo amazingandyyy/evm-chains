@@ -21910,6 +21910,33 @@
     ]
   },
   {
+    "name": "Nexa MetaNet",
+    "chain": "NEXA",
+    "rpc": [
+      "https://nexa.sh/metanet"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Nexa",
+      "symbol": "NEXA",
+      "decimals": 18
+    },
+    "infoURL": "https://nexa.sh/meta",
+    "shortName": "nexameta",
+    "chainId": 29223,
+    "networkId": 29223,
+    "slip44": 29223,
+    "icon": "nexameta",
+    "explorers": [
+      {
+        "name": "NexaShell",
+        "url": "https://nexa.sh",
+        "standard": "none",
+        "icon": "nexashell"
+      }
+    ]
+  },
+  {
     "name": "Xenon Chain Testnet",
     "chain": "XEN",
     "rpc": [
@@ -44546,7 +44573,7 @@
     "chain": "JBC",
     "rpc": [
       "https://rpc-l1.jibchain.net",
-      "https://jib-rpc.inan.in.th"
+      "https://rpc-l1.inan.in.th"
     ],
     "faucets": [],
     "icon": "jbc",
