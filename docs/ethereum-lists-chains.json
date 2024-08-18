@@ -33762,8 +33762,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Toro",
-      "symbol": "TORO",
+      "name": "Toroe",
+      "symbol": "TOROE",
       "decimals": 18
     },
     "infoURL": "https://toronet.org",
@@ -41205,12 +41205,12 @@
     "chain": "Toronet",
     "icon": "toronet",
     "rpc": [
-      "http://toronet.org/rpc"
+      "https://www.toronet.org/rpc2/"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Toro",
-      "symbol": "TORO",
+      "name": "Toroe",
+      "symbol": "TOROE",
       "decimals": 18
     },
     "infoURL": "https://toronet.org",
