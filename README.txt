@@ -2035,6 +2035,7 @@
         ├── app.frax.finance.png
         ├── app.galxe.com.png
         ├── app.harvest.finance.png
+        ├── app.kinza.finance:.png
         ├── app.layer3.xyz.png
         ├── app.mail3.me.png
         ├── app.marginfi.com.png
@@ -2213,6 +2214,7 @@
         ├── gmgn.ai.png
         ├── gmt.io.png
         ├── gmx.io.png
+        ├── gomble.io:.png
         ├── governance.trustwallet.com.png
         ├── hex.win.png
         ├── hodltoken.net.png
@@ -2367,6 +2369,7 @@
         ├── tw.discover.celo_promo.png
         ├── tw.discover.gm_web3_campaign.png
         ├── tw.discover.grand_combat.png
+        ├── tw.discover.zetachain.png
         ├── tw.swift.feedback_logo.png
         ├── tw.swift.gas_logo.png
         ├── tw.swift.passkey_logo.png
@@ -2384,6 +2387,7 @@
         ├── warpcast.com.png
         ├── wolfible.com.png
         ├── word-race.win4.fun.png
+        ├── www.aialaya.io:.png
         ├── www.alpacafinance.org.png
         ├── www.avalonfinance.xyz.png
         ├── www.bakeryswap.org.png
@@ -2398,6 +2402,7 @@
         ├── www.galler.io.png
         ├── www.google.com.png
         ├── www.helmet.insure.png
+        ├── www.holoworldai.com:.png
         ├── www.jito.network.png
         ├── www.kiloex.io.png
         ├── www.maestrobots.com.png
@@ -2419,4 +2424,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2236 files
+183 directories, 2241 files
