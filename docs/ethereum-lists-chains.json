@@ -33075,6 +33075,35 @@
     ]
   },
   {
+    "name": "Fluence Testnet",
+    "chain": "Fluence Testnet",
+    "rpc": [
+      "https://rpc.testnet.fluence.dev/",
+      "wss://ws.testnet.fluence.dev/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "tFLT",
+      "symbol": "tFLT",
+      "decimals": 18
+    },
+    "infoURL": "https://fluence.network/",
+    "shortName": "fluence-testnet",
+    "chainId": 52164803,
+    "networkId": 52164803,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.testnet.fluence.dev",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    }
+  },
+  {
     "name": "Humanode Mainnet",
     "chain": "HMND",
     "rpc": [
@@ -38235,7 +38264,7 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "EdgaMatrix Chain Token",
+      "name": "Edge Matrix Chain Token",
       "symbol": "EMC",
       "decimals": 18
     },
@@ -49404,7 +49433,7 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "EdgaMatrix Chain Token",
+      "name": "Edge Matrix Chain Token",
       "symbol": "EMC",
       "decimals": 18
     },
@@ -49673,6 +49702,35 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Fluence",
+    "chain": "Fluence",
+    "rpc": [
+      "https://rpc.mainnet.fluence.dev/",
+      "wss://ws.mainnet.fluence.dev/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FLT",
+      "symbol": "FLT",
+      "decimals": 18
+    },
+    "infoURL": "https://fluence.network/",
+    "shortName": "fluence",
+    "chainId": 9999999,
+    "networkId": 9999999,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.mainnet.fluence.dev",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
+    }
   },
   {
     "name": "Zora Sepolia Testnet",
