@@ -5158,8 +5158,8 @@
     "status": "deprecated"
   },
   {
-    "name": "NeoX Testnet T4",
-    "chain": "NeoX",
+    "name": "Neo X Testnet T4",
+    "chain": "Neo X",
     "rpc": [
       "https://testnet.rpc.banelabs.org/"
     ],
@@ -5177,7 +5177,7 @@
     "explorers": [
       {
         "name": "neox-scan",
-        "url": "https://testnet.scan.banelabs.org",
+        "url": "https://xt4scan.ngd.network",
         "standard": "EIP3091"
       }
     ],
@@ -11484,7 +11484,7 @@
       }
     ],
     "infoURL": "https://xfair.ai",
-    "shortName": "fair",
+    "shortName": "fairt",
     "chainId": 171000,
     "networkId": 171000
   },
@@ -34067,7 +34067,7 @@
     "chain": "Toronet",
     "icon": "toronet",
     "rpc": [
-      "http://testnet.toronet.org/rpc"
+      "https://testnet.toronet.org/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -39994,6 +39994,25 @@
     ]
   },
   {
+    "name": "Nibiru Testnet-1",
+    "chain": "Nibiru",
+    "rpc": [
+      "https://evm-rpc.testnet-1.nibiru.fi"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "NIBI",
+      "symbol": "NIBI",
+      "decimals": 18
+    },
+    "infoURL": "https://nibiru.fi",
+    "shortName": "nibiru-testnet-1",
+    "chainId": 7210,
+    "networkId": 7210,
+    "icon": "nibiru",
+    "explorers": []
+  },
+  {
     "name": "ERAM Mainnet",
     "chain": "ERAM",
     "icon": "eram",
@@ -40031,7 +40050,7 @@
       "decimals": 18
     },
     "infoURL": "https://nibiru.fi",
-    "shortName": "nibiru",
+    "shortName": "nibiru-devnet-3",
     "chainId": 7222,
     "networkId": 7222,
     "icon": "nibiru",
