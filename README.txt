@@ -849,6 +849,7 @@
 │       ├── eip155-30.json
 │       ├── eip155-300.json
 │       ├── eip155-3000.json
+│       ├── eip155-30000.json
 │       ├── eip155-3001.json
 │       ├── eip155-3003.json
 │       ├── eip155-30067.json
@@ -2398,9 +2399,7 @@
         ├── traphouse.vip.png
         ├── trust.logo.png
         ├── ttroll.ttmobileapps.com.png
-        ├── tw.discover.celo_promo.png
-        ├── tw.discover.gm_web3_campaign.png
-        ├── tw.discover.grand_combat.png
+        ├── tw.discover.bump_promo.png
         ├── tw.discover.zetachain.png
         ├── tw.swift.feedback_logo.png
         ├── tw.swift.gas_logo.png
@@ -2456,4 +2455,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2273 files
+183 directories, 2272 files
