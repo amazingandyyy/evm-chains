@@ -663,6 +663,7 @@
 │       ├── eip155-218.json
 │       ├── eip155-21816.json
 │       ├── eip155-21912.json
+│       ├── eip155-2192.json
 │       ├── eip155-2199.json
 │       ├── eip155-22.json
 │       ├── eip155-220.json
@@ -2464,4 +2465,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2281 files
+183 directories, 2282 files
