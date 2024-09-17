@@ -756,6 +756,7 @@
 │       ├── eip155-247253.json
 │       ├── eip155-24734.json
 │       ├── eip155-2477.json
+│       ├── eip155-24772477.json
 │       ├── eip155-248.json
 │       ├── eip155-2484.json
 │       ├── eip155-25.json
@@ -765,6 +766,7 @@
 │       ├── eip155-252.json
 │       ├── eip155-2522.json
 │       ├── eip155-2525.json
+│       ├── eip155-25327.json
 │       ├── eip155-254.json
 │       ├── eip155-255.json
 │       ├── eip155-2559.json
@@ -831,11 +833,13 @@
 │       ├── eip155-28518.json
 │       ├── eip155-28528.json
 │       ├── eip155-2863311531.json
+│       ├── eip155-2868.json
 │       ├── eip155-288.json
 │       ├── eip155-2882.json
 │       ├── eip155-28872323069.json
 │       ├── eip155-2888.json
 │       ├── eip155-28882.json
+│       ├── eip155-2889.json
 │       ├── eip155-28945486.json
 │       ├── eip155-29.json
 │       ├── eip155-29032022.json
@@ -1441,6 +1445,7 @@
 │       ├── eip155-6868.json
 │       ├── eip155-686868.json
 │       ├── eip155-68770.json
+│       ├── eip155-68775.json
 │       ├── eip155-6880.json
 │       ├── eip155-68840142.json
 │       ├── eip155-69.json
@@ -1467,6 +1472,7 @@
 │       ├── eip155-70700.json
 │       ├── eip155-7077.json
 │       ├── eip155-708.json
+│       ├── eip155-7082400.json
 │       ├── eip155-71.json
 │       ├── eip155-710.json
 │       ├── eip155-7100.json
@@ -2417,8 +2423,7 @@
         ├── traphouse.vip.png
         ├── trust.logo.png
         ├── ttroll.ttmobileapps.com.png
-        ├── tw.discover.bump_promo.png
-        ├── tw.discover.zetachain.png
+        ├── tw.discover.avacn_airdrop.png
         ├── tw.swift.feedback_logo.png
         ├── tw.swift.gas_logo.png
         ├── tw.swift.passkey_logo.png
@@ -2473,4 +2478,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2290 files
+183 directories, 2295 files
