@@ -2445,6 +2445,7 @@
         ├── trust.logo.png
         ├── ttroll.ttmobileapps.com.png
         ├── tw.discover.avacn_airdrop.png
+        ├── tw.discover.ton.png
         ├── tw.swift.feedback_logo.png
         ├── tw.swift.gas_logo.png
         ├── tw.swift.passkey_logo.png
@@ -2499,4 +2500,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2316 files
+183 directories, 2317 files
