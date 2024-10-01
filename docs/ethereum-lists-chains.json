@@ -30599,6 +30599,33 @@
     ]
   },
   {
+    "name": "Asset Chain Mainnet",
+    "chain": "Asset Chain",
+    "rpc": [
+      "https://mainnet-rpc.assetchain.org"
+    ],
+    "faucets": [
+      "https://faucet.assetchain.org"
+    ],
+    "nativeCurrency": {
+      "name": "Real World Asset",
+      "symbol": "RWA",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.assetchain.org",
+    "shortName": "assetchain",
+    "chainId": 42420,
+    "networkId": 42420,
+    "icon": "assetchain",
+    "explorers": [
+      {
+        "name": "Asset Chain Explorer",
+        "url": "https://scan.assetchain.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Asset Chain Testnet",
     "chain": "Asset Chain",
     "rpc": [
@@ -41330,6 +41357,35 @@
     ]
   },
   {
+    "name": "Wadzchain Testnet",
+    "title": "Wadzchain Testnet",
+    "chain": "Wadzchain-Testnet",
+    "icon": "wadz",
+    "rpc": [
+      "https://rpc-testnet.wadzchain.io"
+    ],
+    "faucets": [
+      "https://faucet-testnet.wadzchain.io"
+    ],
+    "nativeCurrency": {
+      "name": "WadzToken",
+      "symbol": "WTK",
+      "decimals": 18
+    },
+    "infoURL": "https://www.wadzchain-network.io",
+    "shortName": "wadzchain-testnet",
+    "chainId": 71117,
+    "networkId": 71117,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Wadzchain Testnet Explorer",
+        "url": "https://scan-testnet.wadzchain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Help The Homeless",
     "chain": "mainnet",
     "rpc": [],
@@ -45092,6 +45148,33 @@
     ]
   },
   {
+    "name": "Zenchain",
+    "chain": "ZCX",
+    "icon": "zenchain",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ZCX",
+      "symbol": "ZCX",
+      "decimals": 18
+    },
+    "infoURL": "https://zenchain.io",
+    "shortName": "zen",
+    "chainId": 8108,
+    "networkId": 8108,
+    "slip44": 60,
+    "explorers": [],
+    "status": "incubating"
+  },
+  {
     "name": "SG Verse Mainnet",
     "chain": "SG Verse",
     "icon": "sg_verse",
@@ -46189,6 +46272,44 @@
         "name": "Tracehawk",
         "url": "https://explorer.runevm.io",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Zenchain Testnet",
+    "chain": "ZCX",
+    "icon": "zenchain",
+    "rpc": [
+      "https://zenchain-testnet.api.onfinality.io/public",
+      "wss://zenchain-testnet.api.onfinality.io/public-ws"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://facuet.zenchain.io"
+    ],
+    "nativeCurrency": {
+      "name": "ZCX",
+      "symbol": "ZCX",
+      "decimals": 18
+    },
+    "infoURL": "https://zenchain.io",
+    "shortName": "zentest",
+    "chainId": 8408,
+    "networkId": 8408,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "zentrace",
+        "url": "https://zentrace.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
       }
     ]
   },
