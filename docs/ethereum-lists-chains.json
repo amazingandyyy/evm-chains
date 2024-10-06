@@ -11346,14 +11346,9 @@
   {
     "name": "Taiko Katla L2",
     "chain": "ETH",
-    "status": "active",
+    "status": "deprecated",
     "icon": "taiko",
-    "rpc": [
-      "https://rpc.katla.taiko.xyz",
-      "wss://ws.katla.taiko.xyz",
-      "https://taiko-katla.drpc.org",
-      "wss://taiko-katla.drpc.org"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -11364,13 +11359,7 @@
     "shortName": "tko-katla",
     "chainId": 167008,
     "networkId": 167008,
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://explorer.katla.taiko.xyz",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": []
   },
   {
     "name": "Taiko Hekla L2",
@@ -44087,6 +44076,36 @@
         "name": "Hazlor Testnet Explorer",
         "url": "https://explorer.hazlor.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Vexon Testnet",
+    "chain": "Vexon",
+    "rpc": [
+      "https://rpc-testnet-asia1.vexonhub.org",
+      "https://rpc-testnet-europe1.vexonhub.org",
+      "https://rpc-testnet-01.vexonhub.org"
+    ],
+    "faucets": [
+      "https://faucet-drip.vexonhub.org"
+    ],
+    "nativeCurrency": {
+      "name": "Vexon Testnet Native Token",
+      "symbol": "tVEX",
+      "decimals": 18
+    },
+    "infoURL": "https://vexonhub.org",
+    "shortName": "vexon",
+    "chainId": 7879,
+    "networkId": 7879,
+    "icon": "vexon",
+    "explorers": [
+      {
+        "name": "Vexon Testnet Explorer",
+        "url": "https://testnet.vexonhub.org",
+        "standard": "EIP3091",
+        "icon": "vexon"
       }
     ]
   },
