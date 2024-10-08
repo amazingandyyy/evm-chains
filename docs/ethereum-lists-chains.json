@@ -13129,7 +13129,7 @@
     "networkId": 18289463
   },
   {
-    "name": "Ethernity Mainnet",
+    "name": "Ethernity",
     "chain": "Ethernity",
     "rpc": [
       "https://mainnet.ethernitychain.io"
@@ -13146,7 +13146,7 @@
     "networkId": 183,
     "explorers": [
       {
-        "name": "Ethernity Mainnet Explorer",
+        "name": "Ethernity Explorer",
         "url": "https://ernscan.io",
         "standard": "EIP3091"
       }
@@ -19363,8 +19363,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "FHE",
-      "symbol": "FHE",
+      "name": "Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
     "features": [
@@ -42886,6 +42886,31 @@
     }
   },
   {
+    "name": "PAYSCAN CHAIN",
+    "chain": "PAYSCAN CHAIN",
+    "rpc": [
+      "https://rpc.payscan.live"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PYZ",
+      "symbol": "PYZ",
+      "decimals": 18
+    },
+    "infoURL": "https://payscan.live",
+    "shortName": "payscan",
+    "chainId": 756689,
+    "networkId": 756689,
+    "slip44": 108,
+    "explorers": [
+      {
+        "name": "PAYSCAN CHAIN",
+        "url": "https://payscan.live",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ADIL Testnet",
     "chain": "ADIL",
     "icon": "adil",
@@ -43032,7 +43057,7 @@
     "explorers": [
       {
         "name": "QL1 Mainnet Explorer",
-        "url": "https://mainnet.qom.one",
+        "url": "https://scan.qom.one",
         "icon": "qom",
         "standard": "EIP3091"
       }
@@ -50384,6 +50409,31 @@
     ]
   },
   {
+    "name": "SRICHAIN",
+    "chain": "SRICHAIN",
+    "rpc": [
+      "https://rpc.sriscan.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SRIX",
+      "symbol": "SRIX",
+      "decimals": 18
+    },
+    "infoURL": "https://sriscan.com",
+    "shortName": "sriscan",
+    "chainId": 95432,
+    "networkId": 95432,
+    "slip44": 108,
+    "explorers": [
+      {
+        "name": "SRICHAIN",
+        "url": "https://sriscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Jono12 Subnet",
     "chain": "JONO12",
     "icon": "jono12",
@@ -51055,6 +51105,31 @@
     "shortName": "yeti",
     "chainId": 977,
     "networkId": 977
+  },
+  {
+    "name": "MetaBenz CHAIN",
+    "chain": "MetaBenz CHAIN",
+    "rpc": [
+      "https://rpc.metabenzscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MBC",
+      "symbol": "MBC",
+      "decimals": 18
+    },
+    "infoURL": "https://metabenzscan.com",
+    "shortName": "metabenzscan",
+    "chainId": 97766,
+    "networkId": 97766,
+    "slip44": 108,
+    "explorers": [
+      {
+        "name": "MetaBenz CHAIN",
+        "url": "https://metabenzscan.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "PepeNetwork Mainnet",
