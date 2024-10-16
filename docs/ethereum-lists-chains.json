@@ -5069,6 +5069,31 @@
     ]
   },
   {
+    "name": "Lummio Network",
+    "chain": "Lummio Network",
+    "rpc": [
+      "https://rpc.lummio.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lummio Reward Points",
+      "symbol": "LRPO",
+      "decimals": 18
+    },
+    "infoURL": "https://lummio.net",
+    "shortName": "lummio",
+    "chainId": 12020498,
+    "networkId": 12020498,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.lummio.net",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Singularity ZERO Testnet",
     "chain": "ZERO",
     "rpc": [
@@ -13284,6 +13309,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
+    "icon": "ethernity",
     "infoURL": "https://www.ethernity.io",
     "shortName": "ethernity-mainnet",
     "chainId": 183,
@@ -51984,6 +52010,25 @@
     "explorers": []
   },
   {
+    "name": "ChadChain",
+    "chain": "CHAD",
+    "status": "incubating",
+    "rpc": [
+      "https://rpc.chadchain.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ChadChain",
+      "symbol": "CHAD",
+      "decimals": 18
+    },
+    "infoURL": "https://chadchain.org",
+    "shortName": "chad",
+    "chainId": 97912060,
+    "networkId": 97912060,
+    "explorers": []
+  },
+  {
     "name": "Carbon EVM Testnet",
     "chain": "Carbon",
     "icon": "carbon",
@@ -52418,6 +52463,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
+    "icon": "arena-z",
     "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
     "faucets": [],
     "shortName": "arena-z-testnet",
