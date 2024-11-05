@@ -1152,6 +1152,32 @@
     "networkId": 1012
   },
   {
+    "name": "Monad Testnet",
+    "chain": "MON",
+    "icon": "monad",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Testnet MON Token",
+      "symbol": "MON",
+      "decimals": 18
+    },
+    "infoURL": "https://monad.xyz",
+    "shortName": "mon-testnet",
+    "chainId": 10143,
+    "networkId": 10143,
+    "slip44": 1,
+    "explorers": []
+  },
+  {
     "name": "Web3Games Testnet",
     "chain": "Web3Games",
     "icon": "web3games",
@@ -5947,6 +5973,43 @@
     }
   },
   {
+    "name": "sivo-defi-testnet",
+    "title": "Sivo Defi Testnet",
+    "chain": "sivo-defi-testnet",
+    "rpc": [
+      "https://rpc.sivo-defi-testnet.t.raas.gelato.cloud",
+      "wss://ws.sivo-defi-testnet.t.raas.gelato.cloud"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/sivo-defi-testnet",
+    "faucets": [],
+    "shortName": "sivo-defi-testnet",
+    "chainId": 123420000586,
+    "networkId": 123420000586,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://sivo-defi-testnet.cloud.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/sivo-defi-testnet"
+        }
+      ]
+    }
+  },
+  {
     "name": "volmex",
     "title": "Volmex",
     "chain": "volmex",
@@ -8997,6 +9060,32 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Monad Mainnet",
+    "chain": "MON",
+    "icon": "monad",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MON Token",
+      "symbol": "MON",
+      "decimals": 18
+    },
+    "infoURL": "https://monad.xyz",
+    "shortName": "mon",
+    "chainId": 143,
+    "networkId": 143,
+    "slip44": 1,
+    "explorers": []
   },
   {
     "name": "EVOLVE Testnet",
@@ -13587,6 +13676,43 @@
     ]
   },
   {
+    "name": "Verify testnet",
+    "title": "Verify Testnet",
+    "chain": "verify-testnet",
+    "rpc": [
+      "https://rpc.verify-testnet.gelato.digital",
+      "wss://ws.verify-testnet.gelato.digital"
+    ],
+    "nativeCurrency": {
+      "name": "Matic",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/verify-testnet",
+    "faucets": [],
+    "shortName": "verify-testnet",
+    "chainId": 1833,
+    "networkId": 1833,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://verify-testnet.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-80002",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/verify-testnet"
+        }
+      ]
+    }
+  },
+  {
     "name": "Dojima Testnet",
     "chain": "Dojima",
     "rpc": [
@@ -14496,6 +14622,7 @@
     "shortName": "locachain",
     "chainId": 19180,
     "networkId": 19180,
+    "icon": "locacoin",
     "explorers": [
       {
         "name": "Locachain Explorer",
@@ -16479,6 +16606,32 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Monad Devnet",
+    "chain": "MON",
+    "icon": "monad",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Devnet MON Token",
+      "symbol": "MON",
+      "decimals": 18
+    },
+    "infoURL": "https://monad.xyz",
+    "shortName": "mon-devnet",
+    "chainId": 20143,
+    "networkId": 20143,
+    "slip44": 1,
+    "explorers": []
   },
   {
     "name": "MainnetZ Mainnet",
@@ -22193,7 +22346,9 @@
     "rpc": [
       "https://mainnet-rpc.swanchain.org",
       "https://mainnet-rpc-01.swanchain.org",
-      "https://mainnet-rpc-02.swanchain.org"
+      "https://mainnet-rpc-02.swanchain.org",
+      "https://mainnet-rpc-03.swanchain.org",
+      "https://mainnet-rpc-04.swanchain.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -27870,13 +28025,15 @@
     ]
   },
   {
-    "name": "Funki Sepolia Sandbox",
+    "name": "Funki Sepolia Testnet",
     "chain": "ETH",
     "icon": "funki",
     "rpc": [
       "https://funki-testnet.alt.technology"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://funkichain.com/portfolio"
+    ],
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
@@ -27887,6 +28044,11 @@
     "chainId": 3397901,
     "networkId": 3397901,
     "explorers": [
+      {
+        "name": "Funki Sepolia Testnet Explorer",
+        "url": "https://testnet.funkiscan.io",
+        "standard": "none"
+      },
       {
         "name": "Funki Sepolia Sandbox Explorer",
         "url": "https://sepolia-sandbox.funkichain.com",
@@ -28233,6 +28395,44 @@
         "icon": "gtc"
       }
     ]
+  },
+  {
+    "name": "citronus-citro",
+    "title": "Citronus-Citro",
+    "chain": "citronus-citro",
+    "rpc": [
+      "https://rpc.citro-testnet.t.raas.gelato.cloud",
+      "wss://testnet-ws.eh-dev.app"
+    ],
+    "nativeCurrency": {
+      "name": "Citronus",
+      "symbol": "CITRO",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/citronus-citro",
+    "faucets": [],
+    "shortName": "citronus-citro",
+    "chainId": 34949059,
+    "networkId": 34949059,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://test.citronus.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/citronus-citro"
+        }
+      ]
+    },
+    "status": "active"
   },
   {
     "name": "TBWG Chain",
@@ -31473,6 +31673,41 @@
         "name": "blockscout",
         "url": "https://mainnet-explorer.kekchain.com",
         "icon": "kek",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Westend Asset Hub",
+    "chain": "WST",
+    "rpc": [
+      "https://westend-asset-hub-eth-rpc.polkadot.io"
+    ],
+    "faucets": [
+      "https://faucet.polkadot.io/westend"
+    ],
+    "nativeCurrency": {
+      "name": "Westies",
+      "symbol": "WND",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://polkadot.network",
+    "shortName": "wst",
+    "chainId": 420420421,
+    "networkId": 420420421,
+    "explorers": [
+      {
+        "name": "subscan",
+        "icon": "subscan",
+        "url": "https://assethub-westend.subscan.io",
         "standard": "EIP3091"
       }
     ]
