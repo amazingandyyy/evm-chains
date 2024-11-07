@@ -2499,6 +2499,42 @@
     ]
   },
   {
+    "name": "GameSwift Chain Testnet",
+    "title": "GameSwift Chain Testnet",
+    "chain": "gameswift-chain-testnet",
+    "rpc": [
+      "https://rpc-testnet.gameswift.io",
+      "wss://ws-testnet.gameswift.io"
+    ],
+    "nativeCurrency": {
+      "name": "TGameSwift",
+      "symbol": "tGS",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet",
+    "faucets": [],
+    "shortName": "gameswift-chain-testnet",
+    "chainId": 10888,
+    "networkId": 10888,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.gameswift.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge-gelato.gameswift.io/bridge/gameswift-chain-testnet"
+        }
+      ]
+    }
+  },
+  {
     "name": "Humans.ai Mainnet",
     "chain": "Humans",
     "rpc": [
@@ -3515,7 +3551,7 @@
       "decimals": 18
     },
     "infoURL": "https://abs.xyz/",
-    "shortName": "Abstract",
+    "shortName": "abstract-sepolia",
     "parent": {
       "type": "L2",
       "chain": "eip155-11155111",
@@ -8830,20 +8866,28 @@
   },
   {
     "name": "Eternal Mainnet",
-    "chain": "Eter",
+    "chain": "ETE",
     "icon": "eternal",
     "rpc": [
       "https://mainnet.eternalcoin.io/v1",
       "ws://mainnet.eternalcoin.io/v1/ws"
     ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Eternal",
-      "symbol": "Eter",
+      "symbol": "ETE",
       "decimals": 18
     },
     "infoURL": "https://eternalcoin.io",
-    "shortName": "Eter",
+    "shortName": "ETE",
     "chainId": 140,
     "networkId": 140
   },
@@ -10088,6 +10132,36 @@
       }
     ],
     "status": "active"
+  },
+  {
+    "name": "Odyssey Chain Mainnet",
+    "chain": "DIONE",
+    "rpc": [
+      "https://node.dioneprotocol.com/ext/bc/D/rpc"
+    ],
+    "faucets": [],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://www.dioneprotocol.com",
+    "shortName": "Odyssey",
+    "chainId": 153153,
+    "networkId": 153153,
+    "icon": "odysseyChain",
+    "nativeCurrency": {
+      "name": "DIONE",
+      "symbol": "DIONE",
+      "decimals": 18
+    },
+    "explorers": [
+      {
+        "name": "Odyssey Scan",
+        "url": "https://odysseyscan.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Redbelly Network TGE",
@@ -22541,6 +22615,40 @@
     }
   },
   {
+    "name": "Bahamut horizon",
+    "title": "Bahamut horizon",
+    "chain": "Bahamut",
+    "icon": "bahamut",
+    "rpc": [
+      "https://horizon-fastex-testnet.zeeve.net"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FTN",
+      "symbol": "FTN",
+      "decimals": 18
+    },
+    "shortName": "horizon",
+    "infoURL": "https://bahamut.io",
+    "chainId": 2552,
+    "networkId": 2552,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://horizon.ftnscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Kortho Mainnet",
     "chain": "Kortho Chain",
     "rpc": [
@@ -23861,6 +23969,28 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Abstract",
+    "chain": "Abstract",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://abs.xyz",
+    "shortName": "abstract",
+    "chainId": 2741,
+    "networkId": 2741,
+    "icon": "abstract",
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    }
   },
   {
     "name": "Nanon",
