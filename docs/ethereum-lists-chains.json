@@ -26243,7 +26243,8 @@
     "name": "Omax Mainnet",
     "chain": "OMAX Chain",
     "rpc": [
-      "https://mainapi.omaxray.com"
+      "https://mainapi.omaxray.com",
+      "https://mainapi.omaxscan.com"
     ],
     "faucets": [
       "https://faucet.omaxray.com/"
