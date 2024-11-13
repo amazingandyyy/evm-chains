@@ -16053,7 +16053,7 @@
     "chain": "edeXa TestNetwork",
     "rpc": [
       "https://testnet.edexa.network/rpc",
-      "https://io-dataseed1.testnet.edexa.io-market.com/rpc"
+      "https://testnet.edexa.com/rpc"
     ],
     "faucets": [
       "https://faucet.edexa.com/"
@@ -22362,6 +22362,23 @@
       "type": "L2",
       "chain": "eip155-5"
     }
+  },
+  {
+    "name": "K2 Testnet",
+    "chain": "K2",
+    "icon": "karak",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://karak.network",
+    "shortName": "K2-testnet",
+    "chainId": 2512,
+    "networkId": 2512,
+    "status": "incubating"
   },
   {
     "name": "LiquidLayer Mainnet",
@@ -33074,6 +33091,29 @@
     "status": "incubating"
   },
   {
+    "name": "Echos Chain",
+    "chain": "Echos",
+    "rpc": [],
+    "features": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "infoURL": "https://www.echos.fun/",
+    "shortName": "echos",
+    "chainId": 4321,
+    "networkId": 4321,
+    "explorers": [
+      {
+        "name": "Echos Explorer",
+        "url": "https://explorer.echos.fun",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "maistestsubnet",
     "chain": "MAI",
     "rpc": [
@@ -37480,8 +37520,7 @@
     "chain": "edeXa Network",
     "rpc": [
       "https://mainnet.edexa.network/rpc",
-      "https://mainnet.edexa.com/rpc",
-      "https://io-dataseed1.mainnet.edexa.io-market.com/rpc"
+      "https://mainnet.edexa.com/rpc"
     ],
     "faucets": [],
     "features": [
@@ -53708,7 +53747,7 @@
     ],
     "parent": {
       "type": "L2",
-      "chain": "eip155-5",
+      "chain": "eip155-28882",
       "bridges": [
         {
           "url": "https://gateway.boba.network"
