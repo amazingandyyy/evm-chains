@@ -11269,6 +11269,7 @@
     "chainId": 164,
     "networkId": 164,
     "slip44": 1,
+    "icon": "omni",
     "explorers": [
       {
         "name": "Omni EVM and cross-chain Explorer",
@@ -11418,8 +11419,11 @@
   {
     "name": "Omni",
     "chain": "Omni",
-    "status": "incubating",
-    "rpc": [],
+    "status": "active",
+    "rpc": [
+      "https://mainnet.omni.network",
+      "wss://wss.mainnet.omni.network"
+    ],
     "features": [
       {
         "name": "EIP155"
@@ -11431,11 +11435,19 @@
       "symbol": "OMNI",
       "decimals": 18
     },
-    "infoURL": "https://docs.omni.network/",
+    "infoURL": "https://docs.omni.network",
     "shortName": "omni",
     "chainId": 166,
     "networkId": 166,
-    "slip44": 1
+    "slip44": 1,
+    "icon": "omni",
+    "explorers": [
+      {
+        "name": "Omni EVM and cross-chain Explorer",
+        "url": "https://omniscan.network",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "0G-Newton-Testnet",
