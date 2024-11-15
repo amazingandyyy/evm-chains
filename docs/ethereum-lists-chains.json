@@ -9606,6 +9606,22 @@
     ]
   },
   {
+    "name": "Islander",
+    "chain": "Islander",
+    "rpc": [],
+    "nativeCurrency": {
+      "name": "Islander",
+      "symbol": "ISL",
+      "decimals": 18
+    },
+    "faucets": [],
+    "infoURL": "",
+    "shortName": "isl",
+    "chainId": 1480,
+    "networkId": 1480,
+    "explorers": []
+  },
+  {
     "name": "Vana Moksha Testnet",
     "chain": "Vana Moksha Testnet",
     "rpc": [
@@ -15119,7 +15135,7 @@
     ],
     "parent": {
       "type": "L2",
-      "chain": "eip155-1",
+      "chain": "eip155-11155111",
       "bridges": [
         {
           "url": "https://bridge.soneium.org/testnet"

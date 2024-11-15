@@ -353,6 +353,7 @@
 │       ├── eip155-1456.json
 │       ├── eip155-147.json
 │       ├── eip155-148.json
+│       ├── eip155-1480.json
 │       ├── eip155-14800.json
 │       ├── eip155-14801.json
 │       ├── eip155-1482601649.json
@@ -2515,6 +2516,7 @@
         ├── rango.png
         ├── rarebits.io.png
         ├── rarible.com.png
+        ├── rats.png
         ├── raydium.io.png
         ├── relay.radar.tech.png
         ├── review.hunt.town.png
@@ -2623,4 +2625,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2440 files
+183 directories, 2442 files
