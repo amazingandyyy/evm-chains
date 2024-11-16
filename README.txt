@@ -2203,6 +2203,7 @@
         ├── alienworlds.io.png
         ├── allbridge.io.png
         ├── angelbattles.com.png
+        ├── angle.money.png
         ├── apenowpaylater.com.png
         ├── apeswap.finance.png
         ├── apollox.finance.png
@@ -2625,4 +2626,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2442 files
+183 directories, 2443 files
