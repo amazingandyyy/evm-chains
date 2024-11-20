@@ -2562,6 +2562,7 @@
         ├── swft.png
         ├── switcheo.exchange.png
         ├── t.me:solana_unibot.png
+        ├── tesa.png
         ├── thorchain.org.png
         ├── token.hunt.town.png
         ├── token.store.png
@@ -2633,4 +2634,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-183 directories, 2450 files
+183 directories, 2451 files
