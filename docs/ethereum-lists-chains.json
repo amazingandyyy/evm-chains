@@ -9128,6 +9128,66 @@
     "status": "deprecated"
   },
   {
+    "name": "Bitharvest Chian Mainnet",
+    "chain": "Bitharvest Chian Mainnet",
+    "rpc": [
+      "https://rpc.bthscan.io/"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitharvest Mainnet Native Token",
+      "symbol": "BTH",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "BitharvestMainnet",
+    "chainId": 14149,
+    "networkId": 14149,
+    "explorers": [
+      {
+        "name": "Bitharvest Mainnet Scan",
+        "url": "https://bthscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "icon": "bth"
+  },
+  {
+    "name": "Bitharvest Chian Testnet",
+    "chain": "Bitharvest Chian Testnet",
+    "rpc": [
+      "https://rpc-testnet.bthscan.io/"
+    ],
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitharvest Testnet Native Token",
+      "symbol": "bth",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "BitharvestTestnet",
+    "chainId": 141491,
+    "networkId": 141491,
+    "explorers": [
+      {
+        "name": "Bitharvest Testnet Scan",
+        "url": "https://testnet.bthscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "icon": "bth"
+  },
+  {
     "name": "DAX CHAIN",
     "chain": "DAX",
     "rpc": [
@@ -11010,10 +11070,7 @@
     "name": "Plume Testnet",
     "title": "Plume Sepolia Rollup Testnet",
     "chain": "ETH",
-    "rpc": [
-      "https://testnet-rpc.plumenetwork.xyz/http",
-      "wss://testnet-rpc.plumenetwork.xyz/ws"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Plume Sepolia Ether",
@@ -11026,22 +11083,11 @@
     "networkId": 161221135,
     "slip44": 1,
     "icon": "plume",
-    "explorers": [
-      {
-        "name": "Blockscout",
-        "url": "https://testnet-explorer.plumenetwork.xyz",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      }
-    ],
+    "status": "deprecated",
+    "explorers": [],
     "parent": {
       "type": "L2",
-      "chain": "eip155-11155111",
-      "bridges": [
-        {
-          "url": "https://testnet-bridge.plumenetwork.xyz"
-        }
-      ]
+      "chain": "eip155-11155111"
     }
   },
   {
@@ -18758,6 +18804,30 @@
     ]
   },
   {
+    "name": "Corn Maizenet",
+    "chain": "BTCN",
+    "rpc": [
+      "https://maizenet-rpc.usecorn.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitcorn",
+      "symbol": "BTCN",
+      "decimals": 18
+    },
+    "infoURL": "https://usecorn.com",
+    "shortName": "btcn",
+    "chainId": 21000000,
+    "networkId": 21000000,
+    "explorers": [
+      {
+        "name": "Corn Maizenet Explorer",
+        "url": "https://maizenet-explorer.usecorn.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "C4EI",
     "chain": "C4EI",
     "rpc": [
@@ -25218,8 +25288,7 @@
     "name": "Orderly Mainnet",
     "chain": "ETH",
     "rpc": [
-      "https://rpc.orderly.network",
-      "https://l2-orderly-mainnet-0.t.conduit.xyz"
+      "https://rpc.orderly.network"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -25227,7 +25296,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "www.orderly.network",
+    "infoURL": "https://orderly.network/",
     "shortName": "orderly",
     "chainId": 291,
     "networkId": 291,
@@ -29724,13 +29793,8 @@
     "slip44": 1,
     "explorers": [
       {
-        "name": "3xpl",
-        "url": "https://3xpl.com/botanix",
-        "standard": "EIP3091"
-      },
-      {
-        "name": "Blockscout",
-        "url": "https://blockscout.botanixlabs.dev",
+        "name": "Botanix Explorer",
+        "url": "https://testnet.botanixscan.io",
         "standard": "EIP3091"
       }
     ]
@@ -30193,6 +30257,7 @@
       "symbol": "GRASS",
       "decimals": 18
     },
+    "icon": "lens",
     "infoURL": "https://www.lens.xyz",
     "shortName": "lens-sepolia",
     "parent": {
@@ -30200,13 +30265,13 @@
       "chain": "eip155-11155111",
       "bridges": [
         {
-          "url": "https://portal.testnet.abs.xyz/bridge"
+          "url": "https://portal.testnet.lens.dev/bridge"
         }
       ]
     },
     "explorers": [
       {
-        "name": "Abstract Block Explorer",
+        "name": "Lens Testnet Block Explorer",
         "url": "https://block-explorer.testnet.lens.dev",
         "standard": "none"
       }
@@ -33209,6 +33274,34 @@
     ]
   },
   {
+    "name": "The Widows Mite",
+    "chain": "MITE",
+    "rpc": [
+      "https://rpc.twmcrypto.com/"
+    ],
+    "faucets": [
+      "https://faucet.twmcrypto.com/"
+    ],
+    "nativeCurrency": {
+      "name": "The Widows Mite",
+      "symbol": "MITE",
+      "decimals": 8
+    },
+    "infoURL": "https://twmcrypto.com/",
+    "shortName": "mite",
+    "chainId": 426,
+    "networkId": 426,
+    "icon": "mite",
+    "explorers": [
+      {
+        "name": "The Widows Mite Explorer",
+        "url": "https://scan.twmcrypto.com",
+        "icon": "mite",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Laika Testnet",
     "chain": "LAIKA",
     "rpc": [
@@ -34237,7 +34330,7 @@
     "name": "Orderly Sepolia Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz"
+      "https://testnet-rpc.orderly.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -34245,7 +34338,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "www.orderly.network",
+    "infoURL": "https://orderly.network",
     "shortName": "orderlyl2",
     "chainId": 4460,
     "networkId": 4460,
@@ -34254,7 +34347,7 @@
     "explorers": [
       {
         "name": "basescout",
-        "url": "https://explorerl2new-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz",
+        "url": "https://testnet-explorer.orderly.org",
         "icon": "blockscout",
         "standard": "EIP3091"
       }
@@ -55177,6 +55270,77 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Plume Devnet",
+    "title": "Plume Sepolia L2 Rollup Devnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://test-rpc.plumenetwork.xyz",
+      "wss://test-rpc.plumenetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plume Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.plumenetwork.xyz/",
+    "shortName": "plume-devnet",
+    "chainId": 98864,
+    "networkId": 98864,
+    "slip44": 1,
+    "icon": "plume",
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://test-explorer.plumenetwork.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    }
+  },
+  {
+    "name": "Plume Mainnet",
+    "title": "Plume Ethereum L2 Rollup Mainnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.plumenetwork.xyz",
+      "wss://rpc.plumenetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plume Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.plumenetwork.xyz/",
+    "shortName": "plume",
+    "chainId": 98865,
+    "networkId": 98865,
+    "slip44": 1,
+    "icon": "plume",
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer.plumenetwork.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.plumenetwork.xyz"
+        }
+      ]
+    }
   },
   {
     "name": "Dogelayer Mainnet",
