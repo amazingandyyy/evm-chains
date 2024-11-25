@@ -4779,6 +4779,24 @@
     ]
   },
   {
+    "name": "Litheum Test Network",
+    "chain": "Litheum",
+    "rpc": [
+      "https://testnet.litheum.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lith",
+      "symbol": "LTH",
+      "decimals": 9
+    },
+    "infoURL": "https://litheum.com",
+    "shortName": "lith",
+    "chainId": 1174,
+    "networkId": 1174,
+    "explorers": []
+  },
+  {
     "name": "Smart Host Teknoloji TESTNET",
     "chain": "SHT",
     "rpc": [
@@ -13854,7 +13872,8 @@
     "name": "IOST Mainnet",
     "chain": "iost",
     "rpc": [
-      "https://iost-mainnet.alt.technology"
+      "https://iost-mainnet.alt.technology",
+      "wss://iost-mainnet.alt.technology/ws"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13863,7 +13882,7 @@
       "decimals": 18
     },
     "infoURL": "https://iost.io",
-    "shortName": "iost-mainnet",
+    "shortName": "iost",
     "chainId": 182,
     "networkId": 182,
     "icon": "bnbchain",
