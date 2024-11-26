@@ -5468,6 +5468,29 @@
     "status": "active"
   },
   {
+    "name": "1Money Network Testnet",
+    "chain": "1Money Testnet",
+    "rpc": [
+      "https://testnet.1money.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD1",
+      "symbol": "USD1",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://1money.com",
+    "shortName": "1money-testnet",
+    "chainId": 1212101,
+    "networkId": 1212101,
+    "explorers": []
+  },
+  {
     "name": "BRC Chain Mainnet",
     "chain": "BRC",
     "rpc": [
@@ -9905,6 +9928,7 @@
     ]
   },
   {
+    "icon": "diode",
     "name": "Diode Prenet",
     "chain": "DIODE",
     "rpc": [
@@ -14249,6 +14273,30 @@
     ]
   },
   {
+    "name": "Soneium",
+    "shortName": "soneium",
+    "title": "Soneium mainnet",
+    "chain": "ETH",
+    "icon": "soneium",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://soneium.org",
+    "chainId": 1868,
+    "networkId": 1868,
+    "status": "incubating",
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    }
+  },
+  {
     "name": "MXC zkEVM Moonchain",
     "chain": "MXC zkEVM",
     "icon": "mxczkevm",
@@ -16120,7 +16168,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "DeepBrainChain",
-      "symbol": "DBC",
+      "symbol": "tDBC",
       "decimals": 18
     },
     "infoURL": "https://www.deepbrainchain.org",
@@ -16132,7 +16180,7 @@
     "explorers": [
       {
         "name": "DeepBrainChain Testnet",
-        "url": "https://blockscout-testnet.dbcscan.io",
+        "url": "https://testnet.dbcscan.io",
         "icon": "dbc",
         "standard": "EIP3091"
       }
@@ -16204,7 +16252,7 @@
     "explorers": [
       {
         "name": "DeepBrainChain Mainnet",
-        "url": "https://blockscout.dbcscan.io",
+        "url": "https://www.dbcscan.io",
         "icon": "dbc",
         "standard": "EIP3091"
       }
@@ -19221,6 +19269,29 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "1Money Network Mainnet",
+    "chain": "1Money Network",
+    "rpc": [
+      "https://mainnet.1money.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD1",
+      "symbol": "USD1",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://1money.com",
+    "shortName": "1money",
+    "chainId": 21210,
+    "networkId": 21210,
+    "explorers": []
   },
   {
     "name": "Metaplayerone Mainnet",
@@ -32231,6 +32302,32 @@
     ]
   },
   {
+    "name": "CrossFi Mainnet",
+    "icon": "crossfi",
+    "chain": "crossfi",
+    "rpc": [
+      "https://rpc.mainnet.ms/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CrossFi Token",
+      "symbol": "XFI",
+      "decimals": 18
+    },
+    "infoURL": "https://crossfi.org",
+    "shortName": "crossfi",
+    "chainId": 4158,
+    "networkId": 4158,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "CrossFi Mainnet Scan",
+        "url": "https://xfiscan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "SX Network Mainnet",
     "chain": "SX",
     "icon": "SX",
@@ -36378,6 +36475,38 @@
       }
     ],
     "status": "active"
+  },
+  {
+    "name": "Pioneer Zero Chain",
+    "chain": "PZO",
+    "icon": "pzo",
+    "rpc": [
+      "https://rpc.zeroscan.org"
+    ],
+    "faucets": [
+      "https://faucet.zeroscan.org/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Pioneer Zero",
+      "symbol": "PZO",
+      "decimals": 18
+    },
+    "infoURL": "https://pionechain.com",
+    "shortName": "pzo",
+    "chainId": 5080,
+    "networkId": 5080,
+    "explorers": [
+      {
+        "name": "Pioneer Zero Chain Explorer",
+        "url": "https://zeroscan.org",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Pioneer Zero Chain Explorer",
+        "url": "https://zero.pionescan.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Erbie Mainnet",
@@ -51693,6 +51822,38 @@
     "shortName": "vsc",
     "chainId": 8889,
     "networkId": 8889
+  },
+  {
+    "name": "Unite",
+    "chain": "UNITE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Unite",
+      "symbol": "UNITE",
+      "decimals": 18
+    },
+    "infoURL": "https://unite.io",
+    "shortName": "unite",
+    "chainId": 88899,
+    "networkId": 88899,
+    "status": "incubating"
+  },
+  {
+    "name": "Unite Testnet",
+    "chain": "UNITE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Testnet Unite",
+      "symbol": "UNITE",
+      "decimals": 18
+    },
+    "infoURL": "https://unite.io",
+    "shortName": "unitetestnet",
+    "chainId": 888991,
+    "networkId": 888991,
+    "status": "incubating"
   },
   {
     "name": "Orenium Testnet Protocol",
