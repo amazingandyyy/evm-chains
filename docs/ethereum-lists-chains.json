@@ -17102,12 +17102,12 @@
       "decimals": 18
     },
     "infoURL": "https://nowchain.co",
-    "shortName": "now",
+    "shortName": "tnow",
     "chainId": 2014,
     "networkId": 2014,
     "explorers": [
       {
-        "name": "nowscan",
+        "name": "nowscan testnet",
         "url": "https://testnet.nowscan.io",
         "standard": "EIP3091"
       }
@@ -18892,7 +18892,39 @@
         "url": "https://maizenet-explorer.usecorn.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
+    }
+  },
+  {
+    "name": "Corn Testnet",
+    "chain": "BTCN",
+    "rpc": [
+      "https://testnet-rpc.usecorn.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitcorn",
+      "symbol": "BTCN",
+      "decimals": 18
+    },
+    "infoURL": "https://usecorn.com",
+    "shortName": "btcn-testnet",
+    "chainId": 21000001,
+    "networkId": 21000001,
+    "explorers": [
+      {
+        "name": "Corn Testnet Explorer",
+        "url": "https://testnet-explorer.usecorn.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    }
   },
   {
     "name": "C4EI",
@@ -27796,6 +27828,33 @@
         "name": "Zilliqa EVM Explorer",
         "url": "https://evmx.zilliqa.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Zilliqa 2 EVM proto-mainnet",
+    "chain": "ZIL",
+    "rpc": [
+      "https://api.zq2-protomainnet.zilliqa.com"
+    ],
+    "faucets": [
+      "https://faucet.zq2-protomainnet.zilliqa.com"
+    ],
+    "nativeCurrency": {
+      "name": "Zilliqa",
+      "symbol": "ZIL",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zilliqa.com/",
+    "shortName": "zq2-proto-mainnet",
+    "chainId": 32770,
+    "networkId": 32770,
+    "icon": "zilliqa",
+    "explorers": [
+      {
+        "name": "Zilliqa 2 EVM proto-mainnet explorer",
+        "url": "https://explorer.zq2-protomainnet.zilliqa.com",
+        "standard": "EIP3091"
       }
     ]
   },
