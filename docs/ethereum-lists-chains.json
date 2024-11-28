@@ -10084,7 +10084,9 @@
     "chainId": 151,
     "networkId": 151,
     "slip44": 824,
-    "rpc": [],
+    "rpc": [
+      "https://governors.mainnet.redbelly.network"
+    ],
     "faucets": [],
     "infoURL": "https://redbelly.network",
     "nativeCurrency": {
@@ -10092,7 +10094,14 @@
       "symbol": "RBNT",
       "decimals": 18
     },
-    "status": "incubating"
+    "status": "active",
+    "explorers": [
+      {
+        "name": "Routescan",
+        "url": "https://redbelly.routescan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "GPT Mainnet",
@@ -10322,9 +10331,9 @@
     },
     "explorers": [
       {
-        "name": "Redbelly Network Testnet Explorer",
-        "url": "https://explorer.testnet.redbelly.network",
-        "standard": "none"
+        "name": "Routescan",
+        "url": "https://redbelly.testnet.routescan.io",
+        "standard": "EIP3091"
       }
     ],
     "status": "active"
