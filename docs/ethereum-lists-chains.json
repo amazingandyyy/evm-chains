@@ -7230,6 +7230,34 @@
     ]
   },
   {
+    "name": "Argochain Testnet",
+    "chain": "Argochain",
+    "icon": "argochain",
+    "rpc": [
+      "https://rpc-testnet.devolvedai.com",
+      "https://test-rpc.devolvedai.com"
+    ],
+    "faucets": [
+      "https://faucet.argoscan.net"
+    ],
+    "nativeCurrency": {
+      "name": "Argocoin",
+      "symbol": "AGC",
+      "decimals": 18
+    },
+    "infoURL": "https://devolvedai.com",
+    "shortName": "tAGC",
+    "chainId": 1298,
+    "networkId": 1298,
+    "explorers": [
+      {
+        "name": "Argochain Test Scanner",
+        "url": "https://test-scanner.devolvedai.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Argochain",
     "chain": "Argochain",
     "icon": "argochain",
@@ -9184,8 +9212,8 @@
     "status": "deprecated"
   },
   {
-    "name": "Bitharvest Chian Mainnet",
-    "chain": "Bitharvest Chian Mainnet",
+    "name": "Bitharvest Chain Mainnet",
+    "chain": "Bitharvest Chain Mainnet",
     "rpc": [
       "https://rpc.bthscan.io/"
     ],
@@ -9214,8 +9242,8 @@
     "icon": "bth"
   },
   {
-    "name": "Bitharvest Chian Testnet",
-    "chain": "Bitharvest Chian Testnet",
+    "name": "Bitharvest Chain Testnet",
+    "chain": "Bitharvest Chain Testnet",
     "rpc": [
       "https://rpc-testnet.bthscan.io/"
     ],
@@ -9227,7 +9255,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Bitharvest Testnet Native Token",
-      "symbol": "bth",
+      "symbol": "BTH",
       "decimals": 18
     },
     "infoURL": "",
@@ -41599,6 +41627,32 @@
       {
         "name": "TikTrix Testnet Explorer",
         "url": "https://tiktrix.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "DJT Testnet",
+    "chain": "DJT",
+    "icon": "djt",
+    "rpc": [
+      "https://testnet-rpc.trumpchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TrumpChain",
+      "symbol": "DJT",
+      "decimals": 18
+    },
+    "infoURL": "https://testnet-explorer.trumpchain.io",
+    "shortName": "DJT",
+    "chainId": 621847,
+    "networkId": 621847,
+    "explorers": [
+      {
+        "name": "DJT Testnet Explorer",
+        "url": "https://testnet-explorer.trumpchain.io",
+        "icon": "djt",
         "standard": "EIP3091"
       }
     ]
