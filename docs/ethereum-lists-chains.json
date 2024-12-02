@@ -966,7 +966,10 @@
     "name": "Jumbochain Mainnet",
     "chain": "Jumbo",
     "rpc": [
-      "https://rpcpriv.jumbochain.org"
+      "https://rpcpriv.jumbochain.org",
+      "https://rpc-datajumbo1.jumbochain.org",
+      "https://rpc-datajumbo2.jumbochain.org",
+      "https://rpc-datajumbo3.jumbochain.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -14555,7 +14558,7 @@
       "symbol": "tEXP",
       "decimals": 18
     },
-    "infoURL": "https://expanse.tech",
+    "infoURL": "https://expchain.ai",
     "shortName": "expchain",
     "chainId": 18880,
     "networkId": 18880,
@@ -16868,6 +16871,38 @@
         "name": "Blockscout",
         "url": "https://explorer-mainnet-algorand-rollup.a1.milkomeda.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Zoo Network",
+    "chain": "Zoo",
+    "icon": "zoo",
+    "rpc": [
+      "https://api.zoo.network"
+    ],
+    "faucets": [
+      "https://faucet.zoo-test.network"
+    ],
+    "nativeCurrency": {
+      "name": "Zoo",
+      "symbol": "ZOO",
+      "decimals": 18
+    },
+    "infoURL": "https://zoo.network",
+    "shortName": "zoo",
+    "chainId": 200200,
+    "networkId": 200200,
+    "explorers": [
+      {
+        "name": "Zoo Network Explorer",
+        "url": "https://explore.zoo.network",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Zoo Network Explorer",
+        "url": "https://explore.zoo-test.network",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -53560,6 +53595,26 @@
     ]
   },
   {
+    "name": "Owshen Mainnet",
+    "chain": "ETH",
+    "status": "active",
+    "icon": "owshen",
+    "rpc": [
+      "https://rpc.owshen.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DIVE",
+      "symbol": "DIVE",
+      "decimals": 18
+    },
+    "infoURL": "https://owshen.io",
+    "shortName": "owshen-mainnet",
+    "chainId": 918273,
+    "networkId": 918273,
+    "explorers": []
+  },
+  {
     "name": "Mode Testnet",
     "chain": "ETH",
     "rpc": [
@@ -54693,6 +54748,38 @@
       {
         "name": "blockscout",
         "url": "https://scan.bitcoincode.technology",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Lux Network",
+    "chain": "Lux",
+    "icon": "lux",
+    "rpc": [
+      "https://api.lux.network"
+    ],
+    "faucets": [
+      "https://faucet.lux-test.network"
+    ],
+    "nativeCurrency": {
+      "name": "Lux",
+      "symbol": "LUX",
+      "decimals": 18
+    },
+    "infoURL": "https://lux.network",
+    "shortName": "lux",
+    "chainId": 96369,
+    "networkId": 96369,
+    "explorers": [
+      {
+        "name": "Lux Network Explorer",
+        "url": "https://explore.lux.network",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Lux Network Explorer",
+        "url": "https://explore.lux-test.network",
         "standard": "EIP3091"
       }
     ]
