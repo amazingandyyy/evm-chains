@@ -1978,6 +1978,7 @@
 │       ├── eip155-957.json
 │       ├── eip155-96.json
 │       ├── eip155-963.json
+│       ├── eip155-96368.json
 │       ├── eip155-96369.json
 │       ├── eip155-969.json
 │       ├── eip155-96970.json
@@ -2410,6 +2411,7 @@
         ├── dex.leonicornswap.com.png
         ├── dex.verisafe.io.png
         ├── dice2.win.png
+        ├── discover_12days_1.png
         ├── discover_wod.png
         ├── doperaider.com.png
         ├── dozerbird.io.png
@@ -2678,4 +2680,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-184 directories, 2494 files
+184 directories, 2496 files
