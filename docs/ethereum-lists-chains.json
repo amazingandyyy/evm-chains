@@ -35294,8 +35294,8 @@
     "name": "AppChain",
     "chain": "AppChain",
     "rpc": [
-      "https://appchain.calderachain.xyz/http",
-      "wss://appchain.calderachain.xyz/ws"
+      "https://rpc.appchain.xyz/http",
+      "wss://rpc.appchain.xyz/ws"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -45211,7 +45211,9 @@
     "chain": "COTI",
     "icon": "coti",
     "rpc": [
-      "https://testnet.coti.io/rpc"
+      "https://testnet.coti.io/rpc",
+      "https://testnet-magnus-validator.coti.io/rpc",
+      "https://testnet-minor-validator.coti.io/rpc"
     ],
     "faucets": [
       "https://faucet.coti.io"

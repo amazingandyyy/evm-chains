@@ -2426,6 +2426,8 @@
         ├── discover_12days_1.png
         ├── discover_12days_4ever.png
         ├── discover_12days_bump.png
+        ├── discover_12days_freename.png
+        ├── discover_12days_wagmi.png
         ├── discover_wod.png
         ├── doperaider.com.png
         ├── dozerbird.io.png
@@ -2694,4 +2696,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-184 directories, 2510 files
+184 directories, 2512 files
