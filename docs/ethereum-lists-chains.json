@@ -3677,6 +3677,43 @@
     ]
   },
   {
+    "name": "Core Blockchain Testnet2",
+    "chain": "Core",
+    "icon": "core",
+    "rpc": [
+      "https://rpc.test2.btcs.network/"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://scan.test2.btcs.network/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Core Blockchain Testnet2 Native Token",
+      "symbol": "tCORE2",
+      "decimals": 18
+    },
+    "infoURL": "https://www.coredao.org",
+    "shortName": "tcore2",
+    "chainId": 1114,
+    "networkId": 1114,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Core Scan Testnet2",
+        "url": "https://scan.test2.btcs.network",
+        "icon": "core",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Blessnet Sepolia",
     "chain": "ETH",
     "rpc": [
@@ -3728,6 +3765,14 @@
     "icon": "core",
     "rpc": [
       "https://rpc.test.btcs.network/"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
     ],
     "faucets": [
       "https://scan.test.btcs.network/faucet"
@@ -3907,6 +3952,14 @@
       "https://rpc-core.icecreamswap.com",
       "https://core.drpc.org",
       "wss://core.drpc.org"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -37081,6 +37134,48 @@
     "status": "active"
   },
   {
+    "name": "Stavanger Public Testnet",
+    "chain": "stavanger",
+    "rpc": [
+      "https://rpc.stavanger.gateway.fm"
+    ],
+    "faucets": [
+      "https://faucet.stavanger.gateway.fm"
+    ],
+    "nativeCurrency": {
+      "name": "Polygon",
+      "symbol": "POL",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://gateway.fm",
+    "shortName": "stavanger",
+    "chainId": 50591822,
+    "networkId": 50591822,
+    "icon": "stavanger",
+    "explorers": [
+      {
+        "name": "BlockScout",
+        "url": "https://explorer.stavanger.gateway.fm",
+        "icon": "stavanger",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.stavanger.gateway.fm"
+        }
+      ]
+    }
+  },
+  {
     "name": "Pioneer Zero Chain",
     "chain": "PZO",
     "icon": "pzo",
@@ -39175,6 +39270,58 @@
       {
         "name": "blockscout",
         "url": "https://explorer.titan-sepolia.tokamak.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "PointPay Mainnet",
+    "chain": "pointpay",
+    "rpc": [
+      "https://rpc-mainnet.pointpay.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PointPay",
+      "symbol": "PXP",
+      "decimals": 18
+    },
+    "infoURL": "https://pointpay.io",
+    "shortName": "PP",
+    "chainId": 5511,
+    "networkId": 5511,
+    "icon": "pointpay",
+    "explorers": [
+      {
+        "name": "PointPay Mainnet Explorer",
+        "url": "https://explorer.pointpay.io",
+        "icon": "pointpay",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "PointPay Testnet",
+    "chain": "pointpay",
+    "rpc": [
+      "https://rpc-testnet.pointpay.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PointPay",
+      "symbol": "PXP",
+      "decimals": 18
+    },
+    "infoURL": "https://pointpay.io",
+    "shortName": "PPTEST",
+    "chainId": 5511555,
+    "networkId": 5511555,
+    "icon": "pointpay",
+    "explorers": [
+      {
+        "name": "PointPay Testnet Explorer",
+        "url": "https://testnet.pointpay.io",
+        "icon": "pointpay",
         "standard": "EIP3091"
       }
     ]
@@ -45594,8 +45741,8 @@
       "https://faucet-testnet.wadzchain.io"
     ],
     "nativeCurrency": {
-      "name": "WadzToken",
-      "symbol": "WTK",
+      "name": "WadzChain Coin",
+      "symbol": "WCO",
       "decimals": 18
     },
     "infoURL": "https://www.wadzchain-network.io",
