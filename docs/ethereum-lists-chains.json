@@ -2643,7 +2643,9 @@
     "chain": "Shibarium",
     "icon": "shibarium",
     "rpc": [
-      "https://www.shibrpc.com"
+      "https://www.shibrpc.com",
+      "https://rpc.shibrpc.com",
+      "https://shib.nownodes.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -3813,7 +3815,8 @@
       "wss://ethereum-sepolia-rpc.publicnode.com",
       "https://sepolia.drpc.org",
       "wss://sepolia.drpc.org",
-      "https://rpc-sepolia.rockx.com"
+      "https://rpc-sepolia.rockx.com",
+      "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-"
     ],
     "faucets": [
       "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
@@ -7917,8 +7920,8 @@
     "title": "Form Testnet",
     "chain": "formtestnet",
     "rpc": [
-      "https://testnet-rpc.form.network/http",
-      "wss://testnet-rpc.form.network/ws"
+      "https://sepolia-rpc.form.network/http",
+      "wss://sepolia-rpc.form.network/ws"
     ],
     "features": [
       {
@@ -7936,14 +7939,14 @@
       "symbol": "ETH",
       "decimals": 18
     },
-    "infoURL": "https://form.network/details",
+    "infoURL": "https://sepolia-info.form.network",
     "shortName": "formtestnet",
     "chainId": 132902,
     "networkId": 132902,
     "explorers": [
       {
         "name": "Form Testnet explorer",
-        "url": "https://testnet-explorer.form.network",
+        "url": "https://sepolia-explorer.form.network",
         "standard": "EIP3091"
       }
     ],
@@ -7952,7 +7955,7 @@
       "chain": "eip155-11155111",
       "bridges": [
         {
-          "url": "https://bridge.form.network/"
+          "url": "https://sepolia-op-bridge.form.network"
         }
       ]
     }
@@ -10833,14 +10836,14 @@
     ]
   },
   {
-    "name": "Puppynet Shibarium",
-    "chain": "Puppynet Shibarium",
+    "name": "Puppynet",
+    "chain": "Puppynet",
     "icon": "shibarium",
     "rpc": [
       "https://puppynet.shibrpc.com"
     ],
     "faucets": [
-      "https://beta.shibariumtech.com/faucet"
+      "https://shibarium.shib.io/faucet"
     ],
     "nativeCurrency": {
       "name": "BONE",
@@ -21985,6 +21988,31 @@
     "status": "deprecated"
   },
   {
+    "name": "Universe Testnet",
+    "chain": "Universe",
+    "rpc": [
+      "https://blockchain.dev-universe-bank.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Universe Token",
+      "symbol": "UNI",
+      "decimals": 18
+    },
+    "infoURL": "https://www.universe-bank.com/universal-ledger-system",
+    "shortName": "unitestnet",
+    "chainId": 235711,
+    "networkId": 235711,
+    "icon": "universe",
+    "explorers": [
+      {
+        "name": "Universe Testnet Explorer",
+        "url": "https://blockchain-explorer.dev-universe-bank.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Kroma Sepolia",
     "title": "Kroma Testnet Sepolia",
     "chainId": 2358,
@@ -29468,7 +29496,7 @@
     "chain": "EVO",
     "icon": "evolveIcon",
     "rpc": [
-      "https://rpc.evolveblockchain.io"
+      "https://rpc.evoexplorer.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -35399,6 +35427,34 @@
     ]
   },
   {
+    "name": "MST Chain",
+    "title": "MST Chain",
+    "chain": "MST",
+    "rpc": [
+      "https://mariorpc.mstblockchain.com",
+      "https://craftrpc.mstblockchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MST",
+      "symbol": "MST",
+      "decimals": 18
+    },
+    "infoURL": "https://mstblockchain.com",
+    "shortName": "mst",
+    "chainId": 4646,
+    "networkId": 4646,
+    "slip44": 4646,
+    "icon": "mst",
+    "explorers": [
+      {
+        "name": "MST Mainnet Scan",
+        "url": "https://mstscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Gold Chain",
     "title": "Gold Chain",
     "chain": "Gold",
@@ -35840,6 +35896,54 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Form Network",
+    "title": "Form Network",
+    "chain": "form",
+    "icon": "form",
+    "rpc": [
+      "https://rpc.form.network/http",
+      "wss://rpc.form.network/ws"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://info.form.network",
+    "shortName": "formnetwork",
+    "chainId": 478,
+    "networkId": 478,
+    "explorers": [
+      {
+        "name": "Form Explorer",
+        "url": "https://explorer.form.network",
+        "standard": "EIP3091",
+        "icon": "form"
+      }
+    ],
+    "faucets": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.form.network"
+        },
+        {
+          "url": "https://op-bridge.form.network"
+        }
+      ]
+    }
   },
   {
     "name": "ReDeFi Layer 1",
@@ -36905,6 +37009,37 @@
         }
       ]
     }
+  },
+  {
+    "name": "Somnia Devnet",
+    "chain": "Somnia",
+    "rpc": [
+      "https://dream-rpc.somnia.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Somnia Devnet",
+      "symbol": "STT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://somnia.network",
+    "shortName": "STT",
+    "chainId": 50311,
+    "networkId": 50311,
+    "icon": "somnia",
+    "explorers": [
+      {
+        "name": "Somnia Devnet",
+        "url": "https://somnia-devnet.socialscan.io",
+        "icon": "somnia",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Deprecated SKALE Nebula Hub Testnet",
@@ -43142,11 +43277,9 @@
   },
   {
     "name": "Autonity Bakerloo (Yamuna) Testnet",
+    "status": "deprecated",
     "chain": "AUT",
-    "rpc": [
-      "https://rpc1.bakerloo.autonity.org/",
-      "wss://rpc1.bakerloo.autonity.org/ws/"
-    ],
+    "rpc": [],
     "faucets": [
       "https://faucet.autonity.org/"
     ],
@@ -43266,11 +43399,9 @@
   },
   {
     "name": "Autonity Piccadilly (Yamuna) Testnet",
+    "status": "deprecated",
     "chain": "AUT",
-    "rpc": [
-      "https://rpc1.piccadilly.autonity.org/",
-      "wss://rpc1.piccadilly.autonity.org/ws/"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "Piccadilly Auton",
@@ -43281,6 +43412,36 @@
     "shortName": "piccadilly-03",
     "chainId": 65100003,
     "networkId": 65100003,
+    "slip44": 1,
+    "icon": "autonity",
+    "explorers": [
+      {
+        "name": "autonity-blockscout",
+        "url": "https://piccadilly.autonity.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Autonity Piccadilly (Tiber) Testnet",
+    "chain": "AUT",
+    "rpc": [
+      "https://autonity.rpc.web3cdn.network/testnet",
+      "wss://autonity.rpc.web3cdn.network/testnet/ws",
+      "https://autonity-piccadilly.rpc.subquery.network/public",
+      "https://picadilly.autonity-apis.com",
+      "wss://picadilly-ws.autonity-apis.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Piccadilly Auton",
+      "symbol": "ATN",
+      "decimals": 18
+    },
+    "infoURL": "https://autonity.org/",
+    "shortName": "piccadilly-04",
+    "chainId": 65100004,
+    "networkId": 65100004,
     "slip44": 1,
     "icon": "autonity",
     "explorers": [
@@ -48173,6 +48334,32 @@
         "name": "CONDUIT Explorer",
         "url": "https://subnets-test.avax.network/conduit",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "AUTHEO Testnet",
+    "chain": "AUTHEO Testnet",
+    "rpc": [
+      "https://testnet-rpc1.autheo.com"
+    ],
+    "faucets": [
+      "https://testnet-faucet.autheo.com"
+    ],
+    "nativeCurrency": {
+      "name": "THEO",
+      "symbol": "THEO",
+      "decimals": 18
+    },
+    "infoURL": "https://autheo.com",
+    "shortName": "autheo-Test-Chain",
+    "chainId": 785,
+    "networkId": 785,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://testnet-explorer.autheo.com",
+        "standard": "none"
       }
     ]
   },
@@ -54001,6 +54188,40 @@
     "networkId": 909,
     "explorers": [],
     "status": "incubating"
+  },
+  {
+    "name": "Inco Gentry Testnet",
+    "chain": "INCO",
+    "rpc": [
+      "https://testnet.inco.org"
+    ],
+    "faucets": [
+      "https://faucet.inco.org"
+    ],
+    "nativeCurrency": {
+      "name": "INCO",
+      "symbol": "INCO",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.inco.org",
+    "shortName": "inco-gentry",
+    "chainId": 9090,
+    "networkId": 9090,
+    "explorers": [
+      {
+        "name": "Inco Gentry Testnet Explorer",
+        "url": "https://explorer.testnet.inco.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "KPA Smart Chain Testnet",
