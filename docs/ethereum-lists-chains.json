@@ -7713,6 +7713,31 @@
     ]
   },
   {
+    "name": "Turbo",
+    "chain": "NEAR",
+    "rpc": [
+      "https://rpc-0x4e45415f.aurora-cloud.dev"
+    ],
+    "icon": "turbo",
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Turbo",
+      "symbol": "TURBO",
+      "decimals": 18
+    },
+    "infoURL": "https://turbotoken.io",
+    "shortName": "turbo",
+    "chainId": 1313161567,
+    "networkId": 1313161567,
+    "explorers": [
+      {
+        "name": "Turbo explorer",
+        "url": "https://explorer.turbo.aurora.dev",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Xerom",
     "chain": "XERO",
     "rpc": [
@@ -18368,18 +18393,19 @@
   },
   {
     "name": "Phala Network",
-    "chain": "PHA",
+    "chain": "ETH",
     "rpc": [],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Phala",
-      "symbol": "PHA",
+      "name": "Ether",
+      "symbol": "ETH",
       "decimals": 18
     },
     "infoURL": "https://phala.network",
-    "shortName": "pha",
+    "shortName": "phala",
     "chainId": 2035,
-    "networkId": 2035
+    "networkId": 2035,
+    "status": "incubating"
   },
   {
     "name": "Kiwi Subnet",
@@ -19168,9 +19194,10 @@
     ]
   },
   {
-    "name": "Corn Maizenet",
+    "name": "Corn",
     "chain": "BTCN",
     "rpc": [
+      "https://mainnet.corn-rpc.com",
       "https://rpc.ankr.com/corn_maizenet",
       "https://maizenet-rpc.usecorn.com"
     ],
@@ -19181,9 +19208,10 @@
       "decimals": 18
     },
     "infoURL": "https://usecorn.com",
-    "shortName": "btcn",
+    "shortName": "corn",
     "chainId": 21000000,
     "networkId": 21000000,
+    "icon": "corn",
     "explorers": [
       {
         "name": "Corn Explorer",
@@ -19205,6 +19233,7 @@
     "name": "Corn Testnet",
     "chain": "BTCN",
     "rpc": [
+      "https://testnet.corn-rpc.com",
       "https://rpc.ankr.com/corn_testnet",
       "https://testnet-rpc.usecorn.com"
     ],
@@ -19215,7 +19244,7 @@
       "decimals": 18
     },
     "infoURL": "https://usecorn.com",
-    "shortName": "btcn-testnet",
+    "shortName": "corn-testnet",
     "chainId": 21000001,
     "networkId": 21000001,
     "explorers": [
@@ -20801,7 +20830,7 @@
     ]
   },
   {
-    "name": "HydraDX",
+    "name": "Hydration",
     "chain": "HDX",
     "rpc": [
       "https://rpc.hydradx.cloud",
@@ -20813,11 +20842,11 @@
       "symbol": "WETH",
       "decimals": 18
     },
-    "infoURL": "https://hydradx.io",
+    "infoURL": "https://hydration.net/",
     "shortName": "hdx",
     "chainId": 222222,
     "networkId": 222222,
-    "icon": "hydradx",
+    "icon": "hydration",
     "explorers": [
       {
         "name": "blockscout",
@@ -29969,11 +29998,11 @@
     ]
   },
   {
-    "name": "JZERO",
-    "chain": "JZERO",
-    "icon": "jzero",
+    "name": "JFINPOS",
+    "chain": "JFINPOS",
+    "icon": "jfinpos",
     "rpc": [
-      "https://rpc.jzero.xyz"
+      "https://rpc.jfinpos.com"
     ],
     "faucets": [],
     "features": [
@@ -29985,19 +30014,19 @@
       }
     ],
     "nativeCurrency": {
-      "name": "JZERO",
-      "symbol": "JZR",
+      "name": "JFINPOS",
+      "symbol": "JPOS",
       "decimals": 18
     },
-    "infoURL": "https://jzero.xyz",
+    "infoURL": "https://jfinpos.com",
     "shortName": "jzero",
     "chainId": 3502,
     "networkId": 3502,
     "explorers": [
       {
-        "name": "JZERO Explorer",
-        "url": "https://exp.jzero.xyz",
-        "icon": "jzero",
+        "name": "JFINPOS Explorer",
+        "url": "https://exp.jfinpos.com",
+        "icon": "jfinpos",
         "standard": "EIP3091"
       }
     ]
@@ -34327,7 +34356,9 @@
   {
     "name": "Echos Chain",
     "chain": "Echos",
-    "rpc": [],
+    "rpc": [
+      "https://rpc-echos-mainnet-0.t.conduit.xyz"
+    ],
     "features": [],
     "faucets": [],
     "nativeCurrency": {
@@ -36065,6 +36096,34 @@
         "name": "rei-scan",
         "url": "https://scan.rei.network",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Evnode Testnet",
+    "chain": "Evnode",
+    "rpc": [
+      "https://rpc-testnet.evnode.org/"
+    ],
+    "faucets": [
+      "https://faucet.evnode.org"
+    ],
+    "nativeCurrency": {
+      "name": "Evnode Testnet Native Token",
+      "symbol": "tEVO",
+      "decimals": 18
+    },
+    "infoURL": "https://evnode.org",
+    "shortName": "evnode",
+    "chainId": 4786,
+    "networkId": 4786,
+    "icon": "evnode",
+    "explorers": [
+      {
+        "name": "Evnode Explorer Testnet",
+        "url": "https://testnet.evscan.net",
+        "standard": "EIP3091",
+        "icon": "evnode"
       }
     ]
   },
@@ -39176,7 +39235,8 @@
     "chain": "OverProtocol",
     "icon": "overIcon",
     "rpc": [
-      "https://public.rpc.overprotocol.com"
+      "https://rpc.overprotocol.com",
+      "https://rpc2.overprotocol.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -39191,7 +39251,7 @@
     "explorers": [
       {
         "name": "OverView",
-        "url": "https://view.over.network",
+        "url": "https://scan.over.network",
         "standard": "EIP3091"
       }
     ]
@@ -39201,7 +39261,7 @@
     "chain": "OverProtocol",
     "icon": "overIcon",
     "rpc": [
-      "https://wallet-dolphin.rpc.over.network"
+      "https://rpc.dolphin.overprotocol.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -39216,7 +39276,7 @@
     "explorers": [
       {
         "name": "OverView Testnet",
-        "url": "https://dolphin.view.over.network",
+        "url": "https://dolphin-scan.over.network",
         "standard": "EIP3091"
       }
     ]
@@ -44356,6 +44416,40 @@
     ]
   },
   {
+    "name": "Conwai Mainnet",
+    "chain": "CNW",
+    "rpc": [
+      "https://conwai.calderachain.xyz/http"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Conwai",
+      "symbol": "CNW",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://conwai.net",
+    "shortName": "cnw",
+    "chainId": 668668,
+    "networkId": 668668,
+    "icon": "conwai",
+    "explorers": [
+      {
+        "name": "conwaiscan",
+        "icon": "conwaiscan",
+        "url": "https://conwai.calderaexplorer.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "IRIShub",
     "chain": "IRIShub",
     "rpc": [
@@ -46484,6 +46578,32 @@
         "name": "TixChain Testnet Subnet Explorer",
         "url": "https://subnets-test.avax.network/tixchain",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "InitVerse penesis testnet",
+    "chain": "InitVerse",
+    "rpc": [
+      "http://rpc-testnet.inichain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "InitVerse",
+      "symbol": "INI",
+      "decimals": 18
+    },
+    "infoURL": "https://genesis-testnet.inichain.com",
+    "shortName": "INICHAIN",
+    "chainId": 7234,
+    "networkId": 7234,
+    "icon": "initverse",
+    "explorers": [
+      {
+        "name": "initverse",
+        "url": "https://genesis-testnet.iniscan.com",
+        "icon": "initverse",
+        "standard": "none"
       }
     ]
   },
@@ -49614,6 +49734,32 @@
         "url": "https://scan.come.boats",
         "icon": "boat",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Evoz Mainnet",
+    "chain": "Evoz",
+    "rpc": [
+      "https://rpc.evozscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Evoz Mainnet",
+      "symbol": "EVOZ",
+      "decimals": 18
+    },
+    "infoURL": "https://rpc.evozscan.com",
+    "shortName": "Evoz",
+    "chainId": 805,
+    "networkId": 805,
+    "icon": "evoz",
+    "explorers": [
+      {
+        "name": "evozscan",
+        "url": "https://evozscan.com",
+        "icon": "evoz",
+        "standard": "none"
       }
     ]
   },
