@@ -3716,6 +3716,33 @@
     ]
   },
   {
+    "name": "eGoldChain Testnet",
+    "chain": "EGC",
+    "icon": "egoldchain",
+    "rpc": [
+      "https://rpc-testnet.egoldchain.com",
+      "wss://wss-testnet.egoldchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Aurum",
+      "symbol": "XAU",
+      "decimals": 18
+    },
+    "infoURL": "https://www.egoldchain.com",
+    "shortName": "egoldchaint",
+    "chainId": 111451,
+    "networkId": 111451,
+    "explorers": [
+      {
+        "name": "eGoldChain Block Explorer",
+        "url": "http://testnet.egoldscan.io",
+        "standard": "none",
+        "icon": "egoldchain"
+      }
+    ]
+  },
+  {
     "name": "Blessnet Sepolia",
     "chain": "ETH",
     "rpc": [
@@ -4570,6 +4597,33 @@
         "name": "Shyft Testnet BX",
         "url": "https://bx.testnet.shyft.network",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "eGoldChain",
+    "chain": "EGC",
+    "icon": "egoldchain",
+    "rpc": [
+      "https://rpc.egoldchain.com",
+      "wss://wss.egoldchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Aurum",
+      "symbol": "XAU",
+      "decimals": 18
+    },
+    "infoURL": "https://www.egoldchain.com",
+    "shortName": "egoldchain",
+    "chainId": 11451,
+    "networkId": 11451,
+    "explorers": [
+      {
+        "name": "eGoldChain Block Explorer",
+        "url": "https://egoldscan.io",
+        "standard": "none",
+        "icon": "egoldchain"
       }
     ]
   },
@@ -22289,6 +22343,38 @@
       "type": "L2",
       "chain": "eip155-248"
     }
+  },
+  {
+    "name": "Studio Testnet",
+    "chain": "STO",
+    "icon": "studio",
+    "rpc": [
+      "https://rpc.studio-blockchain.com",
+      "wss://ws.studio-blockchain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Studio Token",
+      "symbol": "STO",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://studio-blockchain.com",
+    "shortName": "sto",
+    "chainId": 240240,
+    "networkId": 240240,
+    "explorers": [
+      {
+        "name": "Studio Scan",
+        "url": "https://studio-scan.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Orange Chain Testnet",
