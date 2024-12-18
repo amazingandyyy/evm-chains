@@ -13621,7 +13621,9 @@
     "name": "HashKey Chain",
     "title": "HashKey Chain",
     "chain": "HashKey Chain",
-    "rpc": [],
+    "rpc": [
+      "https://mainnet.hsk.xyz"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "HashKey EcoPoints",
@@ -13632,7 +13634,14 @@
     "shortName": "HSK",
     "chainId": 177,
     "networkId": 177,
-    "explorers": [],
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.hsk.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
     "parent": {
       "type": "L2",
       "chain": "eip155-1"
@@ -18040,6 +18049,41 @@
       {
         "name": "Betehl Sydney Explorer",
         "url": "https://sydney.bethel.network",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "SoonChain Sepolia Devnet",
+    "chain": "SoonChain Devnet Sepolia",
+    "rpc": [
+      "https://sepolia.rpc.soonchain.ai"
+    ],
+    "faucets": [
+      "https://console.optimism.io/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://soonchain.ai",
+    "shortName": "Soon-Devnet",
+    "chainId": 20221001,
+    "networkId": 20221001,
+    "icon": "soonchain",
+    "explorers": [
+      {
+        "name": "Soon Scan",
+        "url": "https://sepolia.explorer.soonchain.ai",
         "standard": "none"
       }
     ]
@@ -29477,7 +29521,9 @@
     "chain": "XOC",
     "icon": "xone-test",
     "rpc": [
-      "https://rpc-testnet.xone.plus"
+      "https://rpc-testnet.xone.plus",
+      "https://rpc-testnet.xone.org",
+      "https://rpc-testnet.knight.center"
     ],
     "features": [
       {
@@ -29487,7 +29533,9 @@
         "name": "EIP1559"
       }
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.xone.plus/"
+    ],
     "nativeCurrency": {
       "name": "Xone Coin",
       "symbol": "XOC",
@@ -33434,8 +33482,8 @@
       "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
       "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
       "https://arb1.arbitrum.io/rpc",
-      "https://arbitrum-one.publicnode.com",
-      "wss://arbitrum-one.publicnode.com"
+      "https://arbitrum-one-rpc.publicnode.com",
+      "wss://arbitrum-one-rpc.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -33580,7 +33628,9 @@
     "chain": "ETH",
     "rpc": [
       "https://sepolia-rollup.arbitrum.io/rpc",
-      "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}"
+      "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
+      "https://arbitrum-sepolia-rpc.publicnode.com",
+      "wss://arbitrum-sepolia-rpc.publicnode.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -33628,8 +33678,8 @@
     },
     "rpc": [
       "https://nova.arbitrum.io/rpc",
-      "https://arbitrum-nova.publicnode.com",
-      "wss://arbitrum-nova.publicnode.com"
+      "https://arbitrum-nova-rpc.publicnode.com",
+      "wss://arbitrum-nova-rpc.publicnode.com"
     ],
     "faucets": [],
     "explorers": [
@@ -33637,12 +33687,6 @@
         "name": "Arbitrum Nova Chain Explorer",
         "url": "https://nova-explorer.arbitrum.io",
         "icon": "blockscout",
-        "standard": "EIP3091"
-      },
-      {
-        "name": "dexguru",
-        "url": "https://nova.dex.guru",
-        "icon": "dexguru",
         "standard": "EIP3091"
       }
     ],
@@ -40846,8 +40890,15 @@
   {
     "name": "Ink",
     "chain": "ETH",
-    "rpc": [],
-    "faucets": [],
+    "rpc": [
+      "https://rpc-gel.inkonchain.com",
+      "https://rpc-qnd.inkonchain.com",
+      "wss://rpc-gel.inkonchain.com",
+      "wss://rpc-qnd.inkonchain.com"
+    ],
+    "faucets": [
+      "https://inkonchain.com/faucet"
+    ],
     "features": [
       {
         "name": "EIP155"
@@ -40865,8 +40916,14 @@
     "shortName": "ink",
     "chainId": 57073,
     "networkId": 57073,
-    "explorers": [],
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "Ink Explorer",
+        "url": "https://explorer.inkonchain.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "MetaChain Mainnet",
