@@ -46516,6 +46516,33 @@
     ]
   },
   {
+    "name": "Zether Mainnet",
+    "chain": "Zether",
+    "rpc": [
+      "https://rpc.zether.org",
+      "https://rpc.zthscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Zether",
+      "symbol": "ZTH",
+      "decimals": 18
+    },
+    "infoURL": "https://zether.org",
+    "shortName": "zth",
+    "chainId": 715131,
+    "networkId": 715131,
+    "icon": "zether",
+    "explorers": [
+      {
+        "name": "zthscan",
+        "url": "https://zthscan.com",
+        "icon": "zether",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Bitrock Mainnet",
     "chain": "Bitrock",
     "icon": "bitrock",
@@ -52395,7 +52422,7 @@
     "name": "Electra Test Network",
     "chain": "Electra",
     "rpc": [
-      "http://rpc.testnet.electranetwork.tech"
+      "https://rpc.testnet.electranetwork.tech"
     ],
     "faucets": [],
     "nativeCurrency": {
