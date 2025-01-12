@@ -2769,6 +2769,7 @@
         ├── www.pixels.xyz.png
         ├── www.playbux.co.png
         ├── www.renzoprotocol.com.png
+        ├── www.silentswap.com.png
         ├── www.solchat.app.png
         ├── www.spark.fi.png
         ├── www.staderlabs.com.png
@@ -2782,4 +2783,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-185 directories, 2598 files
+185 directories, 2599 files
