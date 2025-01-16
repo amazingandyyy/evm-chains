@@ -23961,6 +23961,7 @@
       "https://mainnet-rpc-04.swanchain.org"
     ],
     "faucets": [],
+    "icon": "swan",
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
@@ -34170,6 +34171,33 @@
     ]
   },
   {
+    "name": "WMC Testnet",
+    "chain": "WMC",
+    "icon": "wmc",
+    "rpc": [
+      "https://rpc-testnet-base.worldmobile.net"
+    ],
+    "faucets": [
+      "https://faucet-testnet-base.worldmobile.net"
+    ],
+    "nativeCurrency": {
+      "name": "WMTx",
+      "symbol": "WMTx",
+      "decimals": 18
+    },
+    "infoURL": "https://worldmobiletoken.com",
+    "shortName": "wmtx",
+    "chainId": 42070,
+    "networkId": 42070,
+    "explorers": [
+      {
+        "name": "WMC Explorer",
+        "url": "https://explorer-testnet-base.worldmobile.net",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "AgentLayer Testnet",
     "chain": "AgentLayer",
     "icon": "agentLayerIcon",
@@ -38327,6 +38355,30 @@
         }
       ]
     }
+  },
+  {
+    "name": "STB Testnet",
+    "chain": "STB Testnet",
+    "rpc": [
+      "https://rpc.quorum.sps.dev.kode.ru/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "STB",
+      "symbol": "STB",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "stb-testnet",
+    "chainId": 50505,
+    "networkId": 50505,
+    "explorers": [
+      {
+        "name": "stb-testnet",
+        "url": "https://explorer.quorum.sps.dev.kode.ru",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Nollie Skatechain Testnet",
@@ -46886,6 +46938,30 @@
     ]
   },
   {
+    "name": "Fidesinnova",
+    "chain": "Fidesinnova",
+    "rpc": [
+      "https://fidesf1-rpc.fidesinnova.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Fidesinnova",
+      "symbol": "FDS",
+      "decimals": 18
+    },
+    "infoURL": "https://fidesinnova1.gitbook.io/fidesinnova",
+    "shortName": "Fidesinnova",
+    "chainId": 706883,
+    "networkId": 706883,
+    "explorers": [
+      {
+        "name": "Fidesinnova Blockchain Explorer",
+        "url": "https://explorer.fidesinnova.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "BlockChain Station Mainnet",
     "chain": "BCS",
     "rpc": [
@@ -54218,10 +54294,10 @@
     "name": "Hydra Chain Testnet",
     "chain": "HYDRA",
     "rpc": [
-      "https://rpc.testnet.hydrachain.org"
+      "https://rpc-testnet.hydrachain.org"
     ],
     "faucets": [
-      "https://app.testnet.hydrachain.org/faucet"
+      "https://testnetapp.hydrachain.org/faucet"
     ],
     "nativeCurrency": {
       "name": "tHydra",
@@ -59379,35 +59455,32 @@
     ]
   },
   {
-    "name": "Lucky Network",
-    "chain": "LN",
+    "name": "Hyperliquid EVM Testnet",
+    "chain": "HYPE",
     "rpc": [
-      "https://rpc.luckynetwork.org",
-      "wss://ws.lnscan.org",
-      "https://rpc.lnscan.org"
+      "https://api.hyperliquid-testnet.xyz/evm"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Lucky",
-      "symbol": "L99",
+      "name": "HYPE",
+      "symbol": "HYPE",
       "decimals": 18
     },
-    "infoURL": "https://luckynetwork.org",
-    "shortName": "ln",
+    "infoURL": "https://hyperfoundation.org/",
+    "shortName": "hype-evm-testnet",
     "chainId": 998,
     "networkId": 998,
-    "icon": "lucky",
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://explorer.luckynetwork.org",
-        "standard": "none"
-      },
-      {
-        "name": "expedition",
-        "url": "https://lnscan.org",
-        "standard": "none"
-      }
+    "explorers": [],
+    "redFlags": [
+      "reusedChainId"
     ]
   },
   {
