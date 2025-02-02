@@ -20,7 +20,8 @@
       "https://rpc.mevblocker.io/noreverts",
       "https://rpc.mevblocker.io/fullprivacy",
       "https://eth.drpc.org",
-      "wss://eth.drpc.org"
+      "wss://eth.drpc.org",
+      "https://api.securerpc.com/v1"
     ],
     "features": [
       {
@@ -7041,8 +7042,8 @@
     ]
   },
   {
-    "name": "OFFICIAL VASYL TESTNET",
-    "title": "OFFICIAL VASYL TESTNET",
+    "name": "OFFICIAL VASYL",
+    "title": "OFFICIAL VASYL",
     "chain": "Official-Vasyl",
     "rpc": [
       "https://rpc.official-vasyl.network"
