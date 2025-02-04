@@ -211,6 +211,7 @@
 │       ├── eip155-1210.json
 │       ├── eip155-1212.json
 │       ├── eip155-1212101.json
+│       ├── eip155-121224.json
 │       ├── eip155-12123.json
 │       ├── eip155-1213.json
 │       ├── eip155-1214.json
@@ -2329,6 +2330,7 @@
     │   ├── smartchain
     │   ├── solana
     │   ├── sommelier
+    │   ├── sonic
     │   ├── stargaze
     │   ├── steem
     │   ├── stellar
@@ -2821,4 +2823,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-185 directories, 2637 files
+186 directories, 2638 files

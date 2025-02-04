@@ -5699,6 +5699,35 @@
     "explorers": []
   },
   {
+    "name": "Fushuma",
+    "chain": "Fushuma",
+    "rpc": [
+      "https://rpc.fushuma.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "FUSHUMA",
+      "symbol": "FUMA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "",
+    "shortName": "fushuma",
+    "chainId": 121224,
+    "networkId": 121224,
+    "explorers": [
+      {
+        "name": "FumaScan",
+        "url": "https://fumascan.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "BRC Chain Mainnet",
     "chain": "BRC",
     "rpc": [
@@ -37306,14 +37335,14 @@
     ]
   },
   {
-    "name": "Skopje Testnet",
+    "name": "GPT Testnet",
     "chain": "Skopje Testnet",
     "icon": "skopje-gpt",
     "rpc": [
-      "https://skopje-rpc.gptprotocol.io"
+      "https://testnet-rpc.gptprotocol.io"
     ],
     "faucets": [
-      "https://skopje-faucet.gptprotocol.io"
+      "https://testnet-faucet.gptprotocol.io"
     ],
     "chainId": 476462898,
     "networkId": 476462898,
@@ -37329,14 +37358,14 @@
       "chain": "eip155-11155111",
       "bridges": [
         {
-          "url": "https://skopje-bridge.gptprotocol.io"
+          "url": "https://testnet-bridge.gptprotocol.io"
         }
       ]
     },
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://skopje-explorer.gptprotocol.io",
+        "url": "https://testnet-explorer.gptprotocol.io",
         "standard": "EIP3091",
         "icon": "blockscout"
       }
