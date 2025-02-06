@@ -2143,6 +2143,38 @@
     ]
   },
   {
+    "name": "Lumoz Chain Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://testnet-rpc.lumoz.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lumoz Testnet Token",
+      "symbol": "MOZ",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://lumoz.org",
+    "shortName": "Lumoz-Chain-Testnet",
+    "chainId": 105363,
+    "networkId": 105363,
+    "slip44": 1,
+    "icon": "opside-new",
+    "explorers": [
+      {
+        "name": "LumozTestInfo",
+        "url": "https://testnet-scan.lumoz.info",
+        "icon": "opside-new",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Velas EVM Mainnet",
     "chain": "Velas",
     "icon": "velas",
@@ -13182,6 +13214,33 @@
       {
         "name": "manta-pacific Explorer",
         "url": "https://pacific-explorer.manta.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": " Privix Chain Mainnet",
+    "chain": "PSC",
+    "rpc": [
+      "https://mainnet-rpc.privixchain.xyz/",
+      "wss://mainnet-rpc.privixchain.xyz/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Privix Coin",
+      "symbol": "PSC",
+      "decimals": 18
+    },
+    "infoURL": "https://privix.co/",
+    "shortName": "mpsc",
+    "chainId": 16969696,
+    "networkId": 16969696,
+    "icon": "privix",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://privixscan.io",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -24839,6 +24898,40 @@
     ]
   },
   {
+    "name": "Pho Blockchain Mainnet",
+    "chain": "PHO",
+    "icon": "pho",
+    "rpc": [
+      "https://mainnet.phochain.org"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pho",
+      "symbol": "PHO",
+      "decimals": 18
+    },
+    "infoURL": "phochain.org",
+    "shortName": "pho",
+    "chainId": 2605,
+    "networkId": 2605,
+    "explorers": [
+      {
+        "name": "Pho Scan",
+        "url": "https://phoscan.org",
+        "standard": "EIP3091",
+        "icon": "pho"
+      }
+    ]
+  },
+  {
     "name": "PoCRNet",
     "title": "Proof of Climate awaReness mainnet",
     "chain": "CRC",
@@ -25836,7 +25929,8 @@
     "name": "XR One",
     "chain": "ETH",
     "rpc": [
-      "https://xr-one.calderachain.xyz/http"
+      "https://xr1.calderachain.xyz/http",
+      "wss://xr1.calderachain.xyz/ws"
     ],
     "faucets": [],
     "features": [
@@ -25848,12 +25942,12 @@
       }
     ],
     "nativeCurrency": {
-      "name": "XR",
-      "symbol": "XR",
+      "name": "XR1",
+      "symbol": "XR1",
       "decimals": 18
     },
     "infoURL": "https://xr-one.gitbook.io",
-    "shortName": "xr",
+    "shortName": "xr1",
     "chainId": 273,
     "networkId": 273,
     "icon": "xr",
@@ -25861,7 +25955,7 @@
     "explorers": [
       {
         "name": "XR One Explorer",
-        "url": "https://xr-one.calderaexplorer.xyz",
+        "url": "https://xr1.calderaexplorer.xyz",
         "icon": "blockscout",
         "standard": "EIP3091"
       }
@@ -25871,7 +25965,7 @@
       "chain": "eip155-42161",
       "bridges": [
         {
-          "url": "https://xr-one.bridge.caldera.xyz/"
+          "url": "https://xr1.bridge.caldera.xyz"
         }
       ]
     },
@@ -34556,6 +34650,33 @@
       {
         "name": "Donatuz Explorer",
         "url": "https://explorer.donatuz.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Merlin Erigon Testnet",
+    "title": "Merlin Erigon Testnet",
+    "chain": "Merlin",
+    "rpc": [
+      "https://testnet-erigon-rpc.merlinchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18
+    },
+    "infoURL": "https://merlinchain.io",
+    "shortName": "Merlin-Testnet",
+    "chainId": 4203,
+    "networkId": 4203,
+    "icon": "merlin",
+    "explorers": [
+      {
+        "name": "L2scan",
+        "url": "https://testnet-erigon-scan.merlinchain.io",
+        "icon": "merlin",
         "standard": "EIP3091"
       }
     ]
@@ -44416,6 +44537,32 @@
         "name": "Citrea Devnet Explorer",
         "url": "https://explorer.devnet.citrea.xyz",
         "icon": "citrea",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Block Chain LOL Berachain Testnet",
+    "chain": "Block Chain LOL Berachain",
+    "rpc": [
+      "https://block-chain.alt.technology"
+    ],
+    "faucets": [
+      "https://faucet.block-chain.lol/"
+    ],
+    "nativeCurrency": {
+      "name": "HarryPotterObamaSonic10Inu",
+      "symbol": "HARRY",
+      "decimals": 18
+    },
+    "infoURL": "https://block-chain.lol/",
+    "shortName": "block-chain-lol-testnet",
+    "chainId": 6231991,
+    "networkId": 6231991,
+    "explorers": [
+      {
+        "name": "Block Chain LOL Berachain Testnet Blockscout Explorer",
+        "url": "https://explorer.block-chain.lol",
         "standard": "EIP3091"
       }
     ]
@@ -55071,6 +55218,40 @@
     ]
   },
   {
+    "name": "Haven1",
+    "chain": "haven1",
+    "rpc": [
+      "https://rpc.haven1.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Haven1",
+      "symbol": "H1",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.haven1.org",
+    "shortName": "haven1",
+    "chainId": 8811,
+    "networkId": 8811,
+    "icon": "haven1",
+    "explorers": [
+      {
+        "name": "Haven1 Explorer",
+        "url": "https://explorer.haven1.org",
+        "icon": "haven1",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arbitrum Blueberry",
     "title": "Arbitrum Blueberry Testnet",
     "chain": "ETH",
@@ -58729,6 +58910,35 @@
         "url": "https://evm.rebuschain.com",
         "icon": "rebus",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": " Privix Chain Testnet",
+    "chain": "PSC",
+    "rpc": [
+      "https://testnet-rpc.privixchain.xyz/",
+      "wss://testnet-rpc.privixchain.xyz/ws"
+    ],
+    "faucets": [
+      "https://faucet.privixchain.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Privix Coin",
+      "symbol": "tPSC",
+      "decimals": 18
+    },
+    "infoURL": "https://privix.co/",
+    "shortName": "tpsc",
+    "chainId": 96969696,
+    "networkId": 96969696,
+    "icon": "privix",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://testnet.privixscan.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
       }
     ]
   },
