@@ -17180,6 +17180,42 @@
     ]
   },
   {
+    "name": "Lydia Coin",
+    "chain": "LYDIA",
+    "rpc": [
+      "https://rpc.lydiacoins.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lydia Coin",
+      "symbol": "BSW",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin",
+    "shortName": "lydia",
+    "chainId": 1989,
+    "networkId": 1989
+  },
+  {
+    "name": "Lydia Coin Testnet",
+    "chain": "LYDIA-TESTNET",
+    "rpc": [
+      "https://testnet-rpc.lydiacoins.com"
+    ],
+    "faucets": [
+      "https://faucet.lydiacoins.com/"
+    ],
+    "nativeCurrency": {
+      "name": "Lydia Token",
+      "symbol": "BSW",
+      "decimals": 18
+    },
+    "infoURL": "https://raas.gelato.network/rollups/details/public/lydia-coin-testnet",
+    "shortName": "lydia-testnet",
+    "chainId": 198989,
+    "networkId": 198989
+  },
+  {
     "name": "BitTorrent Chain Mainnet",
     "chain": "BTTC",
     "icon": "bttc",
@@ -34949,6 +34985,29 @@
     ]
   },
   {
+    "name": "Heurist Testnet",
+    "chain": "HEU",
+    "status": "active",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Heurist",
+      "symbol": "HEU",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "shortName": "HEU",
+    "chainId": 42096,
+    "networkId": 42096,
+    "slip44": 1,
+    "explorers": [],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-4",
+      "bridges": []
+    }
+  },
+  {
     "name": "Arbitrum One",
     "chainId": 42161,
     "shortName": "arb1",
@@ -46034,28 +46093,31 @@
     "infoURL": "https://xai.games"
   },
   {
-    "name": "UltronSmartchain",
-    "chain": "UltronSmartchain",
+    "name": "AmaxSmartchain",
+    "chain": "AmaxSmartchain",
     "rpc": [
-      "https://rpc.ultronsmartchain.io"
+      "https://rpc.amaxchain.io"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "ulc",
-      "symbol": "ULC",
+      "name": "amax",
+      "symbol": "AMAX",
       "decimals": 18
     },
-    "infoURL": "https://ultronsmartchain.io",
-    "shortName": "ultronsmartchain",
+    "infoURL": "https://amaxchain.io",
+    "shortName": "Amaxsmartchain",
     "chainId": 662,
     "networkId": 662,
     "icon": "ultronsmartchain",
     "explorers": [
       {
-        "name": "ultronsmartchain explorer",
-        "url": "https://scan.ultronsmartchain.io",
+        "name": "Amaxsmartchain explorer",
+        "url": "https://scan.amaxchain.io",
         "standard": "EIP3091"
       }
+    ],
+    "redFlags": [
+      "reusedChainId"
     ]
   },
   {
@@ -48061,6 +48123,35 @@
         "name": "COTI Testnet Explorer",
         "url": "https://testnet.cotiscan.io",
         "icon": "ethernal",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "pectra-devnet-5",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.pectra-devnet-5.ethpandaops.io"
+    ],
+    "faucets": [
+      "https://faucet.pectra-devnet-5.ethpandaops.io"
+    ],
+    "nativeCurrency": {
+      "name": "Testnet ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://pectra-devnet-5.ethpandaops.io",
+    "shortName": "pectra5",
+    "chainId": 7088110746,
+    "networkId": 7088110746,
+    "icon": "ethereum",
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "Explorer",
+        "url": "https://explorer.pectra-devnet-5.ethpandaops.io",
+        "icon": "ethereum",
         "standard": "EIP3091"
       }
     ]
