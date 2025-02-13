@@ -357,6 +357,7 @@
 │       ├── eip155-1414.json
 │       ├── eip155-14149.json
 │       ├── eip155-141491.json
+│       ├── eip155-1417429182.json
 │       ├── eip155-142.json
 │       ├── eip155-1422.json
 │       ├── eip155-14235.json
@@ -1383,6 +1384,7 @@
 │       ├── eip155-4918.json
 │       ├── eip155-4919.json
 │       ├── eip155-49321.json
+│       ├── eip155-495.json
 │       ├── eip155-49797.json
 │       ├── eip155-499.json
 │       ├── eip155-4999.json
@@ -2097,6 +2099,7 @@
 │       ├── eip155-9322253.json
 │       ├── eip155-9339.json
 │       ├── eip155-93572.json
+│       ├── eip155-9369.json
 │       ├── eip155-9372.json
 │       ├── eip155-93747.json
 │       ├── eip155-938.json
@@ -2171,6 +2174,7 @@
 │       ├── eip155-98865.json
 │       ├── eip155-9888.json
 │       ├── eip155-98881.json
+│       ├── eip155-9889.json
 │       ├── eip155-989.json
 │       ├── eip155-9897.json
 │       ├── eip155-9898.json
@@ -2578,6 +2582,7 @@
         ├── discover_qubetics_wd.png
         ├── discover_trumpswaps.png
         ├── discover_trust_talks_1.png
+        ├── discover_web3digest_feb.png
         ├── discover_wod.png
         ├── doperaider.com.png
         ├── dozerbird.io.png
@@ -2847,4 +2852,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-186 directories, 2662 files
+186 directories, 2667 files
