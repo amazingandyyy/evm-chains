@@ -13271,6 +13271,42 @@
     ]
   },
   {
+    "name": "MUD Chain",
+    "chain": "MUD",
+    "rpc": [
+      "https://rpc.mud.network"
+    ],
+    "faucets": [
+      "https://faucet.mud.network"
+    ],
+    "nativeCurrency": {
+      "name": "MUD",
+      "symbol": "MUD",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://mud.network",
+    "shortName": "MUD",
+    "chainId": 168169,
+    "networkId": 168169,
+    "icon": "mud",
+    "explorers": [
+      {
+        "name": "MUD Chain Scan",
+        "url": "https://scan.mud.network",
+        "icon": "mud",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Blast Sepolia Testnet",
     "chain": "ETH",
     "rpc": [
@@ -13484,8 +13520,8 @@
     ]
   },
   {
-    "name": " Privix Chain Mainnet",
-    "chain": "PSC",
+    "name": "Privix Chain Mainnet",
+    "chain": "PRIVIX",
     "rpc": [
       "https://mainnet-rpc.privixchain.xyz/",
       "wss://mainnet-rpc.privixchain.xyz/ws"
@@ -13493,7 +13529,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Privix Coin",
-      "symbol": "PSC",
+      "symbol": "PRIVIX",
       "decimals": 18
     },
     "infoURL": "https://privix.co/",
@@ -14164,6 +14200,40 @@
       ]
     },
     "status": "active"
+  },
+  {
+    "name": "Ethpar Mainnet",
+    "chain": "ETP",
+    "rpc": [
+      "https://rpc01.ethpar.net/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ethpar",
+      "symbol": "ETP",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://ethpar.com",
+    "shortName": "ethpar",
+    "chainId": 1727,
+    "networkId": 1727,
+    "icon": "ethpar",
+    "explorers": [
+      {
+        "name": "Ethpar Mainnet Explorer",
+        "url": "https://dora.ethpar.net",
+        "icon": "ethpar",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Reya Network",
@@ -24891,6 +24961,35 @@
     "networkId": 2525,
     "explorers": [],
     "status": "active"
+  },
+  {
+    "name": "CELESTIUM Network Testnet",
+    "chain": "CELESTIUM",
+    "rpc": [
+      "https://rpc-private-testnet.celestium.network"
+    ],
+    "faucets": [
+      "https://faucet.celestium.network"
+    ],
+    "nativeCurrency": {
+      "name": "CLT",
+      "symbol": "tCLT",
+      "decimals": 18
+    },
+    "infoURL": "https://celestium.network",
+    "shortName": "tclt",
+    "chainId": 252525,
+    "networkId": 252525,
+    "slip44": 1,
+    "icon": "celestium",
+    "explorers": [
+      {
+        "name": "CELESTIUM Testnet Explorer",
+        "icon": "celestium",
+        "url": "https://testnet.celestium.network",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Glide L2 Protocol XP",
@@ -40824,8 +40923,8 @@
     }
   },
   {
-    "name": "Cytonic Testnet",
-    "chain": "Cytonic",
+    "name": "Cytonic Settlement Layer Testnet",
+    "chain": "CytonicSL",
     "rpc": [
       "http://rpc.sl.testnet.cytonic.com"
     ],
@@ -40836,7 +40935,7 @@
       "decimals": 18
     },
     "infoURL": "https://cytonic.com",
-    "shortName": "CTS",
+    "shortName": "CSL",
     "chainId": 52225,
     "networkId": 52225,
     "icon": "cytonic_l1",
@@ -40850,8 +40949,8 @@
     ]
   },
   {
-    "name": "Cytonic L2 Testnet",
-    "chain": "CytonicL2",
+    "name": "Cytonic Ethereum Testnet",
+    "chain": "CytonicEVM",
     "rpc": [
       "http://rpc.evm.testnet.cytonic.com"
     ],
@@ -40862,7 +40961,7 @@
       "decimals": 18
     },
     "infoURL": "https://cytonic.com",
-    "shortName": "CL2T",
+    "shortName": "CEVM",
     "chainId": 52226,
     "networkId": 52226,
     "icon": "cytonic_l2",
@@ -53368,6 +53467,40 @@
     }
   },
   {
+    "name": "Ethpar Testnet",
+    "chain": "ETP",
+    "rpc": [
+      "https://rpc82.testnet.ethpar.net/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ethpar",
+      "symbol": "ETP",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://ethpar.com",
+    "shortName": "ethpar-tesnet",
+    "chainId": 806582,
+    "networkId": 806582,
+    "icon": "ethpar",
+    "explorers": [
+      {
+        "name": "Ethpar Testnet Explorer",
+        "url": "https://dora.testnet.ethpar.net",
+        "icon": "ethpar",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Portal Fantasy Chain Test",
     "chain": "PF",
     "icon": "pf",
@@ -60175,7 +60308,7 @@
   },
   {
     "name": " Privix Chain Testnet",
-    "chain": "PSC",
+    "chain": "PRIVIX",
     "rpc": [
       "https://testnet-rpc.privixchain.xyz/",
       "wss://testnet-rpc.privixchain.xyz/ws"
@@ -60185,7 +60318,7 @@
     ],
     "nativeCurrency": {
       "name": "Privix Coin",
-      "symbol": "tPSC",
+      "symbol": "PRIVIX",
       "decimals": 18
     },
     "infoURL": "https://privix.co/",
