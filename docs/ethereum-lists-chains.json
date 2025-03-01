@@ -13547,6 +13547,28 @@
     ]
   },
   {
+    "name": "Primea Chain Testnet",
+    "chain": "Primea Chain Testnet",
+    "rpc": [
+      "http://test-rpc.primeanetwork.com/rpc-http",
+      "https://test-rpc.primeanetwork.com/rpc-https",
+      "ws://test-rpc.primeanetwork.com/rpc-ws",
+      "wss://test-rpc.primeanetwork.com/rpc-wss"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PrimeaCoin Test",
+      "symbol": "PRIM",
+      "decimals": 18
+    },
+    "infoURL": "https://primeanetwork.com",
+    "shortName": "test-prim",
+    "chainId": 1698369,
+    "networkId": 1698369,
+    "icon": "prim",
+    "explorers": []
+  },
+  {
     "name": "ThaiChain 2.0 ThaiFi",
     "chain": "TCH",
     "rpc": [
@@ -23949,6 +23971,31 @@
     ]
   },
   {
+    "name": "MagiChain",
+    "chain": "MagiChain",
+    "icon": "magiIcon",
+    "rpc": [
+      "https://rpc.magichain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MGIX",
+      "symbol": "MGIX",
+      "decimals": 18
+    },
+    "infoURL": "https://magichain.io",
+    "shortName": "MGC",
+    "chainId": 24125,
+    "networkId": 24125,
+    "explorers": [
+      {
+        "name": "MagiChain Explorer",
+        "url": "https://explorer.magichain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "XMTP",
     "chain": "ETH",
     "rpc": [],
@@ -28628,7 +28675,7 @@
     "explorers": [
       {
         "name": "bcexplorer mainnet",
-        "url": "https://mainnet.bchscan.io",
+        "url": "https://bchscan.io",
         "standard": "EIP3091"
       }
     ]
@@ -30887,27 +30934,33 @@
     ]
   },
   {
-    "name": "EthStorage L2 Devnet",
-    "chain": "EthStorage",
+    "name": "QuarkChain L2 Beta Testnet",
+    "chain": "QuarkChain",
     "rpc": [
-      "http://devnet.l2.ethstorage.io:9540"
+      "https://rpc.beta.testnet.l2.quarkchain.io:8545"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "ETH",
+      "name": "QKC",
+      "symbol": "QKC",
       "decimals": 18
     },
-    "infoURL": "https://ethstorage.io/",
-    "shortName": "esl2-d",
+    "infoURL": "https://www.quarkchain.io",
+    "shortName": "qkcl2-b",
     "chainId": 3335,
     "networkId": 3335,
     "slip44": 1,
-    "status": "incubating",
     "parent": {
       "type": "L2",
       "chain": "eip155-11155111"
-    }
+    },
+    "explorers": [
+      {
+        "name": "quarkchain-beta-test",
+        "url": "https://explorer.beta.testnet.l2.quarkchain.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "EthStorage L2 Testnet",
@@ -48371,8 +48424,8 @@
     }
   },
   {
-    "name": "Primea Chain",
-    "chain": "Primea Chain",
+    "name": "Primea Chain Mainnet",
+    "chain": "Primea Chain Mainnet",
     "rpc": [
       "http://rpc.primeanetwork.com/rpc-http",
       "https://rpc.primeanetwork.com/rpc-https",
@@ -50328,6 +50381,30 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Rarimo",
+    "title": "Rarimo Mainnet",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Rarimo Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://rarimo.com",
+    "shortName": "rarimo",
+    "chainId": 7368,
+    "networkId": 7368,
+    "icon": "rarimo",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": []
+    },
+    "explorers": [],
+    "status": "incubating"
   },
   {
     "name": "Energy Web Volta Testnet",
@@ -61322,6 +61399,32 @@
     ]
   },
   {
+    "name": "IOPN Testnet",
+    "chain": "IOPN Testnet",
+    "rpc": [
+      "https://testnet-rpc.iopn.tech"
+    ],
+    "faucets": [
+      "https://faucet.iopn.tech"
+    ],
+    "nativeCurrency": {
+      "name": "OPN",
+      "symbol": "OPN",
+      "decimals": 18
+    },
+    "infoURL": "https://iopn.tech",
+    "shortName": "iopn-Test-Chain",
+    "chainId": 984,
+    "networkId": 984,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://testnet.iopn.tech",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Forma",
     "chain": "Forma",
     "rpc": [
@@ -61415,6 +61518,30 @@
         "url": "https://scan.metamemo.one:8080",
         "icon": "memo",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "LAGOM Mainnet",
+    "chain": "LAGOM Mainnet",
+    "rpc": [
+      "https://rpc1.lagom.mainnet.zeeve.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "LAGO",
+      "symbol": "LAGO",
+      "decimals": 18
+    },
+    "infoURL": "https://lagomchain.com",
+    "shortName": "Lagom-Chain",
+    "chainId": 986,
+    "networkId": 986,
+    "explorers": [
+      {
+        "name": "tracehawk",
+        "url": "https://Explorer.lagomchain.com",
+        "standard": "none"
       }
     ]
   },
