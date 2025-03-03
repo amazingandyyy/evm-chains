@@ -20368,7 +20368,10 @@
     "icon": "bitnet",
     "rpc": [
       "https://rpc.bitnet.money",
-      "https://rpc.btnscan.com"
+      "https://rpc.btnscan.com",
+      "https://rpc.btn.network",
+      "https://rpc.bitnetmoney.com",
+      "https://rpc.btn-network.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -20376,7 +20379,7 @@
       "symbol": "BTN",
       "decimals": 18
     },
-    "infoURL": "https://bitnet.money",
+    "infoURL": "https://bitnet.technology",
     "shortName": "BTN",
     "chainId": 210,
     "networkId": 210,
@@ -30641,7 +30644,7 @@
     ],
     "nativeCurrency": {
       "name": "OMAX TESTCOIN",
-      "symbol": "OMAXT",
+      "symbol": "OMAX",
       "decimals": 18
     },
     "infoURL": "https://www.omaxcoin.com/",
@@ -30653,6 +30656,7 @@
       {
         "name": "Omax Chain Explorer",
         "url": "https://testnet.omaxscan.com",
+        "icon": "omaxray",
         "standard": "EIP3091"
       }
     ]
