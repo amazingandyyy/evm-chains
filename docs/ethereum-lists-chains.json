@@ -1235,6 +1235,25 @@
     ]
   },
   {
+    "name": "Xitcoin",
+    "chain": "XITCOIN",
+    "faucets": [],
+    "rpc": [
+      "https://network.xitcoin.org"
+    ],
+    "nativeCurrency": {
+      "name": "Xitcoin",
+      "symbol": "$XTC",
+      "decimals": 8
+    },
+    "infoURL": "https://docs.xitcoin.org/",
+    "shortName": "Xitcoin",
+    "chainId": 101088,
+    "networkId": 101088,
+    "icon": "xitcoin",
+    "explorers": []
+  },
+  {
     "name": "Rebus Classic Mainnet",
     "title": "Rebuschain Mainnet",
     "chain": "REBUS",
@@ -41253,7 +41272,8 @@
     "name": "Electroneum Mainnet",
     "chain": "Electroneum",
     "rpc": [
-      "https://rpc.electroneum.com"
+      "https://rpc.electroneum.com",
+      "https://rpc.ankr.com/electroneum"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -41287,9 +41307,11 @@
     "name": "Electroneum Testnet",
     "chain": "Electroneum",
     "rpc": [
-      "https://testnet-rpc.electroneum.com"
+      "https://rpc.ankr.com/electroneum_testnet"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://faucet.electroneum.com"
+    ],
     "nativeCurrency": {
       "name": "Electroneum",
       "symbol": "ETN",
@@ -41312,7 +41334,7 @@
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://blockexplorer.thesecurityteam.rocks",
+        "url": "https://testnet-blockexplorer.electroneum.com",
         "icon": "electroneum",
         "standard": "EIP3091"
       }
@@ -43217,6 +43239,35 @@
       {
         "name": "ECLIPSE Explorer",
         "url": "https://subnets-test.avax.network/eclipsecha",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Xsolla ZK Sepolia Testnet",
+    "chain": "Xsolla ZK Sepolia",
+    "rpc": [
+      "https://zkrpc-sepolia.xsollazk.com"
+    ],
+    "faucets": [
+      "https://xsollazk.com/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://xsolla.com/zk",
+    "shortName": "xsollazk-sepolia",
+    "chainId": 555777,
+    "networkId": 555777,
+    "slip44": 1,
+    "icon": "xsollazk",
+    "explorers": [
+      {
+        "name": "Xsolla ZK Sepolia Block Explorer",
+        "url": "https://x.la/explorer",
+        "icon": "xsollazk",
         "standard": "EIP3091"
       }
     ]
@@ -48283,6 +48334,22 @@
         }
       ]
     }
+  },
+  {
+    "name": "Gensyn Testnet",
+    "chain": "Gensyn",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://www.gensyn.ai/",
+    "shortName": "gensyn-test",
+    "chainId": 685685,
+    "networkId": 685685,
+    "status": "incubating"
   },
   {
     "name": "Karura Network",
@@ -62151,7 +62218,7 @@
     }
   },
   {
-    "name": "Plume Mainnet",
+    "name": "Plume",
     "title": "Plume Ethereum L2 Rollup Mainnet",
     "chain": "ETH",
     "rpc": [
@@ -62180,7 +62247,46 @@
     ],
     "parent": {
       "type": "L2",
-      "chain": "eip155-11155111",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.plumenetwork.xyz"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Plume Mainnet",
+    "title": "Plume Ethereum L2 Rollup Mainnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://phoenix-rpc.plumenetwork.xyz",
+      "wss://phoenix-rpc.plumenetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Plume",
+      "symbol": "PLUME",
+      "decimals": 18
+    },
+    "infoURL": "https://plumenetwork.xyz/",
+    "shortName": "plume-mainnet",
+    "chainId": 98866,
+    "networkId": 98866,
+    "slip44": 1,
+    "icon": "plume",
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://phoenix-explorer.plumenetwork.xyz",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
       "bridges": [
         {
           "url": "https://bridge.plumenetwork.xyz"
