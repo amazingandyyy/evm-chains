@@ -40895,6 +40895,37 @@
     "icon": "aac"
   },
   {
+    "name": "Seismic devnet",
+    "chain": "Seismic",
+    "rpc": [
+      "https://node-2.seismicdev.net/rpc"
+    ],
+    "faucets": [
+      "https://faucet-2.seismicdev.net/"
+    ],
+    "nativeCurrency": {
+      "name": "Seismic Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://seismic.systems",
+    "shortName": "seismic-devnet",
+    "chainId": 5124,
+    "networkId": 5124,
+    "explorers": [
+      {
+        "name": "Seismic Devnet Explorer",
+        "url": "https://explorer-2.seismicdev.net",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "CMP-Testnet",
     "chain": "CMP",
     "rpc": [
@@ -42445,10 +42476,8 @@
     "name": "edeXa Mainnet",
     "chain": "edeXa",
     "rpc": [
-      "https://mainnet.edexa.network/rpc",
-      "wss://mainnet.edexa.network/wss",
-      "https://mainnet.edexa.com/rpc",
-      "wss://mainnet.edexa.com/wss"
+      "https://rpc.edexa.network",
+      "https://rpc.edexa.com"
     ],
     "faucets": [],
     "features": [
@@ -62218,8 +62247,8 @@
     }
   },
   {
-    "name": "Plume",
-    "title": "Plume Ethereum L2 Rollup Mainnet",
+    "name": "Plume (Legacy)",
+    "title": "Plume Ethereum L2 Rollup Mainnet (Legacy)",
     "chain": "ETH",
     "rpc": [
       "https://rpc.plumenetwork.xyz",
