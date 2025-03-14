@@ -2846,6 +2846,34 @@
     ]
   },
   {
+    "name": "Fuse Flash Testnet",
+    "chain": "Fuse Flash",
+    "rpc": [],
+    "faucets": [
+      "https://faucet.quicknode.com"
+    ],
+    "nativeCurrency": {
+      "name": "Fuse",
+      "symbol": "FUSE",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://www.fuse.io",
+    "shortName": "fuseflash",
+    "chainId": 10920,
+    "networkId": 10920,
+    "icon": "fuse",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    },
+    "status": "incubating"
+  },
+  {
     "name": "Quadrans Blockchain",
     "chain": "QDC",
     "icon": "quadrans",
@@ -4961,11 +4989,11 @@
     "explorers": []
   },
   {
-    "name": "BEVM Mainnet",
-    "chain": "BEVM",
+    "name": "GEB Mainnet",
+    "chain": "GEB",
     "rpc": [
-      "https://rpc-mainnet-1.bevm.io/",
-      "https://rpc-mainnet-2.bevm.io/"
+      "https://rpc-mainnet-1.geb.network/",
+      "https://rpc-mainnet-2.geb.network/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4973,15 +5001,15 @@
       "symbol": "BTC",
       "decimals": 18
     },
-    "infoURL": "https://bevm.io",
-    "shortName": "bevm",
+    "infoURL": "https://geb.network",
+    "shortName": "geb",
     "chainId": 11501,
     "networkId": 11501,
-    "icon": "bevm",
+    "icon": "geb",
     "explorers": [
       {
-        "name": "bevm mainnet scan",
-        "url": "https://scan-mainnet.bevm.io",
+        "name": "geb mainnet scan",
+        "url": "https://scan.geb.network",
         "standard": "none"
       },
       {
@@ -5017,10 +5045,10 @@
     ]
   },
   {
-    "name": "BEVM Signet",
-    "chain": "BEVM",
+    "name": "GEB Signet",
+    "chain": "GEB",
     "rpc": [
-      "https://signet.bevm.io/"
+      "https://signet.geb.network/"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5028,15 +5056,15 @@
       "symbol": "BTC",
       "decimals": 18
     },
-    "infoURL": "https://bevm.io",
-    "shortName": "bevm-signet",
+    "infoURL": "https://geb.network",
+    "shortName": "geb-signet",
     "chainId": 11504,
     "networkId": 11504,
-    "icon": "bevm",
+    "icon": "geb",
     "explorers": [
       {
-        "name": "bevm signet scan",
-        "url": "https://scan-signet.bevm.io",
+        "name": "geb signet scan",
+        "url": "https://scan-signet.geb.network",
         "standard": "none"
       }
     ]
@@ -19511,6 +19539,33 @@
     ]
   },
   {
+    "name": "Xphere Mainnet",
+    "chain": "Xphere",
+    "icon": "xphere",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "rpc": [
+      "https://en-bkk.x-phere.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Xphere",
+      "symbol": "XP",
+      "decimals": 18
+    },
+    "infoURL": "https://x-phere.com/",
+    "shortName": "xp",
+    "chainId": 20250217,
+    "networkId": 20250217,
+    "explorers": []
+  },
+  {
     "name": "ETP Mainnet",
     "chain": "ETP",
     "rpc": [
@@ -23337,7 +23392,8 @@
       "https://rpc.ankr.com/atleta_olympia",
       "wss://testnet-rpc.atleta.network",
       "https://atleta-testnet.htw.tech/",
-      "https://public-atleta.nownodes.io"
+      "https://public-atleta.nownodes.io",
+      "https://public-atla-testnet.fastnode.io"
     ],
     "faucets": [
       "https://app-olympia.atleta.network/faucet"
@@ -24103,26 +24159,26 @@
     ]
   },
   {
-    "name": "MagiChain",
-    "chain": "MagiChain",
-    "icon": "magiIcon",
+    "name": "Nexurachain",
+    "chain": "nexurachain",
+    "icon": "xuraIcon",
     "rpc": [
-      "https://rpc.magichain.io"
+      "https://rpc.nexurachain.io"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "MGIX",
-      "symbol": "MGIX",
+      "name": "XURA",
+      "symbol": "XURA",
       "decimals": 18
     },
-    "infoURL": "https://magichain.io",
-    "shortName": "MGC",
+    "infoURL": "https://nexurachain.io",
+    "shortName": "XURAm",
     "chainId": 24125,
     "networkId": 24125,
     "explorers": [
       {
-        "name": "MagiChain Explorer",
-        "url": "https://explorer.magichain.io",
+        "name": "Nexurachain Explorer",
+        "url": "https://explorer.nexurachain.io",
         "standard": "EIP3091"
       }
     ]
@@ -28156,7 +28212,8 @@
     "chain": "Hedera",
     "icon": "hedera",
     "rpc": [
-      "https://mainnet.hashio.io/api"
+      "https://mainnet.hashio.io/api",
+      "https://hedera.linkpool.pro"
     ],
     "features": [
       {
@@ -28179,11 +28236,6 @@
     "slip44": 3030,
     "explorers": [
       {
-        "name": "HashScan",
-        "url": "https://hashscan.io/mainnet",
-        "standard": "EIP3091"
-      },
-      {
         "name": "Arkhia Explorer",
         "url": "https://explorer.arkhia.io",
         "standard": "none"
@@ -28196,11 +28248,6 @@
       {
         "name": "Hedera Explorer",
         "url": "https://hederaexplorer.io",
-        "standard": "none"
-      },
-      {
-        "name": "Ledger Works Explore",
-        "url": "https://explore.lworks.io",
         "standard": "none"
       }
     ]
@@ -50981,7 +51028,10 @@
     "name": "Rarimo",
     "title": "Rarimo Mainnet",
     "chain": "ETH",
-    "rpc": [],
+    "rpc": [
+      "https://l2.rarimo.com",
+      "wss://wss.l2.rarimo.com"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Rarimo Ether",
@@ -50996,10 +51046,21 @@
     "parent": {
       "type": "L2",
       "chain": "eip155-1",
-      "bridges": []
+      "bridges": [
+        {
+          "url": "https://l2bridge.rarimo.com"
+        }
+      ]
     },
-    "explorers": [],
-    "status": "incubating"
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://scan.rarimo.com",
+        "standard": "EIP3091",
+        "icon": "rarimo"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Energy Web Volta Testnet",
@@ -54790,8 +54851,8 @@
     ]
   },
   {
-    "name": "Zenchain",
-    "chain": "ZCX",
+    "name": "ZenChain",
+    "chain": "ZTC",
     "icon": "zenchain",
     "rpc": [],
     "features": [
@@ -54804,8 +54865,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "ZCX",
-      "symbol": "ZCX",
+      "name": "ZTC",
+      "symbol": "ZTC",
       "decimals": 18
     },
     "infoURL": "https://zenchain.io",
@@ -56095,8 +56156,8 @@
     ]
   },
   {
-    "name": "Zenchain Testnet",
-    "chain": "ZCX",
+    "name": "ZenChain Testnet",
+    "chain": "ZTC",
     "icon": "zenchain",
     "rpc": [
       "https://zenchain-testnet.api.onfinality.io/public",
@@ -56114,8 +56175,8 @@
       "https://facuet.zenchain.io"
     ],
     "nativeCurrency": {
-      "name": "ZCX",
-      "symbol": "ZCX",
+      "name": "ZTC",
+      "symbol": "ZTC",
       "decimals": 18
     },
     "infoURL": "https://zenchain.io",
