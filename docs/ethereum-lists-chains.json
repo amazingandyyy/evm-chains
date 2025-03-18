@@ -10141,6 +10141,40 @@
     ]
   },
   {
+    "name": "Perennial",
+    "chain": "perennial",
+    "rpc": [
+      "https://rpc.perennial.foundation"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://perennial.finance",
+    "shortName": "perennial",
+    "chainId": 1424,
+    "networkId": 1424,
+    "icon": "perennial",
+    "explorers": [
+      {
+        "name": "Perennial Explorer",
+        "url": "https://explorer.perennial.foundation",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-8453",
+      "bridges": [
+        {
+          "url": "https://bridge.perennial.foundation"
+        }
+      ]
+    }
+  },
+  {
     "name": "ICPlaza Mainnet",
     "chain": "ICPlaza",
     "icon": "icplaza",
@@ -19588,7 +19622,13 @@
     "shortName": "xp",
     "chainId": 20250217,
     "networkId": 20250217,
-    "explorers": []
+    "explorers": [
+      {
+        "name": "Tamsa",
+        "url": "https://xp.tamsa.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "ETP Mainnet",
@@ -30226,6 +30266,46 @@
       {
         "name": "Bloom Genesis Testnet",
         "url": "https://testnet.bloomgenesis.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "BasedAI Mainnet",
+    "title": "BasedAI Mainnet",
+    "chain": "BasedAI",
+    "rpc": [
+      "https://mainnet.basedaibridge.com/rpc/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BasedAI",
+      "symbol": "BASED",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://getbased.ai",
+    "shortName": "basedai",
+    "chainId": 32323,
+    "networkId": 32323,
+    "icon": "basedai",
+    "explorers": [
+      {
+        "name": "BasedAI Explorer",
+        "url": "https://explorer.getbased.ai",
+        "standard": "none"
+      },
+      {
+        "name": "BF1337 BasedAI Explorer",
+        "url": "https://explorer.bf1337.org",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -45440,6 +45520,40 @@
     }
   },
   {
+    "name": "Perennial Sepolia",
+    "chain": "perennialSepolia",
+    "rpc": [
+      "https://rpc-sepolia.perennial.foundation"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://perennial.finance",
+    "shortName": "perennial-sepolia",
+    "chainId": 60850,
+    "networkId": 60850,
+    "icon": "perennial",
+    "explorers": [
+      {
+        "name": "Perennial Explorer",
+        "url": "https://explorer-sepolia.perennial.foundation",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-84532",
+      "bridges": [
+        {
+          "url": "https://bridge-sepolia.perennial.foundation"
+        }
+      ]
+    }
+  },
+  {
     "name": "Ethereum Classic",
     "title": "Ethereum Classic Mainnet",
     "status": "active",
@@ -47796,7 +47910,7 @@
     ]
   },
   {
-    "name": "Smart Pay Mobile Money",
+    "name": "SmartPay Mobile Money",
     "chain": "Mobile Money",
     "rpc": [
       "https://network.uat.smartmoneyewallet.com/"
@@ -47804,7 +47918,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "SmartPay Mobile Money",
-      "symbol": "SMRTP",
+      "symbol": "SMM",
       "decimals": 18
     },
     "features": [
@@ -48915,7 +49029,7 @@
     "explorers": []
   },
   {
-    "name": "XYL TestNet",
+    "name": "Xylume TestNet",
     "chain": "XYL",
     "rpc": [
       "https://xyl-testnet.glitch.me/rpc/"
@@ -48936,34 +49050,19 @@
         "name": "EIP1559"
       },
       {
-        "name": "XYL-DynaPoW"
-      },
-      {
-        "name": "Smart Contracts"
-      },
-      {
-        "name": "Custom Gas Model"
-      },
-      {
-        "name": "XYL-VM"
-      },
-      {
-        "name": "Dynamic Difficulty Adjustment"
-      },
-      {
-        "name": "Low-Latency Transactions"
+        "name": "Directed Acyclic Graph (DAG)"
       }
     ],
-    "infoURL": "https://debxylen.github.io/XYL_TestNet",
+    "infoURL": "https://debxylen.github.io/Xylume_TestNet",
     "shortName": "xyl",
     "chainId": 6934,
     "networkId": 6934,
-    "icon": "xyl-test",
+    "icon": "xylume-testnet",
     "explorers": [
       {
-        "name": "XYL Explorer",
-        "url": "https://debxylen.github.io/BlockExplorer",
-        "icon": "xyl-test",
+        "name": "Xylume Explorer",
+        "url": "https://debxylen.github.io/XylumeExplorer",
+        "icon": "xylume-testnet",
         "standard": "EIP3091"
       }
     ]
