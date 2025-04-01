@@ -5586,7 +5586,6 @@
     "name": "Cuckoo Chain",
     "title": "Cuckoo Chain",
     "chain": "CuckooAI",
-    "icon": "cuckoo-ai",
     "rpc": [
       "https://mainnet-rpc.cuckoo.network",
       "wss://mainnet-rpc.cuckoo.network"
@@ -5896,7 +5895,6 @@
     "name": "Cuckoo Sepolia",
     "title": "Cuckoo AI Testnet Sepolia",
     "chain": "CuckooAI",
-    "icon": "cuckoo-ai",
     "rpc": [
       "https://testnet-rpc.cuckoo.network",
       "wss://testnet-rpc.cuckoo.network"
@@ -5913,13 +5911,7 @@
     "shortName": "caisepolia",
     "chainId": 1210,
     "networkId": 1210,
-    "explorers": [
-      {
-        "name": "Cuckoo Sepolia Explorer",
-        "url": "https://testnet-scan.cuckoo.network",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": []
   },
   {
     "name": "ADF Chain Testnet",
@@ -15839,7 +15831,6 @@
     "shortName": "soneium",
     "title": "Soneium mainnet",
     "chain": "ETH",
-    "icon": "soneium",
     "rpc": [
       "https://rpc.soneium.org"
     ],
@@ -21013,7 +21004,6 @@
       "https://rpc.sorian.io"
     ],
     "faucets": [],
-    "icon": "sorian",
     "nativeCurrency": {
       "name": "Sorian",
       "symbol": "SOR",
@@ -25835,12 +25825,10 @@
     "shortName": "talv",
     "chainId": 25839,
     "networkId": 25839,
-    "icon": "alveychain",
     "explorers": [
       {
         "name": "AlveyScan Testnet",
         "url": "https://alveytestnet.com",
-        "icon": "alveychain",
         "standard": "EIP3091"
       }
     ]
@@ -27060,13 +27048,11 @@
     "chainId": 272247,
     "networkId": 272247,
     "slip44": 272247,
-    "icon": "nxy",
     "explorers": [
       {
         "name": "Nxy Explorer",
         "url": "https://explorer.nxy.social",
-        "standard": "none",
-        "icon": "nxy"
+        "standard": "none"
       }
     ]
   },
@@ -27087,13 +27073,11 @@
     "chainId": 272520,
     "networkId": 272520,
     "slip44": 272520,
-    "icon": "nxy",
     "explorers": [
       {
         "name": "Nxy Explorer",
         "url": "https://explorer.nxy.social",
-        "standard": "none",
-        "icon": "nxy"
+        "standard": "none"
       }
     ]
   },
@@ -30184,7 +30168,6 @@
   {
     "name": "Mezo Matsnet Testnet",
     "chain": "Mezo",
-    "icon": "mezo",
     "rpc": [
       "https://rpc.test.mezo.org"
     ],
@@ -31166,7 +31149,6 @@
     "shortName": "apechain",
     "chainId": 33139,
     "networkId": 33139,
-    "icon": "apechain",
     "explorers": [
       {
         "name": "ApeChain Explorer",
@@ -33842,12 +33824,10 @@
     "shortName": "alv",
     "chainId": 3797,
     "networkId": 3797,
-    "icon": "alveychain",
     "explorers": [
       {
         "name": "AlveyScan",
         "url": "https://alveyscan.com",
-        "icon": "alveychain",
         "standard": "EIP3091"
       }
     ]
@@ -41023,12 +41003,10 @@
     "shortName": "SomniaTestnet",
     "chainId": 50312,
     "networkId": 50312,
-    "icon": "somnia",
     "explorers": [
       {
         "name": "Somnia Testnet",
         "url": "https://somnia-testnet.socialscan.io",
-        "icon": "somnia",
         "standard": "EIP3091"
       }
     ]
@@ -50461,12 +50439,10 @@
       {
         "name": "Proof of Play Apex Explorer",
         "url": "https://explorer.apex.proofofplay.com",
-        "icon": "pop-apex",
         "standard": "EIP3091"
       }
     ],
     "infoURL": "https://proofofplay.com",
-    "icon": "pop-apex",
     "parent": {
       "type": "L2",
       "chain": "eip155-42161",
@@ -51297,7 +51273,6 @@
   {
     "name": "Nexera Mainnet",
     "chain": "Nexera",
-    "icon": "nexera",
     "chainId": 7208,
     "networkId": 7208,
     "infoURL": "https://nexera.network",
@@ -51316,7 +51291,6 @@
   {
     "name": "Nexera Testnet",
     "chain": "Nexera",
-    "icon": "nexera",
     "chainId": 72080,
     "networkId": 72080,
     "infoURL": "https://testnet.nexera.network",
