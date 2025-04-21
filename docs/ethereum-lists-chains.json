@@ -2382,33 +2382,39 @@
     ]
   },
   {
-    "name": "ShimmerEVM Testnet Deprecated",
-    "title": "ShimmerEVM Testnet Deprecated",
-    "chain": "ShimmerEVM",
-    "icon": "shimmerevm",
-    "rpc": [],
-    "faucets": [
-      "https://evm-toolkit.evm.testnet.shimmer.network",
-      "https://evm-faucet.testnet.shimmer.network"
+    "name": "OpenGPU Mainnet",
+    "chain": "OGPU",
+    "icon": "ogpu",
+    "rpc": [
+      "https://mainnet-rpc.ogpuscan.io",
+      "wss://mainnet-rpc.ogpuscan.io"
     ],
+    "faucets": [],
     "nativeCurrency": {
-      "name": "SMR",
-      "symbol": "SMR",
+      "name": "OGPU",
+      "symbol": "OGPU",
       "decimals": 18
     },
-    "infoURL": "https://shimmer.network",
-    "shortName": "shimmerevm-testnet-deprecated",
-    "chainId": 1071,
-    "networkId": 1071,
-    "slip44": 1,
-    "explorers": [
+    "features": [
       {
-        "name": "explorer",
-        "url": "https://explorer.evm.testnet.shimmer.network",
-        "standard": "EIP3091"
+        "name": "EIP155"
       }
     ],
-    "status": "deprecated"
+    "infoURL": "https://opengpu.network",
+    "shortName": "ogpu",
+    "chainId": 1071,
+    "networkId": 1071,
+    "redFlags": [
+      "reusedChainId"
+    ],
+    "explorers": [
+      {
+        "name": "OpenGPU Explorer",
+        "url": "https://ogpuscan.io",
+        "icon": "ogpu",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Kakarot Sepolia Deprecated",
@@ -7820,6 +7826,40 @@
         "name": "Swisstronik Scout",
         "url": "https://explorer-evm.testnet.swisstronik.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Tatara Testnet",
+    "chain": "Tatara",
+    "rpc": [
+      "https://rpc.tatara.katanarpc.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "",
+    "shortName": "Tatara",
+    "chainId": 129399,
+    "networkId": 129399,
+    "icon": "ethereum",
+    "explorers": [
+      {
+        "name": "Tatara explorer",
+        "url": "https://explorer.tatara.katana.network",
+        "icon": "blockscout",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -16916,6 +16956,32 @@
       {
         "name": "BlockX Cosmos Explorer (Ping)",
         "url": "https://ping.blockxnet.com/blockx",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Altblockscan Mainnet",
+    "chain": "ALTB",
+    "rpc": [
+      "https://rpc.altblockscan.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Altblockscan",
+      "symbol": "ALTB",
+      "decimals": 18
+    },
+    "infoURL": "https://altblockscan.com",
+    "shortName": "altb",
+    "chainId": 191919,
+    "networkId": 191919,
+    "icon": "altb",
+    "explorers": [
+      {
+        "name": "altblockscan",
+        "url": "https://scan.altblockscan.com",
+        "icon": "altb",
         "standard": "none"
       }
     ]
