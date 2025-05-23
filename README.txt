@@ -2529,6 +2529,7 @@
         ├── acryptos.com.png
         ├── adsbywifi.com.png
         ├── aerodrome.finance.png
+        ├── aftermath.finance.png
         ├── aircash.finance.png
         ├── alienworlds.io.png
         ├── allbridge.io.png
@@ -2983,4 +2984,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-186 directories, 2798 files
+186 directories, 2799 files
