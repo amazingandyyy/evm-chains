@@ -648,6 +648,7 @@
 │       ├── eip155-196.json
 │       ├── eip155-19600.json
 │       ├── eip155-1961.json
+│       ├── eip155-1962.json
 │       ├── eip155-1967.json
 │       ├── eip155-1969.json
 │       ├── eip155-197.json
@@ -742,6 +743,7 @@
 │       ├── eip155-2026.json
 │       ├── eip155-202624.json
 │       ├── eip155-203.json
+│       ├── eip155-2030232745.json
 │       ├── eip155-2031.json
 │       ├── eip155-2032.json
 │       ├── eip155-2035.json
@@ -1337,6 +1339,7 @@
 │       ├── eip155-420420.json
 │       ├── eip155-420420419.json
 │       ├── eip155-420420421.json
+│       ├── eip155-420420422.json
 │       ├── eip155-420666.json
 │       ├── eip155-42069.json
 │       ├── eip155-420692.json
@@ -3004,4 +3007,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-187 directories, 2818 files
+187 directories, 2821 files
