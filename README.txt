@@ -2716,6 +2716,7 @@
         ├── dapps.trustwallet.com.png
         ├── ddex.io.png
         ├── debank.com.png
+        ├── debridge.finance.png
         ├── defi.timvi.com.png
         ├── defisaver.com.png
         ├── deversifi.com.png
@@ -3015,4 +3016,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-187 directories, 2829 files
+187 directories, 2830 files
