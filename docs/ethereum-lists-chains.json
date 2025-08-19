@@ -15074,8 +15074,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "ENI",
-      "symbol": "ENI",
+      "name": "EGAS",
+      "symbol": "EGAS",
       "decimals": 18
     },
     "infoURL": "https://eniac.network/",
@@ -51064,8 +51064,8 @@
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "ENI Testnet Token",
-      "symbol": "ENI",
+      "name": "EGAS",
+      "symbol": "EGAS",
       "decimals": 18
     },
     "infoURL": "https://eniac.network/",
