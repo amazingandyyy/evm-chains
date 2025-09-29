@@ -15176,7 +15176,8 @@
     "name": "ENI Mainnet",
     "chain": "ENI",
     "rpc": [
-      "https://rpc.eniac.network"
+      "https://rpc.eniac.network",
+      "wss://rpc.eniac.network/ws/"
     ],
     "faucets": [],
     "nativeCurrency": {
