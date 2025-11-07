@@ -2494,6 +2494,7 @@
     │   ├── merlin
     │   ├── meter
     │   ├── metis
+    │   ├── monad
     │   ├── moonbasealpha
     │   ├── moonbeam
     │   ├── moonriver
@@ -3051,4 +3052,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-188 directories, 2864 files
+189 directories, 2864 files
