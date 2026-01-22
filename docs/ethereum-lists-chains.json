@@ -14121,10 +14121,7 @@
     "shortName": "Gobi",
     "chain": "Gobi",
     "icon": "eon",
-    "rpc": [
-      "https://gobi-rpc.horizenlabs.io/ethv1",
-      "https://rpc.ankr.com/horizen_gobi_testnet"
-    ],
+    "rpc": [],
     "features": [
       {
         "name": "EIP155"
@@ -14133,9 +14130,7 @@
         "name": "EIP1559"
       }
     ],
-    "faucets": [
-      "https://faucet.horizen.io"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Testnet Zen",
       "symbol": "tZEN",
@@ -14145,14 +14140,8 @@
     "chainId": 1663,
     "networkId": 1663,
     "slip44": 1,
-    "explorers": [
-      {
-        "name": "Gobi Testnet Block Explorer",
-        "url": "https://gobi-explorer.horizen.io",
-        "icon": "eon",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "Plian Testnet Main",
@@ -23981,8 +23970,8 @@
       "https://faucet.stable.xyz"
     ],
     "nativeCurrency": {
-      "name": "gUSDT",
-      "symbol": "gUSDT",
+      "name": "USDT0",
+      "symbol": "USDT0",
       "decimals": 18
     },
     "infoURL": "https://stable.xyz",
@@ -23990,12 +23979,6 @@
     "chainId": 2201,
     "networkId": 2201,
     "explorers": [
-      {
-        "name": "Blockscout Explorer",
-        "url": "https://blockscout.testnet.stable.xyz",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      },
       {
         "name": "Stablescan",
         "url": "https://testnet.stablescan.xyz",
@@ -56325,10 +56308,7 @@
     "shortName": "EON",
     "chain": "EON",
     "icon": "eon",
-    "rpc": [
-      "https://eon-rpc.horizenlabs.io/ethv1",
-      "https://rpc.ankr.com/horizen_eon"
-    ],
+    "rpc": [],
     "features": [
       {
         "name": "EIP155"
@@ -56347,14 +56327,8 @@
     "chainId": 7332,
     "networkId": 7332,
     "slip44": 121,
-    "explorers": [
-      {
-        "name": "Horizen EON Block Explorer",
-        "url": "https://eon-explorer.horizenlabs.io",
-        "icon": "eon",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": [],
+    "status": "deprecated"
   },
   {
     "name": "Pruv Testnet",
