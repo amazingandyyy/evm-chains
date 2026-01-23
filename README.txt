@@ -2587,6 +2587,7 @@
     │   ├── manta
     │   ├── mantle
     │   ├── mars
+    │   ├── megaeth
     │   ├── merlin
     │   ├── meter
     │   ├── metis
@@ -3152,4 +3153,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-189 directories, 2964 files
+190 directories, 2964 files
