@@ -56967,28 +56967,27 @@
     ]
   },
   {
-    "name": "Rome Mainnet 0 Palatine",
+    "name": "Rome Palatine",
     "chain": "ROME",
     "rpc": [
-      "https://palatine-i.mainnet-0.romeprotocol.xyz"
+      "https://palatine.romeprotocol.xyz",
+      "https://palatine2.romeprotocol.xyz"
     ],
-    "faucets": [
-      "https://deposit.mainnet-0.romeprotocol.xyz"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "RSOL",
       "symbol": "RSOL",
       "decimals": 18
     },
     "infoURL": "https://rome.builders",
-    "shortName": "rome-mainnet-0-palatine",
+    "shortName": "rome-palatine",
     "chainId": 7531,
     "networkId": 7531,
     "icon": "rome",
     "explorers": [
       {
-        "name": "Rome Mainnet 0 Palatine Explorer",
-        "url": "https://romescout-palatine-i.mainnet-0.romeprotocol.xyz",
+        "name": "Rome Palatine Explorer",
+        "url": "https://romescout-palatine.romeprotocol.xyz",
         "icon": "rome",
         "standard": "EIP3091"
       }
@@ -58645,6 +58644,33 @@
       {
         "name": "blockscout",
         "url": "https://explorer.powerloom.network",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Nillion Network Sepolia Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.testnet.nillion.network",
+      "wss://rpc.testnet.nillion.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://nillion.com/",
+    "shortName": "nilsep",
+    "chainId": 78651,
+    "networkId": 78651,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.testnet.nillion.network",
         "icon": "blockscout",
         "standard": "EIP3091"
       }
@@ -68966,6 +68992,33 @@
         }
       ]
     }
+  },
+  {
+    "name": "Nillion Network",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.nillion.network",
+      "wss://rpc.nillion.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://nillion.com/",
+    "shortName": "nil",
+    "chainId": 98875,
+    "networkId": 98875,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.nillion.network",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Dogelayer Mainnet",
