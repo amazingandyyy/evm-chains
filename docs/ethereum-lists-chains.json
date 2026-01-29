@@ -13783,6 +13783,42 @@
     ]
   },
   {
+    "name": "XGR Mainnet",
+    "chain": "XGR",
+    "rpc": [
+      "https://rpc.xgr.network",
+      "https://rpc1.xgr.network",
+      "https://rpc2.xgr.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "XGR",
+      "symbol": "XGR",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://xgr.network",
+    "shortName": "xgr",
+    "chainId": 1643,
+    "networkId": 1643,
+    "icon": "xgr",
+    "explorers": [
+      {
+        "name": "XGRScan",
+        "url": "https://explorer.xgr.network",
+        "icon": "xgr",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Pivotal Mainnet",
     "chainId": 1648,
     "networkId": 1648,
@@ -16485,6 +16521,32 @@
     ]
   },
   {
+    "name": "Transparency Solution",
+    "chain": "CLT",
+    "icon": "transparencysolution",
+    "rpc": [
+      "https://rpc-api.transparency.solutions"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ClearToken",
+      "symbol": "CLT",
+      "decimals": 18
+    },
+    "infoURL": "https://transparency.solutions",
+    "shortName": "clts",
+    "chainId": 179170,
+    "networkId": 179170,
+    "explorers": [
+      {
+        "name": "Transparency Solution Explorer",
+        "url": "https://blockchain.transparency.solutions",
+        "icon": "transparencysolution",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ThunderCore Testnet",
     "chain": "TST",
     "rpc": [
@@ -17460,6 +17522,44 @@
       {
         "name": "whitechain-explorer",
         "url": "https://explorer.whitechain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "XGR Testnet",
+    "chain": "XGR",
+    "rpc": [
+      "https://rpc.testnet.xgr.network",
+      "https://rpc1.testnet.xgr.network",
+      "https://rpc2.testnet.xgr.network"
+    ],
+    "faucets": [
+      "https://faucet.xgr.network"
+    ],
+    "nativeCurrency": {
+      "name": "XGR",
+      "symbol": "XGR",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://xgr.network",
+    "shortName": "xgrt",
+    "chainId": 1879,
+    "networkId": 1879,
+    "icon": "xgr",
+    "explorers": [
+      {
+        "name": "XGRScan",
+        "url": "https://explorer.testnet.xgr.network",
+        "icon": "xgr",
         "standard": "EIP3091"
       }
     ]
