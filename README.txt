@@ -2744,6 +2744,7 @@
         ├── app.jetton.png
         ├── app.kinza.finance:.png
         ├── app.layer3.xyz.png
+        ├── app.machines.cash.png
         ├── app.mail3.me.png
         ├── app.marginfi.com.png
         ├── app.marsecosystem.com.png
@@ -3173,4 +3174,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-190 directories, 2984 files
+190 directories, 2985 files
