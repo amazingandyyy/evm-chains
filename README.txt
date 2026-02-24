@@ -3055,6 +3055,7 @@
         ├── portfolio.defiprime.com.png
         ├── powerpool.finance.png
         ├── prdt.finance.png
+        ├── predict.fun.png
         ├── pump.fun:board.png
         ├── quickswap.exchange.png
         ├── rango.png
@@ -3174,4 +3175,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-190 directories, 2985 files
+190 directories, 2986 files
