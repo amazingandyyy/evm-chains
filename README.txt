@@ -3056,7 +3056,7 @@
         ├── powerpool.finance.png
         ├── prdt.finance.png
         ├── predict.fun.png
-        ├── pump.fun:board.png
+        ├── pump.fun.png
         ├── quickswap.exchange.png
         ├── rango.png
         ├── rarebits.io.png
