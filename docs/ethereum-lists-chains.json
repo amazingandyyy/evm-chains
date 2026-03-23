@@ -12657,6 +12657,30 @@
     ]
   },
   {
+    "name": "Orqus Testnet",
+    "chain": "Orqus",
+    "rpc": [
+      "https://rpc-test.orqus.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "No native currency",
+      "symbol": "USD",
+      "decimals": 18
+    },
+    "infoURL": "https://orqus.io",
+    "shortName": "orqus-testnet",
+    "chainId": 153871,
+    "networkId": 153871,
+    "explorers": [
+      {
+        "name": "Orquscan",
+        "url": "https://orquscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Redbelly Network TGE",
     "shortName": "rbn-tge",
     "chain": "RBN",
@@ -37954,6 +37978,72 @@
         "name": "Cronos zkEVM (Mainnet) Chain Explorer",
         "url": "https://explorer.zkevm.cronos.org",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Igra Network",
+    "chain": "IGRA",
+    "icon": "igra",
+    "rpc": [
+      "https://rpc.igralabs.com:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "iKAS",
+      "symbol": "iKAS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://igralabs.com",
+    "shortName": "igra",
+    "chainId": 38833,
+    "networkId": 38833,
+    "explorers": [
+      {
+        "name": "Igra Explorer",
+        "url": "https://explorer.igralabs.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Igra Testnet",
+    "chain": "IGRA",
+    "icon": "igra",
+    "rpc": [
+      "https://galleon-testnet.igralabs.com:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "iKAS",
+      "symbol": "iKAS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://igralabs.com",
+    "shortName": "igra-galleon-testnet",
+    "chainId": 38836,
+    "networkId": 38836,
+    "explorers": [
+      {
+        "name": "Igra Galleon Testnet Explorer",
+        "url": "https://explorer.galleon-testnet.igralabs.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -64649,6 +64739,39 @@
     ]
   },
   {
+    "name": "PropTech Mainnet",
+    "chain": "PTEK",
+    "icon": "ptek",
+    "rpc": [
+      "https://mainnet.ptekcoin.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PropTech Token",
+      "symbol": "PTEK",
+      "decimals": 18
+    },
+    "infoURL": "https://ptek.ai",
+    "shortName": "ptek",
+    "chainId": 88788,
+    "networkId": 88788,
+    "explorers": [
+      {
+        "name": "PropTech Blockchain Explorer",
+        "url": "https://explorer.ptekcoin.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Wanchain",
     "chain": "WAN",
     "rpc": [
@@ -65471,6 +65594,40 @@
     "chainId": 89,
     "networkId": 89,
     "slip44": 1
+  },
+  {
+    "name": "Capital Exchange",
+    "chain": "CXM",
+    "rpc": [
+      "https://rpc.capitalexchange.net",
+      "https://rpc.capitalexchangecrypto.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Capital Exchange",
+      "symbol": "CXM",
+      "decimals": 18
+    },
+    "infoURL": "https://www.capitalexchange.markets",
+    "shortName": "CXM",
+    "chainId": 890,
+    "networkId": 890,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "Capital Exchange EVM",
+        "url": "https://explorer.capitalexchange.net",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Algen",
@@ -70404,6 +70561,60 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Dorsen Chain",
+    "chain": "Dorsen",
+    "rpc": [
+      "https://mainnet-rpc.dorsenscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dorsen Chain",
+      "symbol": "DC",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.dorsenscan.io",
+    "icon": "dorsen",
+    "shortName": "dorsen-test",
+    "chainId": 99110,
+    "networkId": 99110,
+    "explorers": [
+      {
+        "name": "DorsenScan Mainnet",
+        "url": "https://dorsenscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Dorsen Testnet",
+    "chain": "Dorsen",
+    "rpc": [
+      "https://testnet-rpc.dorsenscan.io"
+    ],
+    "faucets": [
+      "https://faucet.dorsenscan.io"
+    ],
+    "nativeCurrency": {
+      "name": "Dorsen Chain",
+      "symbol": "tDC",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.dorsenscan.io",
+    "shortName": "dorsen-main",
+    "icon": "dorsen",
+    "chainId": 99119,
+    "networkId": 99119,
+    "explorers": [
+      {
+        "name": "DorsenScan Testnet",
+        "url": "https://testnet.dorsenscan.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Joys Digital TestNet",
