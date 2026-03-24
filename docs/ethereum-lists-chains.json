@@ -15596,6 +15596,43 @@
     ]
   },
   {
+    "name": "SATUCHAIN Testnet",
+    "chain": "SATU",
+    "rpc": [
+      "https://rpc-testnet.satuchain.com",
+      "wss://rpc-testnet.satuchain.com/ws"
+    ],
+    "faucets": [
+      "https://faucet.satuchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "Satu Testnet",
+      "symbol": "tSTU",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://satuchain.com",
+    "shortName": "satutestnet",
+    "chainId": 17081945,
+    "networkId": 17081945,
+    "icon": "satuchain",
+    "explorers": [
+      {
+        "name": "SATUCHAIN Testnet Explorer",
+        "url": "https://testnet.satuchain.com",
+        "icon": "satuchain",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "CO2e Chain",
     "chain": "CO2E",
     "rpc": [
@@ -39695,6 +39732,24 @@
     ]
   },
   {
+    "name": "Algorand",
+    "chain": "ALGO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Algo",
+      "symbol": "ALGO",
+      "decimals": 6
+    },
+    "infoURL": "https://algorand.co",
+    "shortName": "algo",
+    "chainId": 4160,
+    "networkId": 4160,
+    "slip44": 283,
+    "status": "active",
+    "explorers": []
+  },
+  {
     "name": "SX Rollup",
     "chain": "SX",
     "icon": "SX",
@@ -53712,6 +53767,31 @@
     ]
   },
   {
+    "name": "Bitasset Chain Testnet Ploutos",
+    "chain": "BAC",
+    "rpc": [
+      "https://ploutos-rpc.bitassetchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitasset Chain Native Token",
+      "symbol": "BAC",
+      "decimals": 18
+    },
+    "infoURL": "https://bitassetchain.io",
+    "shortName": "bac-ploutos",
+    "chainId": 66666,
+    "networkId": 66666,
+    "icon": "bac",
+    "explorers": [
+      {
+        "name": "bacscan-ploutos",
+        "url": "https://ploutos.bacscan.net",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Vision - Vpioneer Test Chain",
     "chain": "Vision-Vpioneer",
     "rpc": [
@@ -56375,6 +56455,40 @@
     "slip44": 1
   },
   {
+    "name": "Eden",
+    "chain": "Eden",
+    "rpc": [
+      "https://rpc.eden.gateway.fm"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TIA",
+      "symbol": "TIA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://celestia.org",
+    "shortName": "eden",
+    "chainId": 714,
+    "networkId": 714,
+    "icon": "eden",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://eden.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Godwoken Testnet v1",
     "chain": "GWT",
     "rpc": [
@@ -56780,6 +56894,31 @@
       {
         "name": "saakuru-explorer",
         "url": "https://explorer.saakuru.network",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Bitasset Chain Mainnet",
+    "chain": "BAC",
+    "rpc": [
+      "https://rpc.bitassetchain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bitasset Chain Native Token",
+      "symbol": "BAC",
+      "decimals": 18
+    },
+    "infoURL": "https://bitassetchain.io",
+    "shortName": "bac",
+    "chainId": 723,
+    "networkId": 723,
+    "icon": "bac",
+    "explorers": [
+      {
+        "name": "bacscan",
+        "url": "https://bacscan.net",
         "standard": "EIP3091"
       }
     ]
@@ -67048,6 +67187,34 @@
         "name": "GIWA Sepolia Blockscout",
         "url": "https://sepolia-explorer.giwa.io",
         "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "MST Testnet",
+    "chain": "MST",
+    "rpc": [
+      "https://testnetrpc.mstblockchain.com",
+      "wss://testnetrpc.mstblockchain.com"
+    ],
+    "faucets": [
+      "https://faucet.mstblockchain.com"
+    ],
+    "nativeCurrency": {
+      "name": "MST Native Coin",
+      "symbol": "tMSTC",
+      "decimals": 18
+    },
+    "infoURL": "https://mstblockchain.com",
+    "shortName": "mst-testnet",
+    "chainId": 91562037,
+    "networkId": 91562037,
+    "icon": "mst",
+    "explorers": [
+      {
+        "name": "mstscan",
+        "url": "https://testnet.mstscan.com",
         "standard": "EIP3091"
       }
     ]
