@@ -2714,6 +2714,7 @@
     │   ├── scroll
     │   ├── secret
     │   ├── sei
+    │   ├── seievm
     │   ├── sepolia
     │   ├── smartbch
     │   ├── smartchain
@@ -3234,4 +3235,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-190 directories, 3045 files
+191 directories, 3045 files
