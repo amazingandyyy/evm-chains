@@ -2898,6 +2898,7 @@
         ├── commerce.bidali.com.png
         ├── compound.finance.png
         ├── comproi.com.png
+        ├── cow.fi.png
         ├── cryptantcrab.io.png
         ├── cryptobots.me.png
         ├── cryptochrome.org.png
@@ -3235,4 +3236,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-191 directories, 3045 files
+191 directories, 3046 files
