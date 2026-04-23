@@ -28377,6 +28377,32 @@
     ]
   },
   {
+    "name": "StreamChain",
+    "icon": "streamchain",
+    "shortName": "stc",
+    "chain": "STC",
+    "chainId": 250611,
+    "networkId": 250611,
+    "rpc": [
+      "https://rpc.strmchain.com"
+    ],
+    "faucets": [],
+    "infoURL": "https://strmchain.com",
+    "nativeCurrency": {
+      "name": "StreamChain",
+      "symbol": "STC",
+      "decimals": 18
+    },
+    "explorers": [
+      {
+        "name": "StreamChain Explorer",
+        "url": "https://explorer.strmchain.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
+  },
+  {
     "name": "Glide L1 Protocol XP",
     "chain": "GLXP",
     "icon": "glide",
@@ -41258,6 +41284,33 @@
     }
   },
   {
+    "name": "Tempo Mainnet Presto",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.mainnet.tempo.xyz",
+      "wss://rpc.mainnet.tempo.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "No native currency",
+      "symbol": "USD",
+      "decimals": 18
+    },
+    "infoURL": "https://tempo.xyz",
+    "shortName": "tempo-presto",
+    "chainId": 4217,
+    "networkId": 4217,
+    "icon": "tempo",
+    "explorers": [
+      {
+        "name": "tempo-explorer",
+        "url": "https://explore.tempo.xyz",
+        "icon": "tempo",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arbitrum Nova",
     "chainId": 42170,
     "shortName": "arb-nova",
@@ -41670,7 +41723,7 @@
     "explorers": [
       {
         "name": "tempo-explorer",
-        "url": "https://explore.tempo.xyz",
+        "url": "https://explore.testnet.tempo.xyz",
         "icon": "tempo",
         "standard": "EIP3091"
       }
@@ -44249,6 +44302,42 @@
       "bridges": [
         {
           "url": "https://appchaintestnet.bridge.caldera.xyz"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Robinhood Chain Testnet",
+    "title": "Robinhood Chain Testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.testnet.chain.robinhood.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.robinhood.com/chain/",
+    "shortName": "rh-testnet",
+    "chainId": 46630,
+    "networkId": 46630,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.testnet.chain.robinhood.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://portal.arbitrum.io/bridge"
         }
       ]
     }
@@ -60373,6 +60462,39 @@
         "icon": "drawchain"
       }
     ]
+  },
+  {
+    "name": "DiamondzChain",
+    "chain": "DZX",
+    "rpc": [
+      "https://rpc-mainnet.diamondz.baby"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Diamondz Shadow Game and Movies",
+      "symbol": "SDM",
+      "decimals": 18
+    },
+    "infoURL": "https://diamondzshadow.info",
+    "shortName": "dzx",
+    "chainId": 7791,
+    "networkId": 7791,
+    "explorers": [
+      {
+        "name": "DiamondzChain Explorer",
+        "url": "https://diamondz.tryethernal.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-42161",
+      "bridges": [
+        {
+          "url": "https://b0b35872-9442-43c9-8cb4-5719d6808be9.bridges.rollbridge.app"
+        }
+      ]
+    }
   },
   {
     "name": "OpenEX LONG Testnet",
