@@ -14948,7 +14948,7 @@
     ]
   },
   {
-    "name": "Taiko Alethia",
+    "name": "Taiko",
     "chain": "ETH",
     "status": "active",
     "icon": "taiko",
@@ -14971,11 +14971,6 @@
       {
         "name": "etherscan",
         "url": "https://taikoscan.io",
-        "standard": "EIP3091"
-      },
-      {
-        "name": "Routescan",
-        "url": "https://taikoexplorer.com",
         "standard": "EIP3091"
       }
     ]
@@ -17262,6 +17257,41 @@
     "networkId": 181,
     "icon": "waterfall-main",
     "explorers": []
+  },
+  {
+    "name": "Ruby Chain Testnet",
+    "title": "Ruby Chain Testnet",
+    "shortName": "ruby-testnet",
+    "chain": "RUBY",
+    "rpc": [
+      "https://rpc.ruby.testnet.finetry.win",
+      "https://rpc2.ruby.testnet.finetry.win"
+    ],
+    "faucets": [
+      "https://faucet.ruby.testnet.finetry.win"
+    ],
+    "nativeCurrency": {
+      "name": "Ruby",
+      "symbol": "RUBY",
+      "decimals": 18
+    },
+    "infoURL": "https://elektrum.io",
+    "chainId": 1810,
+    "networkId": 1810,
+    "explorers": [
+      {
+        "name": "Ruby Chain Explorer",
+        "url": "https://explorer.ruby.testnet.finetry.win",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111",
+      "bridges": []
+    },
+    "icon": "rubychain",
+    "status": "active"
   },
   {
     "name": "Lif3 Chain Testnet",
@@ -20563,6 +20593,40 @@
       {
         "name": "Ultra EVM Explorer",
         "url": "https://evmexplorer.ultra.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "SuperAIChain Mainnet",
+    "chain": "SuperAIChain",
+    "icon": "superaichain",
+    "rpc": [
+      "https://rpc.superaichain.ai"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SUP",
+      "symbol": "SUP",
+      "decimals": 18
+    },
+    "infoURL": "https://superaichain.ai",
+    "shortName": "sup",
+    "chainId": 19998,
+    "networkId": 19998,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "SuperAIChain Explorer",
+        "url": "https://scan.superaichain.ai",
         "standard": "EIP3091"
       }
     ]
