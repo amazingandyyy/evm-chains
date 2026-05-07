@@ -38238,7 +38238,7 @@
       ]
     },
     "explorers": [],
-    "status": "incubating"
+    "status": "deprecated"
   },
   {
     "name": "Crossbell",
@@ -38320,7 +38320,7 @@
       ]
     },
     "explorers": [],
-    "status": "incubating"
+    "status": "deprecated"
   },
   {
     "name": "zkXPLA Mainnet",
