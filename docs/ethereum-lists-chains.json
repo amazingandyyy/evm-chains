@@ -16259,7 +16259,7 @@
     "explorers": [
       {
         "name": "konet-explorer",
-        "url": "https://explorer.kon-wallet.com",
+        "url": "https://konetexplorer.io",
         "standard": "EIP3091"
       }
     ]
@@ -46844,6 +46844,23 @@
     ]
   },
   {
+    "name": "Arc",
+    "chain": "Arc",
+    "icon": "arcnetwork",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "infoURL": "https://arc.network",
+    "shortName": "arc-mainnet",
+    "chainId": 5042,
+    "networkId": 5042,
+    "explorers": []
+  },
+  {
     "name": "Arc Network Testnet",
     "chain": "Arc Network",
     "icon": "arcnetwork",
@@ -55355,16 +55372,17 @@
     "icon": "degen"
   },
   {
-    "name": "The Ting Blockchain Testnet Explorer",
-    "chain": "Ting",
+    "name": "Ting Chain Testnet",
+    "title": "Ting Chain Testnet",
+    "chain": "tingchain",
     "rpc": [
-      "https://testnet.tingchain.org",
-      "https://public.0xrpc.com/6666689"
+      "https://rpc-testnet.tingscan.com",
+      "wss://rpc-testnet.tingscan.com"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Ton",
-      "symbol": "Ton",
+      "name": "Ting",
+      "symbol": "TING",
       "decimals": 18
     },
     "features": [
@@ -55382,7 +55400,7 @@
     "explorers": [
       {
         "name": "TingScan",
-        "url": "https://tingscan.com",
+        "url": "https://testnet.tingscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -63344,6 +63362,34 @@
     "chainId": 8087,
     "networkId": 8087,
     "explorers": []
+  },
+  {
+    "name": "Helix Chain",
+    "shortName": "hlx",
+    "chain": "HLX",
+    "chainId": 8088,
+    "networkId": 8088,
+    "rpc": [
+      "https://rpc.thehelixchain.xyz"
+    ],
+    "faucets": [
+      "https://faucet.thehelixchain.xyz"
+    ],
+    "infoURL": "https://thehelixchain.xyz",
+    "icon": "helix",
+    "nativeCurrency": {
+      "name": "Helix",
+      "symbol": "HLX",
+      "decimals": 18
+    },
+    "explorers": [
+      {
+        "name": "Helix Chain Explorer",
+        "url": "https://explorer.thehelixchain.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "BOB Sepolia",
