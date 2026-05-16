@@ -36725,6 +36725,38 @@
     ]
   },
   {
+    "name": "Capital Exchange SE",
+    "chain": "BOURSE",
+    "rpc": [
+      "https://rpc.capitalexchange.digital"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bourse",
+      "symbol": "BOURSE",
+      "decimals": 18
+    },
+    "infoURL": "https://www.capitalexchange.markets",
+    "shortName": "bourse",
+    "chainId": 343,
+    "networkId": 343,
+    "explorers": [
+      {
+        "name": "Capital Exchange Markets | Digital",
+        "url": "https://explorer.capitalexchange.se",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "SecureChain Testnet",
     "chain": "SCAI",
     "icon": "scaiIcon",
@@ -55351,7 +55383,7 @@
     "chain": "Safe(AnWang)",
     "icon": "safe-anwang",
     "rpc": [
-      "https://rpc.anwang.com"
+      "https://safe4.anwang.com/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -55366,7 +55398,7 @@
     "explorers": [
       {
         "name": "Safe(AnWang) Explorer",
-        "url": "http://safe4.anwang.com",
+        "url": "https://safe4.anwang.com",
         "icon": "safe-anwang",
         "standard": "EIP3091"
       }
@@ -55377,7 +55409,7 @@
     "chain": "Safe(AnWang)",
     "icon": "safe-anwang",
     "rpc": [
-      "https://rpc-testnet.anwang.com"
+      "https://safe4testnet.anwang.com/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -55392,7 +55424,7 @@
     "explorers": [
       {
         "name": "Safe(AnWang) Testnet Explorer",
-        "url": "http://safe4-testnet.anwang.com",
+        "url": "https://safe4testnet.anwang.com",
         "icon": "safe-anwang",
         "standard": "EIP3091"
       }
@@ -68006,24 +68038,16 @@
     "slip44": 1
   },
   {
-    "name": "Capital Exchange",
+    "name": "CXM",
     "chain": "CXM",
     "rpc": [],
-    "features": [
-      {
-        "name": "EIP155"
-      },
-      {
-        "name": "EIP1559"
-      }
-    ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Capital Exchange",
+      "name": "CXM",
       "symbol": "CXM",
       "decimals": 18
     },
-    "infoURL": "https://www.capitalexchange.it",
+    "infoURL": "",
     "shortName": "CXM",
     "chainId": 890,
     "networkId": 890,
