@@ -31640,6 +31640,30 @@
     "status": "deprecated"
   },
   {
+    "name": "Candy Chain",
+    "chain": "CANDY",
+    "rpc": [
+      "https://publicrpc.candychain.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CANDY",
+      "symbol": "CANDY",
+      "decimals": 18
+    },
+    "infoURL": "https://candychain.io",
+    "shortName": "candy",
+    "chainId": 2828,
+    "networkId": 2828,
+    "explorers": [
+      {
+        "name": "Candy Chain Explorer",
+        "url": "https://explorer.candychain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Zillion Sepolia Testnet",
     "status": "active",
     "chain": "ETH",
@@ -56845,30 +56869,34 @@
     ]
   },
   {
-    "name": "Condrieu",
-    "title": "Ethereum Verkle Testnet Condrieu",
-    "chain": "ETH",
+    "name": "CHEESE Blockchain",
+    "chain": "CHEESE",
     "rpc": [
-      "https://rpc.condrieu.ethdevops.io:8545"
+      "https://cheesescan.com/rpc",
+      "https://rpc1.cheesescan.com",
+      "https://rpc2.cheesescan.com"
     ],
     "faucets": [
-      "https://faucet.condrieu.ethdevops.io"
+      "https://cheesescan.com/faucet"
     ],
     "nativeCurrency": {
-      "name": "Condrieu Testnet Ether",
-      "symbol": "CTE",
+      "name": "CHEESE",
+      "symbol": "CHEESE",
       "decimals": 18
     },
-    "infoURL": "https://condrieu.ethdevops.io",
-    "shortName": "cndr",
+    "infoURL": "https://cheesescan.com",
+    "shortName": "cheese",
     "chainId": 69420,
     "networkId": 69420,
-    "slip44": 1,
+    "redFlags": [
+      "reusedChainId"
+    ],
+    "status": "incubating",
     "explorers": [
       {
-        "name": "Condrieu explorer",
-        "url": "https://explorer.condrieu.ethdevops.io",
-        "standard": "none"
+        "name": "CHEESE Explorer",
+        "url": "https://cheesescan.com",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -65740,14 +65768,22 @@
     "networkId": 846000
   },
   {
-    "name": "MYRX-MAINNET",
+    "name": "MyrxWallet Network",
     "chain": "MYRX",
     "rpc": [
       "https://rpc.myrxwallet.io"
     ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "MyRx Token",
+      "name": "MRT",
       "symbol": "MRT",
       "decimals": 18
     },
@@ -65757,7 +65793,7 @@
     "networkId": 8472,
     "explorers": [
       {
-        "name": "MyRx Explorer",
+        "name": "MyrxWallet Explorer",
         "url": "https://explorer.myrxwallet.io",
         "standard": "EIP3091"
       }
