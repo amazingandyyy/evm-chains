@@ -7955,6 +7955,25 @@
     ]
   },
   {
+    "name": "BrainArk",
+    "chain": "BAK",
+    "icon": "brainark",
+    "rpc": [
+      "https://rpc.brainark.online"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BrainArk",
+      "symbol": "BAK",
+      "decimals": 18
+    },
+    "infoURL": "https://brainark.online",
+    "shortName": "bak",
+    "chainId": 1236,
+    "networkId": 1236,
+    "explorers": []
+  },
+  {
     "name": "Decentralized Web Mainnet",
     "shortName": "dwu",
     "chain": "DWU",
@@ -22717,6 +22736,40 @@
     ]
   },
   {
+    "name": "MACos Chain",
+    "chain": "MACOS",
+    "icon": "macos",
+    "rpc": [
+      "https://rpc1.codeupp.xyz"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MACos Coin",
+      "symbol": "MCOS",
+      "decimals": 18
+    },
+    "infoURL": "https://macosscan.codeupp.xyz",
+    "shortName": "macos",
+    "chainId": 20261,
+    "networkId": 20261,
+    "explorers": [
+      {
+        "name": "MACos Explorer",
+        "url": "https://macosscan.codeupp.xyz",
+        "icon": "macos",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Jellie",
     "title": "Twala Testnet Jellie",
     "shortName": "twl-jellie",
@@ -34454,6 +34507,30 @@
         "name": "Parex Mainnet Explorer",
         "url": "https://scan.parex.network",
         "icon": "parexmain",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "XO Market",
+    "chain": "XO",
+    "rpc": [
+      "https://rpc-mainnet-2.xo.market/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "XO",
+      "symbol": "XO",
+      "decimals": 18
+    },
+    "infoURL": "https://xo.market",
+    "shortName": "xo",
+    "chainId": 3223,
+    "networkId": 3223,
+    "explorers": [
+      {
+        "name": "XO Market Explorer",
+        "url": "https://explorer-mainnet.xo.market",
         "standard": "EIP3091"
       }
     ]
@@ -66507,6 +66584,7 @@
   {
     "name": "EB-Chain",
     "chain": "EBC",
+    "icon": "ebc",
     "rpc": [
       "https://rpc.ebcscan.net"
     ],
