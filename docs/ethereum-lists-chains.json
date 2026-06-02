@@ -37140,6 +37140,7 @@
     "name": "Capital Exchange",
     "chain": "BOURSE",
     "rpc": [
+      "https://rpc.capitalexchange.com",
       "https://rpc.capitalexchange.digital"
     ],
     "features": [
@@ -37164,7 +37165,7 @@
     "explorers": [
       {
         "name": "Capital Exchange | Digital",
-        "url": "https://explorer.capitalexchange.se",
+        "url": "https://explorer.capitalexchange.com",
         "icon": "bourse",
         "standard": "none"
       }
@@ -40331,6 +40332,29 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Citrate",
+    "chain": "CITRATE",
+    "rpc": [
+      "https://rpc.citrate.ai",
+      "wss://rpc.citrate.ai"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SALT",
+      "symbol": "SALT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://citrate.ai",
+    "shortName": "citrate",
+    "chainId": 40204,
+    "networkId": 40204
   },
   {
     "name": "Syndr L3",
@@ -52198,6 +52222,31 @@
         "url": "http://mantrascan.io",
         "standard": "none",
         "icon": "om"
+      }
+    ]
+  },
+  {
+    "name": "LadyChain",
+    "chain": "LADY",
+    "icon": "lady",
+    "rpc": [
+      "https://ladyrpc.us/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lady",
+      "symbol": "LADY",
+      "decimals": 18
+    },
+    "infoURL": "https://ladyswap.us",
+    "shortName": "lady",
+    "chainId": 589,
+    "networkId": 589,
+    "explorers": [
+      {
+        "name": "LadyScan",
+        "url": "https://ladyscan.us",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -66133,7 +66182,8 @@
       "wss://base.gateway.tenderly.co",
       "https://base-rpc.publicnode.com",
       "wss://base-rpc.publicnode.com",
-      "https://rpcfree.com/base-rpc"
+      "https://rpcfree.com/base-rpc",
+      "https://rpc.baseazul.dev"
     ],
     "faucets": [],
     "nativeCurrency": {
