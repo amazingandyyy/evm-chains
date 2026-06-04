@@ -10253,12 +10253,12 @@
       "https://faucet.elysiumchain.tech"
     ],
     "nativeCurrency": {
-      "name": "ELY",
-      "symbol": "ELY",
+      "name": "PYR",
+      "symbol": "PYR",
       "decimals": 18
     },
     "infoURL": "https://elysiumchain.tech/",
-    "shortName": "ELY",
+    "shortName": "PYR",
     "chainId": 1339,
     "networkId": 1339,
     "icon": "elysium",
@@ -13241,6 +13241,37 @@
         "name": "TenetScan Testnet",
         "url": "https://testnet.tenetscan.io",
         "icon": "tenet",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "NirmalX Smart Chain",
+    "chain": "NRXN",
+    "icon": "nrxn",
+    "rpc": [
+      "https://rpc.nirmalxscan.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "NirmalX Nova",
+      "symbol": "NRXN",
+      "decimals": 18
+    },
+    "infoURL": "https://nirmalxscan.com/",
+    "shortName": "nrxn",
+    "chainId": 15526,
+    "networkId": 15526,
+    "explorers": [
+      {
+        "name": "NirmalX Explorer",
+        "url": "https://nirmalxscan.com",
+        "icon": "nrxn",
         "standard": "EIP3091"
       }
     ]
@@ -29198,6 +29229,32 @@
     "status": "incubating"
   },
   {
+    "name": "SVPChain Testnet",
+    "chain": "SVP",
+    "rpc": [
+      "https://svp-dataseed1-testnet.svpchain.org",
+      "https://svp-dataseed2-testnet.svpchain.org",
+      "https://svp-dataseed3-testnet.svpchain.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SVP Token",
+      "symbol": "SVP",
+      "decimals": 18
+    },
+    "infoURL": "https://svpchain.org",
+    "shortName": "svptest",
+    "chainId": 2517,
+    "networkId": 2517,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.svpchain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "LiquidLayer Mainnet",
     "chain": "LiquidLayer",
     "icon": "lila",
@@ -42861,8 +42918,8 @@
       "https://testnet-explorer.ikchain.net"
     ],
     "nativeCurrency": {
-      "name": "IKCrypto",
-      "symbol": "IKCr",
+      "name": "IKToken",
+      "symbol": "IKTokn",
       "decimals": 18
     },
     "infoURL": "https://ikchain.net",
