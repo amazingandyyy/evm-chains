@@ -2722,6 +2722,7 @@
     │   ├── heco
     │   ├── hedera
     │   ├── hoo
+    │   ├── hypeevm
     │   ├── hyperevm
     │   ├── icon
     │   ├── internet_computer
@@ -3319,4 +3320,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-192 directories, 3128 files
+193 directories, 3128 files
