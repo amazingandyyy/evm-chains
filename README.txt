@@ -2799,6 +2799,7 @@
     │   ├── quasar
     │   ├── ravencoin
     │   ├── ripple
+    │   ├── robinhoodchain
     │   ├── ronin
     │   ├── rootstock
     │   ├── scroll
@@ -3328,4 +3329,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-193 directories, 3136 files
+194 directories, 3136 files
