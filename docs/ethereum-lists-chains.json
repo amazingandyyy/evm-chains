@@ -3816,8 +3816,15 @@
     "name": "Mars Credit",
     "chain": "MARS",
     "rpc": [
-      "https://node99-production-dd5f.up.railway.app:443",
       "https://rpc.marscredit.xyz:443"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -3831,7 +3838,13 @@
     "networkId": 110110,
     "slip44": 1,
     "icon": "marscredit",
-    "explorers": [],
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscan.marscredit.xyz",
+        "standard": "EIP3091"
+      }
+    ],
     "redFlags": []
   },
   {
@@ -7303,6 +7316,31 @@
     "status": "active"
   },
   {
+    "name": "SWSS Chain",
+    "chain": "SWSS",
+    "icon": "swss",
+    "rpc": [
+      "https://swssrpc.swss.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SWSS Coin",
+      "symbol": "SWSS",
+      "decimals": 18
+    },
+    "infoURL": "https://swss.io",
+    "shortName": "swss",
+    "chainId": 122605,
+    "networkId": 122605,
+    "explorers": [
+      {
+        "name": "SWSS Chain Scan",
+        "url": "https://swssscan.swss.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Bitcoin Protocol Testnet",
     "chain": "BTCP Testnet",
     "icon": "btcprotocol",
@@ -10169,6 +10207,31 @@
     "shortName": "tpep",
     "chainId": 13371337,
     "networkId": 13371337
+  },
+  {
+    "name": "Liberty Testnet",
+    "chain": "LBRTY",
+    "icon": "lbrty",
+    "rpc": [
+      "https://testnet-rpc.libertychain.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Liberty",
+      "symbol": "LBRTY",
+      "decimals": 18
+    },
+    "infoURL": "https://libertychain.org",
+    "shortName": "lbrty-testnet",
+    "chainId": 13373,
+    "networkId": 13373,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://explorer.libertychain.org",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Kintsugi",
@@ -24852,6 +24915,41 @@
     "chainId": 21211,
     "networkId": 21211,
     "explorers": []
+  },
+  {
+    "name": "GGCHAIN Mainnet",
+    "chain": "GGCHAIN",
+    "icon": "ggchain",
+    "rpc": [
+      "https://rpc.gghyper.net"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://gghyper.net/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "GG",
+      "symbol": "GG",
+      "decimals": 18
+    },
+    "infoURL": "https://gghyper.net",
+    "shortName": "ggchain",
+    "chainId": 2121217,
+    "networkId": 2121217,
+    "explorers": [
+      {
+        "name": "GGCHAIN Explorer",
+        "url": "https://explorer.gghyper.net",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Metaplayerone Mainnet",
@@ -59998,6 +60096,31 @@
       {
         "name": "caga",
         "url": "https://explorer.cagamainnet.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Rayls Mainnet",
+    "chain": "Rayls",
+    "icon": "rayls",
+    "rpc": [
+      "https://mainnet-rpc.rayls.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USD Rayls",
+      "symbol": "USDr",
+      "decimals": 18
+    },
+    "infoURL": "https://rayls.com",
+    "shortName": "rayls",
+    "chainId": 72957,
+    "networkId": 72957,
+    "explorers": [
+      {
+        "name": "Rayls Explorer",
+        "url": "https://explorer.rayls.com",
         "standard": "EIP3091"
       }
     ]
