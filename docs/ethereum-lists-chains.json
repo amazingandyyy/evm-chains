@@ -25729,6 +25729,36 @@
     ]
   },
   {
+    "name": "Morph Tachyon",
+    "title": "Morph Tachyon Mainnet",
+    "chain": "Morph Tachyon",
+    "rpc": [
+      "https://api.popdex.xyz/api/v1/web3/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BGB",
+      "symbol": "BGB",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://popdex.xyz",
+    "shortName": "morphtachyon",
+    "chainId": 2184,
+    "networkId": 2184,
+    "explorers": [
+      {
+        "name": "Morph Tachyon Explorer",
+        "url": "https://app.popdex.xyz/explorer",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Game7",
     "title": "Game7",
     "chain": "Game7",
@@ -32752,6 +32782,30 @@
     ]
   },
   {
+    "name": "NetX Mainnet",
+    "chain": "NETX",
+    "rpc": [
+      "https://rpc.netxscan.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "NetX Token",
+      "symbol": "NETX",
+      "decimals": 18
+    },
+    "infoURL": "https://netx.world/",
+    "shortName": "netx",
+    "chainId": 287,
+    "networkId": 287,
+    "explorers": [
+      {
+        "name": "NetXScan",
+        "url": "https://netxscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Boba Network",
     "chain": "ETH",
     "rpc": [
@@ -38040,6 +38094,36 @@
       ]
     },
     "status": "active"
+  },
+  {
+    "name": "Morph Tachyon Testnet",
+    "title": "Morph Tachyon Testnet",
+    "chain": "Morph Tachyon",
+    "rpc": [
+      "https://testnet-api.popdex.xyz/api/v1/web3/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BGB",
+      "symbol": "BGB",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://popdex.xyz",
+    "shortName": "morphtachyontestnet",
+    "chainId": 34952,
+    "networkId": 34952,
+    "explorers": [
+      {
+        "name": "Morph Tachyon Testnet Explorer",
+        "url": "https://testnet-app.popdex.xyz/explorer",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "TBWG Chain",
@@ -45975,7 +46059,8 @@
     "name": "Robinhood Chain",
     "chain": "ETH",
     "rpc": [
-      "https://rpc.mainnet.chain.robinhood.com"
+      "https://rpc.mainnet.chain.robinhood.com",
+      "https://rpc.arrowrpc.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -45992,6 +46077,11 @@
         "name": "blockscout",
         "url": "https://robinhoodchain.blockscout.com",
         "icon": "blockscout",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "HoodScan",
+        "url": "https://hoodscan.ai",
         "standard": "EIP3091"
       }
     ],
@@ -52820,6 +52910,32 @@
       {
         "name": "wegoscan2",
         "url": "https://scan2.wegochain.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "NetX Testnet",
+    "chain": "NETX",
+    "rpc": [
+      "https://testnetrpc.netxscan.io"
+    ],
+    "faucets": [
+      "https://netx.world/faucet/"
+    ],
+    "nativeCurrency": {
+      "name": "NetX Token",
+      "symbol": "NETX",
+      "decimals": 18
+    },
+    "infoURL": "https://netx.world/",
+    "shortName": "netx-testnet",
+    "chainId": 587,
+    "networkId": 587,
+    "explorers": [
+      {
+        "name": "NetXScan Testnet",
+        "url": "https://testnet.netxscan.io",
         "standard": "EIP3091"
       }
     ]
