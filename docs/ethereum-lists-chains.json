@@ -13483,6 +13483,38 @@
     "status": "active"
   },
   {
+    "name": "WheatCoin Mainnet",
+    "chain": "WHEAT",
+    "rpc": [
+      "https://rpc.mizodevelopment.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WheatCoin",
+      "symbol": "WHEAT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://itzlalpekhlua.github.io/WheatCoin-Token/",
+    "shortName": "wheat",
+    "chainId": 153043,
+    "networkId": 153043,
+    "explorers": [
+      {
+        "name": "WheatCoin Explorer",
+        "url": "https://explorer.mizodevelopment.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Odyssey Chain Mainnet",
     "chain": "DIONE",
     "rpc": [
@@ -14927,27 +14959,32 @@
     ]
   },
   {
-    "name": "Omni Testnet (Deprecated)",
-    "chain": "Omni",
-    "rpc": [],
-    "features": [
-      {
-        "name": "EIP155"
-      }
+    "name": "Farm Chain",
+    "chain": "FMC",
+    "rpc": [
+      "https://rpc.fmcscan.com"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "Omni",
-      "symbol": "OMNI",
+      "name": "Farm Coin",
+      "symbol": "FMC",
       "decimals": 18
     },
-    "infoURL": "https://docs.omni.network/",
-    "shortName": "omni_testnet_deprecated",
+    "infoURL": "https://fmcscan.com",
+    "shortName": "fmc",
     "chainId": 165,
     "networkId": 165,
-    "slip44": 1,
-    "explorers": [],
-    "status": "deprecated"
+    "redFlags": [
+      "reusedChainId"
+    ],
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "Farm Chain Explorer",
+        "url": "https://fmcscan.com",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "IIC Blockchain Testnet",
@@ -31146,6 +31183,31 @@
     ]
   },
   {
+    "name": "Coinbosa Chain",
+    "chain": "BOSA",
+    "rpc": [
+      "https://explorer.coinbosa.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Coinbosa",
+      "symbol": "BOSA",
+      "decimals": 18
+    },
+    "infoURL": "https://coinbosa.com",
+    "shortName": "bosa",
+    "chainId": 26262,
+    "networkId": 26262,
+    "icon": "coinbosa",
+    "explorers": [
+      {
+        "name": "Coinbosa Explorer",
+        "url": "https://explorer.coinbosa.com",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "COTI",
     "chainId": 2632500,
     "shortName": "coti",
@@ -31178,6 +31240,39 @@
         "name": "EIP1559"
       }
     ]
+  },
+  {
+    "name": "Winmar Tech Chain",
+    "chain": "WTC",
+    "icon": "wtc",
+    "rpc": [
+      "https://winmar.tech/rpc"
+    ],
+    "faucets": [
+      "https://winmar.tech/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Winmar Tech Chain",
+      "symbol": "WTC",
+      "decimals": 18
+    },
+    "infoURL": "https://winmar.tech",
+    "shortName": "wtc",
+    "chainId": 2640162,
+    "networkId": 2640162,
+    "explorers": [
+      {
+        "name": "Winmar Explorer",
+        "url": "https://winmar.tech/explorer",
+        "standard": "EIP3091"
+      }
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "AILayer Testnet",
@@ -32023,6 +32118,34 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "DuckFourFourChain",
+    "chain": "DFFC",
+    "icon": "dffc",
+    "rpc": [
+      "https://main-duckchain.zeninhost.xyz",
+      "wss://duckfourfourchain-ws.zeninhost.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DuckFourFourCoin",
+      "symbol": "DFFC",
+      "decimals": 18
+    },
+    "infoURL": "https://duckfourfourchain.zeninhost.xyz",
+    "shortName": "dffc",
+    "chainId": 2716446429837001,
+    "networkId": 2716446429837001,
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "explorers": []
   },
   {
     "name": "K-LAOS",
@@ -56241,6 +56364,39 @@
     ]
   },
   {
+    "name": "YNX Testnet",
+    "chain": "YNX",
+    "icon": "ynx",
+    "rpc": [
+      "https://evm.ynxweb4.com"
+    ],
+    "faucets": [
+      "https://www.ynxweb4.com/dapp/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "YNXT",
+      "symbol": "YNXT",
+      "decimals": 18
+    },
+    "infoURL": "https://ynxweb4.com",
+    "shortName": "ynxtest",
+    "chainId": 6423,
+    "networkId": 6423,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "YNX Explorer",
+        "url": "https://explorer.ynxweb4.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ]
+  },
+  {
     "name": "Flow EVM Previewnet",
     "chain": "Flow",
     "rpc": [],
@@ -69310,6 +69466,31 @@
     ]
   },
   {
+    "name": "Shark Network",
+    "chain": "SHARK",
+    "rpc": [
+      "https://rpc.rpcshark.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shark",
+      "symbol": "SHARK",
+      "decimals": 18
+    },
+    "infoURL": "https://swapshark.net",
+    "shortName": "shark",
+    "chainId": 88118,
+    "networkId": 88118,
+    "icon": "shark",
+    "explorers": [
+      {
+        "name": "SharkScan",
+        "url": "https://sharkscan.app",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arbitrum Blueberry",
     "title": "Arbitrum Blueberry Testnet",
     "chain": "ETH",
@@ -69435,7 +69616,8 @@
         "standard": "EIP3091"
       }
     ],
-    "status": "active"
+    "status": "active",
+    "icon": "garuda"
   },
   {
     "name": "MARO Blockchain Mainnet",
@@ -69940,29 +70122,47 @@
     ]
   },
   {
-    "name": "XANAChain",
-    "chain": "XANAChain",
+    "name": "c8ntinuum",
+    "chain": "CTM",
     "rpc": [
-      "https://mainnet.xana.net/rpc"
+      "https://rpc.c8ntinuum.com",
+      "https://rpc.c8ntinuum.io",
+      "https://rpc.c8ntinuum.link"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "XETA",
-      "symbol": "XETA",
+      "name": "c8ntinuum",
+      "symbol": "CTM",
       "decimals": 18
     },
-    "infoURL": "https://xanachain.xana.net/",
-    "shortName": "XANAChain",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP2930"
+      },
+      {
+        "name": "EIP7702"
+      }
+    ],
+    "infoURL": "https://c8ntinuum.com",
+    "shortName": "ctm",
     "chainId": 8888,
     "networkId": 8888,
-    "icon": "xeta",
+    "slip44": 60,
+    "icon": "c8ntinuum",
     "explorers": [
       {
-        "name": "XANAChain",
-        "url": "https://xanachain.xana.net",
+        "name": "CTMScan",
+        "url": "https://ctmscan.io",
         "standard": "EIP3091"
       }
     ],
+    "status": "active",
     "redFlags": [
       "reusedChainId"
     ]
