@@ -10688,9 +10688,7 @@
     "name": "iExec Sidechain",
     "chain": "Bellecour",
     "icon": "rlc",
-    "rpc": [
-      "https://bellecour.iex.ec"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "xRLC",
@@ -10701,14 +10699,8 @@
     "shortName": "rlc",
     "chainId": 134,
     "networkId": 134,
-    "explorers": [
-      {
-        "name": "blockscout",
-        "url": "https://blockscout.bellecour.iex.ec",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      }
-    ]
+    "status": "deprecated",
+    "explorers": []
   },
   {
     "name": "BIE",
@@ -11531,6 +11523,72 @@
       {
         "name": "BlockExplorer",
         "url": "https://www.blockexplorer.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Midpoint Cross",
+    "chain": "MIDX",
+    "rpc": [
+      "https://mainnet.midpointcross.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Midpoint Cross",
+      "symbol": "MIDX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.midpointcross.com",
+    "shortName": "midx",
+    "chainId": 1394,
+    "networkId": 1394,
+    "icon": "midx",
+    "explorers": [
+      {
+        "name": "Midpoint Cross",
+        "url": "https://transactions.midpointcross.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Midpoint Cross Testnet",
+    "chain": "MIDX",
+    "rpc": [
+      "https://testnet.midpointcross.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Midpoint Cross Testnet",
+      "symbol": "tMIDX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.midpointcross.com",
+    "shortName": "midxt",
+    "chainId": 139420,
+    "networkId": 139420,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Midpoint Cross Testnet",
+        "url": "https://testnet-transactions.midpointcross.com",
         "standard": "EIP3091"
       }
     ]
@@ -20208,6 +20266,41 @@
     ]
   },
   {
+    "name": "Vitreus Mainnet",
+    "chain": "VTRS",
+    "rpc": [
+      "https://rpc-mainnet.vtrs.io",
+      "wss://rpc-mainnet.vtrs.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VNRG",
+      "symbol": "VNRG",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://vitreus.io",
+    "shortName": "vtrs",
+    "chainId": 1943,
+    "networkId": 1943,
+    "explorers": [
+      {
+        "name": "Vitreus Explorer",
+        "url": "https://explorer.vtrs.io",
+        "standard": "none"
+      },
+      {
+        "name": "Vitreus Polkadot Explorer",
+        "url": "https://polkadot.js.org/apps/?rpc=wss://rpc-mainnet.vtrs.io#/explorer",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "ONUS Chain Testnet",
     "title": "ONUS Chain Testnet",
     "chain": "onus",
@@ -26389,6 +26482,32 @@
         "url": "https://taycan-cosmoscan.hupayx.io",
         "standard": "none",
         "icon": "shuffle"
+      }
+    ]
+  },
+  {
+    "name": "KriptoAman Mainnet",
+    "chain": "KAM",
+    "rpc": [
+      "https://rpc.kriptoaman.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "KriptoAman",
+      "symbol": "KAM",
+      "decimals": 18
+    },
+    "infoURL": "https://kriptoaman.com",
+    "shortName": "kriptoaman",
+    "chainId": 22028,
+    "networkId": 22028,
+    "icon": "kriptoaman",
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "KriptoAman Explorer",
+        "url": "https://explorer.kriptoaman.com",
+        "standard": "EIP3091"
       }
     ]
   },
