@@ -32772,6 +32772,43 @@
     ]
   },
   {
+    "name": "Datachain Rope Testnet",
+    "title": "Datachain Rope Testnet",
+    "chain": "DATACHAIN",
+    "icon": "datachain",
+    "rpc": [
+      "https://testnet.erpc.datachain.network"
+    ],
+    "faucets": [
+      "https://faucet.datachain.network"
+    ],
+    "nativeCurrency": {
+      "name": "DC FAT",
+      "symbol": "FAT",
+      "decimals": 18
+    },
+    "infoURL": "https://datachain.network",
+    "shortName": "rope-testnet",
+    "chainId": 271829,
+    "networkId": 271829,
+    "slip44": 1,
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "explorers": [
+      {
+        "name": "DC Scan Testnet",
+        "url": "https://testnet.dcscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Nxy Area 51",
     "chain": "NXY",
     "rpc": [
@@ -61793,6 +61830,41 @@
     ]
   },
   {
+    "name": "Pocket Chain",
+    "chain": "PCKT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PCKT",
+      "symbol": "PCKT",
+      "decimals": 18
+    },
+    "infoURL": "https://pocket.fi",
+    "shortName": "pckt",
+    "chainId": 7258,
+    "networkId": 7258,
+    "explorers": [],
+    "status": "incubating"
+  },
+  {
+    "name": "Pocket Chain Testnet",
+    "chain": "PCKT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PCKT",
+      "symbol": "PCKT",
+      "decimals": 18
+    },
+    "infoURL": "https://pocket.fi",
+    "shortName": "pckt-testnet",
+    "chainId": 7259,
+    "networkId": 7259,
+    "slip44": 1,
+    "explorers": [],
+    "status": "incubating"
+  },
+  {
     "name": "HanChain Mainnet",
     "chain": "HAN",
     "rpc": [
@@ -65214,6 +65286,30 @@
         "name": "Hazlor Testnet Explorer",
         "url": "https://explorer.hazlor.com",
         "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "WANNA Chain",
+    "chain": "WANNA",
+    "rpc": [
+      "https://rpc.wannachain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "WANNA",
+      "symbol": "WANNA",
+      "decimals": 18
+    },
+    "infoURL": "https://scan.wannachain.com",
+    "shortName": "wanna",
+    "chainId": 787878,
+    "networkId": 787878,
+    "explorers": [
+      {
+        "name": "wannascan",
+        "url": "https://scan.wannachain.com",
+        "standard": "EIP3091"
       }
     ]
   },
