@@ -1305,6 +1305,30 @@
     ]
   },
   {
+    "name": "Gate Layer",
+    "shortName": "GateLayer",
+    "chain": "GT",
+    "chainId": 10088,
+    "networkId": 10088,
+    "rpc": [
+      "https://gatelayer-mainnet.gatenode.cc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GateToken",
+      "symbol": "GT",
+      "decimals": 18
+    },
+    "explorers": [
+      {
+        "name": "GateLayer",
+        "url": "https://www.gatescan.org/gatelayer",
+        "standard": "EIP3091"
+      }
+    ],
+    "infoURL": "https://gatechain.io/gatelayer"
+  },
+  {
     "name": "Jumbochain Mainnet",
     "chain": "Jumbo",
     "rpc": [
@@ -23422,6 +23446,36 @@
     ]
   },
   {
+    "name": "Molibra",
+    "chain": "MOLI",
+    "rpc": [
+      "https://molibra.org"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Molibra",
+      "symbol": "MOLI",
+      "decimals": 18
+    },
+    "infoURL": "https://molibra.org",
+    "icon": "molibra",
+    "shortName": "moli",
+    "chainId": 20226,
+    "networkId": 20226,
+    "explorers": [
+      {
+        "name": "Moliscan",
+        "url": "https://molibra.org/molibra/moliscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Taycan Testnet",
     "chain": "Taycan",
     "rpc": [
@@ -25066,6 +25120,31 @@
     "networkId": 2089
   },
   {
+    "name": "Ri-Nn Chain",
+    "chain": "RIN",
+    "icon": "rinn",
+    "rpc": [
+      "https://rpc.ri-nn.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "RIN",
+      "symbol": "RIN",
+      "decimals": 18
+    },
+    "infoURL": "https://ri-nn.io",
+    "shortName": "ri-nn",
+    "chainId": 209,
+    "networkId": 209,
+    "explorers": [
+      {
+        "name": "Ri-Nn Scan",
+        "url": "https://scan.ri-nn.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Plian Mainnet Main",
     "chain": "Plian",
     "rpc": [
@@ -26562,6 +26641,31 @@
         "name": "Blockscout",
         "url": "https://mainnet.game7.io",
         "icon": "game7",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Ri-Nn Testnet",
+    "chain": "RIN",
+    "icon": "rinn",
+    "rpc": [
+      "https://testnet-rpc.ri-nn.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "RIN",
+      "symbol": "RIN",
+      "decimals": 18
+    },
+    "infoURL": "https://ri-nn.io",
+    "shortName": "ri-nn-testnet",
+    "chainId": 219,
+    "networkId": 219,
+    "explorers": [
+      {
+        "name": "Ri-Nn Testnet Scan",
+        "url": "https://testnet-scan.ri-nn.io",
         "standard": "EIP3091"
       }
     ]
@@ -47330,6 +47434,11 @@
         "name": "hoodscan",
         "url": "https://hoodscan.co",
         "standard": "EIP3091"
+      },
+      {
+        "name": "stonkscan",
+        "url": "https://stonkscan.io",
+        "standard": "EIP3091"
       }
     ],
     "status": "active",
@@ -63951,7 +64060,7 @@
     ],
     "parent": {
       "type": "L2",
-      "chain": "eip155-11155111"
+      "chain": "eip155-84532"
     }
   },
   {
