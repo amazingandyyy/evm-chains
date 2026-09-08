@@ -153,6 +153,7 @@
 │       ├── eip155-1107.json
 │       ├── eip155-1108.json
 │       ├── eip155-111.json
+│       ├── eip155-1110.json
 │       ├── eip155-11100.json
 │       ├── eip155-111000.json
 │       ├── eip155-1111.json
@@ -2613,6 +2614,7 @@
 │       ├── eip155-92278.json
 │       ├── eip155-923018.json
 │       ├── eip155-927.json
+│       ├── eip155-9280.json
 │       ├── eip155-93.json
 │       ├── eip155-9302.json
 │       ├── eip155-9322252.json
@@ -2769,6 +2771,7 @@
     │   ├── aptos
     │   ├── arbitrum
     │   ├── arbitrumgoerli
+    │   ├── arc
     │   ├── ark
     │   ├── aryacoin
     │   ├── aurora
@@ -3427,4 +3430,4 @@
         ├── zerion.io.png
         └── zerolend.xyz.png
 
-194 directories, 3234 files
+195 directories, 3236 files

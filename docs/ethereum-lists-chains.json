@@ -4106,6 +4106,31 @@
     "icon": "etherlite"
   },
   {
+    "name": "Vordium",
+    "chain": "VORD",
+    "icon": "vordium",
+    "rpc": [
+      "https://rpc.vordium.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Vordium",
+      "symbol": "VORD",
+      "decimals": 18
+    },
+    "infoURL": "https://vordium.com",
+    "shortName": "vord",
+    "chainId": 1110,
+    "networkId": 1110,
+    "explorers": [
+      {
+        "name": "vordscan",
+        "url": "https://vordscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Bool Network Beta Mainnet",
     "chain": "BOOL",
     "rpc": [
@@ -64029,11 +64054,23 @@
     "shortName": "rwachain",
     "chainId": 7741,
     "networkId": 7741,
-    "status": "incubating",
+    "status": "active",
     "parent": {
       "type": "L2",
-      "chain": "eip155-1"
-    }
+      "chain": "eip155-8453",
+      "bridges": [
+        {
+          "url": "https://rwa-chain.io/explorer/bridge"
+        }
+      ]
+    },
+    "explorers": [
+      {
+        "name": "RWA Chain Explorer",
+        "url": "https://explorer.rwa-chain.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "RWA Chain Sepolia",
@@ -73780,6 +73817,32 @@
       {
         "name": "Yidarkscan",
         "url": "https://yidarkscan.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Rabbit Chain Testnet",
+    "chain": "RAB",
+    "rpc": [
+      "https://rpc-testnet.rabbitchain.org"
+    ],
+    "faucets": [
+      "https://rabbitchain.org/platform/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Test RAB",
+      "symbol": "tRAB",
+      "decimals": 18
+    },
+    "infoURL": "https://rabbitchain.org",
+    "shortName": "rabt",
+    "chainId": 9280,
+    "networkId": 9280,
+    "explorers": [
+      {
+        "name": "Rabbit Chain Testnet Explorer",
+        "url": "https://explorer-testnet.rabbitchain.org",
         "standard": "EIP3091"
       }
     ]
