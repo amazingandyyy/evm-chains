@@ -2792,6 +2792,31 @@
     ]
   },
   {
+    "name": "Bighive Mainnet",
+    "chain": "BIGHIVE",
+    "rpc": [
+      "https://rpc.bighive-beets.io/osc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Beets",
+      "symbol": "BEETS",
+      "decimals": 18
+    },
+    "infoURL": "https://bighive-beets.io",
+    "shortName": "bighive",
+    "chainId": 1062,
+    "networkId": 1062,
+    "explorers": [
+      {
+        "name": "BDBS",
+        "url": "https://bdbs.bighive-beets.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "incubating"
+  },
+  {
     "name": "Nebula Testnet",
     "chain": "NTN",
     "icon": "nebulatestnet",
@@ -3358,7 +3383,7 @@
     "chain": "Shibarium",
     "icon": "shibarium",
     "rpc": [
-      "https://rpc.shibrpc.com",
+      "https://rpc.shibarium.shib.io",
       "https://shib.nownodes.io"
     ],
     "faucets": [],
@@ -38727,8 +38752,8 @@
     "faucets": [],
     "explorers": [
       {
-        "name": "Tajir Explorer",
-        "url": "https://explorer.tajirchain.com",
+        "name": "TJRscan",
+        "url": "https://tjrscan.com",
         "icon": "tajir",
         "standard": "EIP3091"
       }
@@ -53979,9 +54004,7 @@
       "wss://rpc-gel.inkonchain.com",
       "wss://rpc-qnd.inkonchain.com"
     ],
-    "faucets": [
-      "https://inkonchain.com/faucet"
-    ],
+    "faucets": [],
     "features": [
       {
         "name": "EIP155"
@@ -63617,7 +63640,9 @@
       "https://rpc-gel-sepolia.inkonchain.com",
       "wss://ws-gel-sepolia.inkonchain.com"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://inkonchain.com/faucet"
+    ],
     "features": [
       {
         "name": "EIP155"
