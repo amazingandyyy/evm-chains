@@ -121,7 +121,7 @@
       "wss://gnosis-rpc.publicnode.com"
     ],
     "faucets": [
-      "https://gnosisfaucet.com",
+      "https://faucet.gnosischain.com",
       "https://stakely.io/faucet/gnosis-chain-xdai",
       "https://faucet.prussia.dev/xdai"
     ],
@@ -145,12 +145,6 @@
         "name": "blockscout",
         "url": "https://gnosis.blockscout.com",
         "icon": "blockscout",
-        "standard": "EIP3091"
-      },
-      {
-        "name": "dexguru",
-        "url": "https://gnosis.dex.guru",
-        "icon": "dexguru",
         "standard": "EIP3091"
       }
     ]
@@ -1806,7 +1800,7 @@
       "wss://gnosis-chiado.drpc.org"
     ],
     "faucets": [
-      "https://gnosisfaucet.com"
+      "https://faucet.gnosischain.com"
     ],
     "nativeCurrency": {
       "name": "Chiado xDAI",
@@ -1819,12 +1813,6 @@
     "networkId": 10200,
     "slip44": 1,
     "explorers": [
-      {
-        "name": "blockscout-chiadochain",
-        "url": "https://blockscout.chiadochain.net",
-        "icon": "blockscout",
-        "standard": "EIP3091"
-      },
       {
         "name": "blockscout",
         "url": "https://gnosis-chiado.blockscout.com",
@@ -2794,6 +2782,7 @@
   {
     "name": "Bighive Mainnet",
     "chain": "BIGHIVE",
+    "icon": "bighive",
     "rpc": [
       "https://rpc.bighive-beets.io/osc"
     ],
