@@ -8509,6 +8509,51 @@
     ]
   },
   {
+    "name": "Miracle Chain Mainnet",
+    "chain": "MIRX",
+    "icon": "mirx",
+    "rpc": [
+      "https://rpc.miraclechain.com/http",
+      "wss://rpc.miraclechain.com/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PNIC",
+      "symbol": "PNIC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://miraclechain.com",
+    "shortName": "MIRX",
+    "chainId": 1247,
+    "networkId": 1247,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "MIRX Scan",
+        "url": "https://mirxscan.com",
+        "icon": "mirx",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-42161",
+      "bridges": [
+        {
+          "url": "https://hub.miraclechain.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Dogether Mainnet",
     "chain": "Dogether",
     "rpc": [
@@ -34755,6 +34800,51 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "AXON Finance",
+    "chain": "AXON",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "AXON",
+      "symbol": "AXON",
+      "decimals": 18
+    },
+    "infoURL": "https://axonfinance.xyz",
+    "shortName": "axon",
+    "chainId": 2966,
+    "networkId": 2966,
+    "status": "incubating",
+    "icon": "axon"
+  },
+  {
+    "name": "AXON Finance Testnet",
+    "chain": "AXON",
+    "rpc": [
+      "https://rpc-testnet.axonfinance.xyz"
+    ],
+    "faucets": [
+      "https://faucet.axonfinance.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "AXON",
+      "symbol": "AXON",
+      "decimals": 18
+    },
+    "infoURL": "https://axonfinance.xyz",
+    "shortName": "axon-testnet",
+    "chainId": 2967,
+    "networkId": 2967,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "AXON Finance Testnet Explorer",
+        "url": "https://explorer-testnet.axonfinance.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "icon": "axon"
   },
   {
     "name": "Hedera Previewnet",
@@ -70963,6 +71053,53 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Miracle Chain Testnet",
+    "chain": "MIRX",
+    "icon": "mirx",
+    "rpc": [
+      "https://rpc.miraclechain.dev/http",
+      "wss://rpc.miraclechain.dev/ws"
+    ],
+    "faucets": [
+      "https://hub.miraclechain.dev"
+    ],
+    "nativeCurrency": {
+      "name": "PNIC",
+      "symbol": "PNIC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://miraclechain.com",
+    "shortName": "MIRXTEST",
+    "chainId": 886699,
+    "networkId": 886699,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "MIRX Scan Testnet",
+        "url": "https://dev.mirxscan.com",
+        "icon": "mirx",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://hub.miraclechain.dev"
+        }
+      ]
+    }
   },
   {
     "name": "Cycle Network Mainnet Frigate",
