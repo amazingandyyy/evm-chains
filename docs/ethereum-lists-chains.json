@@ -11920,6 +11920,30 @@
     "status": "deprecated"
   },
   {
+    "name": "BlockDAG",
+    "chain": "BDAG",
+    "rpc": [
+      "https://rpc.bdagexplorer.com/"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BlockDAG",
+      "symbol": "BDAG",
+      "decimals": 18
+    },
+    "infoURL": "https://bdagexplorer.com",
+    "shortName": "bdag",
+    "chainId": 1404,
+    "networkId": 1404,
+    "explorers": [
+      {
+        "name": "BDAG Explorer",
+        "url": "https://explorer.bdagexplorer.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "BEXChain",
     "chain": "BEX",
     "rpc": [
@@ -24917,7 +24941,7 @@
     "name": "VinuChain Testnet",
     "chain": "VC",
     "rpc": [
-      "https://vinufoundation-rpc.com"
+      "https://testnet-rpc.vinuchain.org"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -36705,6 +36729,73 @@
         "name": "W3Gamez Holesky Explorer",
         "url": "https://w3gamez-holesky.web3games.com",
         "icon": "web3games",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Numen Mainnet",
+    "chain": "NUMN",
+    "rpc": [
+      "https://rpc.numen-network.org",
+      "wss://rpc.numen-network.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Numen",
+      "symbol": "NUMN",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://numen-network.org",
+    "shortName": "numn",
+    "chainId": 32026,
+    "networkId": 32026,
+    "explorers": [
+      {
+        "name": "Numen Explorer",
+        "url": "https://explorer.numen-network.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Numen Testnet",
+    "chain": "NUMN",
+    "rpc": [
+      "https://testnet.rpc.numen-network.org",
+      "wss://testnet.rpc.numen-network.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Testnet Numen",
+      "symbol": "tNUMN",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://numen-network.org",
+    "shortName": "tnumn",
+    "chainId": 320261,
+    "networkId": 320261,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Numen Explorer",
+        "url": "https://testnet.explorer.numen-network.org",
         "standard": "EIP3091"
       }
     ]
@@ -53711,6 +53802,30 @@
         }
       ]
     }
+  },
+  {
+    "name": "PeerCash Testnet",
+    "chain": "PEER",
+    "rpc": [
+      "https://testrpc.peercash.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PeerCash",
+      "symbol": "PEER",
+      "decimals": 18
+    },
+    "infoURL": "https://peercash.io",
+    "shortName": "pctest",
+    "chainId": 563321,
+    "networkId": 563321,
+    "explorers": [
+      {
+        "name": "PeerCash Testnet Explorer",
+        "url": "https://testexplorer.peercash.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Testnet Zeroone Subnet",
