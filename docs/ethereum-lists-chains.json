@@ -9822,6 +9822,35 @@
     ]
   },
   {
+    "name": "Mersennet Testnet",
+    "title": "Mersennet Public Testnet",
+    "chain": "MRSN",
+    "rpc": [
+      "https://rpc.mersennet.com",
+      "wss://rpc.mersennet.com"
+    ],
+    "faucets": [
+      "https://faucet.mersennet.com"
+    ],
+    "nativeCurrency": {
+      "name": "Mersennet",
+      "symbol": "MRSN",
+      "decimals": 18
+    },
+    "infoURL": "https://mersennet.com",
+    "shortName": "mrsnt",
+    "chainId": 131071,
+    "networkId": 131071,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Mersennet Explorer",
+        "url": "https://explorer.mersennet.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Dos Fuji Subnet",
     "chain": "DOS",
     "rpc": [
@@ -13065,6 +13094,39 @@
       {
         "name": "Flag Mainnet Explorer",
         "url": "https://flagscan.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "CRYMAD Chain",
+    "chain": "CMX",
+    "rpc": [
+      "https://rpc.cmxofficial.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CryMadX",
+      "symbol": "CMX-R",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://cmxofficial.com",
+    "shortName": "cmxr",
+    "chainId": 1475,
+    "networkId": 1475,
+    "icon": "cmxr",
+    "explorers": [
+      {
+        "name": "CRYMAD Chain Explorer",
+        "url": "https://explorer.cmxofficial.com",
         "standard": "EIP3091"
       }
     ]
@@ -27730,6 +27792,43 @@
     ]
   },
   {
+    "name": "Moca Chain Testnet",
+    "chain": "Moca Chain",
+    "rpc": [
+      "https://testnet-rpc.mocachain.org"
+    ],
+    "faucets": [
+      "https://faucet.mocachain.org"
+    ],
+    "nativeCurrency": {
+      "name": "MOCA",
+      "symbol": "MOCA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://mocachain.org",
+    "shortName": "moca-testnet",
+    "chainId": 222888,
+    "networkId": 222888,
+    "slip44": 1,
+    "icon": "moca",
+    "explorers": [
+      {
+        "name": "Moca Chain Testnet Explorer",
+        "url": "https://testnet-scan.mocachain.org",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "B2 Mainnet",
     "title": "B2 Mainnet",
     "chain": "B2",
@@ -28197,6 +28296,40 @@
     "shortName": "fhe",
     "chainId": 228,
     "networkId": 228
+  },
+  {
+    "name": "Moca Chain Mainnet",
+    "chain": "Moca Chain",
+    "rpc": [
+      "https://rpc.mocachain.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MOCA",
+      "symbol": "MOCA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://mocachain.org",
+    "shortName": "moca",
+    "chainId": 2288,
+    "networkId": 2288,
+    "icon": "moca",
+    "explorers": [
+      {
+        "name": "Moca Chain Explorer",
+        "url": "https://scan.mocachain.org",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Access Network",
@@ -50844,14 +50977,12 @@
     "infoURL": "https://etherfair.org/"
   },
   {
-    "name": "Moca Chain Testnet",
+    "name": "Moca Chain Devnet",
     "chain": "Moca Chain",
     "rpc": [
-      "https://testnet-rpc.mechain.tech"
+      "https://rpc.devnet-2.mocachain.dev"
     ],
-    "faucets": [
-      "https://faucet.mechain.tech"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "MOCA",
       "symbol": "MOCA",
@@ -50865,19 +50996,12 @@
         "name": "EIP1559"
       }
     ],
-    "infoURL": "https://mechain.tech",
-    "shortName": "MOCA",
+    "infoURL": "https://mocachain.org",
+    "shortName": "moca-devnet",
     "chainId": 5151,
     "networkId": 5151,
-    "icon": "moca",
-    "explorers": [
-      {
-        "name": "Moca Chain Scan",
-        "url": "https://testnet-scan.mechain.tech",
-        "icon": "moca",
-        "standard": "EIP3091"
-      }
-    ]
+    "slip44": 1,
+    "icon": "moca"
   },
   {
     "name": "Gear Zero Network Mainnet",
@@ -56599,6 +56723,23 @@
     ]
   },
   {
+    "name": "FractalAI",
+    "chainId": 62124,
+    "shortName": "frac",
+    "chain": "FRAC",
+    "networkId": 62124,
+    "nativeCurrency": {
+      "name": "Fractal",
+      "symbol": "FRAC",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://api.fractalai.net.co"
+    ],
+    "faucets": [],
+    "infoURL": "https://fractalai.net.co"
+  },
+  {
     "name": "DJT Testnet",
     "chain": "DJT",
     "icon": "djt",
@@ -57609,6 +57750,46 @@
         "name": "EIP155"
       }
     ]
+  },
+  {
+    "name": "Midas Testnet",
+    "chain": "MIDS",
+    "rpc": [
+      "https://rpc.testnet.onmidas.xyz"
+    ],
+    "faucets": [
+      "https://onmidas.xyz/developers#faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Midas",
+      "symbol": "MIDS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://onmidas.xyz",
+    "shortName": "midas-testnet",
+    "chainId": 64327,
+    "networkId": 64327,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Midas Explorer",
+        "url": "https://explorer.testnet.onmidas.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    },
+    "status": "active"
   },
   {
     "name": "Flow EVM Previewnet",
@@ -62896,12 +63077,13 @@
     "name": "SELEMAN Chain",
     "chain": "SMN",
     "rpc": [
-      "https://seleman.monarcaproject.com/rpc",
+      "https://explorer.primevertexlabs.com.mx/rpc",
       "https://seleman-edge.mineriafjs.workers.dev/rpc",
-      "wss://seleman-ws.monarcaproject.com"
+      "wss://explorer-ws.primevertexlabs.com.mx"
     ],
     "faucets": [
-      "https://seleman.monarcaproject.com/trust-wallet"
+      "https://explorer.primevertexlabs.com.mx/trust-wallet",
+      "https://explorer.primevertexlabs.com.mx/faucet"
     ],
     "nativeCurrency": {
       "name": "SELEMAN",
@@ -62916,7 +63098,7 @@
         "name": "EIP1559"
       }
     ],
-    "infoURL": "https://seleman.monarcaproject.com/seleman-chain",
+    "infoURL": "https://explorer.primevertexlabs.com.mx/seleman-chain",
     "shortName": "seleman",
     "chainId": 73571,
     "networkId": 73571,
@@ -62924,7 +63106,7 @@
     "explorers": [
       {
         "name": "seleman",
-        "url": "https://seleman.monarcaproject.com",
+        "url": "https://explorer.primevertexlabs.com.mx",
         "standard": "EIP3091"
       }
     ]
@@ -62966,6 +63148,37 @@
       }
     ],
     "status": "active"
+  },
+  {
+    "name": "CRYMAD Chain L2",
+    "chain": "CMX",
+    "rpc": [
+      "https://rpcl2.cmxofficial.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "CryMadX",
+      "symbol": "CMX-R",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://cmxofficial.com",
+    "shortName": "cmxr-l2",
+    "chainId": 7373,
+    "networkId": 7373,
+    "icon": "cmxr",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1475"
+    },
+    "explorers": []
   },
   {
     "name": "bokuto",
@@ -71120,6 +71333,24 @@
       ]
     },
     "status": "active"
+  },
+  {
+    "name": "Atoshi Original Mainnet",
+    "chain": "ATOS",
+    "rpc": [
+      "https://rpc.atoshinetwork.xyz",
+      "https://explorer.atoshinetwork.xyz/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Atoshi",
+      "symbol": "ATOS",
+      "decimals": 18
+    },
+    "infoURL": "https://explorer.atoshinetwork.xyz",
+    "shortName": "atmain",
+    "chainId": 88188,
+    "networkId": 88188
   },
   {
     "name": "IOTA EVM",
