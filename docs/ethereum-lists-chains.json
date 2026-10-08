@@ -1611,6 +1611,32 @@
     ]
   },
   {
+    "name": "Vordium Testnet",
+    "chain": "VORD",
+    "icon": "vordium",
+    "rpc": [
+      "https://rpc-testnet.vordium.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Vordium Testnet",
+      "symbol": "VORD",
+      "decimals": 18
+    },
+    "infoURL": "https://vordium.com",
+    "shortName": "vord-testnet",
+    "chainId": 101102,
+    "networkId": 101102,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "vordscan testnet",
+        "url": "https://testnet.vordscan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "SATUCHAIN Mainnet",
     "chain": "SATU",
     "rpc": [
@@ -22789,6 +22815,32 @@
     ]
   },
   {
+    "name": "Noion Testnet",
+    "chain": "NOION",
+    "rpc": [
+      "https://rpc.noion.xyz/eth"
+    ],
+    "faucets": [
+      "https://faucet.noion.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Noion",
+      "symbol": "NOION",
+      "decimals": 18
+    },
+    "infoURL": "https://noion.xyz",
+    "shortName": "noion-testnet",
+    "chainId": 20047,
+    "networkId": 20047,
+    "explorers": [
+      {
+        "name": "NoionScan",
+        "url": "https://scan.noion.xyz",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Akroma",
     "chain": "AKA",
     "rpc": [
@@ -24415,6 +24467,30 @@
     ]
   },
   {
+    "name": "CitizenChain",
+    "chain": "GMB",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GMB",
+      "symbol": "GMB",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.crcfrcn.com",
+    "shortName": "gmb",
+    "chainId": 2027,
+    "networkId": 2027,
+    "status": "incubating"
+  },
+  {
     "name": "ArmaChain Testnet",
     "chain": "ARMA",
     "rpc": [
@@ -24740,7 +24816,8 @@
       "https://opbnb-rpc.publicnode.com",
       "wss://opbnb-rpc.publicnode.com",
       "https://opbnb.drpc.org",
-      "wss://opbnb.drpc.org"
+      "wss://opbnb.drpc.org",
+      "https://opbnb-rpc.blockreq.com/v1/rpc/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -24756,7 +24833,7 @@
     "explorers": [
       {
         "name": "opbnbscan",
-        "url": "https://mainnet.opbnbscan.com",
+        "url": "https://opbnbscan.com",
         "standard": "EIP3091"
       }
     ]
@@ -48096,7 +48173,8 @@
       "https://rpc.ordofi.network",
       "wss://rpc.ordofi.network",
       "https://robinhood.drpc.org",
-      "wss://robinhood.drpc.org"
+      "wss://robinhood.drpc.org",
+      "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -48109,12 +48187,6 @@
     "chainId": 4663,
     "networkId": 4663,
     "explorers": [
-      {
-        "name": "robinscan",
-        "url": "https://robinscan.io",
-        "icon": "robinscan",
-        "standard": "EIP3091"
-      },
       {
         "name": "blockscout",
         "url": "https://robinhoodchain.blockscout.com",
@@ -55500,7 +55572,8 @@
       "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
       "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
       "https://linea-rpc.publicnode.com",
-      "wss://linea-rpc.publicnode.com"
+      "wss://linea-rpc.publicnode.com",
+      "https://linea-rpc.blockreq.com/v1/rpc/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -55532,12 +55605,6 @@
       {
         "name": "Blockscout",
         "url": "https://explorer.linea.build",
-        "standard": "EIP3091",
-        "icon": "linea"
-      },
-      {
-        "name": "L2scan",
-        "url": "https://linea.l2scan.co",
         "standard": "EIP3091",
         "icon": "linea"
       }
