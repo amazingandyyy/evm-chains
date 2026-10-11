@@ -21555,6 +21555,22 @@
     "icon": "atlr"
   },
   {
+    "name": "Alchemy L2",
+    "chain": "ALCHEMY",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://alchemy.xyz",
+    "shortName": "alchemy",
+    "chainId": 197197,
+    "networkId": 197197,
+    "status": "incubating"
+  },
+  {
     "name": "RedeCoin",
     "chain": "REDEV2",
     "rpc": [
@@ -25687,11 +25703,7 @@
     "chain": "BTN",
     "icon": "bitnet",
     "rpc": [
-      "https://rpc.bitnet.money",
-      "https://rpc.btnscan.com",
-      "https://rpc.btn.network",
-      "https://rpc.bitnetmoney.com",
-      "https://rpc.btn-network.org"
+      "https://rpc.bitnetmoney.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -47992,8 +48004,7 @@
     "chain": "darwinia",
     "rpc": [
       "https://rpc.darwinia.network",
-      "https://darwinia-rpc.dcdao.box",
-      "https://darwinia.rpc.subquery.network/public"
+      "https://darwinia-rpc.dcdao.box"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -50503,7 +50514,9 @@
       "wss://arc.drpc.org",
       "https://arc-rpc.blockreq.com/v1/rpc/public"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://apexfaucet.xyz/arc/faucet/"
+    ],
     "nativeCurrency": {
       "name": "USDC",
       "symbol": "USDC",
@@ -54732,7 +54745,7 @@
     ]
   },
   {
-    "name": "SCDO Shard0",
+    "name": "SCDO Shard0 EVM",
     "chain": "SCDO",
     "icon": "scdo",
     "rpc": [
