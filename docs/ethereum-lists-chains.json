@@ -17256,6 +17256,37 @@
     "explorers": []
   },
   {
+    "name": "QuantPay Chain",
+    "chain": "QPC",
+    "icon": "quantpay",
+    "rpc": [
+      "https://rpc.quantpay.sh"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "QuantPay Chain",
+      "symbol": "QPC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://quantpay.sh",
+    "shortName": "qpc",
+    "chainId": 1716125,
+    "networkId": 1716125,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "QPC Explorer",
+        "url": "https://explorer.quantpay.sh",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Doric Network",
     "chain": "DRC",
     "icon": "doric",
@@ -51946,6 +51977,24 @@
     ]
   },
   {
+    "name": "Mersennet Privacy Testnet",
+    "title": "Mersennet Privacy Testnet",
+    "chain": "MRSN",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Mersennet",
+      "symbol": "MRSN",
+      "decimals": 18
+    },
+    "infoURL": "https://mersennet.com",
+    "shortName": "mrsnp",
+    "chainId": 524287,
+    "networkId": 524287,
+    "slip44": 1,
+    "status": "incubating"
+  },
+  {
     "name": "DoCoin Community Chain",
     "title": "DoCoin Community Chain",
     "chain": "DoCoin",
@@ -66239,7 +66288,8 @@
         "url": "https://explorer.pxachain.com",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "icon": "pxa"
   },
   {
     "name": "Amplify Subnet",
@@ -69351,6 +69401,23 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "Mersennet",
+    "title": "Mersennet Mainnet",
+    "chain": "MRSN",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Mersennet",
+      "symbol": "MRSN",
+      "decimals": 18
+    },
+    "infoURL": "https://mersennet.com",
+    "shortName": "mrsn",
+    "chainId": 8191,
+    "networkId": 8191,
+    "status": "incubating"
   },
   {
     "name": "Torus Mainnet",
