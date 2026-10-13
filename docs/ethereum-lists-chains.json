@@ -48281,7 +48281,8 @@
       "wss://rpc.ordofi.network",
       "https://robinhood.drpc.org",
       "wss://robinhood.drpc.org",
-      "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public"
+      "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
+      "https://api.blockvectra.com/v1/robinhood_mainnet/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -48331,7 +48332,8 @@
       "https://robinhood-sepolia-rpc.publicnode.com",
       "wss://robinhood-sepolia-rpc.publicnode.com",
       "https://robinhood-testnet.drpc.org",
-      "wss://robinhood-testnet.drpc.org"
+      "wss://robinhood-testnet.drpc.org",
+      "https://api.blockvectra.com/v1/robinhood_testnet/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -78944,6 +78946,22 @@
     ]
   },
   {
+    "name": "EGGY Chain",
+    "chain": "EGGY",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "EGG",
+      "symbol": "EGG",
+      "decimals": 18
+    },
+    "infoURL": "https://eggychain.com",
+    "shortName": "eggy",
+    "chainId": 9988,
+    "networkId": 9988,
+    "status": "incubating"
+  },
+  {
     "name": "Supernet Testnet",
     "title": "Supernet Testnet",
     "chain": "Supernet Testnet",
@@ -78970,6 +78988,23 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "EGGY Chain Testnet",
+    "chain": "EGGY",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Test EGG",
+      "symbol": "tEGG",
+      "decimals": 18
+    },
+    "infoURL": "https://eggychain.com",
+    "shortName": "eggy-testnet",
+    "chainId": 9989,
+    "networkId": 9989,
+    "slip44": 1,
+    "status": "incubating"
   },
   {
     "name": "Wanchain Testnet",
