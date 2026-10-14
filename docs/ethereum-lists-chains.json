@@ -2829,8 +2829,7 @@
         "url": "https://bdbs.bighive-beets.io",
         "standard": "EIP3091"
       }
-    ],
-    "status": "incubating"
+    ]
   },
   {
     "name": "Nebula Testnet",
@@ -21602,6 +21601,27 @@
     "status": "incubating"
   },
   {
+    "name": "Alchemy L2 Devnet",
+    "chain": "ALCHEMY",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://alchemy.xyz",
+    "shortName": "alchemy-devnet",
+    "chainId": 197198,
+    "networkId": 197198,
+    "slip44": 1,
+    "status": "incubating",
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-11155111"
+    }
+  },
+  {
     "name": "RedeCoin",
     "chain": "REDEV2",
     "rpc": [
@@ -28076,7 +28096,6 @@
       "https://mainnet.b2-rpc.com",
       "https://rpc.bsquared.network",
       "https://b2-mainnet.alt.technology",
-      "https://b2-mainnet-public.s.chainbase.com",
       "https://rpc.ankr.com/b2"
     ],
     "faucets": [],
@@ -32104,7 +32123,7 @@
       "symbol": "PHO",
       "decimals": 18
     },
-    "infoURL": "phochain.org",
+    "infoURL": "https://phochain.org",
     "shortName": "pho",
     "chainId": 2605,
     "networkId": 2605,
@@ -44501,8 +44520,6 @@
     "chain": "PAS",
     "icon": "polkadot-testnet",
     "rpc": [
-      "https://services.polkadothub-rpc.com/testnet",
-      "wss://services.polkadothub-rpc.com/testnet",
       "https://eth-rpc-testnet.polkadot.io",
       "wss://eth-rpc-testnet.polkadot.io"
     ],
@@ -44573,8 +44590,6 @@
     "chain": "DOT",
     "icon": "polkadot",
     "rpc": [
-      "https://services.polkadothub-rpc.com/mainnet",
-      "wss://services.polkadothub-rpc.com/mainnet",
       "https://eth-rpc.polkadot.io",
       "wss://eth-rpc.polkadot.io"
     ],
@@ -54800,7 +54815,8 @@
     "chain": "SCDO",
     "icon": "scdo",
     "rpc": [
-      "https://scdoscan.io/rpc/0"
+      "https://scdoscan.io/rpc/0",
+      "https://apeccapital.org/rpc/0"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -54825,7 +54841,7 @@
         "name": "scdoscan",
         "url": "https://scdoscan.io",
         "icon": "scdo",
-        "standard": "none"
+        "standard": "EIP3091"
       }
     ]
   },
