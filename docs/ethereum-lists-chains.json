@@ -79,7 +79,8 @@
       "https://optimism.drpc.org",
       "wss://optimism.drpc.org",
       "https://xrpc.cl/optimism",
-      "https://optimism-rpc.blockreq.com/v1/rpc/public"
+      "https://optimism-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/optimism?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -184,7 +185,6 @@
     "chain": "smartBCH",
     "rpc": [
       "https://smartbch.greyh.at",
-      "https://rpc-mainnet.smartbch.org",
       "https://smartbch.fountainhead.cash/mainnet"
     ],
     "faucets": [],
@@ -11345,7 +11345,8 @@
       "https://rpcfree.com/polygon-rpc",
       "wss://rpc.satelink.network/rpc/ws/polygon",
       "https://xrpc.cl/polygon",
-      "https://polygon-bor-rpc.blockreq.com/v1/rpc/public"
+      "https://polygon-bor-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -46216,7 +46217,8 @@
       "https://avalanche-c-chain-rpc.publicnode.com",
       "wss://avalanche-c-chain-rpc.publicnode.com",
       "https://xrpc.cl/avalanche",
-      "https://avalanche-rpc.blockreq.com/v1/rpc/public"
+      "https://avalanche-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}"
     ],
     "features": [
       {
@@ -48381,7 +48383,8 @@
       "wss://robinhood.drpc.org",
       "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
       "https://api.blockvectra.com/v1/robinhood_mainnet/public",
-      "https://robinhood.daybreak-rpc.network"
+      "https://robinhood.daybreak-rpc.network",
+      "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -54251,7 +54254,8 @@
       "wss://bsc-rpc.publicnode.com",
       "wss://bsc-ws-node.nariox.org",
       "https://xrpc.cl/bsc",
-      "https://bsc-rpc.blockreq.com/v1/rpc/public"
+      "https://bsc-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -65499,7 +65503,9 @@
     "rpc": [
       "https://sepolia-rpc.rwa-chain.io"
     ],
-    "faucets": [],
+    "faucets": [
+      "https://testnet.rwa-chain.io/explorer/faucet"
+    ],
     "nativeCurrency": {
       "name": "Sepolia Ether",
       "symbol": "ETH",
@@ -65518,7 +65524,12 @@
     ],
     "parent": {
       "type": "L2",
-      "chain": "eip155-84532"
+      "chain": "eip155-84532",
+      "bridges": [
+        {
+          "url": "https://testnet.rwa-chain.io/explorer/bridge"
+        }
+      ]
     }
   },
   {
@@ -68027,7 +68038,8 @@
       "wss://berachain-rpc.publicnode.com",
       "https://rpc.berachain-apis.com",
       "wss://rpc.berachain-apis.com",
-      "https://berachain-rpc.blockreq.com/v1/rpc/public"
+      "https://berachain-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/berachain?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -70727,7 +70739,8 @@
       "https://rpc.satelink.network/rpc/base",
       "https://xrpc.cl/base",
       "https://base-rpc.blockreq.com/v1/rpc/public",
-      "https://base.daybreak-rpc.network"
+      "https://base.daybreak-rpc.network",
+      "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
