@@ -44804,6 +44804,25 @@
     "networkId": 42069
   },
   {
+    "name": "BB84",
+    "chain": "ETH",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://bb84.com",
+    "shortName": "bb84",
+    "chainId": 42069000,
+    "networkId": 42069000,
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
+    }
+  },
+  {
     "name": "Alterium L2 Testnet",
     "chain": "ALT",
     "icon": "alterium",
