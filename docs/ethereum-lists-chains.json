@@ -11674,8 +11674,7 @@
     "name": "ValueChain Testnet",
     "chain": "ValueChain",
     "rpc": [
-      "https://testnet.valuechain.xyz",
-      "wss://testnet-ws.valuechain.xyz"
+      "https://testnet.valuechain.xyz"
     ],
     "features": [
       {
@@ -34775,8 +34774,7 @@
     "name": "ValueChain",
     "chain": "ValueChain",
     "rpc": [
-      "https://mainnet.valuechain.xyz",
-      "wss://mainnet-ws.valuechain.xyz"
+      "https://mainnet.valuechain.xyz"
     ],
     "features": [
       {
@@ -52518,6 +52516,27 @@
     }
   },
   {
+    "name": "Regulated Layer One",
+    "chain": "RL1",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "RL1 Ether",
+      "symbol": "RETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://rl1.network",
+    "shortName": "rl1",
+    "chainId": 53147,
+    "networkId": 53147,
+    "status": "active"
+  },
+  {
     "name": "Uzmi Network Mainnet",
     "chain": "UZMI",
     "rpc": [
@@ -65804,6 +65823,41 @@
         "name": "Foundry Scan Testnet",
         "url": "https://testnet-explorer.foundryscan.org",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ZETAPHY Testnet",
+    "chain": "ZETAPHY",
+    "rpc": [
+      "https://rpc.sawasdeecoin.com"
+    ],
+    "faucets": [
+      "https://app.sawasdeecoin.com/?tab=earn"
+    ],
+    "nativeCurrency": {
+      "name": "ZETAPHY",
+      "symbol": "ZTPHY",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://app.sawasdeecoin.com",
+    "shortName": "zetaphy-testnet",
+    "chainId": 77390,
+    "networkId": 77390,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "ZETAPHY Explorer",
+        "url": "https://explorer.sawasdeecoin.com",
+        "standard": "none"
       }
     ]
   },
