@@ -127,7 +127,8 @@
       "wss://rpc.gnosischain.com/wss",
       "https://gnosis-rpc.publicnode.com",
       "wss://gnosis-rpc.publicnode.com",
-      "https://gnosis-rpc.blockreq.com/v1/rpc/public"
+      "https://gnosis-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/gnosis?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [
       "https://faucet.gnosischain.com",
@@ -3291,7 +3292,8 @@
       "https://metis.drpc.org",
       "wss://metis.drpc.org",
       "https://metis-rpc.publicnode.com",
-      "wss://metis-rpc.publicnode.com"
+      "wss://metis-rpc.publicnode.com",
+      "https://rpc.swiftnodes.io/rpc/metis?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -54915,6 +54917,11 @@
         "name": "bscscan",
         "url": "https://bscscan.com",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/bnb",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -72720,6 +72727,31 @@
         "name": "dxtscan",
         "url": "https://dxtscan.com",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "PSYROB Testnet",
+    "chain": "PSYROB",
+    "rpc": [
+      "https://rpc.psyrob.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "PSY",
+      "symbol": "PSY",
+      "decimals": 18
+    },
+    "infoURL": "https://psyrob.com",
+    "shortName": "psyrob",
+    "chainId": 87870,
+    "networkId": 87870,
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "PSYROB Explorer",
+        "url": "https://explorer.psyrob.com",
+        "standard": "none"
       }
     ]
   },
