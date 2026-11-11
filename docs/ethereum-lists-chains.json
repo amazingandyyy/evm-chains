@@ -3432,7 +3432,8 @@
     "icon": "shibarium",
     "rpc": [
       "https://rpc.shibarium.shib.io",
-      "https://shib.nownodes.io"
+      "https://shib.nownodes.io",
+      "https://rpc.swiftnodes.io/rpc/shibarium?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -4258,7 +4259,8 @@
     "chain": "WEMIX",
     "rpc": [
       "https://api.wemix.com",
-      "wss://ws.wemix.com"
+      "wss://ws.wemix.com",
+      "https://rpc.swiftnodes.io/rpc/wemix?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -5039,7 +5041,8 @@
       "https://rpc.coredao.org/",
       "https://rpc-core.icecreamswap.com",
       "https://core.drpc.org",
-      "wss://core.drpc.org"
+      "wss://core.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/core?key=${SWIFTNODES_API_KEY}"
     ],
     "features": [
       {
@@ -7486,7 +7489,8 @@
     "rpc": [
       "https://rpc.fuse.io",
       "https://fuse.drpc.org",
-      "wss://fuse.drpc.org"
+      "wss://fuse.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/fuse?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -9668,7 +9672,8 @@
       "https://mainnet.unichain.org",
       "https://unichain-rpc.publicnode.com",
       "wss://unichain-rpc.publicnode.com",
-      "https://unichain-rpc.blockreq.com/v1/rpc/public"
+      "https://unichain-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10090,7 +10095,8 @@
     "rpc": [
       "https://mainnet.aurora.dev",
       "https://aurora.drpc.org",
-      "wss://aurora.drpc.org"
+      "wss://aurora.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/aurora?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -10457,7 +10463,8 @@
     "chain": "Sei",
     "rpc": [
       "https://evm-rpc.sei-apis.com",
-      "wss://evm-ws.sei-apis.com"
+      "wss://evm-ws.sei-apis.com",
+      "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -80150,7 +80157,7 @@
     "explorers": [
       {
         "name": "Elysium Testnet Explorer",
-        "url": "https://testnet.elysium.kinetiq.xyz/explorer",
+        "url": "https://testnet.elysium.kinetiq.xyz",
         "standard": "EIP3091"
       }
     ]
@@ -80402,7 +80409,7 @@
     "explorers": [
       {
         "name": "Elysium Explorer",
-        "url": "https://elysium.kinetiq.xyz/explorer",
+        "url": "https://elysium.kinetiq.xyz",
         "standard": "EIP3091"
       }
     ]
