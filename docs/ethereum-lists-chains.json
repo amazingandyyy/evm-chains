@@ -109,6 +109,11 @@
         "url": "https://optimism.blockscout.com",
         "icon": "blockscout",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/opti",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -11425,6 +11430,11 @@
         "name": "oklink",
         "url": "https://www.oklink.com/polygon",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/polygon",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -21891,7 +21901,7 @@
     "name": "Haradev Testnet",
     "chain": "Ntity",
     "rpc": [
-      "https://blockchain.haradev.com"
+      "https://rpc.haradev.com"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -45488,6 +45498,11 @@
         "url": "https://arbitrum.dex.guru",
         "icon": "dexguru",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/arb",
+        "standard": "EIP3091"
       }
     ],
     "infoURL": "https://arbitrum.io",
@@ -46759,6 +46774,11 @@
       {
         "name": "Avascan",
         "url": "https://avascan.info",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/avax",
         "standard": "EIP3091"
       }
     ]
@@ -48919,6 +48939,11 @@
       {
         "name": "stonkscan",
         "url": "https://stonkscan.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/robinhood",
         "standard": "EIP3091"
       }
     ],
@@ -66266,6 +66291,7 @@
   {
     "name": "ZETAPHY Testnet",
     "chain": "ZETAPHY",
+    "icon": "zetaphy",
     "rpc": [
       "https://rpc.sawasdeecoin.com"
     ],
