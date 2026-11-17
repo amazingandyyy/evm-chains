@@ -1688,6 +1688,24 @@
     ]
   },
   {
+    "name": "Intain Markets Testnet",
+    "chain": "IMA",
+    "rpc": [
+      "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Intain Markets",
+      "symbol": "IMA",
+      "decimals": 18
+    },
+    "infoURL": "https://imuat.intainmarkets.us",
+    "shortName": "ima-test",
+    "chainId": 101122,
+    "networkId": 101122,
+    "explorers": []
+  },
+  {
     "name": "Newton",
     "chain": "NEW",
     "rpc": [
@@ -31438,7 +31456,7 @@
     "name": "Cronos Mainnet",
     "chain": "CRO",
     "rpc": [
-      "https://evm.cronos.org",
+      "https://evm.cronos.com",
       "https://cronos-evm-rpc.publicnode.com",
       "wss://cronos-evm-rpc.publicnode.com",
       "https://cronos.drpc.org",
@@ -31456,14 +31474,14 @@
       "symbol": "CRO",
       "decimals": 18
     },
-    "infoURL": "https://cronos.org/",
+    "infoURL": "https://cronos.com/",
     "shortName": "cro",
     "chainId": 25,
     "networkId": 25,
     "explorers": [
       {
         "name": "Cronos Explorer",
-        "url": "https://explorer.cronos.org",
+        "url": "https://explorer.cronos.com",
         "standard": "none"
       }
     ]
@@ -33286,7 +33304,7 @@
         "name": "EIP1559"
       }
     ],
-    "infoURL": "https://www.eoraptordex.com",
+    "infoURL": "https://www.eoraptor.org",
     "shortName": "eoraptor",
     "chainId": 2679,
     "networkId": 2679,
@@ -38282,6 +38300,29 @@
     }
   },
   {
+    "name": "DAGCore Mainnet",
+    "chain": "DGCR",
+    "rpc": [
+      "https://rpc.dgcr.dagcore.net"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DAGCore",
+      "symbol": "DGCR",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://dagcore.net",
+    "shortName": "dgcr",
+    "chainId": 32427,
+    "networkId": 32427,
+    "status": "incubating"
+  },
+  {
     "name": "SKALE Base Sepolia",
     "chain": "skale-base-sepolia",
     "icon": "skale",
@@ -40252,19 +40293,19 @@
     "name": "Cronos Testnet",
     "chain": "CRO",
     "rpc": [
-      "https://evm-t3.cronos.org",
+      "https://evm-t3.cronos.com",
       "https://cronos-testnet.drpc.org",
       "wss://cronos-testnet.drpc.org"
     ],
     "faucets": [
-      "https://cronos.org/faucet"
+      "https://faucet.cronos.com/"
     ],
     "nativeCurrency": {
       "name": "Cronos Test Coin",
       "symbol": "TCRO",
       "decimals": 18
     },
-    "infoURL": "https://cronos.org",
+    "infoURL": "https://cronos.com/",
     "shortName": "tcro",
     "chainId": 338,
     "networkId": 338,
@@ -40272,7 +40313,7 @@
     "explorers": [
       {
         "name": "Cronos Testnet Explorer",
-        "url": "https://explorer.cronos.org/testnet",
+        "url": "https://explorer.cronos.com/testnet",
         "standard": "none"
       }
     ]
@@ -47292,7 +47333,8 @@
       "https://build.onbeam.com/rpc",
       "wss://build.onbeam.com/ws",
       "https://subnets.avax.network/beam/mainnet/rpc",
-      "wss://subnets.avax.network/beam/mainnet/ws"
+      "wss://subnets.avax.network/beam/mainnet/ws",
+      "https://rpc.swiftnodes.io/rpc/beam?key=${SWIFTNODES_API_KEY}"
     ],
     "features": [
       {
@@ -47625,6 +47667,36 @@
     ]
   },
   {
+    "name": "QDay Mainnet",
+    "chain": "QDAY",
+    "rpc": [
+      "https://rpc.qday.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "QDay Token",
+      "symbol": "QDAY",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://qday.io",
+    "shortName": "qday",
+    "chainId": 44001,
+    "networkId": 44001,
+    "explorers": [
+      {
+        "name": "QDay Explorer",
+        "url": "https://explorer.qday.io",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Graphite Mainnet",
     "chain": "Graphite",
     "rpc": [
@@ -47647,6 +47719,42 @@
       {
         "name": "Graphite Mainnet Explorer",
         "url": "https://main.atgraphite.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "QDAY Aevum Testnet",
+    "chain": "QDAY",
+    "rpc": [
+      "https://rpc-test.qday.info"
+    ],
+    "faucets": [
+      "https://faucet.qday.info"
+    ],
+    "nativeCurrency": {
+      "name": "QDAY Testnet Token",
+      "symbol": "tQDAY",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://qday.io",
+    "shortName": "tqday",
+    "chainId": 44005,
+    "networkId": 44005,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "QDAY Aevum Explorer",
+        "url": "https://explorer-test.qday.info",
+        "icon": "blockscout",
         "standard": "EIP3091"
       }
     ]
@@ -49330,7 +49438,8 @@
     "name": "IoTeX Network Mainnet",
     "chain": "iotex.io",
     "rpc": [
-      "https://babel-api.mainnet.iotex.io"
+      "https://babel-api.mainnet.iotex.io",
+      "https://rpc.swiftnodes.io/rpc/iotex?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -50822,7 +50931,8 @@
     "rpc": [
       "https://rpc.mantle.xyz",
       "https://mantle-rpc.publicnode.com",
-      "wss://mantle-rpc.publicnode.com"
+      "wss://mantle-rpc.publicnode.com",
+      "https://rpc.swiftnodes.io/rpc/mantle?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -53487,7 +53597,8 @@
       "https://scroll-mainnet.chainstacklabs.com",
       "https://scroll-rpc.publicnode.com",
       "wss://scroll-rpc.publicnode.com",
-      "https://scroll-rpc.blockreq.com/v1/rpc/public"
+      "https://scroll-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/scroll?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -53705,6 +53816,122 @@
     ]
   },
   {
+    "name": "Supra Testnet",
+    "chain": "SUPRA",
+    "icon": "supra",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Supra",
+      "symbol": "SUPRA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP2930"
+      },
+      {
+        "name": "EIP7702"
+      }
+    ],
+    "infoURL": "https://supra.com",
+    "shortName": "supra-testnet",
+    "chainId": 535556,
+    "networkId": 535556,
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "SupraScan",
+        "url": "https://testnet.suprascan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Supra Mainnet",
+    "chain": "SUPRA",
+    "icon": "supra",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Supra",
+      "symbol": "SUPRA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP2930"
+      },
+      {
+        "name": "EIP7702"
+      }
+    ],
+    "infoURL": "https://supra.com",
+    "shortName": "supra",
+    "chainId": 535558,
+    "networkId": 535558,
+    "status": "incubating",
+    "explorers": [
+      {
+        "name": "SupraScan",
+        "url": "https://suprascan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Supra Devnet",
+    "chain": "SUPRA",
+    "icon": "supra",
+    "rpc": [
+      "https://rpc-devnet.supra.com/rpc/v1/eth",
+      "wss://rpc-devnet.supra.com/rpc/v1/eth"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Supra",
+      "symbol": "SUPRA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP2930"
+      },
+      {
+        "name": "EIP7702"
+      }
+    ],
+    "infoURL": "https://supra.com",
+    "shortName": "supra-devnet",
+    "chainId": 535600,
+    "networkId": 535600,
+    "explorers": [
+      {
+        "name": "SupraScan",
+        "url": "https://devnet.suprascan.io",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "OpTrust Mainnet",
     "chain": "OpTrust",
     "rpc": [
@@ -53881,6 +54108,56 @@
     "chainId": 540,
     "networkId": 540,
     "explorers": []
+  },
+  {
+    "name": "Shinerium Testnet",
+    "chain": "SHN",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shine",
+      "symbol": "SHN",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://shinerium.org",
+    "shortName": "tshn",
+    "chainId": 54004,
+    "networkId": 54004,
+    "icon": "shinerium",
+    "status": "incubating"
+  },
+  {
+    "name": "Shinerium Mainnet",
+    "chain": "SHN",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Shine",
+      "symbol": "SHN",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://shinerium.org",
+    "shortName": "shn",
+    "chainId": 54040,
+    "networkId": 54040,
+    "icon": "shinerium",
+    "status": "incubating"
   },
   {
     "name": "Graphite Testnet",
@@ -56812,7 +57089,8 @@
     "name": "Astar",
     "chain": "ASTR",
     "rpc": [
-      "https://rpc.astar.network:8545"
+      "https://rpc.astar.network:8545",
+      "https://rpc.swiftnodes.io/rpc/astar?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -62608,7 +62886,8 @@
       "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
       "https://zeta-chain.drpc.org",
       "https://zetachain-mainnet.public.blastapi.io",
-      "https://7000.rpc.thirdweb.com"
+      "https://7000.rpc.thirdweb.com",
+      "https://rpc.swiftnodes.io/rpc/zetachain?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -68121,6 +68400,72 @@
     ]
   },
   {
+    "name": "Stapleport",
+    "chain": "SP",
+    "rpc": [
+      "https://rpc.stapleport.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Stapleport USD",
+      "symbol": "USDSP",
+      "decimals": 18
+    },
+    "infoURL": "https://stapleport.com",
+    "shortName": "sp",
+    "chainId": 78753,
+    "networkId": 78753,
+    "explorers": [
+      {
+        "name": "blockscan",
+        "url": "https://blockscan.stapleport.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Stapleport Testnet",
+    "chain": "SP",
+    "rpc": [
+      "https://rpc-test.stapleport.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://faucet.stapleport.com"
+    ],
+    "nativeCurrency": {
+      "name": "Stapleport USD",
+      "symbol": "USDSP",
+      "decimals": 18
+    },
+    "infoURL": "https://stapleport.com",
+    "shortName": "spt",
+    "chainId": 78756,
+    "networkId": 78756,
+    "explorers": [
+      {
+        "name": "blockscan-test",
+        "url": "https://blockscan-test.stapleport.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Hazlor Testnet",
     "chain": "SCAS",
     "rpc": [
@@ -70941,7 +71286,8 @@
     "name": "Kaia Mainnet",
     "chain": "KAIA",
     "rpc": [
-      "https://public-en.node.kaia.io"
+      "https://public-en.node.kaia.io",
+      "https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -74197,7 +74543,8 @@
     "rpc": [
       "https://rpc.chiliz.com",
       "https://rpc.ankr.com/chiliz",
-      "https://chiliz.publicnode.com"
+      "https://chiliz.publicnode.com",
+      "https://rpc.swiftnodes.io/rpc/chiliz?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [
       "https://spicy-faucet.chiliz.com",
