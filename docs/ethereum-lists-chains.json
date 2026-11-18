@@ -19570,9 +19570,10 @@
   },
   {
     "name": "Whitechain",
-    "chain": "WBT",
+    "chain": "WCH",
     "rpc": [
-      "https://rpc.whitechain.io"
+      "https://rpc.whitechain.io",
+      "https://rpc.ankr.com/whitechain"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -19581,7 +19582,7 @@
       "decimals": 18
     },
     "infoURL": "https://whitechain.io",
-    "shortName": "wbt",
+    "shortName": "wch",
     "chainId": 1875,
     "networkId": 1875,
     "icon": "whitechain",
@@ -19591,7 +19592,16 @@
         "url": "https://explorer.whitechain.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.whitechain.io"
+        }
+      ]
+    }
   },
   {
     "name": "XGR Testnet",
@@ -23494,12 +23504,9 @@
     "chain": "TEL",
     "icon": "telcoin",
     "rpc": [
-      "https://rpc.telcoin.network",
-      "https://adiri.tel",
-      "https://node1.telcoin.network",
-      "https://node2.telcoin.network",
-      "https://node3.telcoin.network",
-      "https://node4.telcoin.network"
+      "https://rpc.adiri.tel",
+      "https://rpc.adiri.telcoin.network",
+      "https://adiri.rpc.telcoin.network"
     ],
     "faucets": [
       "https://telcoin.network/faucet"
@@ -23510,7 +23517,7 @@
       "decimals": 18
     },
     "infoURL": "https://telcoin.network",
-    "shortName": "tel",
+    "shortName": "adiri",
     "chainId": 2017,
     "networkId": 2017,
     "slip44": 1,
@@ -32843,7 +32850,8 @@
         "url": "https://testnet.whitechain.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "status": "deprecated"
   },
   {
     "name": "Coinbosa Chain",
@@ -40716,7 +40724,8 @@
     "rpc": [
       "https://mainnet.mode.network",
       "https://mode.drpc.org",
-      "wss://mode.drpc.org"
+      "wss://mode.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/mode?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -40733,11 +40742,6 @@
       {
         "name": "modescout",
         "url": "https://explorer.mode.network",
-        "standard": "none"
-      },
-      {
-        "name": "Routescan",
-        "url": "https://modescan.io",
         "standard": "none"
       }
     ]
@@ -41797,7 +41801,8 @@
       "https://rpc.pulsechain.com",
       "https://pulsechain-rpc.publicnode.com",
       "wss://pulsechain-rpc.publicnode.com",
-      "https://rpc-pulsechain.g4mm4.io"
+      "https://rpc-pulsechain.g4mm4.io",
+      "https://rpc.swiftnodes.io/rpc/pulsechain?key=${SWIFTNODES_API_KEY}"
     ],
     "icon": "pulsechain",
     "slip44": 60,
@@ -43599,7 +43604,8 @@
     "rpc": [
       "https://rpc.telos.net",
       "https://telos.drpc.org",
-      "wss://telos.drpc.org"
+      "wss://telos.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/telos?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -45970,7 +45976,8 @@
     "rpc": [
       "https://forno.celo.org",
       "wss://forno.celo.org/ws",
-      "https://celo-rpc.blockreq.com/v1/rpc/public"
+      "https://celo-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/celo?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "infoURL": "https://docs.celo.org/",
@@ -46831,6 +46838,30 @@
     ]
   },
   {
+    "name": "D Testnet",
+    "chain": "Dchain",
+    "rpc": [
+      "https://eth-testnet.platformd.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dchain",
+      "symbol": "DT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://platformd.io",
+    "shortName": "d-testnet",
+    "chainId": 430,
+    "networkId": 430,
+    "icon": "d-chain",
+    "explorers": []
+  },
+  {
     "name": "Zero (Beacon Chain) Testnet",
     "title": "Zero [Beacon Chain] Testnet",
     "chain": "ZERO",
@@ -47325,6 +47356,30 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "D Mainnet",
+    "chain": "Dchain",
+    "rpc": [
+      "https://eth.platformd.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Dchain",
+      "symbol": "DT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://platoformd.io",
+    "shortName": "d-mainnet",
+    "chainId": 433,
+    "networkId": 433,
+    "icon": "d-chain",
+    "explorers": []
   },
   {
     "name": "Beam",
@@ -64921,6 +64976,32 @@
       "type": "L2",
       "chain": "eip155-248"
     }
+  },
+  {
+    "name": "Telcoin Network",
+    "chain": "TEL",
+    "icon": "telcoin",
+    "rpc": [],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "decimals": 18
+    },
+    "infoURL": "https://telcoin.network",
+    "shortName": "tn",
+    "chainId": 731,
+    "networkId": 731,
+    "status": "incubating",
+    "explorers": []
   },
   {
     "name": "ICB Testnet",
