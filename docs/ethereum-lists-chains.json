@@ -8854,6 +8854,32 @@
     }
   },
   {
+    "name": "Riverbit Mainnet",
+    "chain": "RBT",
+    "icon": "riverbit",
+    "rpc": [
+      "https://app.riverbit.io/api/rpc?chainId=12588"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Riverbit token",
+      "symbol": "RBT",
+      "decimals": 18
+    },
+    "infoURL": "https://app.riverbit.io",
+    "shortName": "riverbit",
+    "chainId": 12588,
+    "networkId": 12588,
+    "explorers": [
+      {
+        "name": "Riverbit Explorer",
+        "url": "https://app.riverbit.io/explorer",
+        "icon": "riverbit",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "Riverbit Testnet",
     "chain": "RBT",
     "rpc": [
@@ -10775,7 +10801,8 @@
     "rpc": [
       "https://rpc.immutable.com",
       "https://immutable-zkevm.drpc.org",
-      "wss://immutable-zkevm.drpc.org"
+      "wss://immutable-zkevm.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/immutable-zkevm?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [
       "https://docs.immutable.com/docs/zkEVM/guides/faucet"
@@ -12053,7 +12080,8 @@
       "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc",
       "https://rpc.au.cc/flare",
       "https://flare.enosys.global/ext/C/rpc",
-      "https://flare.solidifi.app/ext/C/rpc"
+      "https://flare.solidifi.app/ext/C/rpc",
+      "https://rpc.swiftnodes.io/rpc/flare?key=${SWIFTNODES_API_KEY}"
     ],
     "features": [
       {
@@ -12701,7 +12729,8 @@
     "chain": "MON",
     "icon": "monad",
     "rpc": [
-      "https://rpc.monad.xyz"
+      "https://rpc.monad.xyz",
+      "https://rpc.swiftnodes.io/rpc/monad?key=${SWIFTNODES_API_KEY}"
     ],
     "features": [
       {
@@ -13249,7 +13278,8 @@
       "wss://sonic-rpc.publicnode.com",
       "https://sonic.drpc.org",
       "wss://sonic.drpc.org",
-      "https://sonic-rpc.blockreq.com/v1/rpc/public"
+      "https://sonic-rpc.blockreq.com/v1/rpc/public",
+      "https://rpc.swiftnodes.io/rpc/sonic?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -13279,6 +13309,11 @@
         "url": "https://explorer.soniclabs.com",
         "icon": "sonic",
         "standard": "none"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/sonic",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -13891,7 +13926,8 @@
     "name": "Data Network",
     "chain": "DATA",
     "rpc": [
-      "https://mainnet.datarpc.io"
+      "https://mainnet.datarpc.io",
+      "https://rpc.swiftnodes.io/rpc/story?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -16405,7 +16441,8 @@
     "rpc": [
       "https://rpc.mainnet.taiko.xyz",
       "https://taiko-rpc.publicnode.com",
-      "wss://taiko-rpc.publicnode.com"
+      "wss://taiko-rpc.publicnode.com",
+      "https://rpc.swiftnodes.io/rpc/taiko?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -16973,7 +17010,8 @@
     "rpc": [
       "https://pacific-rpc.manta.network/http",
       "https://manta-pacific.drpc.org",
-      "wss://manta-pacific.drpc.org"
+      "wss://manta-pacific.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/manta?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -21646,7 +21684,8 @@
     "chain": "X Layer",
     "rpc": [
       "https://rpc.xlayer.tech",
-      "https://xlayerrpc.okx.com"
+      "https://xlayerrpc.okx.com",
+      "https://api.blockvectra.com/v1/xlayer_mainnet/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -22100,14 +22139,15 @@
     ]
   },
   {
-    "name": "INNBC Chain Mainnet",
+    "name": "INNBC Chain",
     "chain": "INNBC",
+    "icon": "innbc",
     "rpc": [
       "https://innbcchain.io/rpc"
     ],
     "faucets": [],
     "nativeCurrency": {
-      "name": "InnovativeBioresearchCoin",
+      "name": "INNBC Chain",
       "symbol": "INNBC",
       "decimals": 18
     },
@@ -22119,11 +22159,18 @@
         "name": "EIP1559"
       }
     ],
-    "infoURL": "https://innbcchain.io",
+    "infoURL": "https://www.innbcchain.io",
     "shortName": "innbc",
     "chainId": 1982,
     "networkId": 1982,
-    "status": "active"
+    "status": "active",
+    "explorers": [
+      {
+        "name": "INNBCScan",
+        "url": "https://www.innbcscan.io",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Krown Mainnet",
@@ -28226,7 +28273,8 @@
       "https://rpc.ankr.com/kava_evm",
       "wss://wevm.kava-rpc.com",
       "https://kava.drpc.org",
-      "wss://kava.drpc.org"
+      "wss://kava.drpc.org",
+      "https://rpc.swiftnodes.io/rpc/kava?key=${SWIFTNODES_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -33986,9 +34034,7 @@
       "https://erpc.rope.network",
       "wss://ws.rope.network"
     ],
-    "faucets": [
-      "https://faucet.datachain.network"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "DC FAT",
       "symbol": "FAT",
@@ -44383,6 +44429,42 @@
     ]
   },
   {
+    "name": "Maroo",
+    "chain": "MAROO",
+    "icon": "maroo",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OKRW",
+      "symbol": "OKRW",
+      "decimals": 18
+    },
+    "infoURL": "https://maroo.io",
+    "shortName": "maroo",
+    "chainId": 410,
+    "networkId": 410,
+    "status": "incubating",
+    "explorers": []
+  },
+  {
+    "name": "Maroo Preview",
+    "chain": "MAROO",
+    "icon": "maroo",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "OKRW",
+      "symbol": "OKRW",
+      "decimals": 18
+    },
+    "infoURL": "https://maroo.io",
+    "shortName": "maroo-preview",
+    "chainId": 41001,
+    "networkId": 41001,
+    "status": "incubating",
+    "explorers": []
+  },
+  {
     "name": "AIOZ Network Testnet",
     "chain": "AIOZ",
     "icon": "aioz",
@@ -47097,7 +47179,8 @@
       "wss://avalanche-c-chain-rpc.publicnode.com",
       "https://xrpc.cl/avalanche",
       "https://avalanche-rpc.blockreq.com/v1/rpc/public",
-      "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}"
+      "https://rpc.swiftnodes.io/rpc/avalanche?key=${SWIFTNODES_API_KEY}",
+      "https://api.blockvectra.com/v1/avax_mainnet/public"
     ],
     "features": [
       {
@@ -51055,6 +51138,11 @@
         "name": "Mantle Explorer",
         "url": "https://explorer.mantle.xyz",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/mantle",
+        "standard": "EIP3091"
       }
     ],
     "parent": {
@@ -53715,6 +53803,11 @@
       {
         "name": "Scrollscan",
         "url": "https://scrollscan.com",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/scroll",
         "standard": "EIP3091"
       }
     ],
@@ -57148,7 +57241,8 @@
       "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
       "https://linea-rpc.publicnode.com",
       "wss://linea-rpc.publicnode.com",
-      "https://linea-rpc.blockreq.com/v1/rpc/public"
+      "https://linea-rpc.blockreq.com/v1/rpc/public",
+      "https://api.blockvectra.com/v1/linea_mainnet/public"
     ],
     "faucets": [],
     "nativeCurrency": {
