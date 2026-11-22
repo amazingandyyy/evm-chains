@@ -163,6 +163,11 @@
         "url": "https://gnosis.blockscout.com",
         "icon": "blockscout",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/xdai",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -9791,6 +9796,11 @@
         "name": "Unichain Mainnet Explorer",
         "url": "https://unichain.blockscout.com",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/unichain",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -10533,9 +10543,7 @@
       "https://evm-rpc-testnet.sei-apis.com",
       "wss://evm-ws-testnet.sei-apis.com"
     ],
-    "faucets": [
-      "https://atlantic-2.app.sei.io/faucet"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "Sei",
       "symbol": "SEI",
@@ -12760,6 +12768,11 @@
       {
         "name": "Monadscan",
         "url": "https://monadscan.com",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/mon",
         "standard": "EIP3091"
       }
     ]
@@ -38387,6 +38400,11 @@
         "url": "https://explorer.zksync.io",
         "icon": "zksync-era",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/zksync",
+        "standard": "EIP3091"
       }
     ],
     "parent": {
@@ -41821,6 +41839,41 @@
         "name": "Theta Testnet Explorer",
         "url": "https://testnet-explorer.thetatoken.org",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "ZETAPHY",
+    "chain": "ZETAPHY",
+    "icon": "zetaphy",
+    "rpc": [
+      "https://129-221-199-191.sslip.io"
+    ],
+    "faucets": [
+      "https://app.sawasdeecoin.com/?tab=earn"
+    ],
+    "nativeCurrency": {
+      "name": "ZETAPHY",
+      "symbol": "ZTPHY",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://app.sawasdeecoin.com",
+    "shortName": "zetaphy",
+    "chainId": 3659,
+    "networkId": 3659,
+    "explorers": [
+      {
+        "name": "ZETAPHY Explorer",
+        "url": "https://explorer.sawasdeecoin.com/?network=mainnet",
+        "standard": "none"
       }
     ]
   },
@@ -50160,6 +50213,11 @@
         "url": "https://worldchain-mainnet.explorer.alchemy.com",
         "icon": "blockscout",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/worldchain",
+        "standard": "EIP3091"
       }
     ]
   },
@@ -56532,6 +56590,11 @@
         "name": "Ink Explorer",
         "url": "https://explorer.inkonchain.com",
         "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/ink",
+        "standard": "EIP3091"
       }
     ],
     "status": "active"
@@ -57444,9 +57507,7 @@
       "https://metis-sepolia-rpc.publicnode.com",
       "wss://metis-sepolia-rpc.publicnode.com"
     ],
-    "faucets": [
-      "https://sepolia.faucet.metisdevops.link"
-    ],
+    "faucets": [],
     "nativeCurrency": {
       "name": "tMetis",
       "symbol": "tMETIS",
@@ -57848,6 +57909,52 @@
         },
         {
           "url": "https://bridge.gelato.network/bridge/astar-zkyoto"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Latheon Testnet",
+    "title": "Latheon Test Chain (Arbitrum Orbit on Arbitrum Sepolia)",
+    "chain": "LTH",
+    "rpc": [
+      "https://rpc.testnet.latheon.xyz"
+    ],
+    "faucets": [
+      "https://explorer.testnet.latheon.xyz/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "Latheon Test Token",
+      "symbol": "LTH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://latheon.xyz",
+    "shortName": "lth-test",
+    "chainId": 60531373273,
+    "networkId": 60531373273,
+    "slip44": 1,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "Latheon Testnet Explorer",
+        "url": "https://explorer.testnet.latheon.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://latheon.xyz/bridge"
         }
       ]
     }
@@ -69798,6 +69905,11 @@
       {
         "name": "Berascan Berachain Block Explorer",
         "url": "https://berascan.com",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "Codex Scan",
+        "url": "https://scan.codex.io/bera",
         "standard": "EIP3091"
       }
     ]
