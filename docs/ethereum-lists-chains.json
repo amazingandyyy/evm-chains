@@ -26,6 +26,7 @@
       "https://ethereum-rpc.blockreq.com/v1/rpc/public",
       "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}",
       "https://api.blockvectra.com/v1/eth_mainnet/public",
+      "https://eth.backrun.io",
       "https://ethereum-mainnet.rpc.thyme.sh/public"
     ],
     "features": [
@@ -605,9 +606,7 @@
   {
     "name": "VeChain Testnet",
     "chain": "VeChain",
-    "rpc": [
-      "https://rpc-testnet.vechain.energy"
-    ],
+    "rpc": [],
     "faucets": [
       "https://faucet.vecha.in"
     ],
@@ -621,13 +620,7 @@
     "chainId": 100010,
     "networkId": 100010,
     "slip44": 1,
-    "explorers": [
-      {
-        "name": "VeChain Explorer",
-        "url": "https://explore-testnet.vechain.org",
-        "standard": "none"
-      }
-    ]
+    "explorers": []
   },
   {
     "name": "QuarkChain L2 Mainnet",
@@ -8501,6 +8494,31 @@
     ]
   },
   {
+    "name": "Primium Testnet",
+    "chain": "PRIMIUM",
+    "rpc": [
+      "https://node1-testnet.codexnetwork.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "DEX",
+      "symbol": "DEX",
+      "decimals": 18
+    },
+    "infoURL": "https://staking-testnet.codexnetwork.org/",
+    "shortName": "primium-testnet",
+    "chainId": 1234571,
+    "networkId": 1234571,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Primium Explorer",
+        "url": "https://explorer-testnet.codexnetwork.org",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "ITX Mainnet",
     "chain": "ITX",
     "rpc": [
@@ -9773,7 +9791,8 @@
       "https://unichain-rpc.publicnode.com",
       "wss://unichain-rpc.publicnode.com",
       "https://unichain-rpc.blockreq.com/v1/rpc/public",
-      "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"
+      "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}",
+      "https://rpc.nodeflare.app/unichain/public"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -34479,6 +34498,55 @@
     }
   },
   {
+    "name": "ArmChain Mainnet",
+    "chain": "ARM",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "ARM",
+      "symbol": "ARM",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://armchain.org",
+    "shortName": "arm",
+    "chainId": 27600,
+    "networkId": 27600,
+    "status": "incubating"
+  },
+  {
+    "name": "ArmChain Testnet",
+    "chain": "ARM",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Testnet ARM",
+      "symbol": "ARM",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://armchain.org",
+    "shortName": "tarm",
+    "chainId": 27601,
+    "networkId": 27601,
+    "slip44": 1,
+    "status": "incubating"
+  },
+  {
     "name": "GM Network Mainnet",
     "chain": "GM Network Mainnet",
     "rpc": [
@@ -42034,6 +42102,38 @@
     ]
   },
   {
+    "name": "Pagachain",
+    "chain": "Pagachain",
+    "rpc": [
+      "https://pagachain.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cent",
+      "symbol": "CENT",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://explorer.pagachain.com",
+    "shortName": "pagachain",
+    "chainId": 3690369,
+    "networkId": 3690369,
+    "explorers": [
+      {
+        "name": "Pagachain Explorer",
+        "url": "https://explorer.pagachain.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Empire Network",
     "chain": "EMPIRE",
     "rpc": [
@@ -46458,9 +46558,7 @@
   {
     "name": "Tempo Testnet Andantino (Deprecated)",
     "chain": "ETH",
-    "rpc": [
-      "https://rpc.testnet.tempo.xyz"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "No native currency",
@@ -46473,14 +46571,7 @@
     "networkId": 42429,
     "icon": "tempo",
     "status": "deprecated",
-    "explorers": [
-      {
-        "name": "tempo-explorer",
-        "url": "https://explore.andantino.tempo.xyz",
-        "icon": "tempo",
-        "standard": "EIP3091"
-      }
-    ]
+    "explorers": []
   },
   {
     "name": "Nexi V2 Mainnet",
@@ -48338,6 +48429,42 @@
     ]
   },
   {
+    "name": "TSX Testnet",
+    "chain": "TSX",
+    "icon": "tsx",
+    "rpc": [
+      "https://testnet.tsx.network/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [
+      "https://tsx.network/faucet"
+    ],
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "infoURL": "https://tsx.network",
+    "shortName": "tsx-testnet",
+    "chainId": 445,
+    "networkId": 445,
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "url": "https://scan.tsx.network/testnet",
+        "icon": "tsx",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Oxin Chain",
     "chain": "OXIN",
     "rpc": [
@@ -49036,6 +49163,40 @@
     ]
   },
   {
+    "name": "TSX Bastion",
+    "chain": "TSX",
+    "icon": "tsx",
+    "rpc": [
+      "https://bastion.tsx.network/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "infoURL": "https://tsx.network",
+    "shortName": "tsx-bastion",
+    "chainId": 454,
+    "networkId": 454,
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "url": "https://scan.tsx.network/bastion",
+        "icon": "tsx",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Emoney Network Testnet",
     "chain": "Emoney",
     "rpc": [
@@ -49140,6 +49301,40 @@
         "name": "TRUMPCHAIN Explorer",
         "url": "https://explorer.trumpchain.dev",
         "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "TSX Horizon",
+    "chain": "TSX",
+    "icon": "tsx",
+    "rpc": [
+      "https://horizon.tsx.network/rpc"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "infoURL": "https://tsx.network",
+    "shortName": "tsx-horizon",
+    "chainId": 455,
+    "networkId": 455,
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "url": "https://scan.tsx.network/horizon",
+        "icon": "tsx",
         "standard": "EIP3091"
       }
     ]
@@ -53256,6 +53451,55 @@
     ]
   },
   {
+    "name": "Quinvium",
+    "chain": "QU",
+    "rpc": [
+      "https://rpc.quinvium.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Quinvium",
+      "symbol": "QU",
+      "decimals": 18
+    },
+    "infoURL": "https://quinvium.com",
+    "shortName": "qu",
+    "chainId": 52401,
+    "networkId": 52401,
+    "explorers": [
+      {
+        "name": "Quinvium Explorer",
+        "url": "https://explorer.quinvium.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Quinvium Testnet",
+    "chain": "QU",
+    "rpc": [
+      "https://rpc1.quinvium.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Quinvium Testnet",
+      "symbol": "tQU",
+      "decimals": 18
+    },
+    "infoURL": "https://quinvium.com",
+    "shortName": "qu-test",
+    "chainId": 52402,
+    "networkId": 52402,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "Quinvium Testnet Explorer",
+        "url": "https://testnet.quinvium.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Mersennet Privacy Testnet",
     "title": "Mersennet Privacy Testnet",
     "chain": "MRSN",
@@ -55727,7 +55971,8 @@
       "https://xrpc.cl/bsc",
       "https://bsc-rpc.blockreq.com/v1/rpc/public",
       "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}",
-      "https://api.blockvectra.com/v1/bsc_mainnet/public"
+      "https://api.blockvectra.com/v1/bsc_mainnet/public",
+      "https://bsc.backrun.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -68405,11 +68650,7 @@
     "name": "MAAL Chain",
     "chain": "MAAL",
     "icon": "maal",
-    "rpc": [
-      "https://node1-mainnet.maalscan.io/",
-      "https://node2-mainnet.maalscan.io/",
-      "https://node3-mainnet.maalscan.io/"
-    ],
+    "rpc": [],
     "faucets": [],
     "nativeCurrency": {
       "name": "MAAL",
@@ -68420,6 +68661,7 @@
     "shortName": "maal",
     "chainId": 786,
     "networkId": 786,
+    "status": "deprecated",
     "explorers": [
       {
         "name": "maalscan",
@@ -71323,6 +71565,50 @@
         "url": "https://explorer.testnet.alpenlabs.io",
         "icon": "blockscout",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "SteemVM",
+    "title": "SteemVM Mainnet (SteemVM-Manaslu-81630)",
+    "chain": "SteemVM",
+    "icon": "steemvm",
+    "rpc": [
+      "https://evm.steemvmscan.com",
+      "wss://evm-ws.steemvmscan.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Steem",
+      "symbol": "STEEM",
+      "decimals": 18
+    },
+    "infoURL": "https://svmapp.com",
+    "shortName": "steemvm",
+    "chainId": 81630,
+    "networkId": 81630,
+    "slip44": 60,
+    "status": "active",
+    "explorers": [
+      {
+        "name": "SteemVM Blockscout",
+        "url": "https://evmscan.steemvmscan.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "SVM Scan",
+        "url": "https://steemvmscan.com",
+        "icon": "steemvm",
+        "standard": "none"
       }
     ]
   },
